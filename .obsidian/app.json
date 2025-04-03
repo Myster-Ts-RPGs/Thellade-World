@@ -1,0 +1,23 @@
+{
+  "propertiesInDocument": "hidden",
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "foldHeading": true,
+  "showIndentGuide": true,
+  "showInlineTitle": false,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "promptDelete": true,
+  "attachmentFolderPath": "z_Assets/Unsorted",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "z_Unorganized",
+  "tabSize": 6,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

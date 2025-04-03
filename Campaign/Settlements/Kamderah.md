@@ -1,0 +1,168 @@
+---
+tags:
+  - "#Location"
+  - "#Settlement"
+art: z_Assets/Settlements/Kamderah.png
+pronounced: KAM-der-ah
+settlementtype: Small Town
+terrain:
+  - Urban
+defence: Average
+location:
+  - "[[Odinys]]"
+governmenttype:
+  - Democracy
+banner: on
+dominion:
+  - "[[Kingdom of Odinys]]"
+ruler:
+  - "[[Mygwell Van Hyden]]"
+leader:
+  - "[[Ewan Caranov]]"
+---
+
+```meta-bind-js-view 
+{art} as art {banner} as banner
+--- 
+if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
+    const str = ` ![[${context.bound.art}|banner-fade]]` ;
+    return engine.markdown.create(str); 
+} else { return ""; }
+```
+
+> [!metadata|metadata]- Metadata 
+>> [!metadata|metadataoption]- System
+>> #### System
+>>  |
+>> ---|---|
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>
+>> [!metadata|metadataoption]- Art
+>> #### Art
+>>  |
+>> ---|---|
+> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
+> **Banner** | `INPUT[toggle(onValue(on), offValue(off)):banner]` |
+>
+>> [!metadata|metadataoption]- Info
+>> #### Info
+>>  |
+>> ---|---|
+>> **Pronounced** |  `INPUT[textArea:pronounced]`
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Type** | `INPUT[SettlementType][:settlementtype]` |
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Defences** | `INPUT[Defence][:defence]`
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+>
+>> [!metadata|metadataoption]- Demographics
+>> #### Demographics
+>>  |
+>> ---|---|
+>> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
+>> **Rulers** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):ruler]` |
+>> **Leaders** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):leader]` |
+> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Government Type** | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` |
+>> **Population** |  `INPUT[textArea:population]`
+>
+>> [!metadata|metadataoption]- Commerce
+>> #### Commerce
+>>  |
+>> ---|---|
+>> **Imports** | `INPUT[Goods][inlineListSuggester:import]` |
+>> **Exports** | `INPUT[Goods][inlineListSuggester:export]` |
+
+> [!infobox]+
+> # `=this.file.name`
+> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
+> ###### Info
+>  |
+> ---|---|
+> **Aliases** | `VIEW[{aliases}][text]` |
+> **Type** | `VIEW[{settlementtype}][text]` |
+> **Terrain** | `VIEW[{terrain}][text]` |
+> **Defences** | `VIEW[{defence}]` |
+> **Location** | `VIEW[{location}][link]` |
+> ###### Demographics
+>  |
+> ---|---|
+> **Rulers** | `VIEW[{ruler}][link]` |
+> **Leaders** | `VIEW[{leader}][link]` |
+> **Dominion** | `VIEW[{dominion}][link]` |
+> **Government Type** | `VIEW[{governmenttype}][text]` |
+> **Population** | `VIEW[{population}][text]` |
+> ###### Commerce
+>  |
+> ---|---|
+> **Imports** | `VIEW[{import}][text]` |
+> **Exports** | `VIEW[{export}][text]` |
+> ###### [[Travel Calculator]] 
+>  |
+> ---|---|
+> **[[Valdian]]** | `VIEW[round(30 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
+> **[[Onyxdale]]** | `VIEW[round(52 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
+> **[[Meshwich]]** | `VIEW[round(23 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
+
+# **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+> [!recite]- Introduction
+> A script for the GM to read when the party arrive to this location for the first time.
+
+> [!metadata|map]- Map
+> ```leaflet
+> id: Kamderah
+> image: [[KamderahMap.png]]
+> height: 600px
+> width: 640px
+> lat: 50
+> long: 50
+> minZoom: 1
+> maxZoom: 5
+> defaultZoom: 1
+> unit: meters
+> scale: 1
+> darkMode: false
+> ```
+
+> [!metadata|district]- Districts
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
+> FROM "Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "District")
+> SORT districttype ASC, file.name ASC
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
+> FROM "Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
+> SORT tags DESC, file.name ASC
+
+> [!metadata|characters]- Characters
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> FROM "Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
+> SORT tags DESC, file.name ASC
+
+## Overview
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes
+
