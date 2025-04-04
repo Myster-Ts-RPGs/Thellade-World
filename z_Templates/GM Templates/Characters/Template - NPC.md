@@ -28,12 +28,10 @@ language:
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Ancestry** | `INPUT[Ancestry][suggester:ancestry]` |
 >> **Heritage** | `INPUT[Heritage][suggester:heritage]` |
-> **Creature Type** | `INPUT[textArea:ancestry]` |
-> **Creature Sub-Type** | `INPUT[textArea:heritage]` |
+>> **Creature Type** | `INPUT[textArea:ancestry]` |
+>> **Creature Sub-Type** | `INPUT[textArea:heritage]` |
 >> **Gender** | `INPUT[Gender][:gender]` |
->> **Pronouns** | `INPUT[Pronouns][:pronouns]` |
 >> **Age** | `INPUT[Age][:age]` |
->> **Sexuality** | `INPUT[Sexuality][:sexuality]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
 >
 >> [!metadata|metadataoption]- NPC Info
@@ -70,9 +68,7 @@ language:
 > **Ancestry** | `VIEW[{ancestry}]` |
 > **Heritage** | `VIEW[{heritage}]` |
 > **Gender** | `VIEW[{gender}]` |
-> **Pronouns** | `VIEW[{pronouns}]` |
 > **Age** | `VIEW[{age}]` |
-> **Sexuality** | `VIEW[{sexuality}]` |
 > **Alignment** | `VIEW[{alignment}]` |
 > ###### Info
 >  |

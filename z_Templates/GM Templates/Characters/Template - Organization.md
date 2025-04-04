@@ -1,7 +1,12 @@
 ---
 tags:
-  - Organization
+  - "#Organization"
 art: z_Assets/Misc/PlaceholderImage.png
+hq: "[[Thellade]]"
+organizationstatus:
+  - ✅ Active
+organizationscope:
+  - Regional
 ---
 
 ```meta-bind-js-view 
@@ -33,7 +38,11 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >> ---|---|
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
+> **Founded** | `INPUT[date:founded]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
+> **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
+> **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
+> **Government Type** | `INPUT[GovernmentType][inlineListSuggester:governmenttype]`|
 > **Hierarchy** | `INPUT[Null][suggester(optionQuery("Campaign/Organizations/Hierarchies"), useLinks(partial)):hierarchy]` | 
 > **Head** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):head]` |
 > **Steward** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):steward]` |
@@ -41,15 +50,21 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > **Worship** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):worship]` |
 > **HQ** | `INPUT[Null][suggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):hq]` |
 > **Operating Areas** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+> **Allies** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):allies]` |
+> **Rivals** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):rivals]` |
 
 > [!infobox]+
 > # `=this.file.name`
-> ###### `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
+> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ###### Info
-> | |
+>  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
+> **Founded** | `VIEW[{founded}][text]` |
 > **Type** | `VIEW[{organizationtype}][text]` |
+> **Status** | `VIEW[{organizationstatus}][text]` |
+> **Scope** | `VIEW[{organizationscope}][text]` |
+> **Government Type** | `VIEW[{governmenttype}][text]` |
 > **Hierarchy** | `VIEW[{hierarchy}][link]` |
 > **Head** | `VIEW[{head}][link]` |
 > **Steward** | `VIEW[{steward}][link]` |
@@ -87,7 +102,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > WHERE contains(tags, "District") AND econtains(organization, this.file.link)
 > SORT districttype ASC, file.name ASC
 
-> [!metadata|location]- Locations
+> [!metadata|location]- Specific Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location"
 > FROM "Campaign"
@@ -101,6 +116,20 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > WHERE contains(tags, "Organization") AND econtains(organization, this.file.link)
 > SORT organizationtype ASC, file.name ASC
 
+> [!metadata|allies]- Allies
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "Campaign"
+> WHERE econtains(allies, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+
+> [!metadata|rivals]- Rivals
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "Campaign"
+> WHERE econtains(rivals, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+
 > [!metadata|characters]- Characters
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
@@ -110,23 +139,37 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 
 ## Overview
 
+### Description
+
+> Describe the organization’s core identity, purpose, and place in the world.
+
+### Oaths
+
+> Sacred or symbolic promises members take upon joining.
+
+### Mission Statement
+
+> Core purpose and long-term goals; why the organization exists.
+
+### Laws
+
+> Rules or codes members must follow.
+
+### Tenets
+
+> Guiding values, ideals, or behaviors central to the organization.
+
+### Prohibitions
+
+> Forbidden behaviors, taboos, or violations that result in exile or punishment.
+
 
 
 ## Culture
 
-
-
-## Acquaintances
-
-
-
 ## Current Events
 
-
-
 ## History
-
-
 
 ## Notes
 

@@ -23,69 +23,18 @@ Information:
 
  ^nnTU4CFb
 
-Example: ^POTwVwVo
-
-Session 1:
-Party meets in a Tavern, something happened. ^Iy3NST7A
-
-New Adventure #1 ^sOkkLIYD
-
-Session 1:
-The Rouge stole something and was seen by the merchant. ^lwLu6vTA
-
-Next time the merchant sees them, they will blackmail them. ^dE4pnHHr
-
-Rich man gets angry with his order being stolen. ^S2cMDVc4
-
-Session 2:
-The Party kills the bad guy and finished the Adventure #1 ^KtsJKV4h
-
-Information:
-
-The Merchant needs some illegal goods, maybe an adventure could be made to send the party on? ^uz1HeEML
-
-Reminder:
-
-Player Bob wants to keep their true name hidden.
-
-Player James wants to enter with style.
-
-Player Guss wants to be drunk. ^1Zrv7v4N
-
-Session 17:
-The party goes to a merchant and the rouge is recognised. ^OiaYuaGy
-
-Session 2:
-The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
-
-... ^QxOVyqZm
-
-... ^dMdbkK5x
-
-[[Template - Session Note]] ^dcplzj8k
-
-[[Template - Session Note]] ^esj3UmCk
-
-[[Template - Session Note]] ^gO71v4O8
-
-[[Template - Adventure]] ^VKZA25Wf
-
-[[Template - NPC]] ^A7rs9jIW
-
-[[Template - Session Note]] ^Fl4XdQXl
-
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.3",
 	"elements": [
 		{
 			"type": "frame",
-			"version": 273,
-			"versionNonce": 68098700,
+			"version": 338,
+			"versionNonce": 21659233,
 			"isDeleted": false,
 			"id": "rql8AyctdoufCJix3l6j_",
 			"fillStyle": "solid",
@@ -94,18 +43,18 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1015.2052372667318,
-			"y": -884.8428523632717,
+			"x": -1375.2052372667317,
+			"y": -842.3428523632717,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
-			"width": 693.5693364842584,
-			"height": 713.4773873617069,
+			"width": 1191.0693364842584,
+			"height": 1030.9773873617069,
 			"seed": 329157993,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707599499719,
+			"updated": 1743718172490,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -119,8 +68,8 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "rectangle",
-			"version": 756,
-			"versionNonce": 495191023,
+			"version": 840,
+			"versionNonce": 1363121985,
 			"isDeleted": false,
 			"id": "jOjRleJ38hHODBTsWhJod",
 			"fillStyle": "solid",
@@ -129,8 +78,8 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -961.8407276034795,
-			"y": -586.2402111491489,
+			"x": -1326.8407276034795,
+			"y": -781.2402111491489,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#228be6",
 			"width": 253.0304116652336,
@@ -147,14 +96,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "SBHq8KUX"
 				}
 			],
-			"updated": 1707600272154,
+			"updated": 1743718195256,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 767,
-			"versionNonce": 889317286,
+			"version": 853,
+			"versionNonce": 380438305,
 			"isDeleted": false,
 			"id": "SBHq8KUX",
 			"fillStyle": "solid",
@@ -163,21 +112,21 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -858.7630217708627,
-			"y": -546.7032004815006,
+			"x": -1253.0598967708627,
+			"y": -753.7032004815006,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#1e1e1e",
-			"width": 46.875,
-			"height": 19.2,
+			"width": 105.46875,
+			"height": 43.199999999999996,
 			"seed": 1814873575,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517219,
+			"updated": 1743718195256,
 			"link": null,
 			"locked": false,
-			"fontSize": 16,
+			"fontSize": 36,
 			"fontFamily": 3,
 			"text": "Event",
 			"rawText": "Event",
@@ -185,13 +134,12 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "jOjRleJ38hHODBTsWhJod",
 			"originalText": "Event",
-			"lineHeight": 1.2,
-			"baseline": 15
+			"lineHeight": 1.2
 		},
 		{
 			"type": "diamond",
-			"version": 831,
-			"versionNonce": 888738863,
+			"version": 953,
+			"versionNonce": 18701999,
 			"isDeleted": false,
 			"id": "Obh3Edv0",
 			"fillStyle": "solid",
@@ -200,12 +148,12 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -963.723999168202,
-			"y": -408.97276055513566,
+			"x": -1328.7239991682018,
+			"y": -618.9727605551357,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fab005",
-			"width": 243.45849650595636,
-			"height": 140.99015279575772,
+			"width": 355.9584965059564,
+			"height": 327.5,
 			"seed": 711314183,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
@@ -218,14 +166,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "tQCa5N7Z"
 				}
 			],
-			"updated": 1707600272155,
+			"updated": 1743718204411,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 822,
-			"versionNonce": 1455207974,
+			"version": 951,
+			"versionNonce": 1652273359,
 			"isDeleted": false,
 			"id": "tQCa5N7Z",
 			"fillStyle": "solid",
@@ -234,35 +182,34 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -893.421875041713,
-			"y": -348.32522235619626,
+			"x": -1224.5625000417126,
+			"y": -498.29776055513565,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#1e1e1e",
-			"width": 103.125,
-			"height": 19.2,
+			"width": 147.65625,
+			"height": 86.39999999999999,
 			"seed": 1062829353,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517219,
+			"updated": 1743718204411,
 			"link": null,
 			"locked": false,
-			"fontSize": 16,
+			"fontSize": 36,
 			"fontFamily": 3,
-			"text": "Consequence",
+			"text": "Consequ\nence",
 			"rawText": "Consequence",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Obh3Edv0",
 			"originalText": "Consequence",
-			"lineHeight": 1.2,
-			"baseline": 15
+			"lineHeight": 1.2
 		},
 		{
 			"type": "ellipse",
-			"version": 405,
-			"versionNonce": 591933377,
+			"version": 575,
+			"versionNonce": 570528527,
 			"isDeleted": false,
 			"id": "lbppPtvy",
 			"fillStyle": "solid",
@@ -271,12 +218,12 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -910.7540016451641,
-			"y": -786.5109954742326,
+			"x": -905.754001645164,
+			"y": -469.0109954742326,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#40c057",
-			"width": 162.0678560685617,
-			"height": 143.8859850662102,
+			"width": 307.0678560685618,
+			"height": 320,
 			"seed": 1670297161,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
@@ -289,14 +236,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "7Xcy6u0L"
 				}
 			],
-			"updated": 1707600222848,
+			"updated": 1743718208266,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 388,
-			"versionNonce": 502654118,
+			"version": 564,
+			"versionNonce": 1436178735,
 			"isDeleted": false,
 			"id": "7Xcy6u0L",
 			"fillStyle": "solid",
@@ -305,35 +252,34 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -876.3947136301059,
-			"y": -733.6393808201393,
+			"x": -847.2068302661305,
+			"y": -352.3480804640801,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#1e1e1e",
-			"width": 93.75,
-			"height": 38.4,
+			"width": 189.84375,
+			"height": 86.39999999999999,
 			"seed": 1638485193,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517219,
+			"updated": 1743718208266,
 			"link": null,
 			"locked": false,
-			"fontSize": 16,
+			"fontSize": 36,
 			"fontFamily": 3,
-			"text": "Adventure/\nQuest",
+			"text": "Adventure\n/ Quest",
 			"rawText": "Adventure/ Quest",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "lbppPtvy",
 			"originalText": "Adventure/ Quest",
-			"lineHeight": 1.2,
-			"baseline": 34
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 389,
-			"versionNonce": 1768926599,
+			"version": 454,
+			"versionNonce": 1869156655,
 			"isDeleted": false,
 			"id": "DGHRW59qGHq_ML8YiA3xw",
 			"fillStyle": "solid",
@@ -342,8 +288,8 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -663.4395224911339,
-			"y": -853.3118650022134,
+			"x": -915.9395224911336,
+			"y": -805.8118650022134,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffc9c9",
 			"width": 306.436631673806,
@@ -358,14 +304,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "1N0dtRrO"
 				}
 			],
-			"updated": 1704745412616,
+			"updated": 1743718187271,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 312,
-			"versionNonce": 1012817894,
+			"version": 379,
+			"versionNonce": 564990799,
 			"isDeleted": false,
 			"id": "1N0dtRrO",
 			"fillStyle": "solid",
@@ -374,21 +320,21 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -658.4395224911339,
-			"y": -848.3118650022134,
+			"x": -910.9395224911336,
+			"y": -800.8118650022134,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ff8787",
-			"width": 84.375,
-			"height": 57.599999999999994,
+			"width": 189.84375,
+			"height": 129.6,
 			"seed": 1943214279,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517219,
+			"updated": 1743718187271,
 			"link": null,
 			"locked": false,
-			"fontSize": 16,
+			"fontSize": 36,
 			"fontFamily": 3,
 			"text": "Reminder:\n\n",
 			"rawText": "Reminder:\n\n",
@@ -396,13 +342,12 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "top",
 			"containerId": "DGHRW59qGHq_ML8YiA3xw",
 			"originalText": "Reminder:\n\n",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 808,
-			"versionNonce": 771043847,
+			"version": 893,
+			"versionNonce": 1689021135,
 			"isDeleted": false,
 			"id": "WFIQYQRdjJOZudPti8Cls",
 			"fillStyle": "solid",
@@ -411,8 +356,8 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -663.3705171559947,
-			"y": -513.3282563636669,
+			"x": -548.3705171559945,
+			"y": -803.3282563636669,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffec99",
 			"width": 306.436631673806,
@@ -427,14 +372,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "nnTU4CFb"
 				}
 			],
-			"updated": 1704745414287,
+			"updated": 1743718185084,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 317,
-			"versionNonce": 1184199462,
+			"version": 404,
+			"versionNonce": 1955870959,
 			"isDeleted": false,
 			"id": "nnTU4CFb",
 			"fillStyle": "solid",
@@ -443,21 +388,21 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -658.3705171559947,
-			"y": -508.3282563636669,
+			"x": -543.3705171559945,
+			"y": -798.3282563636669,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ff8787",
-			"width": 112.5,
-			"height": 57.599999999999994,
+			"width": 253.125,
+			"height": 129.6,
 			"seed": 1574526727,
 			"groupIds": [],
 			"frameId": "rql8AyctdoufCJix3l6j_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517219,
+			"updated": 1743718185084,
 			"link": null,
 			"locked": false,
-			"fontSize": 16,
+			"fontSize": 36,
 			"fontFamily": 3,
 			"text": "Information:\n\n",
 			"rawText": "Information:\n\n",
@@ -465,14 +410,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "top",
 			"containerId": "WFIQYQRdjJOZudPti8Cls",
 			"originalText": "Information:\n\n",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
-			"version": 86,
-			"versionNonce": 565724838,
-			"isDeleted": false,
+			"version": 87,
+			"versionNonce": 71857071,
+			"isDeleted": true,
 			"id": "POTwVwVo",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -484,14 +428,14 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"y": -258.8358451320962,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 146.91592407226562,
-			"height": 45,
+			"width": 168.75,
+			"height": 43.199999999999996,
 			"seed": 1507692847,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671561377,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -502,14 +446,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Example:",
-			"lineHeight": 1.2,
-			"baseline": 32
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 686,
-			"versionNonce": 1834733711,
-			"isDeleted": false,
+			"version": 688,
+			"versionNonce": 1452520879,
+			"isDeleted": true,
 			"id": "dcplzj8k",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -533,21 +476,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "Iy3NST7A"
-				},
-				{
-					"id": "mN3xfUnffzQTAoRh7Yfik",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600695779,
+			"updated": 1743718164346,
 			"link": "[[Template - Session Note]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 757,
-			"versionNonce": 1772597286,
-			"isDeleted": false,
+			"version": 758,
+			"versionNonce": 1501308367,
+			"isDeleted": true,
 			"id": "Iy3NST7A",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -566,7 +505,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517220,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -577,14 +516,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "dcplzj8k",
 			"originalText": "Session 1:\nParty meets in a Tavern, something happened.",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "ellipse",
-			"version": 445,
-			"versionNonce": 957606138,
-			"isDeleted": false,
+			"version": 446,
+			"versionNonce": 672998049,
+			"isDeleted": true,
 			"id": "VKZA25Wf",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -610,15 +548,15 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "sOkkLIYD"
 				}
 			],
-			"updated": 1707600631679,
+			"updated": 1743718164345,
 			"link": "[[Template - Adventure]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 461,
-			"versionNonce": 1069767727,
-			"isDeleted": false,
+			"version": 462,
+			"versionNonce": 1303679983,
+			"isDeleted": true,
 			"id": "sOkkLIYD",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -637,7 +575,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404965,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -648,14 +586,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "VKZA25Wf",
 			"originalText": "New Adventure #1",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 104,
-			"versionNonce": 434790054,
-			"isDeleted": false,
+			"version": 109,
+			"versionNonce": 75638401,
+			"isDeleted": true,
 			"id": "mN3xfUnffzQTAoRh7Yfik",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -676,7 +613,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517220,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -705,9 +642,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "rectangle",
-			"version": 828,
-			"versionNonce": 995104129,
-			"isDeleted": false,
+			"version": 830,
+			"versionNonce": 1441726657,
+			"isDeleted": true,
 			"id": "esj3UmCk",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -731,33 +668,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "lwLu6vTA"
-				},
-				{
-					"id": "mN3xfUnffzQTAoRh7Yfik",
-					"type": "arrow"
-				},
-				{
-					"id": "x1tvkq2ZiogyhUxqBr3jn",
-					"type": "arrow"
-				},
-				{
-					"id": "2t0lv7vT7o-3fuDZzZU3_",
-					"type": "arrow"
-				},
-				{
-					"id": "XaxoF7RRsQZGlHJgQQcWd",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600607784,
+			"updated": 1743718164346,
 			"link": "[[Template - Session Note]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 908,
-			"versionNonce": 1542946639,
-			"isDeleted": false,
+			"version": 909,
+			"versionNonce": 962309729,
+			"isDeleted": true,
 			"id": "lwLu6vTA",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -776,7 +697,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404968,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -787,14 +708,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "esj3UmCk",
 			"originalText": "Session 1:\nThe Rouge stole something and was seen by the merchant.",
-			"lineHeight": 1.2,
-			"baseline": 73
+			"lineHeight": 1.2
 		},
 		{
 			"type": "diamond",
-			"version": 1120,
-			"versionNonce": 1668052326,
-			"isDeleted": false,
+			"version": 1123,
+			"versionNonce": 84879311,
+			"isDeleted": true,
 			"id": "A7rs9jIW",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -802,7 +722,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 910.7683445697813,
+			"x": 910.7683445697812,
 			"y": 265.1481484416166,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fab005",
@@ -818,25 +738,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "dE4pnHHr"
-				},
-				{
-					"id": "x1tvkq2ZiogyhUxqBr3jn",
-					"type": "arrow"
-				},
-				{
-					"id": "8m3sTkHEivFb9xcxiE-Ej",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707671517220,
+			"updated": 1743718164346,
 			"link": "[[Template - NPC]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1216,
-			"versionNonce": 1077087727,
-			"isDeleted": false,
+			"version": 1217,
+			"versionNonce": 1299790401,
+			"isDeleted": true,
 			"id": "dE4pnHHr",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -855,7 +767,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404969,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -866,14 +778,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "A7rs9jIW",
 			"originalText": "Next time the merchant sees them, they will blackmail them.",
-			"lineHeight": 1.2,
-			"baseline": 73
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 643,
-			"versionNonce": 2125386726,
-			"isDeleted": false,
+			"version": 648,
+			"versionNonce": 1300186703,
+			"isDeleted": true,
 			"id": "x1tvkq2ZiogyhUxqBr3jn",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -894,7 +805,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517221,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -923,9 +834,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "diamond",
-			"version": 1049,
-			"versionNonce": 1016354849,
-			"isDeleted": false,
+			"version": 1051,
+			"versionNonce": 1957904545,
+			"isDeleted": true,
 			"id": "9jy1y8RFYNsXf9KhMbZ_R",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -949,21 +860,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "S2cMDVc4"
-				},
-				{
-					"id": "2t0lv7vT7o-3fuDZzZU3_",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600361673,
+			"updated": 1743718164346,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1215,
-			"versionNonce": 1461190735,
-			"isDeleted": false,
+			"version": 1216,
+			"versionNonce": 92251247,
+			"isDeleted": true,
 			"id": "S2cMDVc4",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -982,7 +889,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404970,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -993,14 +900,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "9jy1y8RFYNsXf9KhMbZ_R",
 			"originalText": "Rich man gets angry with his order being stolen.",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 214,
-			"versionNonce": 1773688230,
-			"isDeleted": false,
+			"version": 219,
+			"versionNonce": 1326341633,
+			"isDeleted": true,
 			"id": "2t0lv7vT7o-3fuDZzZU3_",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1008,12 +914,12 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 607.4808050107509,
-			"y": 330.39608554487984,
+			"x": 607.4808050107418,
+			"y": 330.39608554486426,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 64.34806964925758,
-			"height": 23.92104522172349,
+			"width": 64.34806964926065,
+			"height": 23.92104522172997,
 			"seed": 722278607,
 			"groupIds": [],
 			"frameId": null,
@@ -1021,7 +927,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517221,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1043,16 +949,16 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					0
 				],
 				[
-					-64.34806964925758,
-					23.92104522172349
+					-64.34806964926065,
+					23.92104522172997
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 865,
-			"versionNonce": 559299217,
-			"isDeleted": false,
+			"version": 867,
+			"versionNonce": 1402426863,
+			"isDeleted": true,
 			"id": "gO71v4O8",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1076,25 +982,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "KtsJKV4h"
-				},
-				{
-					"id": "XaxoF7RRsQZGlHJgQQcWd",
-					"type": "arrow"
-				},
-				{
-					"id": "4XnbOGmk5Kdj-U-dsab9h",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600614377,
+			"updated": 1743718164346,
 			"link": "[[Template - Session Note]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1017,
-			"versionNonce": 1373826799,
-			"isDeleted": false,
+			"version": 1018,
+			"versionNonce": 1685386721,
+			"isDeleted": true,
 			"id": "KtsJKV4h",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1113,7 +1011,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404972,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1124,14 +1022,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "gO71v4O8",
 			"originalText": "Session 2:\nThe Party kills the bad guy and finished the Adventure #1",
-			"lineHeight": 1.2,
-			"baseline": 73
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 163,
-			"versionNonce": 1731175462,
-			"isDeleted": false,
+			"version": 168,
+			"versionNonce": 31888559,
+			"isDeleted": true,
 			"id": "XaxoF7RRsQZGlHJgQQcWd",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1152,7 +1049,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517221,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1181,9 +1078,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "rectangle",
-			"version": 939,
-			"versionNonce": 1554331919,
-			"isDeleted": false,
+			"version": 940,
+			"versionNonce": 1694339521,
+			"isDeleted": true,
 			"id": "7HS_YHANiaWe3a5fo41jN",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1207,15 +1104,15 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "uz1HeEML"
 				}
 			],
-			"updated": 1707670404972,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 542,
-			"versionNonce": 954696015,
-			"isDeleted": false,
+			"version": 543,
+			"versionNonce": 548284111,
+			"isDeleted": true,
 			"id": "uz1HeEML",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1234,7 +1131,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404973,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1245,14 +1142,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "top",
 			"containerId": "7HS_YHANiaWe3a5fo41jN",
 			"originalText": "Information:\n\nThe Merchant needs some illegal goods, maybe an adventure could be made to send the party on?",
-			"lineHeight": 1.2,
-			"baseline": 92
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 598,
-			"versionNonce": 1860260495,
-			"isDeleted": false,
+			"version": 599,
+			"versionNonce": 633844129,
+			"isDeleted": true,
 			"id": "r_APB7XePTXjbATAJJ4wn",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1276,15 +1172,15 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 					"id": "1Zrv7v4N"
 				}
 			],
-			"updated": 1707600709867,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 659,
-			"versionNonce": 1848147823,
-			"isDeleted": false,
+			"version": 660,
+			"versionNonce": 1090417903,
+			"isDeleted": true,
 			"id": "1Zrv7v4N",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1303,7 +1199,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404973,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1314,14 +1210,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "top",
 			"containerId": "r_APB7XePTXjbATAJJ4wn",
 			"originalText": "Reminder:\n\nPlayer Bob wants to keep their true name hidden.\n\nPlayer James wants to enter with style.\n\nPlayer Guss wants to be drunk.",
-			"lineHeight": 1.2,
-			"baseline": 169
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 406,
-			"versionNonce": 98495206,
-			"isDeleted": false,
+			"version": 411,
+			"versionNonce": 738383233,
+			"isDeleted": true,
 			"id": "4XnbOGmk5Kdj-U-dsab9h",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1342,7 +1237,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1371,9 +1266,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "rectangle",
-			"version": 1074,
-			"versionNonce": 842157103,
-			"isDeleted": false,
+			"version": 1076,
+			"versionNonce": 1420067969,
+			"isDeleted": true,
 			"id": "Fl4XdQXl",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1397,25 +1292,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"id": "OiaYuaGy",
 					"type": "text"
-				},
-				{
-					"id": "jYHBD_OgLh4nvxxkBf5cH",
-					"type": "arrow"
-				},
-				{
-					"id": "8m3sTkHEivFb9xcxiE-Ej",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600841971,
+			"updated": 1743718164346,
 			"link": "[[Template - Session Note]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1299,
-			"versionNonce": 1021431791,
-			"isDeleted": false,
+			"version": 1300,
+			"versionNonce": 720272737,
+			"isDeleted": true,
 			"id": "OiaYuaGy",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1434,7 +1321,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707670404974,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1445,14 +1332,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "Fl4XdQXl",
 			"originalText": "Session 17:\nThe party goes to a merchant and the rouge is recognised.",
-			"lineHeight": 1.2,
-			"baseline": 73
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
-			"version": 1019,
-			"versionNonce": 701587130,
-			"isDeleted": false,
+			"version": 1020,
+			"versionNonce": 525026607,
+			"isDeleted": true,
 			"id": "c8SmloyG",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1471,7 +1357,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671561378,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1482,14 +1368,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": null,
 			"originalText": "Session 2:\nThe Party kills the bad guy and finished the Adventure #1",
-			"lineHeight": 1.2,
-			"baseline": 54
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 799,
-			"versionNonce": 376952335,
-			"isDeleted": false,
+			"version": 801,
+			"versionNonce": 422887439,
+			"isDeleted": true,
 			"id": "Nljz4zoTylcSLmNT8s0If",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1513,25 +1398,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "QxOVyqZm"
-				},
-				{
-					"id": "4XnbOGmk5Kdj-U-dsab9h",
-					"type": "arrow"
-				},
-				{
-					"id": "gwsRr0KDnNUqrMBA2iTgt",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600791550,
+			"updated": 1743718164346,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 811,
-			"versionNonce": 1469532134,
-			"isDeleted": false,
+			"version": 812,
+			"versionNonce": 2133378895,
+			"isDeleted": true,
 			"id": "QxOVyqZm",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1550,7 +1427,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1561,14 +1438,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "Nljz4zoTylcSLmNT8s0If",
 			"originalText": "...",
-			"lineHeight": 1.2,
-			"baseline": 15
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
-			"version": 836,
-			"versionNonce": 2002240207,
-			"isDeleted": false,
+			"version": 838,
+			"versionNonce": 1367493729,
+			"isDeleted": true,
 			"id": "1JU-lk2X1ioN6-WR2Ga2Y",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1592,25 +1468,17 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				{
 					"type": "text",
 					"id": "dMdbkK5x"
-				},
-				{
-					"id": "gwsRr0KDnNUqrMBA2iTgt",
-					"type": "arrow"
-				},
-				{
-					"id": "jYHBD_OgLh4nvxxkBf5cH",
-					"type": "arrow"
 				}
 			],
-			"updated": 1707600794994,
+			"updated": 1743718164346,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 847,
-			"versionNonce": 2083890022,
-			"isDeleted": false,
+			"version": 848,
+			"versionNonce": 676398447,
+			"isDeleted": true,
 			"id": "dMdbkK5x",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -1629,7 +1497,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1640,14 +1508,13 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 			"verticalAlign": "middle",
 			"containerId": "1JU-lk2X1ioN6-WR2Ga2Y",
 			"originalText": "...",
-			"lineHeight": 1.2,
-			"baseline": 15
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
-			"version": 35,
-			"versionNonce": 1999046246,
-			"isDeleted": false,
+			"version": 40,
+			"versionNonce": 88050945,
+			"isDeleted": true,
 			"id": "gwsRr0KDnNUqrMBA2iTgt",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1668,7 +1535,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1697,9 +1564,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "arrow",
-			"version": 46,
-			"versionNonce": 532227302,
-			"isDeleted": false,
+			"version": 51,
+			"versionNonce": 437026703,
+			"isDeleted": true,
 			"id": "jYHBD_OgLh4nvxxkBf5cH",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1720,7 +1587,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1749,9 +1616,9 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		},
 		{
 			"type": "arrow",
-			"version": 219,
-			"versionNonce": 2078690406,
-			"isDeleted": false,
+			"version": 222,
+			"versionNonce": 984106209,
+			"isDeleted": true,
 			"id": "8m3sTkHEivFb9xcxiE-Ej",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1772,7 +1639,7 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707671517222,
+			"updated": 1743718164345,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1819,10 +1686,10 @@ The Party kills the bad guy and finished the Adventure #1 ^c8SmloyG
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1895.001064169373,
-		"scrollY": 970.5660163896978,
+		"scrollX": 2077.387427805737,
+		"scrollY": 1011.551456730607,
 		"zoom": {
-			"value": 0.55
+			"value": 0.4
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

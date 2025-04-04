@@ -36,11 +36,13 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Function** | `INPUT[textArea:poifunction]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Region** | `INPUT[inlineListSuggester(optionQuery(#Geography OR #County OR #Settlement), useLinks(partial)):region]` |
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -49,12 +51,14 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
+> **Function** | `VIEW[{poifunction}][text]` |
 > **Type** | `VIEW[{poitype}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Owners** | `VIEW[{owner}][link]` |
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Location** `VIEW[{region}][link]` |
+> **District** | `VIEW[{location}][link]` |
 > ###### [[Travel Calculator]] 
 >  |
 > ---|---|
@@ -106,8 +110,10 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 
 
 
-## Keyed Locations
+## Magical or Environmental Effects
 
+> [!abstract]- Arcane, Elemental, or Planar Phenomena
+> Describe any ambient magic, lingering curses, temporal distortions, gravity wells, etc.
 
 
 ## Current Events
@@ -115,6 +121,12 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 
 
 ## History
+
+## Encounter Hooks
+
+> [!danger]- Use with Random Tables
+> Linked Encounter Table: [[RT - Cliffside Ruins Dangers]]
+
 
 
 

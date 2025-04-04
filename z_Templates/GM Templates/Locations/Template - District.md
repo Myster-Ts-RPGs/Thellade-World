@@ -89,21 +89,88 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
 > SORT tags DESC, file.name ASC
 
-## Overview 
+## Overview
 
+  
 
+> [!summary]- District Overview
 
-## Keyed Locations
+> Provide a summary of this district’s theme, ambiance, purpose, and position in the larger settlement.
 
+  
 
+---
+
+  
+
+## District Function
+
+  
+
+> [!info]- Purpose and Role
+
+> Describe the primary function of this district (e.g., marketplace, docks, noble housing). Is it open to everyone or restricted?
+
+  
+
+---
+
+  
+
+## Security & Law
+
+  
+
+> [!warning]- Crime and Order
+
+> Detail whether the district is safe, crime-ridden, or patrolled. Who enforces the laws? Are there recent criminal elements?
+
+  
+
+---
+
+  
+
+## Other Locations
+
+  
+
+---
+
+  
 
 ## Current Events
 
+  
 
+> [!attention]- What’s Happening?
+
+> Faction drama, conflicts, local crises, or neighborhood gossip affecting the district now.
+
+  
+
+---
+
+  
 
 ## History
 
+  
 
+> [!quote]- Past Echoes
+
+> Include important lore, origin stories, key figures, or how the district has changed.
+
+  
+
+---
+
+  
 
 ## Notes
 
+  
+
+> [!tip]- GM Notes
+
+> Store improv info, dramatic irony, or alternate uses.

@@ -7,7 +7,7 @@
   "showInlineTitle": false,
   "showLineNumber": false,
   "foldIndent": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "attachmentFolderPath": "z_Assets/Unsorted",
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
@@ -15,9 +15,11 @@
   "newFileFolderPath": "z_Unorganized",
   "tabSize": 6,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newLinkFormat": "absolute"
 }

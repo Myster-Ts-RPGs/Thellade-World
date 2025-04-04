@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🏠",
+      "🚶",
       "📂",
       "📋",
-      "LiList",
-      "✏",
-      "LiCalculator"
+      "LiList"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,6 +37,7 @@
   "Tab of Lazy Prep.md": "LiList",
   "Calculators.md": "LiCalculator",
   "In Session.md": "✏",
-  "Travel Calculator.md": "👟",
-  "Sessions Planner.md": "📂"
+  "Travel Calculator.md": "🚶",
+  "Sessions Planner.md": "📂",
+  "z_Templates/GM Templates/Locations/Template - District.md": "🏠"
 }

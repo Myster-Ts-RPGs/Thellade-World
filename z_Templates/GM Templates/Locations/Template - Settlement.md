@@ -33,6 +33,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >>  |
 >> ---|---|
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
+>> **Level** | `INPUT[textArea:settlementLevel]` |
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[SettlementType][:settlementtype]` |
 >> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
@@ -56,6 +57,8 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >> ---|---|
 >> **Imports** | `INPUT[Goods][inlineListSuggester:import]` |
 >> **Exports** | `INPUT[Goods][inlineListSuggester:export]` |
+>> **Magic Level** |  `INPUT[textArea:magicLevel]` |
+>> **Tech Level** |  `INPUT[textArea:techLevel]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -63,6 +66,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > ###### Info
 >  |
 > ---|---|
+> **Level** | `VIEW[{settlementLevel}][text]` |
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Type** | `VIEW[{settlementtype}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
@@ -79,6 +83,8 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > ###### Commerce
 >  |
 > ---|---|
+> **Magic Level** | `VIEW[{magicLevel}][text]` |
+> **Tech Level** | `VIEW[{techLevel}][text]` |
 > **Imports** | `VIEW[{import}][text]` |
 > **Exports** | `VIEW[{export}][text]` |
 > ###### [[Travel Calculator]] 

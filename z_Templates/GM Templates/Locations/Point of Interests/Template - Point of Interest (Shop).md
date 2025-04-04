@@ -3,7 +3,7 @@ tags:
   - "#Location"
   - "#POI"
 art: z_Assets/Misc/PlaceholderImage.png
-banner: on
+banner: off
 ---
 
 ```meta-bind-js-view 
@@ -35,12 +35,13 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >> ---|---|
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
->> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Type** | `INPUT[ShopType][inlineListSuggester:shoptype]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Settlement** | `INPUT[inlineListSuggester(optionQuery(#Settlement AND !"z_Templates"), useLinks(partial)):location]` |
+>> **District** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), useLinks(partial)):district]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -54,7 +55,8 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > **Owners** | `VIEW[{owner}][link]` |
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Settlement** | `VIEW[{location}][link]` |
+> **District** | `VIEW[{district}][link]` |
 > ###### [[Travel Calculator]] 
 >  |
 > ---|---|
@@ -109,6 +111,11 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 | Service | Description | Cost |
 | ------- | ----------- | ---- |
 |         |             |      |
+
+## Notable Customers
+
+> [!tip]- Past Customers, Rumors, or Debtors
+> Use this space to track known NPCs who frequent or owe the shop.
 
 ## Current Events
 

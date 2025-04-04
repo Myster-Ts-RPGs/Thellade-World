@@ -1,3 +1,6 @@
+calendar: Thellade Calendar
+date: 1-1-1   
+recurring: none
 ---
 tags:
   - "#Event"
@@ -18,6 +21,7 @@ calendarlink: https://app.fantasy-calendar.com/calendars/005887cad9d1247de41d1e8
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Category** | `INPUT[EventCategory][:eventcategory]` |
 >> **Type** | `INPUT[EventType][:eventtype]` |
+>> **Recurring** | `INPUT[inlineSelect(option(none), option(daily), option(weekly), option(monthly), option(yearly))[:recurring]` |
 >> **Start Date** |  `INPUT[textArea:startdate]` |
 >> **End Date** |  `INPUT[textArea:enddate]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |

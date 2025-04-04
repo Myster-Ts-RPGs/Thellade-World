@@ -1,7 +1,7 @@
 ---
 tags:
   - TravelCalculator
-MilesPerHour: 4
+MilesPerHour: 3
 SpeedMultiplier: 1
 TemperatureMaxTravelHours: 8
 HoursPerDay: 8

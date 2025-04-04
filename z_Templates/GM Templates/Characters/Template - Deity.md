@@ -4,6 +4,9 @@ tags:
   - "#NPC"
   - "#Deity"
 art: z_Assets/Misc/PlaceholderImage.png
+sanctification: []
+allies: []
+enemies: []
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -25,29 +28,36 @@ art: z_Assets/Misc/PlaceholderImage.png
 >> ---|---|
 >> **Pronounced** |  `INPUT[textArea:pronounced]` |
 >> **Aliases** | `INPUT[list:aliases]` |
->> **Pronouns** | `INPUT[Pronouns][:pronouns]` |
+>> **Sanctification** | `INPUT[Sanctification][inlineListSuggester:sanctification]`
+>> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
+>> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
+>> **Favored Weapon** | `INPUT[textArea: favored_weapon]`
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
+>> **Divine Font** | `INPUT[Font][inlineListSuggester:font]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
 >>  |
 >>---|---|
->> **Ideals** | `INPUT[textArea:ideals]` |
->> **Flaws** | `INPUT[textArea:flaws]` |
->> **Fears** |  `INPUT[textArea:fears]` |
->> **Mannerisms** |  `INPUT[textArea:mannerisms]` |
 >> **Power** | `INPUT[DeityPower][:deitypower]` |
 >> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
 >> **Owned Locations** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):ownedlocation]` |
 >> **Current Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Condition** | `INPUT[Condition][:condition]` |
 >
->> [!metadata|metadataoption]- Party Info
->> #### Party Info
+>> [!metadata|metadataoption]- Relations
+>> #### Relations
 >>  |
 >> ---|---|
->> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
->> **Party 1 Relation** | `INPUT[Party1Relation][:party1relation]` |
+> **Allies** | `INPUT[inlineListSuggester(optionQuery(#Deity AND !"z_Templates"), useLinks(partial)):allies]` |
+> **Enemies** | `INPUT[inlineListSuggester(optionQuery(#Deity AND !"z_Templates"), useLinks(partial)):enemies]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -57,8 +67,19 @@ art: z_Assets/Misc/PlaceholderImage.png
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Pronouns** | `VIEW[{pronouns}]` |
+> **Sanctification** | `VIEW[{sanctification}][text]` |
+> **Attributes** | `VIEW[{attributes}][text]` |
+> **Skills** | `VIEW[{skills}][text]` |
+> **Favored Weapon** | `VIEW[{favored_weapon}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
+>
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
+>  **Divine Font** | `VIEW[{Font}][text]` |
+>  
 > ###### Info
 >  |
 > ---|---|
@@ -70,37 +91,83 @@ art: z_Assets/Misc/PlaceholderImage.png
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
+> [!recite]- Introduction
+> A script for the GM to read when the party arrive to this location for the first time.
+
+> [!metadata|location]- Specific Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location"
+> FROM "Campaign"
+> WHERE contains(tags, "POI") AND econtains(organization, this.file.link)
+> SORT poitype ASC, file.name ASC
+
 > [!metadata|organizations]- Related Organizations
 > ```dataview
-> TABLE without id file.link AS "Name", without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
 > FROM "Campaign"
-> WHERE econtains(worship, this.file.link) AND contains(tags, "Organization")
+> WHERE contains(tags, "Organization") AND econtains(worship, this.file.link)
 > SORT organizationtype ASC, file.name ASC
+
+> [!metadata|organizations]- Allies
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS "Aliases"
+> FROM "Campaign"
+> WHERE contains(tags, "Deity") AND contains(allies, this.file.link)
+> SORT file.name ASC
+
+> [!metadata|organizations]- Enemies
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS "Aliases"
+> FROM "Campaign"
+> WHERE contains(tags, "Deity") AND contains(enemies, this.file.link)
+> SORT file.name ASC
+
+
 
 ## Overview
 
+> [!summary]- Overview  
+> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
 
+### Area of Concern
+- 
 
-> [!column|2 no-title]
->
-> 
->> [!metadata|ideals] Ideals
-> `VIEW[{ideals}][text]`
->
->> [!metadata|flaws] Flaws
-> `VIEW[{flaws}][text]`
-> 
->> [!metadata|fear] Fears
-> `VIEW[{fears}][text]`
->
->> [!metadata|mannerism] Mannerisms
-> `VIEW[{mannerisms}][text]`
+### Edicts
+- 
+
+### Anathema
+- 
+
+### Religious Symbol
+- 
+
+### Sacred Animal
+- 
+
+### Sacred Colors
+- 
+
+### Cleric Spells
+- **1st Level**:  
+- **2nd Level**:  
+- **3rd Level**:  
+
+### Boons
+- **Minor**:  
+- **Moderate**:  
+- **Major**:  
+
+### Curses
+- **Minor**:  
+- **Moderate**:  
+- **Major**:  
+
 
 ## Goals
 
 
 
-## Acquaintances
+## Relations 
 
 
 
