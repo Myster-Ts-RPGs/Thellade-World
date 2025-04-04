@@ -12,6 +12,9 @@ organizationtype:
   - Government
 governmenttype:
   - Monarchy
+hierarchy: "[[Kingdom of Kanda]]"
+head:
+  - "[[King Roderic Vanthelion]]"
 ---
 
 ```meta-bind-js-view 

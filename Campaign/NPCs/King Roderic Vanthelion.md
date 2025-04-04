@@ -20,6 +20,8 @@ occupation:
 ownedlocation:
   - "[[The Outcast Isles]]"
 condition: Healthy
+organization:
+  - "[[The Kingdom of Kanda]]"
 ---
 
 > [!metadata|metadata]- Metadata 

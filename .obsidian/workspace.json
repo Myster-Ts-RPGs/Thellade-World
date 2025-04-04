@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ae2ad85949c1755d",
+        "id": "0570ed3f691b3067",
         "type": "tabs",
         "children": [
           {
-            "id": "dbf2fa76015d3be5",
+            "id": "debee4d3879dc086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Campaign/Organizations/The Kingdom of Kanda.md",
-                "mode": "source",
+                "file": "Campaign/County/The Lambaro Isles.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Kingdom of Kanda"
-            }
-          },
-          {
-            "id": "b57a7f7d0e1367b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campaign/NPCs/King Roderic Vanthelion.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "King Roderic Vanthelion"
+              "title": "The Lambaro Isles"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,8 +141,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dice-roller-icon",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -169,11 +153,7 @@
               "state": {
                 "calendar": "ID_1b5b1999c80a",
                 "ephemeral": {
-                  "viewing": {
-                    "day": 15,
-                    "month": 5,
-                    "year": -327
-                  },
+                  "viewing": null,
                   "viewState": 1,
                   "displaying": {
                     "day": 15,
@@ -204,29 +184,19 @@
               "icon": "lucide-file",
               "title": "Buttons"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "6ecf2d19505ee94d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "2120d7ee8dbd485e",
+            "id": "e81c8b3070a6eba9",
             "type": "leaf",
             "state": {
-              "type": "CALENDARIUM_AGENDA",
-              "state": {
-                "calendar": "ID_1b5b1999c80a",
-                "id": "ID_786b093bf92b",
-                "parent": "ID_6b99abfb681b"
-              },
-              "icon": "CALENDARIUM_AGENDA",
-              "title": "Agenda"
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dice-roller-icon",
+              "title": "Dice Tray"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -235,51 +205,51 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:Create new canvas": false,
-      "custom-sort:Toggle custom sorting": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-tts:Text to Speech": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "graph:Open graph view": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "templater-obsidian:Templater": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-tts:Text to Speech": false,
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "b57a7f7d0e1367b1",
+  "active": "debee4d3879dc086",
   "lastOpenFiles": [
-    "Vault Hub.md",
     "Campaign/Organizations/The Kingdom of Kanda.md",
-    "Campaign/NPCs/King Roderic Vanthelion.md",
-    "Campaign/Organizations/Hierarchies/Kingdom of Kanda.md",
+    "Campaign/County/The Lambaro Isles.md",
     "Buttons.md",
+    "Campaign/County/The Jambito Isles.md",
+    "Campaign/County/The Mangagoy Isles.md",
+    "Campaign/County/The Mwingu Isles.md",
+    "Campaign/County/The Kanda Isles.md",
+    "z_Templates/GM Templates/Locations/Template - County.md",
+    "Campaign/County/The Middle Isles.md",
+    "Campaign/County/Kanda Isles.md",
+    "Vault Hub.md",
+    "Campaign/Geography/The Outcast Isles.md",
+    "Campaign/NPCs/King Roderic Vanthelion.md",
+    "Campaign/Lore/Overarching History.md",
+    "Campaign/Parties/Old Quests/Dragon to the South.md",
+    "Campaign/NPCs/Old/Aarbin Kord.md",
+    "Campaign/Literature/50 Tombes of Grey.md",
+    "Campaign/Letters/Edwyrd's Relief.md",
+    "Campaign/Geography/Odinys.md",
+    "Campaign/Districts/Cherry Loop.md",
+    "Campaign/Districts/Whakarb.md",
+    "Campaign/Deities/Arden.md",
+    "Campaign/NPCs/Old/Kei Riyan.md",
+    "Campaign/Organizations/Hierarchies/Kingdom of Kanda.md",
     "Campaign/Planes/Material Plane.md",
     "Campaign/NPCs/The Outcast Isle/Kanda/Kanda City",
     "Campaign/NPCs/The Outcast Isle/Kanda",
     "Campaign/NPCs/The Outcast Isle",
-    "Campaign/Geography/The Outcast Isles.md",
     "Campaign/NPCs/Old/Klankes Paskan.md",
-    "Campaign/NPCs/Old/Aarbin Kord.md",
     "Campaign/NPCs/Old",
-    "z_Templates/GM Templates/Characters/Template - Organization.md",
-    "Campaign/Organizations/Kingdom of Kanda.md",
-    "z_Templates/GM Templates/Locations/Point of Interests/Template - Point of Interest.md",
-    "z_Templates/GM Templates/Characters/Template - NPC.md",
-    "Campaign/Planets/Thellade.md",
-    "z_Templates/GM Templates/Characters/Template - Deity.md",
-    "z_PF2E/compendium/setting/deities/ydajisk-logm.md",
-    "z_PF2E/compendium/setting/deities/zyphus-logm.md",
-    "z_Templates/GM Templates/Locations/Template - District.md",
-    "Campaign/Parties/Party Dashboards/Motley Few.md",
-    "GM Tools/Lists/Organization Types.md",
-    "Campaign/Organizations/Xahra Battalion.md",
-    "Campaign/Organizations/Clergy of the Hearth Mother.md",
-    "Campaign/Organizations/Hierarchies/Clergy of the Hearth Mother Hierarchy.md",
-    "Campaign/Organizations/Phoenix Consort.md",
-    "z_Templates/GM Templates/Characters/Template - Hierarchy.md",
-    "Campaign/Organizations/Hierarchies/Creationsim Hierarchy.md",
     "Campaign/Parties/Session Notes/Party 6",
     "Campaign/Parties/Session Notes/Party 5",
     "Campaign/Parties/Session Notes/Party 4",

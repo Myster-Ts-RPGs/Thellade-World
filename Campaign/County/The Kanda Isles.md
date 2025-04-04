@@ -1,12 +1,12 @@
 ---
 tags:
   - "#Location"
-  - "#Geography"
-art: z_Assets/Maps-Regions/OutcastIsles.webp
-location:
-  - "[[Thellade]]"
+  - "#County"
+art: z_Assets/Misc/PlaceholderImage.png
 dominion:
   - "[[The Kingdom of Kanda]]"
+location:
+  - "[[The Outcast Isles]]"
 ---
 
 ```meta-bind-js-view 
@@ -55,33 +55,32 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > **Location** | `VIEW[{location}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
-
 > [!metadata|map]- Map
 > ```leaflet
-> id: OutcastIsles
-> image: [[z_Assets/Maps-Regions/OutcastIsles.webp]]
+> id: TBD
+> image: [[z_Assets/Maps-Regions/CentralIsles.webp]]
 > lock: true
 > recenter: true
 > noScrollZoom: false
-> ### bounds: [[0,0], [1853.39, 1810.86]] (Remove the ### and these parentheses with the content within from this line to enable the bounds)
+> ### bounds: [[0,0], [0, 0]] (Remove the ### and these parentheses with the content within from this line to enable the bounds)
 > height: 600px
 > width: 640px
-> lat: 926.70
-> long: 905.43
+> lat: 0
+> long: 0
 > minZoom: 1
 > maxZoom: 6.5
-> defaultZoom: 3
+> defaultZoom: 1
 > zoomDelta: 0.5
 > unit: miles
-> scale: 5.457
+> scale: 2.9626
 > darkMode: false
 > ```
 
-> [!metadata|county]- Counties
+> [!metadata|settlements]- Settlements
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
 > FROM "Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "County")
+> WHERE contains(tags, "Settlement") AND econtains(location, this.file.link)
 > SORT nation ASC, file.name ASC
 
 > [!metadata|location]- Locations
@@ -98,17 +97,35 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > WHERE contains(location, this.file.link) AND contains(tags, "Organization")
 > SORT organizationtype ASC, file.name ASC
 
-## Overview 
+> [!metadata|characters]- Characters
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> FROM "Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
+> SORT tags DESC, file.name ASC
 
+## Overview
 
+### Geographic Boundaries
+> 📍 Describe how this county is defined on the map—natural borders (mountains, rivers, coastlines), political boundaries, or magical demarcations.
+
+### Regional Role
+> 🧭 What is the purpose or identity of this region in the context of the greater geography? Is it known for trade, defense, agriculture, arcane study, etc.?
+
+### Distinct Features
+> 🌿 Unique terrain, cultural identifiers, landmarks, or environmental traits that distinguish this county from others in the region.
+
+---
 
 ## Current Events
+> 🔥 Describe recent changes, unrest, or developments affecting the county and its settlements.
 
-
+---
 
 ## History
+> 📜 Notable historical events that shaped this region (foundation, rebellion, natural disaster, etc.)
 
-
+---
 
 ## Notes
-
+> 🗒️ Additional commentary, future plans, or details not yet organized.
