@@ -1,0 +1,332 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1699893583730,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1704310298875,
+          "path": "Vault Hub.md",
+          "subpath": "#^-",
+          "title": "Vault Hub"
+        },
+        {
+          "type": "file",
+          "ctime": 1704310298875,
+          "path": "Buttons.md",
+          "subpath": "#^-",
+          "title": "Buttons"
+        },
+        {
+          "type": "file",
+          "ctime": 1704382959324,
+          "path": "Notepad.md",
+          "subpath": "#^-",
+          "title": "Notepad"
+        },
+        {
+          "type": "file",
+          "ctime": 1721084384126,
+          "path": "Sessions Planner.md",
+          "subpath": "#^-",
+          "title": "Sessions Planner"
+        },
+        {
+          "type": "file",
+          "ctime": 1717024515340,
+          "path": "In Session.md",
+          "subpath": "#^-",
+          "title": "In Session"
+        },
+        {
+          "type": "file",
+          "ctime": 1704937277483,
+          "path": "Tab of Lazy Prep.md",
+          "subpath": "#^-",
+          "title": "Tab of Lazy Prep"
+        },
+        {
+          "type": "file",
+          "ctime": 1708021972123,
+          "path": "Travel Calculator.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1708042981086,
+          "path": "Calculators.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1707599857459,
+          "path": "Websites.md",
+          "subpath": "#^-",
+          "title": "Generators"
+        },
+        {
+          "type": "file",
+          "ctime": 1704937227486,
+          "path": "README.md",
+          "subpath": "#^-",
+          "title": "README"
+        },
+        {
+          "type": "group",
+          "ctime": 1699893583730,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1721515983156,
+                  "items": [
+                    {
+                      "type": "group",
+                      "ctime": 1721774747820,
+                      "items": [],
+                      "title": "Eras"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1721516017586,
+                      "items": [],
+                      "title": "Years"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1721515999279,
+                      "items": [],
+                      "title": "Months"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1721515997125,
+                      "items": [],
+                      "title": "Events"
+                    }
+                  ],
+                  "title": "Calendar"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1721515983156,
+                  "path": "Campaign/Lore/Overarching History.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "Lore"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1699893908473,
+                  "items": [],
+                  "title": "Party Dashboards"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1699893908473,
+                  "items": [
+                    {
+                      "type": "group",
+                      "ctime": 1721007335100,
+                      "items": [],
+                      "title": "Party 1"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1721007332699,
+                      "items": [],
+                      "title": "Guests"
+                    }
+                  ],
+                  "title": "Characters"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1704900523293,
+                  "items": [],
+                  "title": "Journey Boards"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1699893908473,
+                  "items": [],
+                  "title": "Session Notes"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1699893908473,
+                  "items": [],
+                  "title": "Quests"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1701972514364,
+                  "items": [],
+                  "title": "Adventures"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1699893908473,
+                  "items": [],
+                  "title": "Service Requests"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1721007312010,
+                  "items": [],
+                  "title": "Old Quests"
+                }
+              ],
+              "title": "Parties"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Deities"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Planes"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Planets"
+            },
+            {
+              "type": "group",
+              "ctime": 1704396993628,
+              "items": [],
+              "title": "Geography"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "County"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Settlements"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Districts"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Points of Interest"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Organizations"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "NPCs"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Literature"
+            },
+            {
+              "type": "group",
+              "ctime": 1699893608454,
+              "items": [],
+              "title": "Letters"
+            }
+          ],
+          "title": "Campaign"
+        },
+        {
+          "type": "group",
+          "ctime": 1717089206441,
+          "items": [],
+          "title": "Ideas"
+        },
+        {
+          "type": "group",
+          "ctime": 1699893583730,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1699894149866,
+              "items": [],
+              "title": "Misc"
+            }
+          ],
+          "title": "z_Assets"
+        },
+        {
+          "type": "group",
+          "ctime": 1704310277183,
+          "items": [],
+          "title": "z_Audio"
+        },
+        {
+          "type": "group",
+          "ctime": 1704310277183,
+          "items": [],
+          "title": "z_Excalidraw"
+        },
+        {
+          "type": "group",
+          "ctime": 1704310277183,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1704314900868,
+              "items": [],
+              "title": "GM Templates"
+            },
+            {
+              "type": "group",
+              "ctime": 1704314900868,
+              "items": [],
+              "title": "Markdown"
+            }
+          ],
+          "title": "z_Templates"
+        },
+        {
+          "type": "group",
+          "ctime": 1704310277183,
+          "items": [],
+          "title": "z_Unorganized"
+        },
+        {
+          "type": "file",
+          "ctime": 1704310277183,
+          "path": "Changelog.md",
+          "subpath": "#^-"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}
