@@ -1,5 +1,5 @@
 ---
-InputDCLevel: 23
+InputDCLevel: 18
 tags:
   - DCCalculator
 amountCoin: 0

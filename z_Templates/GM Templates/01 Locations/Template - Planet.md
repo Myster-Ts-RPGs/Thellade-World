@@ -2,8 +2,17 @@
 tags:
   - "#Location"
   - "#Planet"
-art: z_Assets/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
+
+```meta-bind-js-view 
+{art} as art {banner} as banner
+--- 
+if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
+    const str = ` ![[${context.bound.art}|banner-fade]]` ;
+    return engine.markdown.create(str); 
+} else { return ""; }
+```
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -27,7 +36,7 @@ art: z_Assets/Misc/PlaceholderImage.png
 > **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
 > **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 > **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+> **Location** | `INPUT[inlineListSuggester(optionQuery(#Plane AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -38,7 +47,7 @@ art: z_Assets/Misc/PlaceholderImage.png
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Location** | `VIEW[{plane}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
@@ -64,45 +73,38 @@ art: z_Assets/Misc/PlaceholderImage.png
 > darkMode: false
 > ```
 
-> [!metadata|geography]- Geography
+> [!metadata|geography]- Regions
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
-> FROM "Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Geography")
-> SORT nation ASC, file.name ASC
-
-> [!metadata|county]- Counties
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
-> FROM "Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "County")
+> FROM "01 Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "Region")
 > SORT nation ASC, file.name ASC
 
 > [!metadata|settlements]- Settlements
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
 > SORT nation ASC, file.name ASC
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
 
 > [!metadata|organizations]- Organizations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE contains(location, this.file.link) AND contains(tags, "Organization")
 > SORT organizationtype ASC, file.name ASC
 
 > [!metadata|characters]- Characters
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 

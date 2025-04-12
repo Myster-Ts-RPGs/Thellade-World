@@ -206,7 +206,7 @@
               "name": "New Quest",
               "type": "Template",
               "command": true,
-              "templatePath": "z_Templates/GM Templates/Story Notes/Template - Quest.md",
+              "templatePath": "z_Templates/GM Templates/05 Parties/TemplateQuest.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -214,7 +214,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "Campaign/Parties/Quests"
+                  "01 Campaign/05 Parties/05 Quests"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -847,7 +847,7 @@
               "name": "New Idea",
               "type": "Template",
               "command": true,
-              "templatePath": "z_Templates/GM Templates/Story Notes/Template - Idea.md",
+              "templatePath": "z_Templates/GM Templates/06 Ideas/Template - Idea.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -855,7 +855,8 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "Ideas"
+                  "",
+                  "03 Ideas/Quests"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,

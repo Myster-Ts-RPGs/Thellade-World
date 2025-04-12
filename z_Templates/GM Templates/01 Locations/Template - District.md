@@ -2,13 +2,13 @@
 tags:
   - "#Location"
   - "#District"
-art: z_Assets/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
 
 ```meta-bind-js-view 
 {art} as art {banner} as banner
 --- 
-if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
+if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
     const str = ` ![[${context.bound.art}|banner-fade]]` ;
     return engine.markdown.create(str); 
 } else { return ""; }
@@ -36,7 +36,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > **Aliases** | `INPUT[list:aliases]` |
 > **Type** | `INPUT[DistrictType][inlineListSuggester:districttype]` |
 > **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+> **Location** | `INPUT[inlineListSuggester(optionQuery(#Settlement AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -78,18 +78,20 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
 
 > [!metadata|organizations]- Organizations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
 > SORT tags DESC, file.name ASC
 
 ## Overview 
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
 
 
 

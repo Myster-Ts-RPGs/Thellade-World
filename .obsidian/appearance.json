@@ -9,7 +9,9 @@
     "pf2e-spell",
     "BOTCallouts",
     "DarkmodeIframe",
-    "TabsInObsidian"
+    "TabsInObsidian",
+    "pf2-compendium",
+    "dataview-table-name-column"
   ],
   "showViewHeader": true,
   "nativeMenus": false,

@@ -2,13 +2,13 @@
 tags:
   - "#Location"
   - "#Settlement"
-art: z_Assets/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
 
 ```meta-bind-js-view 
 {art} as art {banner} as banner
 --- 
-if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
+if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
     const str = ` ![[${context.bound.art}|banner-fade]]` ;
     return engine.markdown.create(str); 
 } else { return ""; }
@@ -37,7 +37,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 >> **Type** | `INPUT[SettlementType][:settlementtype]` |
 >> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
 >> **Defences** | `INPUT[Defence][:defence]`
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#Region AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
 >
 >> [!metadata|metadataoption]- Demographics
 >> #### Demographics
@@ -115,32 +115,34 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > [!metadata|district]- Districts
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "District")
 > SORT districttype ASC, file.name ASC
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
 
 > [!metadata|organizations]- Organizations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
 > SORT tags DESC, file.name ASC
 
 > [!metadata|characters]- Characters
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
 ## Overview
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
 
 
 

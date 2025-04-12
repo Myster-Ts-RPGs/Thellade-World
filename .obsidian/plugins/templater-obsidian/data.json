@@ -13,7 +13,76 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "01 Campaign/01 World/01 Planes",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Plane.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/02 Planets",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Planet.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/03 Regions",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Region.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/04 Subregions",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Subregion.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/05 Reaches",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Reach.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/06 Settlements",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Settlement.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/07 Districts",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Settlement.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/08 Points of Interest/01 General",
+      "template": "z_Templates/GM Templates/01 Locations/Point of Interests/Template - Point of Interest.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/08 Points of Interest/02 Shop",
+      "template": "z_Templates/GM Templates/01 Locations/Point of Interests/Template - Point of Interest (Shop).md"
+    },
+    {
+      "folder": "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn",
+      "template": "z_Templates/GM Templates/01 Locations/Point of Interests/Template - Point of Interest (Tavern).md"
+    },
+    {
+      "folder": "01 Campaign/02 Factions/01 Government",
+      "template": "z_Templates/GM Templates/02 Factions/Template - Government.md"
+    },
+    {
+      "folder": "01 Campaign/02 Factions/02 Religion",
+      "template": "z_Templates/GM Templates/02 Factions/Template - Religious Organization.md"
+    },
+    {
+      "folder": "01 Campaign/02 Factions/03 Organization",
+      "template": "z_Templates/GM Templates/02 Factions/Template - Organization.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/01 Deities",
+      "template": "z_Templates/GM Templates/03 Entities/Template - Deity.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/02 Demigods",
+      "template": "z_Templates/GM Templates/03 Entities/Template - Demigod.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/03 Legendary Beings",
+      "template": "z_Templates/GM Templates/03 Entities/Template - Legendary Being.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/04 NPCs",
+      "template": "z_Templates/GM Templates/03 Entities/Template - NPC.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [
     {

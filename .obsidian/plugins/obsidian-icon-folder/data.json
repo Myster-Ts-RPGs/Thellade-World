@@ -6,6 +6,13 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🏢",
+      "🛞",
+      "☣",
+      "🐾",
+      "🧩",
+      "🏞",
+      "🗺",
       "🏠",
       "🚶",
       "📂",
@@ -41,5 +48,8 @@
   "In Session.md": "✏",
   "Travel Calculator.md": "🚶",
   "Sessions Planner.md": "📂",
-  "z_Templates/GM Templates/Locations/Template - District.md": "🏠"
+  "z_Templates/GM Templates/Locations/Template - District.md": "🏠",
+  "z_Templates/GM Templates/01 Locations/Template - Region.md": "🗺",
+  "z_Templates/GM Templates/01 Locations/Template - Subregion.md": "🏞",
+  "z_Templates/GM Templates/02 Factions/Template - Organization.md": "🏢"
 }

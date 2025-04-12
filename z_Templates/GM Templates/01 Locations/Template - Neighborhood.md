@@ -1,5 +1,0 @@
-# Neighborhood
-
-- City:
-- Description:
-- Factions:

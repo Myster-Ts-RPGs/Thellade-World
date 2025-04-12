@@ -25,92 +25,12 @@
   ],
   "fileColors": [
     {
-      "path": "Campaign/NPCs",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Organizations",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Parties",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Deities",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Points of Interest",
+      "path": "z_Templates/GM Templates/01 Locations/Template - District.md",
       "color": "djItUCzO4_bnijoRNeswS"
     },
     {
-      "path": "Campaign/Districts",
+      "path": "z_Templates/GM Templates/01 Locations/Template - Plane.md",
       "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/Settlements",
-      "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/County",
-      "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/Planets",
-      "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/Letters",
-      "color": "yggdq5g9E40qUoDomC2ND"
-    },
-    {
-      "path": "Campaign/Literature",
-      "color": "yggdq5g9E40qUoDomC2ND"
-    },
-    {
-      "path": "Campaign/Lore",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Planes",
-      "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/Parties/Service Requests",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Parties/Quests",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Parties/Session Notes",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Parties/Characters",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Parties/Party Dashboards",
-      "color": "GltTzpd-7gVfLE-1Qqhvs"
-    },
-    {
-      "path": "Campaign/Parties/Adventures",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Geography",
-      "color": "djItUCzO4_bnijoRNeswS"
-    },
-    {
-      "path": "Campaign/Parties/Journey Boards",
-      "color": "RgDki54gYsYQaqEBrWwXV"
-    },
-    {
-      "path": "Campaign/Organizations/Hierarchies",
-      "color": "RgDki54gYsYQaqEBrWwXV"
     }
   ]
 }
