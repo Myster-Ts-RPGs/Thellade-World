@@ -136,7 +136,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location[0]), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
@@ -170,4 +170,57 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Notes
-
+### 📍 Driftwharf Docks
+**Significant Points of Interest**:
+- _The Barnacled Siren_ (sailor tavern and captain’s meeting point)
+- Docks used by **Captain Harlon Grieve** and _Emberwake_
+- Smuggler alleys and suspicious loading cranes
+- Hidden shipment ledger hinting at glyph trafficking
+- Disused slip with fading Asmodean glyphwork
+---
+### 📍 Gullstone Row
+**Significant Points of Interest**:
+- Community courtyards and seawall murals
+- Urban druid garden plots with oceanic sigils
+- Widow’s Watch Balcony (haunted ledge with lore of the Rising)
+- Children's street shrine (sings to the moon on high tide)
+---
+### 📍 Hollowshore
+**Significant Points of Interest**:
+- Hollowshore Graveyard (surface level)
+- Catacombs beneath sealed mausoleum
+- Buried Temple of Aurion and broken seal chamber
+- Entry point to the **Stairwell of Chains**
+- Site of the **Specter of the Forgotten Creed**
+---
+### 📍 Tideglass Heights
+**Significant Points of Interest**:
+- Estates of old Rising-era bloodlines
+- Emberlight Chapel (Aurion’s last surface temple)
+- Sealed vault rumored to hold Asmodean contracts
+- Secret worship chamber hidden beneath ornamental pool
+- Garden terrace with hidden radiant glyphs
+---
+### 📍 Mossgate Market
+**Significant Points of Interest**:
+- _Bell of Low Tide_ (a cursed maritime relic that rings at dusk)
+- Relic hawker stalls selling imitation glyph shard
+- Black-market potion and binding ink dealer
+- Street stage used by Gobsmack the goblin storyteller
+- Alley where cursed items swap hands unseen
+---
+### 📍 Saltspire Bastion
+**Significant Points of Interest**:
+- Watchtower-fortress built over an old lighthouse
+- Vault chamber once used by the Lightbound Vigil
+- The _Hall of Watchers_ (military records + seal fragments)
+- Old war bell cracked during the Rising
+- Rumored secret access to a hidden Asmodean archive
+---
+### 📍 Cradlecliff
+**Significant Points of Interest**:
+- _Moonwell of Lunara_ (maintained by Sister Nymeriel)
+- Oracle’s terrace (viewpoint that aligns with sigil constellations)
+- Dreamcaller’s Hollow (children speak prophecy in their sleep)
+- Cracked shrine to Lunara’s third veil
+- Secret tunnel behind prayer statue (unknown destination)

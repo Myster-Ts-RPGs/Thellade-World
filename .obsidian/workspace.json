@@ -4,25 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "32d120d83a5eb990",
+        "id": "3006d4b6a9d0d0da",
         "type": "tabs",
         "children": [
           {
-            "id": "127bfdf2b76228ca",
+            "id": "f507db81b62558fa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Orcus' Lieutenants Released"
+            }
+          },
+          {
+            "id": "f883085987f8cf69",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Current Date and Time"
+            }
+          },
+          {
+            "id": "ee69b1b0910a0510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+                "file": "03 Ideas/Ritual of Consuming Echo.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Outcast Isles"
+              "title": "Ritual of Consuming Echo"
+            }
+          },
+          {
+            "id": "d3ef55411f2aa7b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/05 Parties/07 Session Notes/01 Campaign 01/Campaign 1 - Session 06 - Whispers Beneath Blackwater.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Campaign 1 - Session 06 - Whispers Beneath Blackwater"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,12 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+                "file": "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Outcast Isles"
+              "title": "Outgoing links from Orcus' Lieutenants Released"
             }
           },
           {
@@ -185,6 +235,16 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "fee84ab234c47aa2",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
           }
         ],
         "currentTab": 3
@@ -198,7 +258,6 @@
     "hiddenItems": {
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -210,35 +269,37 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "127bfdf2b76228ca",
+  "active": "d3ef55411f2aa7b1",
   "lastOpenFiles": [
+    "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
+    "01 Campaign/05 Parties/07 Session Notes/01 Campaign 01/Campaign 1 - Session 06 - Whispers Beneath Blackwater.md",
+    "03 Ideas/Ritual of Consuming Echo.md",
+    "03 Ideas/Warehouse Aftermath.md",
+    "01 Campaign/05 Parties/07 Session Notes/04 Campaign 04/Campaign 5 - Session 05 - Ash in the Hollow Tide.md",
+    "01 Campaign/05 Parties/07 Session Notes/03 Campaign 03/Campaign 3 - Session 06 - Ashes in the Tide.md",
+    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 06 - Into the Hollow Flame.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Jambito Isles.md",
+    "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
+    "03 Ideas/Quests/Illusionist's Trap.md",
+    "01 Campaign/01 World/08 Points of Interest/01 General/The Emberwake.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape/Driftwarf Docks.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isle/Maelthaz the Chained Seer.md",
+    "01 Campaign/05 Parties/05 Quests/Beastmaster's Trial.md",
+    "01 Campaign/05 Parties/05 Quests/Ash in the Hollow Wake.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Lambaro Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
+    "Vault Hub.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Seaside Cape.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape/Gullstone Row.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape/Hollowshore.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape/Tideglass Heights.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape/Mossgate Market.md",
+    "01 Campaign/01 World/07 Districts/Seaside Cape",
     "01 Campaign/01 World-Post Population.zip",
     "01 Campaign/01 World.zip",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Zorath.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Windhaven.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Willowbrook.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Thornhill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Sunspire.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Sunhill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Storm Watch.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Starcrest.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Silverglade.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Shadowfen.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Rosehill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Redhill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Reach.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Pinegrove.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Oakheart.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Moon Shade.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mistwood.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mapleton.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Lakeside.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Hawthorne.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Greenhill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Goldhill.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Goldfield.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Fynn.md",
     "01 Campaign/World.zip",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Lambaro Isle",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles",
@@ -246,8 +307,6 @@
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles",
-    "01 Campaign/01 World/06 Settlements/The Zaharan Expanse/The Kuromu Spine",
-    "01 Campaign/01 World/06 Settlements/The Zaharan Expanse/The Montakama Flats",
     "fantasy-bestiary/_attachments/pf2e-settlement.png",
     "fantasy-bestiary/_attachments/pf2e-quest-icon.png",
     "fantasy-bestiary/_attachments/pf2e-quest.png",
