@@ -8,31 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f507db81b62558fa",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Orcus' Lieutenants Released"
-            }
-          },
-          {
-            "id": "f883085987f8cf69",
+            "id": "eb7f32d1deb199c2",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
@@ -42,37 +25,107 @@
             }
           },
           {
-            "id": "ee69b1b0910a0510",
+            "id": "568f1ff61745393d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Ideas/Ritual of Consuming Echo.md",
+                "file": "01 Campaign/01 World/08 Points of Interest/08 Residences/Middle Islands/Seaside Cape/Dreamcaller's Hollow.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ritual of Consuming Echo"
+              "title": "Dreamcaller's Hollow"
             }
           },
           {
-            "id": "d3ef55411f2aa7b1",
+            "id": "f9708de5c674b1d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/05 Parties/07 Session Notes/01 Campaign 01/Campaign 1 - Session 06 - Whispers Beneath Blackwater.md",
+                "file": "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Campaign 1 - Session 06 - Whispers Beneath Blackwater"
+              "title": "The Outcast Isles"
+            }
+          },
+          {
+            "id": "abd77e240df3d7a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Mwingu Isles"
+            }
+          },
+          {
+            "id": "6859b14d7b9e56dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Mwingu"
+            }
+          },
+          {
+            "id": "916e6cfc57765761",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Watcher's Hollow"
+            }
+          },
+          {
+            "id": "dcdb5eb6d56fd6cb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "8996107ee5f70d90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/03 Entities/04 NPCs/Historical/Halra Mornsteel.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Halra Mornsteel"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.50000381469727
+    "width": 363.5
   },
   "right": {
     "id": "1446a7785c9edd06",
@@ -269,54 +322,53 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "d3ef55411f2aa7b1",
+  "active": "dcdb5eb6d56fd6cb",
   "lastOpenFiles": [
-    "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
-    "01 Campaign/05 Parties/07 Session Notes/01 Campaign 01/Campaign 1 - Session 06 - Whispers Beneath Blackwater.md",
-    "03 Ideas/Ritual of Consuming Echo.md",
-    "03 Ideas/Warehouse Aftermath.md",
-    "01 Campaign/05 Parties/07 Session Notes/04 Campaign 04/Campaign 5 - Session 05 - Ash in the Hollow Tide.md",
-    "01 Campaign/05 Parties/07 Session Notes/03 Campaign 03/Campaign 3 - Session 06 - Ashes in the Tide.md",
-    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 06 - Into the Hollow Flame.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Jambito Isles.md",
-    "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
-    "03 Ideas/Quests/Illusionist's Trap.md",
-    "01 Campaign/01 World/08 Points of Interest/01 General/The Emberwake.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape/Driftwarf Docks.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isle/Maelthaz the Chained Seer.md",
-    "01 Campaign/05 Parties/05 Quests/Beastmaster's Trial.md",
-    "01 Campaign/05 Parties/05 Quests/Ash in the Hollow Wake.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Lambaro Isles.md",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens.md",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard.md",
+    "90 Assets/Images/Organizations/ArcaneWardens.png",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Shoreline Patrol Depot.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Pledge Sentinel Post.md",
+    "01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
-    "Vault Hub.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Seaside Cape.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape/Gullstone Row.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape/Hollowshore.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape/Tideglass Heights.md",
+    "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+    "01 Campaign/01 World/03 Regions/01 Thellade/The Zaharan Expanse.md",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Middle Islands/Seaside Cape/Dreamcaller's Hollow.md",
+    "01 Campaign/01 World/08 Points of Interest/07 Ships/The Outcast Isles",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Middle Islands/Untitled/Untitled",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Middle Islands/Seaside Cape",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Middle Islands/Oracle's Terrace.md",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Middle Islands",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Kanda Islands/Sunfire Tower.md",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Kanda Islands",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Middle Islands/Hall of Watchers.md",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Middle Islands",
+    "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles",
+    "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Lunara",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Wardens of the Deep Dark",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Voidscourge Hunters",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Blazing Pledge.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Guard Hall.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Warden Outpost and Archives.md",
+    "01 Campaign/01 World/08 Points of Interest/05 Government.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Arcane Embassy of Boba.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Field Liaison Office.md",
+    "01 Campaign/01 World/07 Districts/Mwingu/Scholar's Ring.md",
     "01 Campaign/01 World/07 Districts/Seaside Cape/Mossgate Market.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape",
-    "01 Campaign/01 World-Post Population.zip",
-    "01 Campaign/01 World.zip",
-    "01 Campaign/World.zip",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Lambaro Isle",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Jambito Isles",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles",
-    "fantasy-bestiary/_attachments/pf2e-settlement.png",
-    "fantasy-bestiary/_attachments/pf2e-quest-icon.png",
-    "fantasy-bestiary/_attachments/pf2e-quest.png",
-    "fantasy-bestiary/_attachments/pf2e-misc.png",
-    "fantasy-bestiary/_attachments/pf2e-influence.png",
-    "fantasy-bestiary/_attachments/pf2e-hazard.png",
-    "fantasy-bestiary/_attachments/pf2e-action.png",
-    "Character Building/Spells/zz_asset-files/systems-pf2e-icons-spells-zero-gravity.webp",
-    "Character Building/Spells/zz_asset-files/systems-pf2e-icons-spells-zephyr-slip.webp",
-    "Character Building/Spells/zz_asset-files/systems-pf2e-icons-spells-zenith-star.webp",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Seaside Cape.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
+    "01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Emergency Tactical Dockhouse.md",
+    "90 Assets/Images/Organizations/BlazingPledge.png",
+    "90 Assets/Images/Organizations/AshenVanguard.png",
+    "90 Assets/Images/NPCs/KrayaFeldrumSmall.webp",
+    "90 Assets/Images/NPCs/UlenVarrSmall.webp",
+    "90 Assets/Images/NPCs/EliraSainSmall.webp",
+    "90 Assets/Images/NPCs/BrenDrathSmall.webp",
+    "90 Assets/Images/NPCs/DaelMonSmall.webp",
+    "90 Assets/Images/NPCs/StandardWatch1Small.webp",
+    "90 Assets/Images/NPCs/StandardWatch2Small.webp",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",
     "3. Campaign/4. Planes/Untitled.canvas",

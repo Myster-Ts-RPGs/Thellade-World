@@ -17,6 +17,10 @@ export:
   - Scrolls
   - Honey
   - Coral
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

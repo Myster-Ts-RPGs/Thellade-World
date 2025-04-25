@@ -11,6 +11,8 @@ districttype:
   - Commercial
   - Underbelly
   - Entertainment
+organization:
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

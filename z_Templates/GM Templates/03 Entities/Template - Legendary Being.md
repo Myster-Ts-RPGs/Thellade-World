@@ -2,6 +2,7 @@
 tags:
   - "#Character"
   - "#LegendaryBeing"
+  - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
@@ -95,14 +96,16 @@ enemies: []
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS "Aliases"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Deity") AND contains(allies, this.file.link)
+> WHERE (contains(tags, "Deity") OR contains(tags, "Demigod") OR contains(tags, "DemonLord") OR contains(tags, "LegendaryBeing"))
+> AND contains(allies, this.file.link)
 > SORT file.name ASC
 
 > [!metadata|organizations]- Enemies
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS "Aliases"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Deity") AND contains(enemies, this.file.link)
+> WHERE (contains(tags, "Deity") OR contains(tags, "Demigod") OR contains(tags, "DemonLord") OR contains(tags, "LegendaryBeing"))
+> AND contains(enemies, this.file.link)
 > SORT file.name ASC
 
 

@@ -1,0 +1,100 @@
+Faction Notes Instructions for Thellade Project (Obsidian-Compatible Format)
+============================================================================
+
+For each organization, provide the following fields (if any). Fields marked with * are **mandatory** and **must not be omitted**. If a mandatory field has no canonical data, you may improvise, but mark the value as `NONE`. Optional fields may also use `NONE` if not found.
+
+----------------------------------------------------------------------------
+
+TOP-MATTER (Manual Entry Section – Plaintext Only)
+==================================================
+Enter the following fields in the exact order shown below:
+
+Alias(es) - Optional, include if known. Use `NONE` if none exist.
+*Date Founded - Required. Use `(Generated)` if unknown.
+*Type(s) - Must match the MetaBind `#Type` tag list. Notify GM if a new type is used.
+*Status - Must match MetaBind `#Status`. Use `Defunct` for inactive factions.
+*Scope - Must match the MetaBind `#Scope` list.
+*Head - Must be a canon-confirmed NPC. No improvisation.
+Steward - Optional. Include only if found in canon. Use `NONE` if none exists.
+Parent Organization - Optional. Use `NONE` if not applicable.
+*Headquarters Location - Must specify `Settlement > District > Specific Building`. Improvised names must be followed by `(Generated)`.
+*Operating Areas - Listed in this fixed order:
+    Jambito Isles:
+    Kanda Isles:
+    Lambaro Isles:
+    Mangagoy Isles:
+    Middle Isles:
+    Mwingu Isles:
+  Use the format `Settlement > District > Location`. If unknown but region is known: `Settlement > District > [Improvised Name] (Generated)`. If specific location is mysterious, use: `Settlement > District > Unknown`. If there is no presence: use `NONE`.
+
+Allied Factions - Optional. Use `NONE` if not known.
+Rival Factions - Optional. Use `NONE` if not known.
+
+----------------------------------------------------------------------------
+
+BOTTOM-MATTER (Markdown Body for Obsidian – Use This Format)
+============================================================
+
+Paste this section as a single code block into Obsidian. All headers must use the exact markdown structure. Use `##` for major sections and `###` for subsections.
+
+````markdown
+## Overview
+### Description
+> Description goes here
+
+### Oaths
+> Sacred or symbolic promises members take upon joining.
+
+### Mission Statement
+> Core purpose and long-term goals; why the organization exists.
+
+### Laws
+> Rules or codes members must follow.
+
+### Tenets
+> Guiding values, ideals, or behaviors central to the organization.
+
+### Prohibitions
+> Forbidden behaviors, taboos, or violations that result in exile or punishment.
+
+## Current Events
+> Recent developments involving this faction, including party interactions.
+
+## History
+> Notable background details about the founding, evolution, or past conflicts of the faction.
+
+## Notes
+- (Other items pulled from canon documents, project files, or chat history)
+- (List all associated NPCs, even if already mentioned in summary)
+- Symbol: (Optional — short description only, do NOT include artwork prompts)
+- Uniforms: (Optional — include if standardized dress exists)
+````
+
+----------------------------------------------------------------------------
+
+TAG INTEGRITY WARNING
+=====================
+If you use a `Type`, `Status`, or `Scope` tag not found in the MetaBind-compatible Tags.txt list, **notify the GM immediately**. The tag will need to be reviewed and added or replaced before finalization.
+
+----------------------------------------------------------------------------
+
+EXAMPLE (NOT CANON)
+====================
+Alias(es): Wardens of the Glyph, Azure Cloaks
+Date Founded: 07 Emberfall 141 PR
+Type(s): Regulatory
+Status: Active
+Scope: Regional
+Head: Archmage Selvik Thorne
+Steward: Ghelp
+Parent Organization: NONE
+Headquarters Location: Kanda > Wardspire District > Wardspire Tower
+Operating Areas
+    Jambito Isles: NONE
+    Kanda Isles: Kanda > Wardspire District > Wardspire Tower
+    Lambaro Isles: NONE
+    Mangagoy Isles: NONE
+    Middle Isles: NONE
+    Mwingu Isles: NONE
+Allied Factions: Eternal Concord, Mangagoy Healing Sanctuary
+Rival Factions: Cult of Orcus, Red Runners, Bleeding Tide

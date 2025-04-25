@@ -2,6 +2,7 @@
 tags:
   - "#Location"
   - "#Region"
+  - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
 
@@ -37,7 +38,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
 > **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 > **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Planet AND !"z_Templates"), useLinks(partial)):location]` |
+> **Location** | `INPUT[inlineListSuggester(optionQuery(#Plane OR #Planet AND !"z_Templates"), useLinks(partial)):location]`
+
+
 
 > [!infobox]+
 > # `=this.file.name`

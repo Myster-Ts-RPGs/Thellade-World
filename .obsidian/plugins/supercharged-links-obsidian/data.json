@@ -225,6 +225,30 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "DemonLord",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "47b7-c901",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "ArchDevil",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "12e2-7248",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }

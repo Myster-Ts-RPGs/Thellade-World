@@ -17,6 +17,10 @@ export:
   - Coral
   - Salt
   - Textiles
+organization:
+  - "[[The Ashen Vanguard]]"
+  - "[[The Arcane Wardens]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

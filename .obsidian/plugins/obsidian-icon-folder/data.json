@@ -6,6 +6,15 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "❓",
+      "🚢",
+      "📚",
+      "🏰",
+      "🛐",
+      "🍻",
+      "🏪",
+      "🏛",
+      "😈",
       "🏢",
       "🛞",
       "☣",
@@ -13,11 +22,7 @@
       "🧩",
       "🏞",
       "🗺",
-      "🏠",
-      "🚶",
-      "📂",
-      "📋",
-      "LiList"
+      "🏠"
     ],
     "recentlyUsedIconsSize": 17,
     "rules": [],
@@ -51,5 +56,15 @@
   "z_Templates/GM Templates/Locations/Template - District.md": "🏠",
   "z_Templates/GM Templates/01 Locations/Template - Region.md": "🗺",
   "z_Templates/GM Templates/01 Locations/Template - Subregion.md": "🏞",
-  "z_Templates/GM Templates/02 Factions/Template - Organization.md": "🏢"
+  "z_Templates/GM Templates/02 Factions/Template - Organization.md": "🏢",
+  "z_Templates/GM Templates/03 Entities/Template - Demon Lord.md": "😈",
+  "01 Campaign/01 World/08 Points of Interest/01 Factions": "🏛",
+  "01 Campaign/01 World/08 Points of Interest/02 Shop": "🏪",
+  "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn": "🍻",
+  "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine": "🛐",
+  "01 Campaign/01 World/08 Points of Interest/05 Government": "🏰",
+  "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research": "📚",
+  "01 Campaign/01 World/08 Points of Interest/07 Ships": "🚢",
+  "01 Campaign/01 World/08 Points of Interest/08 Residences": "🏠",
+  "01 Campaign/01 World/08 Points of Interest/99 Other": "❓"
 }

@@ -20,6 +20,13 @@ terrain:
   - Desert
   - Floating Isles
   - Highlands
+organization:
+  - "[[The Kingdom of Kanda]]"
+  - "[[The Emberheart Traders]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

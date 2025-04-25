@@ -15,6 +15,10 @@ terrain:
   - Wetlands
   - Floating Isles
   - Lava Flats
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

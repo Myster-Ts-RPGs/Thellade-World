@@ -2,6 +2,7 @@
 tags:
   - "#Location"
   - "#POI"
+  - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 ---
@@ -56,11 +57,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
 > **Location** | `VIEW[{location}][link]` |
-> ###### [[Travel Calculator]] 
->  |
-> ---|---|
-> **TBD** | `VIEW[round(52 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
-> **TBD** | `VIEW[round(0.5 / ({Travel Calculator#MilesPerHour} * {Travel Calculator#SpeedMultiplier}) * 60, 1)]` Minute(s)
+
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 

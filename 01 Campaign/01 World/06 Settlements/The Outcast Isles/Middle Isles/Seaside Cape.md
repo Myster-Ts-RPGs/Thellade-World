@@ -17,6 +17,9 @@ export:
   - Pottery
   - Pearls
   - Coral Jewelry
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

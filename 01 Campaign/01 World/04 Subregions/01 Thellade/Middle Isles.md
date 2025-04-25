@@ -16,6 +16,9 @@ terrain:
   - Swamp
   - Volcanic Slope
   - Sandy Beach
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

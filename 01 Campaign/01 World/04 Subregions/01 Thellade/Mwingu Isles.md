@@ -22,6 +22,10 @@ terrain:
   - Caverns
   - Sandy Beach
   - Obsidian Plateau
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

@@ -81,6 +81,22 @@
     {
       "folder": "01 Campaign/03 Entities/04 NPCs",
       "template": "z_Templates/GM Templates/03 Entities/Template - NPC.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/02a Demon Lords",
+      "template": "z_Templates/GM Templates/03 Entities/Template - Demon Lord.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/02b Archdevils",
+      "template": "z_Templates/GM Templates/03 Entities/Template - Arch Devil.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Player.md"
+    },
+    {
+      "folder": "01 Campaign/04 Lore/03 Literature",
+      "template": "z_Templates/GM Templates/04 Lore/Template - Literature.md"
     }
   ],
   "enable_file_templates": false,

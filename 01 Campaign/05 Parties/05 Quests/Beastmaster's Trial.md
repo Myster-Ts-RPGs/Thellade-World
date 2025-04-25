@@ -28,9 +28,9 @@ tags:
 > Available Loot | `INPUT[suggester(optionQuery(#item)):questLootAvail]` |
 > Acquired Loot | `INPUT[suggester(optionQuery(#item)):questLookEarned]` |
 
-[[Karnak]]'s dreams have grown vivid—haunting visions of mist-draped jungle paths, whispering spirits, and his loyal companion [[Lunair]] standing defiant against a looming shadow. His former mentor, [[Samaliel Lanai]], appears within these visions and warns: **[[Lunair]] calls to you. She is not safe.**
+[[01 Campaign/05 Parties/01 Characters/03 Campaign 03/Karnak]]'s dreams have grown vivid—haunting visions of mist-draped jungle paths, whispering spirits, and his loyal companion [[Lunair]] standing defiant against a looming shadow. His former mentor, [[Samaliel Lanai]], appears within these visions and warns: **[[Lunair]] calls to you. She is not safe.**
 
-The jungle itself seems alive with ancient magic, shifting paths and conjuring illusions. Something stalks [[Lunair]]—a beast born of primal fury—and only [[Karnak]] and his allies can reach her in time.
+The jungle itself seems alive with ancient magic, shifting paths and conjuring illusions. Something stalks [[Lunair]]—a beast born of primal fury—and only [[01 Campaign/05 Parties/01 Characters/03 Campaign 03/Karnak]] and his allies can reach her in time.
 
 This is no symbolic dream: [[Lunair]] is real, and she is in danger. To reach her, the party must brave the living maze of the **Veiled Jungle**, overcome five escalating trials, and confront the monstrous force closing in.
 
@@ -49,7 +49,7 @@ Will the party reach [[Lunair]] before it’s too late?
 **Quest Type:** Major  
 **Status:** Active  
 **Location:** The Veiled Jungle  
-**Assigned To:** [[Karnak]] and the party  
+**Assigned To:** [[01 Campaign/05 Parties/01 Characters/03 Campaign 03/Karnak]] and the party  
 **Reward:** Spiritual bond strengthened, unique boon from Lunair, rare primal essence
 
 ---

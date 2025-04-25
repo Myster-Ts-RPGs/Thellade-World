@@ -17,6 +17,10 @@ export:
   - Pottery
   - Rare Fish
   - Salt
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

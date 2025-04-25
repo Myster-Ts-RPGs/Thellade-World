@@ -2,6 +2,7 @@
 tags:
   - "#Location"
   - "#Subregion"
+  - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
 

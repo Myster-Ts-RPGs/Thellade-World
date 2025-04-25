@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#TODO"
 hq: "[[Thellade]]"
 organizationstatus:
   - ✅ Active
@@ -38,7 +39,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> ---|---|
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
-> **Founded** | `INPUT[date:founded]` |
+> **Founded** | `INPUT[text:founded]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -70,18 +71,18 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-> [!metadata|geography]- Geography
+> [!metadata|geography]- Region
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Geography") AND econtains(organization, this.file.link)
+> WHERE contains(tags, "Region") AND econtains(organization, this.file.link)
 > SORT dominion ASC, file.name ASC
 
-> [!metadata|county]- County
+> [!metadata|county]- Subregion
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE contains(tags, "County") AND econtains(organization, this.file.link)
+> WHERE contains(tags, "Subregion") AND econtains(organization, this.file.link)
 > SORT dominion ASC, file.name ASC
 
 > [!metadata|settlements]- Settlements

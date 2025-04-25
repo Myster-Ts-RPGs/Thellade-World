@@ -11,6 +11,8 @@ districttype:
   - Financial
   - Religious
   - Historical
+organization:
+  - "[[The Arcane Wardens]]"
 ---
 
 ```meta-bind-js-view 

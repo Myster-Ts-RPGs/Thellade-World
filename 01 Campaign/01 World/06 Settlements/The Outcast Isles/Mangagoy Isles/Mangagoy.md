@@ -17,6 +17,12 @@ export:
   - Potions and Elixirs
   - Arcane Knowledge
   - Instruments
+organization:
+  - "[[The Emberheart Traders]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

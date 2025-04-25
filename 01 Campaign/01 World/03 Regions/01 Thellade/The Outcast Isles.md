@@ -5,7 +5,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Thellade]]"
-organization: []
+organization:
+  - "[[The Kingdom of Kanda]]"
+  - "[[The Arcane Wardens]]"
+  - "[[The Emberheart Traders]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 ```meta-bind-js-view 

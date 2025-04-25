@@ -17,6 +17,9 @@ export:
   - Textiles
   - Gold
   - Pottery
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Blazing Pledge]]"
 ---
 
 

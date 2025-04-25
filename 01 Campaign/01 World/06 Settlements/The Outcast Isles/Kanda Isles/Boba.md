@@ -17,6 +17,10 @@ export:
   - Wine
   - Coral
   - Alabaster
+organization:
+  - "[[The Arcane Wardens]]"
+  - "[[The Ashen Vanguard]]"
+  - "[[The Sunfire Heralds]]"
 ---
 
 

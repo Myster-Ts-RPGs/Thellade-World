@@ -15,7 +15,7 @@ governmenttype:
   - Monarchy
 hierarchy: "[[01 Campaign/02 Factions/90 Hierarchy/Kingdom of Kanda]]"
 head:
-  - "[[King Roderic Vanthelion]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/Roderic Vanthelion]]"
 ---
 
 ```meta-bind-js-view 
