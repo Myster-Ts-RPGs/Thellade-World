@@ -12,6 +12,22 @@ organization:
   - "[[The Crystal Seekers Guild]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Emberborn League]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Rift Scholars Collective]]"
+  - "[[The Sunfire Heralds]]"
+  - "[[The Verdant Hand]]"
+  - "[[The Voidscourge Hunters]]"
+  - "[[The Wardens of the Deep Dark]]"
+  - "[[The Bleeding Tide]]"
+  - "[[The Red Runners]]"
+aliases:
+  - Outcast Isles
 ---
 
 ```meta-bind-js-view 

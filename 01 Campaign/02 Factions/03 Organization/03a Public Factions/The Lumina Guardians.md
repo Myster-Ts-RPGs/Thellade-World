@@ -1,13 +1,53 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+hq: "[[The Radiant Keep]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - National
+art: 90 Assets/Images/Organizations/LuminaGuardians.png
+pronounced: LOO-mi-nuh GUAR-dee-ans
+aliases: []
+founded: 7 Emberwane -9 PR
+organizationtype:
+  - Order
+  - Religious
+  - Military
+head:
+  - "[[Astra Valara]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Jambito Isles]]"
+  - "[[Jambito]]"
+  - "[[Riverbend Hollow]]"
+  - "[[Shrinewatch Patrol Hold]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Tallowgate]]"
+  - "[[The Radiant Keep]]"
+  - "[[Lambaro Isles]]"
+  - "[[Lambaro]]"
+  - "[[Arcspire District]]"
+  - "[[Guardian's Vigil Base]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Glowquarter]]"
+  - "[[Radiant Sigil Station]]"
+  - "[[Middle Isles]]"
+  - "[[Seaside Cape]]"
+  - "[[Hollowshore]]"
+  - "[[Moonwall Fortification Post]]"
+  - "[[Mwingu Isles]]"
+  - "[[Mwingu]]"
+  - "[[Watcher's Hollow]]"
+  - "[[Guardian Field Hospice]]"
+allies:
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Ashen Vanguard]]"
+rivals:
+  - "[[The Black Sepulcher]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 
@@ -68,7 +108,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region
@@ -135,40 +183,49 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Lumina Guardians]] are a militant and religious order devoted to the goddess [[Lunara]], operating as holy defenders of the Kingdom of Kanda. They represent the divine sword where [[the Dawnbringers of Lunara]] offer the divine balm. Known for their strict codes of conduct, radiant plate armor, and martial discipline infused with divine light, they are often stationed at the edges of corrupted zones or in bastions of faith. Their command center, [[The Radiant Keep]] in [[Tallowgate]], is one of the most spiritually warded fortresses in the Isles.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> “Let light shield the innocent, and blade sever the shadows.”
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To guard the people of Kanda from the threats of undeath, demonic influence, infernal corruption, and spiritual decay through vigilant action, righteous battle, and sacred guardianship.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - All recruits must undergo a month-long vigil in the Sanctuary of the Dawn before assignment.  
+> - No Guardian may strike a foe from behind unless protecting another.  
+> - Commanders may not withhold news of undeath, corruption, or demonic influence from allied temples.  
+> - Only Lunara’s chosen relics may be wielded in rituals of sealing.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Mercy to the broken. Judgment to the wicked.  
+> - Moonlight sees through lies.  
+> - Undeath is a crime against nature.  
+> - Let no fortress fall while a Guardian still draws breath.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - Worship of or cooperation with infernal or abyssal entities.  
+> - Use of necromantic magic except in cleansing rites.  
+> - Profaning holy relics for personal gain.  
+> - Retreat from a sacred site unless given divine or formal command.
 
 ## Current Events
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Astra Valara|Guardian Astra Valara]] is currently coordinating efforts from [[The Radiant Keep]] in [[Kanda]], preparing strategic contingencies for possible planar breaches tied to the weakening of the outer barrier&#8203;:contentReference[oaicite:0]{index=0}.  
+> - The Guardians are on alert after sensing residual corruption in the ruins beneath Kanda’s catacombs, believed linked to [[The Infernal Covenant]].  
+> - [[The Dawnbringers of Lunara]] have proposed a joint cleansing rite in the Crystal Sanctum of Jambito, pending escort support from the Guardians.  
+> - Rising undead sightings in eastern Mwingu have prompted deployment of an armored detachment to [[01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow|Watcher's Hollow]].
 
 ## History
+> Founded on 7 Emberwane -9 PR following a vision received by the prophet-knight Ilvarea Duskstride, [[The Lumina Guardians]] formed as a shield wall against dark forces in the years leading to the Rising. They united wandering paladins, shrine defenders, and holy warriors into a disciplined order sanctified by Lunara’s light.  
+>  
+> During the Rising, they defended multiple strongholds against abyssal incursions and reinforced major temples throughout the Outcast Isles. Their sacred oaths bind them not just to Kanda, but to the balance between life and afterlife. The Guardians have never broken a siege against a holy site under their watch.
 
 ## Notes
-
-
-
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Astra Valara|Guardian Astra Valara]] – Current leader; commanding presence, known for righteous fury and tactical brilliance.  
+- [[The Radiant Keep]] – Their command fortress in [[Tallowgate]], reinforced with Pre-Rising moonstone wards and Lunar glyphs.  
+- [[Shrinewatch Patrol Hold]] – A fortified outpost near the riverbanks of [[Jambito]], safeguarding shrines from cultist defilement.  
+- [[Radiant Sigil Station]] – [[Mangagoy]] bastion coordinating with local [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Dawnbringers of Lunara|Dawnbringers of Lunara]] against ritual corruption.  
+- [[Moonwall Fortification Post]] – Cliffside overlook in [[Seaside Cape]] used to repel undead or abyssal sea incursions.  
+- Symbol: A silver sunburst halo behind a moon-wreathed longsword, tip down, flanked by crescent wings.  
+- Uniforms: Polished lunarplate armor with gold-blue tabards, radiance-sewn cloaks, and a single rune of Lunara over the heart.

@@ -1,13 +1,64 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+hq: "[[Crimson  Current Hall]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/BleedingTide.png
+rivals:
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Emberborn League]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Sunfire Heralds]]"
+  - "[[The Verdant Hand]]"
+  - "[[The Wardens of the Deep Dark]]"
+  - "[[The Emberheart Traders]]"
+  - "[[The Voidscourge Hunters]]"
+  - "[[The Arcane Wardens]]"
+pronounced: BLEED-ing Tide
+founded: 04 Emberwake 16 PR
+organizationtype:
+  - Secret
+  - Trade
+  - Syndicate
+head:
+  - "[[Marik Kelthorne]]"
+allies:
+  - "[[The Red Runners]]"
+  - "[[The Silver Chain]]"
+aliases:
+  - Bleeding Tide
+  - The Red Tide
+  - Red Tide
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Tallowgate]]"
+  - "[[Brinehook Safehouse]]"
+  - "[[Lambaro Isles]]"
+  - "[[Lambaro]]"
+  - "[[Crucible Hollow]]"
+  - "[[Embercoil Trading Post]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Glowquarter]]"
+  - "[[Crimson  Current Hall]]"
+  - "[[Highhold Rise]]"
+  - "[[Kelthorne Estate]]"
+  - "[[Middle Isles]]"
+  - "[[Seaside Cape]]"
+  - "[[Gullstone Row]]"
+  - "[[Dagger's Rest Tavern]]"
+  - "[[Sewer Hideout]]"
+  - "[[Redwake Cache]]"
+  - "[[Mwingu Isles]]"
+  - "[[Mwingu]]"
+  - "[[Black Market Network]]"
 ---
 
 ```meta-bind-js-view 
@@ -68,7 +119,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region
@@ -129,46 +188,76 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> The Bleeding Tide is a ruthless smuggling and criminal syndicate that controls much of [[Mangagoy]]’s black market. Originally a pirate crew turned land-based operation, they specialize in smuggling weapons, illegal goods, and mysterious artifacts. Though they operate like a gang of pirates, their true strength lies in carefully hidden noble sponsorships, particularly through their deep ties to [[House Kelthorne]]. Their ships and ground operations thrive despite pressure from city watches and rival organizations. While not a cult themselves, the Bleeding Tide has unknowingly become entangled with the Cult of Orcus, smuggling artifacts and resources later used in dark rituals without their full knowledge.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "Blood follows coin. Secrets ride the tide."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To dominate clandestine trade across the Outcast Isles, expand influence through hidden noble sponsorships, and ensure their smuggling operations persist despite external threats.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - Never betray a sponsor or patron.  
+> - Never sell secrets of the Tide’s operations.  
+> - The chain of command must be obeyed without question.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Wealth is power; secrecy is survival.  
+> - Sponsors are sacred; protect their identities at all costs.  
+> - Information is the strongest currency.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - No open conflict unless ordered.  
+> - No unsanctioned deals outside the Tide’s control.  
+> - No engagement with city watches unless bribery has been secured first.
 
 ## Current Events
+> - [[Campaign Group 3]] directly engaged the Bleeding Tide during the infiltration of [[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].  
+> - [[Aldrek Venmire]] was confirmed killed during the incident at the [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]] beneath [[Gullstone Row]] on 03 Dawnmarch 212 PR.  
+> - The [[Black Chalice of Vorzith]] artifact was seized from Bleeding Tide hands and temporarily held by [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|House Kelthorne]].  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Lord Marik Kelthorne]] assumed de facto control after Aldrek’s death, attempting to stabilize internal fractures.  
+> - Party actions in [[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]] disrupted local Tide operations, causing temporary shutdown of [[Dagger's Rest Tavern]] as a smuggling front.  
+> - Tide agents in [[Mwingu]] have begun expanding black market arms and artifact networks to recover from the Middle Isles disruptions.  
+> - Confirmed deployment of pirate cells and proxy gangs across Kanda, Lambaro, and the Mwingu Isles.
 
 ## History
+> Formed on 04 Emberwake 16 PR, the Bleeding Tide emerged from a splintered pirate fleet desperate to retain power after the Rising’s aftermath. Abandoning open piracy, they refocused on smuggling, covert trade, and manipulating noble patrons to shield their operations. Their rise through [[Mangagoy]]’s underbelly was marked by the creation of hidden safehouses, bribery of minor officials, and ruthless elimination of competitors. [[Aldrek Venmire]]’s ambition and brutality defined their early dominance, while [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Lord Marik Kelthorne]] now leads them toward a subtler, more insidious future—one that risks further occult entanglements if their smuggling operations remain unchecked.
 
 ## Notes
+- [[Aldrek Venmire]] – Former leader of the Bleeding Tide (deceased). Dead. Killed by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]] in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]]/[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Lord Marik Kelthorne]] – Current presumed leader of the Bleeding Tide.
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Borek  Jundar|Borek 'The Ox' Jundar]] – Lieutenant active in [[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]]; known by the alias "The Ox." Captured by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3|Campaign Group 3]].
+- [[Garrick Devrin]] – Enforcer involved in sewer ambush operations; known as "Bloodwake."
+- [[Joralla Menas]] – Mwingu-based facilitator of Tide smuggling rings; aliases include "Deep Pockets."
+- [[Thalessa Morvain]] – Diplomatic broker; operates under multiple aliases in Kanda.
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Virkan Hess|Vikran Hess]] – Arms dealer and relic fence in Lambaro; nicknamed "Gold-Fang."
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Veyron Drask|Captain Veyron Drask]] – Seafaring smuggler captain; known as "Red-Eye." Dead. Killed by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]] in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]]/[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].
+- [[Felwin Greaves]] – Halfling saboteur and courier; alias "The Rat." Dead. Killed by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]] in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]]/[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].
+- [[Sarla Vask]] – Tiefling assassin and former ritualist; "The Harbinger." Dead. Killed by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]] in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]]/[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].
+- [[Grug]] – Ogre cook employed aboard Tide vessels or hideouts.
+- [[Orpok]] – Half-orc chef and quartermaster; associated with Red-Eye’s crew.
+- [[Dagger's Rest Tavern]] – Smuggling front and coordination point in [[Seaside Cape]].
+- [[Kelthorne Estate]] – Hidden base of operations protected by House Kelthorne.
+- [[Sewer Hideout]] – Now-compromised Tide base in [[Gullstone Row]].
+- [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Crimson  Current Hall|Crimson  Current Hall]] – Faction headquarters in [[Mangagoy]]’s Glowquarter.
+- [[Brinehook Safehouse]] – Bleeding Tide cell node in [[Kanda]].
+- [[Embercoil Trading Post]] – Tide-aligned weapon and artifact depot in [[Lambaro]].
+- [[Redwake Cache]] – Tide resource vault in [[Seaside Cape]].
+- Symbol: A blood-red wave crest entwined with black iron thorns, worn as rings or carved into hidden stones.
+- Uniforms: Black cloaks edged with crimson for mid-ranks; crimson signet rings for officers.
+- The Bleeding Tide continues to smuggle materials unknowingly empowering the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|The Black Sepulcher]].
+Status: Active
 
-
-
+### 📜 Tattoo Description:
+> **Bleeding Tide Insignia:**  
+> A small metallic pin depicting a wave of crimson droplets encircling a black dagger, clearly identifying Aldrek’s allegiance to the Bleeding Tide raiders​Project02Complete.
+However — **the secret tattoo** found specifically on Aldrek Venmire is not standard for all Bleeding Tide members:
+> **Secret Tattoo:**  
+> On his left forearm, hidden beneath his clothing, a black tattoo shaped like a **stylized crescent moon pierced by three drops of blood** — an unknown marking that hints at a deeper, unseen faction or affiliation​Project02Complete.

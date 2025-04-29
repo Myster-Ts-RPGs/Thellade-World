@@ -1,13 +1,41 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+hq: "[[Sunfire Tower]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - National
+art: 90 Assets/Images/Organizations/SunfireHeralds.png
+aliases:
+  - The Heralds
+founded: 12 Springdawn -5PR
+organizationtype:
+  - Educational
+  - Regulatory
+  - Cultural
+head:
+  - "[[Lysara Dawnstar]]"
+steward:
+  - "[[Dorian Grey]]"
+allies:
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Eternal Concord]]"
+rivals:
+  - "[[The Bleeding Tide]]"
+  - "[[The Infernal Covenant]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Glimmershade]]"
+  - "[[Boba]]"
+  - "[[Sunfire Heights]]"
+  - "[[Sunfire Tower]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Ashgate Market]]"
+pronounced: SUN-fire HER-alds
 ---
 
 ```meta-bind-js-view 
@@ -68,7 +96,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region
@@ -135,40 +171,55 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Sunfire Heralds]] are an order dedicated to preserving Pre-Rising lore, rekindling Kanda’s cultural pride, and uplifting the kingdom’s morale through knowledge and celebration. They work tirelessly to recover lost chronicles, sponsor festivals, support educational reforms, and commission inspirational works of literature and art. Their headquarters, [[Sunfire Tower|The Sunfire Tower]] in [[Boba]], gleams as a beacon of enlightenment and hope.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "Light forgotten is light lost. We are the dawn reborn."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To preserve the ancient wisdom of the Isles, inspire the populace toward unity and resilience, and kindle new cultural achievements to heal the scars of the Rising.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - All recovered Pre-Rising texts must be archived within the Tower before external use.  
+> - Heralds must maintain dignity and optimism during public engagements.  
+> - Sponsorship of adventuring groups must be approved by two High Heralds.  
+> - Lost artifacts and records must be treated with sanctity, not commerce.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Hope is the foundation of renewal.  
+> - Culture lost weakens the kingdom’s soul.  
+> - No citizen too small, no story too humble.  
+> - Let remembrance light the future.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - Deliberate distortion of historical records.  
+> - Hoarding relics for private enrichment.  
+> - Use of recovered knowledge for tyranny or personal political gain.  
+> - Association with factions that glorify despair or infernal corruption.
 
 ## Current Events
+> - [[Lysara Dawnstar|High Herald Lysara Dawnstar]] is directing expansion initiatives from [[Sunfire Tower|The Sunfire Tower]], coordinating a new cycle of public exhibits on Pre-Rising heroism.  
+> - [[Dorian Grey|High Herald Dorian Grey]] is spearheading funding drives and envoy missions to [[Mangagoy]], opening the Lightbearer Embassy.  
+> - Campaign Group 5 successfully descended into a sealed Pre-Rising vault beneath [[Sunfire Tower|The Sunfire Tower]], rescuing [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]]—an archivist trapped by time anomalies—and defeating abyssal-born horrors threatening the site.  
+> - The threats faced included a Rift-Stalker Horror, two Riftborn Wraiths, and nearly activating a hostile Vault Guardian.  
+> - Recovery of forbidden texts and a broken Seal Stone tied to barrier decay has greatly elevated the Sunfire Heralds' urgency in preserving and protecting Pre-Rising knowledge.  
+> - The Heralds continue to support Group 5 following their retainer agreement, offering rare tomes, relic identification, and diplomatic support for related expeditions.
+
 
 ## History
+> The Sunfire Heralds were founded on 12 Springdawn -5 PR, as the memory of the Pre-Rising world began to falter. Originally a loose association of loremasters and minstrels, they formalized into a structured order following a series of disastrous cultural losses during early abyssal uprisings.  
+>  
+> Their mission expanded beyond passive preservation into active cultural restoration, working to revive not just lost songs and sagas, but the very spirit of Kanda’s people. Even today, they see themselves as stewards of the Isles’ soul, fighting a quiet war against despair and forgetfulness.
 
 ## Notes
-
-
+- [[Lysara Dawnstar|High Herald Lysara Dawnstar]] – Charismatic leader, cultural visionary, master planner of festivals and archives.  
+- [[Dorian Grey|High Herald Dorian Grey]] – Flamboyant diplomat and administrator, skilled in social navigation and public engagement.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Inaya Voss|Chief Archivist Inaya Voss]] – Oversees daily archive management at [[Sunfire Tower|The Sunfire Tower]]; concerned with threats beneath the Tower.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]] – Assistant Scribe rescued by Group 5; victim of temporal warping and abyssal influence in the sealed archives.  
+- [[Sunfire Tower|The Sunfire Tower]] – Their shining headquarters in [[Sunfire Heights]], [[Boba]], symbol of hope and renewal.  
+- [[Hall of the Shining Dawn]] – Newly founded center in [[Glimmershade]], [[Kanda]], designed to host cultural summits and relic exhibitions.  
+- [[Lightbearer Embassy]] – Outreach office in [[Ashgate Market]], [[Mangagoy]], promoting cultural exchange and hope-building.  
+- Symbol: A golden rising sun with open book wings, cradling a silver scroll at its heart.  
+- Uniforms: White and gold robes emblazoned with flame-wreathed quills; ceremonial heralds bear radiant staves.
 

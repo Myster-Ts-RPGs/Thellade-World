@@ -10,6 +10,9 @@ organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Voidscourge Hunters]]"
 ---
 
 ```meta-bind-js-view 
@@ -100,7 +103,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Coastal defense and gate entry; home to guards and ship registries
 
 ## Keyed Locations
 

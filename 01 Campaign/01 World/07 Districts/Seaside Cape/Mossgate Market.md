@@ -13,6 +13,7 @@ districttype:
   - Entertainment
 organization:
   - "[[The Blazing Pledge]]"
+  - "[[The Emberborn League]]"
 ---
 
 ```meta-bind-js-view 

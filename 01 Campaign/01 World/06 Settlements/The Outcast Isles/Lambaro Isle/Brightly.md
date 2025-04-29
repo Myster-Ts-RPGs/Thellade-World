@@ -91,12 +91,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Government Type** | `VIEW[{governmenttype}][text]` |
 > **Population** | `VIEW[{population}][text]` |
-> ###### Commerce
+> ###### Party
 >  |
 > ---|---|
-> **Imports** | `VIEW[{import}][text]` |
-> **Exports** | `VIEW[{export}][text]` |
-> ###### [[Travel Calculator]] 
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 >  |
 > ---|---|
 > **TBD** | `VIEW[round(52 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)

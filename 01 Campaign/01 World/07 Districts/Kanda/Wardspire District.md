@@ -8,6 +8,7 @@ location:
   - "[[Kanda]]"
 organization:
   - "[[The Arcane Wardens]]"
+  - "[[The Rift Scholars Collective]]"
 ---
 
 ```meta-bind-js-view 
@@ -98,7 +99,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Arcane and bureaucratic heart; home to [[The Arcane Wardens]], magical institutions
 
 ## Keyed Locations
 

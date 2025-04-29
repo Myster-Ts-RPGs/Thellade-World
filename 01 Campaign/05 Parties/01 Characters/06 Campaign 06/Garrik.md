@@ -2,7 +2,10 @@
 tags:
   - "#Character"
   - "#Player"
-art: z_Assets/Misc/PlaceholderImage.png
+  - "#Group6"
+art: 90 Assets/Images/Players/Garrik.png
+whichparty:
+  - "[[Campaign Group 6]]"
 ---
 
 > [!metadata|metadata]- Metadata 

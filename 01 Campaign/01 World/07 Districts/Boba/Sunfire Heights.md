@@ -6,6 +6,9 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Boba]]"
+organization:
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Sunfire Heralds]]"
 ---
 
 ```meta-bind-js-view 

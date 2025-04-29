@@ -1,7 +1,7 @@
 ---
 tags:
   - "#Organization"
-hq: "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
+hq: "[[Fort Redstone]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -12,24 +12,24 @@ location:
   - "[[Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
   - "[[Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
   - "[[Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Coastal Watch Barracks]]"
   - "[[Kanda Isles]]"
   - "[[Boba]]"
   - "[[Ambassadors Row]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Guard Hall]]"
   - "[[Glowquarter]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Detached Command Wing]]"
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Vanguard Scout Liaison Post]]"
+  - "[[Ashen Vanguard Watchpost]]"
+  - "[[Fort Redstone]]"
+  - "[[Ashen Guard Hall]]"
+  - "[[Detached Command Wing]]"
+  - "[[Coastal Watch Barracks]]"
+  - "[[Vanguard Scout Liaison Post]]"
 pronounced: A-shun VAN-guard
 aliases:
   - Ashen Vanguard
@@ -42,6 +42,12 @@ rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Infernal Covenant]]"
+allies:
+  - "[[The Emberborn League]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Rift Scholars Collective]]"
 ---
 
 ```meta-bind-js-view 
@@ -102,7 +108,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region

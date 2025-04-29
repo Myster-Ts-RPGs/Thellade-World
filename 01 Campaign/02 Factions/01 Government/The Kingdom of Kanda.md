@@ -80,7 +80,15 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **Worship** | `VIEW[{worship}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Geography

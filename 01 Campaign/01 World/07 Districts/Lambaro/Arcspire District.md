@@ -9,6 +9,8 @@ location:
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
 ---
 
 ```meta-bind-js-view 
@@ -99,7 +101,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Academic and artisan sector; scholars and relic-smiths operate here
 
 ## Keyed Locations
 

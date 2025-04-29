@@ -1,0 +1,10 @@
+.dataview.table-view-table textarea,
+.dataview.table-view-table input[type="text"] {
+  height: 1.5em;
+  min-height: 1.5em;
+  max-height: 1.5em;
+  width: 150px; /* Fixed width instead of 90% */
+  font-size: 0.85em;
+  padding: 1px 4px;
+  resize: none; /* Prevent manual resizing */
+}

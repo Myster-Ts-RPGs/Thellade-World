@@ -11,6 +11,8 @@ districttype:
   - Historical
   - Underbelly
   - Religious
+organization:
+  - "[[The Lumina Guardians]]"
 ---
 
 ```meta-bind-js-view 

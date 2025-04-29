@@ -7,11 +7,11 @@ language:
   - Common
   - Draconic
 organization:
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders]]"
+  - "[[The Emberheart Traders]]"
 ownedlocation:
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Emberheart Traders/Emberheart Trade Office]]"
+  - "[[Emberheart Trade Office]]"
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Emberheart Traders/Emberheart Trade Office]]"
+  - "[[Emberheart Trade Office]]"
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 pronounced: MAH-rek TIN-dul
@@ -68,22 +68,27 @@ mannerisms: |-
 >> #### NPC Info
 >>  |
 >>---|---|
->> **Languages** | `INPUT[Language][inlineListSuggester:language]` |
 >> **Ideals** | `INPUT[textArea:ideals]` |
 >> **Flaws** | `INPUT[textArea:flaws]` |
 >> **Fears** |  `INPUT[textArea:fears]` |
 >> **Mannerisms** |  `INPUT[textArea:mannerisms]` |
->> **Occupations** | `INPUT[Occupation][inlineListSuggester:occupation]` |
->> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Religions** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):religion]` |
->> **Owned Locations** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):ownedlocation]` |
->> **Current Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
->> **Condition** | `INPUT[Condition][:condition]` |
 >
 >> [!metadata|metadataoption]- Party Info
 >> #### Party Info
 >>  |
 >> ---|---|
+>> **Party 1 Relation**|`INPUT[PartyRelation][inlineListSuggester:party1relation]`|
+>> **Party 1 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group1), useLinks(partial)):party1tie]` |
+>> **Party 2 Relation**|`INPUT[PartyRelation][inlineListSuggester:party2relation]`|
+>> **Party 2 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group2), useLinks(partial)):party2tie]` |
+>> **Party 3 Relation**|`INPUT[PartyRelation][inlineListSuggester:party3relation]`|
+>> **Party 3 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group3), useLinks(partial)):party3tie]` |
+>> **Party 4 Relation**|`INPUT[PartyRelation][inlineListSuggester:party4relation]`|
+>> **Party 4 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group4), useLinks(partial)):party4tie]` |
+>> **Party 5 Relation**|`INPUT[PartyRelation][inlineListSuggester:party5relation]`|
+>> **Party 5 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group5), useLinks(partial)):party5tie]` |
+>> **Party 6 Relation**|`INPUT[PartyRelation][inlineListSuggester:party6relation]`|
+>> **Party 6 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group6), useLinks(partial)):party6tie]` |
 >> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
 
 > [!infobox]+
@@ -93,22 +98,23 @@ mannerisms: |-
 > ###### Bio
 >  |
 > ---|---|
-> **Aliases** | `VIEW[{aliases}][text]` |
-> **Ancestry** | `VIEW[{ancestry}]` |
-> **Heritage** | `VIEW[{heritage}]` |
-> **Gender** | `VIEW[{gender}]` |
-> **Age** | `VIEW[{age}]` |
-> **Alignment** | `VIEW[{alignment}]` |
+> **Pronounced** |  `INPUT[textArea:pronounced]` |
+> **Aliases** | `INPUT[list:aliases]` |
+> **Ancestry** | `INPUT[Ancestry][suggester:ancestry]` |
+> **Heritage** | `INPUT[Heritage][suggester:heritage]` |
+> **Gender** | `INPUT[Gender][:gender]` |
+> **Age** | `INPUT[Age][:age]` |
+> **Alignment** | `INPUT[Alignment][:alignment]` |
 > ###### Info
 >  |
 > ---|---|
-> **Languages** | `VIEW[{language}][text]` |
-> **Occupation** | `VIEW[{occupation}][text]` |
-> **Organization** | `VIEW[{organization}][link]` |
-> **Religions** | `VIEW[{religion}][link]` |
-> **Owned Locations** | `VIEW[{ownedlocation}][link]` |
-> **Current Location** | `VIEW[{location}][link]` |
-> **Condition** | `VIEW[{condition}]` |
+> **Languages** | `INPUT[Language][inlineListSuggester:language]` |
+> **Occupations** | `INPUT[Occupation][inlineListSuggester:occupation]` |
+> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+> **Religions** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):religion]` |
+> **Owned Locations** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):ownedlocation]` |
+> **Current Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+> **Condition** | `INPUT[Condition][:condition]` |
 
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>

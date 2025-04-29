@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Boba]]"
+organization:
+  - "[[The Guilded Hammer Union]]"
 ---
 
 ```meta-bind-js-view 

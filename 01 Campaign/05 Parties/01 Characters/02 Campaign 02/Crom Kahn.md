@@ -2,9 +2,12 @@
 tags:
   - "#Character"
   - "#Player"
+  - "#Group2"
 art: z_Assets/Misc/PlaceholderImage.png
 aliases:
   - Crom
+whichparty:
+  - "[[Campaign Group 2]]"
 ---
 
 > [!metadata|metadata]- Metadata 

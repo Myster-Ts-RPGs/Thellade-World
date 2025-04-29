@@ -1,14 +1,14 @@
 ---
 tags:
   - "#Organization"
-hq: "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Wardspire Tower]]"
+hq: "[[Wardspire Tower]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
   - National
 art: 90 Assets/Images/Organizations/ArcaneWardens.png
-pronounced: A-r-kayn War-dens
+pronounced: ar-KANE WAR-dens
 founded: 07 Emberfall -1 PR
 organizationtype:
   - Regulatory
@@ -20,31 +20,37 @@ location:
   - "[[Mangagoy Isles]]"
   - "[[Jambito Isles]]"
   - "[[Middle Isles]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Glyphwarden Outreach Office]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Wardspire Tower]]"
   - "[[Kanda]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
   - "[[Wardspire District]]"
   - "[[Boba]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Arcane Embassy of Boba]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Warden Outpost and Archives]]"
   - "[[Seaside Cape]]"
   - "[[Tideglass Heights]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Leyline Monitoring Shelter]]"
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Arcane Wardens/Field Observation Suite]]"
+  - "[[Glyphwarden Outreach Office]]"
+  - "[[Wardspire Tower]]"
+  - "[[Arcane Embassy of Boba]]"
+  - "[[Warden Outpost and Archives]]"
+  - "[[Leyline Monitoring Shelter]]"
+  - "[[Field Observation Suite]]"
 head:
   - "[[Selvik Thorne]]"
 allies:
   - "[[The Eternal Concord]]"
+  - "[[Mangagoy Healing Sanctuary (Faction)]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Voidscourge Hunters]]"
+  - "[[The Wardens of the Deep Dark]]"
 rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Eternal Concord]]"
   - "[[The Red Runners]]"
+  - "[[The Bleeding Tide]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens
@@ -109,7 +115,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region
@@ -219,7 +233,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Internal dissent over the ethics of the pact is rumored among junior wardens.
 - [[Ghelp]] — Kobold investigator acting under Warden authority in Mangagoy.
 - [[Elda Brightspark]] — Cleric of [[Lunara]], arcane historian, consultant to the Wardens in Mangagoy.
-- The Arcane Wardens maintain active collaboration with the [[Mangagoy Healing Sanctuary]], especially through liaison [[Elda Brightspark]] on matters of arcane corruption and Pre-Rising healing techniques.
+- The Arcane Wardens maintain active collaboration with the [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Mangagoy Healing Sanctuary]], especially through liaison [[Elda Brightspark]] on matters of arcane corruption and Pre-Rising healing techniques.
 - Associated NPCs: Archmage Selvik Thorne, Ambassador Kaelen Duskbloom, Ghelp, Elda Brightspark
 - Symbol: A silver glyph-eye inscribed over an open book, flanked by warding runes.
 - Uniforms: Midnight blue robes with silver arcane threadwork. Regional wardens wear mantle glyphs unique to their isle.

@@ -1,13 +1,41 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+hq: "[[The Black Vault]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/WardensOfTheDeepDark.png
+pronounced: WAR-dens of the DEEP DARK
+aliases:
+  - The Black Wardens
+founded: 3 Duskwane -342 PR
+organizationtype:
+  - Circle
+  - Order
+head:
+  - "[[Dren Hollowstone]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Jambito Isles]]"
+  - "[[Jambito]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Lambaro Isles]]"
+  - "[[Lambaro]]"
+  - "[[Mwingu Isles]]"
+  - "[[Mwingu]]"
+  - "[[Deepwall Reach District]]"
+  - "[[Stonebrace Docks]]"
+  - "[[Ironspan Gate District]]"
+  - "[[Scholar's Ring]]"
+allies:
+  - "[[The Arcane Wardens]]"
+  - "[[The Crystal Seekers Guild]]"
+rivals:
+  - "[[The Black Sepulcher]]"
+  - "[[The Bleeding Tide]]"
 ---
 
 ```meta-bind-js-view 
@@ -68,7 +96,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region
@@ -135,40 +171,51 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Wardens of the Deep Dark]] are an ancient organization dedicated to recovering Pre-Rising knowledge from the Deep Dark, a network of collapsed tunnels and ruins hidden beneath the Isles. Founded centuries before the Rising, they stand sentinel against the resurgence of demonic threats, using a mixture of scholarship, martial prowess, and ancient binding magics to seal or contain horrors beneath the earth.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> “The darkness forgets. We remember.”
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To safeguard Kanda by uncovering and containing hidden Pre-Rising ruins, sealing daemonic influences, and preserving ancient knowledge of the Isles’ hidden depths.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - All relics must be catalogued and secured in the Black Vault.  
+> - Wardens may not abandon a site unless authorized by a senior Vaultkeeper.  
+> - Alliance with surface authorities is permitted but must prioritize artifact security over diplomacy.  
+> - Known daemonic relics must be destroyed or contained without exception.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Knowledge unguarded invites destruction.  
+> - The Deep Dark is no longer ours—it must be respected and feared.  
+> - Trust not what you hear in the depths.  
+> - Secrecy shields the future.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - Unauthorized excavation of known Deep Dark sites.  
+> - Cooperation with extraplanar entities, even for "peaceful" research.  
+> - Personal acquisition of relics or artifacts.  
+> - Destruction of Pre-Rising records without command authority.
 
 ## Current Events
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mount Crystalspire Excavation/Dren Hollowstone|Vaultkeeper Dren Hollowstone]] oversees expeditions across multiple Isles from [[The Black Vault]] but is personally embedded at the Mount Crystalspire dig site&#8203;:contentReference[oaicite:0]{index=0}.  
+> - [[Blackroot Outpost]] in [[Jambito]] monitors subsurface collapses linked to leyline shifts, suspected to have ties to ancient crypt wards.  
+> - [[Sunken Reliquary Wing]] in [[Kanda]]'s [[Stonebrace Docks]] specializes in relic containment recovered from flooded Deep Dark passages.  
+> - [[Underdeep Annex]] near [[Ravensath Woods]] in [[Lambaro]] assists in isolating Pre-Rising ruins that recent mining uncovered.  
+> - Cooperative work with [[Crystal Seekers Guild]] teams near Lambaro has yielded unstable but salvageable relic caches.  
+> - Warnings of Cult of Orcus agents operating in former Deep Dark junctions have placed all active Wardens on alert.
 
 ## History
+> Established in the ancient days before the Rising (3 Duskwane -342 PR), the Wardens of the Deep Dark originally served as a scholarly network exploring the vast tunnel systems beneath the Isles. Their role changed drastically following the first demon incursions—forced to take up arms and turn their knowledge toward containment rather than discovery.  
+>  
+> In the centuries since, they have evolved into silent guardians, operating out of hidden strongholds and forging pacts with few. Their work remains vital yet largely unsung: most surface-dwellers owe their safety to battles fought deep below their feet, unseen and unrecorded.
 
 ## Notes
-
-
-
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mount Crystalspire Excavation/Dren Hollowstone|Vaultkeeper Dren Hollowstone]] – Gruff, pragmatic, and unyielding; his life’s work is preventing the mistakes of the Pre-Rising era from repeating.  
+- [[The Black Vault]] – Vast underground archive beneath [[Mwingu]]'s [[01 Campaign/01 World/07 Districts/Mwingu/Scholar's Ring|Scholar's Ring]], repository of Pre-Rising relics and forbidden artifacts.  
+- [[Blackroot Outpost]] – Monitoring and emergency response base near [[Deepwall Reach District]], [[Jambito]].  
+- [[Sunken Reliquary Wing]] – Relic recovery and flood management site in [[Stonebrace Docks]], [[Kanda]].  
+- [[Underdeep Annex]] – Expedition support and relic quarantine zone at [[Ironspan Gate District]], [[Lambaro]].  
+- Symbol: A downward-pointing black key over a gray abyssal spiral, bound with four silver chains.  
+- Uniforms: Deep gray field cloaks reinforced with rune-inscribed leather armor; insignia stitched in void-black and muted silver thread.

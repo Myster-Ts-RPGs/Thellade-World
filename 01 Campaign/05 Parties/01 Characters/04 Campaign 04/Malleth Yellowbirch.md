@@ -2,9 +2,12 @@
 tags:
   - "#Character"
   - "#Player"
+  - "#Group4"
 art: z_Assets/Misc/PlaceholderImage.png
 aliases:
   - Malleth
+whichparty:
+  - "[[Campaign Group 4]]"
 ---
 
 > [!metadata|metadata]- Metadata 

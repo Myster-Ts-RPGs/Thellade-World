@@ -43,7 +43,7 @@
       "template": "z_Templates/GM Templates/01 Locations/Template - District.md"
     },
     {
-      "folder": "01 Campaign/01 World/08 Points of Interest/01 General",
+      "folder": "01 Campaign/01 World/08 Points of Interest",
       "template": "z_Templates/GM Templates/01 Locations/Point of Interests/Template - Point of Interest.md"
     },
     {
@@ -97,6 +97,66 @@
     {
       "folder": "01 Campaign/04 Lore/03 Literature",
       "template": "z_Templates/GM Templates/04 Lore/Template - Literature.md"
+    },
+    {
+      "folder": "01 Campaign/03 Entities/02c Orcus' Lieutenants",
+      "template": "z_Templates/GM Templates/03 Entities/Template - NPC.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/02 Party Dashboards",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Party Dashboard.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/01 Campaign 01",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 01.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 02.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/03 Campaign 03",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 03.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/04 Campaign 04",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 04.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/05 Campaign 05",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 05.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/07 Session Notes/06 Campaign 06",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Session Note 06.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 1",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 01.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 2",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 02.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 3",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 03.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 4",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 04.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 5",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 05.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/08 Encounters/Group 6",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 06.md"
     }
   ],
   "enable_file_templates": false,

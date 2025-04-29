@@ -6,6 +6,10 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📝",
+      "LiNotebook",
+      "📓",
+      "🕵",
       "❓",
       "🚢",
       "📚",
@@ -18,11 +22,7 @@
       "🏢",
       "🛞",
       "☣",
-      "🐾",
-      "🧩",
-      "🏞",
-      "🗺",
-      "🏠"
+      "🐾"
     ],
     "recentlyUsedIconsSize": 17,
     "rules": [],
@@ -66,5 +66,18 @@
   "01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research": "📚",
   "01 Campaign/01 World/08 Points of Interest/07 Ships": "🚢",
   "01 Campaign/01 World/08 Points of Interest/08 Residences": "🏠",
-  "01 Campaign/01 World/08 Points of Interest/99 Other": "❓"
+  "01 Campaign/01 World/08 Points of Interest/99 Other": "❓",
+  "01 Campaign/01 World/08 Points of Interest/01b Secret Factions": "🕵",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 01.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 02.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 03.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 04.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 05.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Session Note 06.md": "📓",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 01.md": "📝",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 02.md": "📝",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 03.md": "📝",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 04.md": "📝",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 05.md": "📝",
+  "z_Templates/GM Templates/05 Parties/Template - Encounter Log 06.md": "📝"
 }

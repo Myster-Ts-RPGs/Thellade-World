@@ -6,6 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 organization:
   - "[[The Blazing Pledge]]"
+  - "[[The Order of the Ember Blades]]"
 location:
   - "[[Kanda]]"
 ---
@@ -98,7 +99,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Military stronghold; HQ of [[The Blazing Pledge]], training grounds
 
 ## Keyed Locations
 

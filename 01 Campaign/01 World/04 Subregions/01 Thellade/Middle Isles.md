@@ -19,6 +19,14 @@ terrain:
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Emberborn League]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Lumina Guardians]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Order of the Ember Blades]]"
+  - "[[The Bleeding Tide]]"
+  - "[[The Red Runners]]"
 ---
 
 ```meta-bind-js-view 

@@ -1,8 +1,7 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/The Flamehold]]"
+hq: "[[The Flamehold]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -18,27 +17,29 @@ location:
   - "[[Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Ashfire Bastion District]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/The Flamehold]]"
   - "[[Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Ironspan Gate District]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Pledge Sentinel Post]]"
   - "[[Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Emergency Tactical Dockhouse]]"
   - "[[Middle Isles]]"
   - "[[Seaside Cape]]"
   - "[[Mossgate Market]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Field Liaison Office]]"
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Watcher's Hollow]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/Shoreline Patrol Depot]]"
+  - "[[Detachment Staging Depot]]"
+  - "[[Emergency Tactical Dockhouse]]"
+  - "[[Field Liaison Office]]"
+  - "[[Pledge Sentinel Post]]"
+  - "[[Shoreline Patrol Depot]]"
+  - "[[The Flamehold]]"
 rivals:
   - "[[The Red Ash Mauraders]]"
   - "[[The Bleeding Tide]]"
   - "[[The Infernal Covenant]]"
+pronounced: BLAY-zing PLEDGE
 ---
 
 ```meta-bind-js-view 
@@ -99,7 +100,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region

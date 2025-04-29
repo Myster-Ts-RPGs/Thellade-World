@@ -1,6 +1,12 @@
 Tags
 INPUT[inlineSelect(
   option(#TODO), 
+  option(#Group1),
+  option(#Group2),
+  option(#Group3),
+  option(#Group4),
+  option(#Group5),
+  option(#Group6),
   option(#Location), 
   option(#Plane), 
   option(#Planet), 
@@ -28,6 +34,7 @@ INPUT[inlineSelect(
   option(#Adventure), 
   option(#JourneyBoard), 
   option(#SessionNote), 
+  option(#Encounter),
   option(#Service), 
   option(#Letter), 
   option(#Literature), 
@@ -879,7 +886,9 @@ INPUT[inlineSelect(
 
 OrganizationType
 INPUT[inlineSelect(
+  option(Academic),
   option(Alliance),
+  option(Arcane),
   option(Army),
   option(Association),
   option(Band),
@@ -900,7 +909,9 @@ INPUT[inlineSelect(
   option(Covenant),
   option(Crew),
   option(Cult),
+  option(Cultural),
   option(Domain),
+  option(Educational),
   option(Faith),
   option(Family),
   option(Fellowship),
@@ -912,6 +923,7 @@ INPUT[inlineSelect(
   option(House),
   option(Legion),
   option(Magic),
+  option(Military),
   option(Nation),
   option(Navy),
   option(Order),
@@ -919,8 +931,10 @@ INPUT[inlineSelect(
   option(Pack),
   option(Pact),
   option(Regulatory),
+  option(Religious),
   option(Secret),
   option(Sect),
+  option(Social),
   option(Society),
   option(Squad),
   option(State),
@@ -1017,16 +1031,18 @@ LetterStatus
 INPUT[inlineSelect(option(null), option(Sent), option(In Transit), option(Delivered), option(Lost), option(Stolen), option(Complete))]
 
 PartyRelation
-INPUT[inlineSelect(
-    option(null), 
-    option(Friend), 
-    option(Family), 
-    option(Ally), 
-    option(Enemy), 
-    option(Unmet), 
-    option(Acquaintance), 
-    option(Like), 
-    option(Dislike)
+INPUT[inlineListSuggester(
+  option(null),
+  option(Family),
+  option(Mentor),
+  option(Ally),
+  option(Friend),
+  option(Acquaintance),
+  option(Unmet),
+  option(Like),
+  option(Dislike),
+  option(Enemy),
+  option(Nemesis)
 )]
 
 Null
@@ -1558,3 +1574,36 @@ INPUT[inlineListSuggester(
     option(Ward of Ages), 
     option(Wildshape Mastery)
 )]
+
+EncounterType
+INPUT[inlineListSuggester(
+  option(Combat),
+  option(Social),
+  option(Skill),
+  option(Chase),
+  option(Environment),
+  option(Stealth),
+  option(Puzzle),
+  option(Investigation),
+  option(Siege),
+  option(Survival),
+  option(Downtime),
+  option(Espionage),
+  option(Ritual),
+  option(Escort),
+  option(Travel Hazard),
+  option(Non-Combat),
+  option(Other)
+)]
+
+ShortGroup
+INPUT[inlineListSuggester(
+  option(Group 1),
+  option(Group 2),
+  option(Group 3),
+  option(Group 4),
+  option(Group 5),
+  option(Group 6)
+)]
+
+

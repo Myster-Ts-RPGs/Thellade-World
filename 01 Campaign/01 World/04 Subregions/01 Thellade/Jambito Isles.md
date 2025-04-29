@@ -19,6 +19,18 @@ organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Emberborn League]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Verdant Hand]]"
+  - "[[The Voidscourge Hunters]]"
+  - "[[The Wardens of the Deep Dark]]"
+  - "[[The Red Runners]]"
 ---
 
 ```meta-bind-js-view 

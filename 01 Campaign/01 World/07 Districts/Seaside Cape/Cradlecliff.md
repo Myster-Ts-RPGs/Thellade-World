@@ -11,6 +11,9 @@ districttype:
   - Religious
   - Magical District
   - Slums
+organization:
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Eternal Concord]]"
 ---
 
 ```meta-bind-js-view 

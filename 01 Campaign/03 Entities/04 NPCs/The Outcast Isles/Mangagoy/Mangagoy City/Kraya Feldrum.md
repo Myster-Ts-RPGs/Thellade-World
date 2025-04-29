@@ -11,12 +11,12 @@ language:
 pronounced: KRAH-yuh FEL-droom
 condition: Healthy
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+  - "[[Ashen Vanguard Watchpost]]"
 aliases:
-  - “The Iron Eye”
-  - Commander Kraya Feldrum
+  - The Iron Eye
+  - Commander Kraya 'The Iron Eye' Feldrum
 ancestry: Dwarf
 heritage: Dwarf - Rock
 gender: Female
@@ -71,22 +71,27 @@ occupation:
 >> #### NPC Info
 >>  |
 >>---|---|
->> **Languages** | `INPUT[Language][inlineListSuggester:language]` |
 >> **Ideals** | `INPUT[textArea:ideals]` |
 >> **Flaws** | `INPUT[textArea:flaws]` |
 >> **Fears** |  `INPUT[textArea:fears]` |
 >> **Mannerisms** |  `INPUT[textArea:mannerisms]` |
->> **Occupations** | `INPUT[Occupation][inlineListSuggester:occupation]` |
->> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Religions** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):religion]` |
->> **Owned Locations** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):ownedlocation]` |
->> **Current Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
->> **Condition** | `INPUT[Condition][:condition]` |
 >
 >> [!metadata|metadataoption]- Party Info
 >> #### Party Info
 >>  |
 >> ---|---|
+>> **Party 1 Relation**|`INPUT[PartyRelation][inlineListSuggester:party1relation]`|
+>> **Party 1 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group1), useLinks(partial)):party1tie]` |
+>> **Party 2 Relation**|`INPUT[PartyRelation][inlineListSuggester:party2relation]`|
+>> **Party 2 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group2), useLinks(partial)):party2tie]` |
+>> **Party 3 Relation**|`INPUT[PartyRelation][inlineListSuggester:party3relation]`|
+>> **Party 3 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group3), useLinks(partial)):party3tie]` |
+>> **Party 4 Relation**|`INPUT[PartyRelation][inlineListSuggester:party4relation]`|
+>> **Party 4 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group4), useLinks(partial)):party4tie]` |
+>> **Party 5 Relation**|`INPUT[PartyRelation][inlineListSuggester:party5relation]`|
+>> **Party 5 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group5), useLinks(partial)):party5tie]` |
+>> **Party 6 Relation**|`INPUT[PartyRelation][inlineListSuggester:party6relation]`|
+>> **Party 6 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group6), useLinks(partial)):party6tie]` |
 >> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
 
 > [!infobox]+
@@ -96,22 +101,23 @@ occupation:
 > ###### Bio
 >  |
 > ---|---|
-> **Aliases** | `VIEW[{aliases}][text]` |
-> **Ancestry** | `VIEW[{ancestry}]` |
-> **Heritage** | `VIEW[{heritage}]` |
-> **Gender** | `VIEW[{gender}]` |
-> **Age** | `VIEW[{age}]` |
-> **Alignment** | `VIEW[{alignment}]` |
+> **Pronounced** |  `INPUT[textArea:pronounced]` |
+> **Aliases** | `INPUT[list:aliases]` |
+> **Ancestry** | `INPUT[Ancestry][suggester:ancestry]` |
+> **Heritage** | `INPUT[Heritage][suggester:heritage]` |
+> **Gender** | `INPUT[Gender][:gender]` |
+> **Age** | `INPUT[Age][:age]` |
+> **Alignment** | `INPUT[Alignment][:alignment]` |
 > ###### Info
 >  |
 > ---|---|
-> **Languages** | `VIEW[{language}][text]` |
-> **Occupation** | `VIEW[{occupation}][text]` |
-> **Organization** | `VIEW[{organization}][link]` |
-> **Religions** | `VIEW[{religion}][link]` |
-> **Owned Locations** | `VIEW[{ownedlocation}][link]` |
-> **Current Location** | `VIEW[{location}][link]` |
-> **Condition** | `VIEW[{condition}]` |
+> **Languages** | `INPUT[Language][inlineListSuggester:language]` |
+> **Occupations** | `INPUT[Occupation][inlineListSuggester:occupation]` |
+> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+> **Religions** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):religion]` |
+> **Owned Locations** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):ownedlocation]` |
+> **Current Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
+> **Condition** | `INPUT[Condition][:condition]` |
 
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
@@ -129,6 +135,7 @@ occupation:
 > FROM "01 Campaign"
 > WHERE econtains(holder, this.file.link) AND contains(tags, "Literature")
 > SORT file.name ASC
+
 
 ## Overview
 A stocky and imposing dwarf with iron-grey hair braided into a tight helm braid. Her armor bears the runic badge of the Ashen Vanguard and faint burn-marks from past battles. She speaks with clipped efficiency and carries herself like a siege engine at rest—only still because she chooses to be.

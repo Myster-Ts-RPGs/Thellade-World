@@ -1,0 +1,10 @@
+.metadata-table textarea,
+.metadata-table input[type="text"] {
+  height: 1.5em;
+  min-height: 1.5em;
+  max-height: 1.5em;
+  width: 150px;
+  font-size: 0.85em;
+  padding: 1px 4px;
+  resize: none;
+}

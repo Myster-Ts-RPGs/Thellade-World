@@ -2,7 +2,12 @@
 tags:
   - "#Character"
   - "#Player"
+  - "#Group3"
 art: z_Assets/Misc/PlaceholderImage.png
+organization:
+  - "[[The Guilded Hammer Union]]"
+whichparty:
+  - "[[Campaign Group 3]]"
 ---
 
 > [!metadata|metadata]- Metadata 

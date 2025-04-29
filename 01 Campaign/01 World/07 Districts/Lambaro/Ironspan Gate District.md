@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 organization:
   - "[[The Blazing Pledge]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Wardens of the Deep Dark]]"
 location:
   - "[[Lambaro]]"
 ---
@@ -98,7 +100,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Border defense and coastal watch; military and scouting towers
 
 ## Keyed Locations
 

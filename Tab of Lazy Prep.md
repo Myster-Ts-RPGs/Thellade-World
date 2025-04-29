@@ -6,7 +6,7 @@ tags:
 
 # Tab of Lazy Prep
 Current Session: 
-[[Template - Session Note]]
+[[z_Templates/GM Templates/05 Parties/Template - Session Note 06]]
 
 > [!kirk|info] Guide (Remove me)
 > This template is your quick session reference. Use it to outline characters, locations, and plot points you plan to introduce. Keep details concise for easy use during your game.

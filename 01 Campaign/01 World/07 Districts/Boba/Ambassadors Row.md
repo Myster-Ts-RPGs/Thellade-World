@@ -7,6 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
+  - "[[The Eternal Concord]]"
 location:
   - "[[Boba]]"
 ---

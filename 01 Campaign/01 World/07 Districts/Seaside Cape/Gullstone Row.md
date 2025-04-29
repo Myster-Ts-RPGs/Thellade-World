@@ -10,6 +10,9 @@ districttype:
   - Residential
   - Slums
   - Cultural
+organization:
+  - "[[The Bleeding Tide]]"
+  - "[[The Red Runners]]"
 ---
 
 ```meta-bind-js-view 

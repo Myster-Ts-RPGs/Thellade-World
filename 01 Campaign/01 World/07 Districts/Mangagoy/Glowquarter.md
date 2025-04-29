@@ -8,6 +8,12 @@ location:
   - "[[Mangagoy]]"
 organization:
   - "[[The Arcane Wardens]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Bleeding Tide]]"
+  - "[[The Red Runners]]"
 ---
 
 ```meta-bind-js-view 
@@ -98,7 +104,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Magical research and healing institutions; headquarters of [[The Crystal Seekers Guild]]
 
 ## Keyed Locations
 

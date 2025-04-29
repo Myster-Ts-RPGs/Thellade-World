@@ -7,6 +7,10 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Wardens of the Deep Dark]]"
 location:
   - "[[Mwingu]]"
 ---
@@ -99,7 +103,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Primary arcane academy and ancient crystalline observatories
 
 ## Keyed Locations
 

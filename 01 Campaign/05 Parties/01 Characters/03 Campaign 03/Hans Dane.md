@@ -2,9 +2,12 @@
 tags:
   - "#Character"
   - "#Player"
+  - "#Group3"
 art: z_Assets/Misc/PlaceholderImage.png
 aliases:
   - Hans
+whichparty:
+  - "[[Campaign Group 3]]"
 ---
 
 > [!metadata|metadata]- Metadata 

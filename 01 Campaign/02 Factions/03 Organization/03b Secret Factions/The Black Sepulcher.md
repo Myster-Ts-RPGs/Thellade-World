@@ -10,6 +10,13 @@ organizationscope:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 rivals:
   - "[[The Arcane Wardens]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Emberborn League]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Voidscourge Hunters]]"
+  - "[[The Wardens of the Deep Dark]]"
 ---
 
 ```meta-bind-js-view 
@@ -70,7 +77,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Steward** | `VIEW[{steward}][link]` |
 > **Parent Organization** | `VIEW[{organization}][link]` |
 > **HQ** | `VIEW[{hq}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|geography]- Region

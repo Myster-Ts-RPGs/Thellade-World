@@ -21,6 +21,17 @@ organization:
   - "[[The Ashen Vanguard]]"
   - "[[The Arcane Wardens]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Crystal Seekers Guild]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Emberborn League]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Lumina Guardians]]"
+  - "[[The Order of the Ember Blades]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[The Wardens of the Deep Dark]]"
+  - "[[The Bleeding Tide]]"
+  - "[[The Red Runners]]"
 ---
 
 
@@ -100,10 +111,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Imports** | `VIEW[{import}][text]` |
 > **Exports** | `VIEW[{export}][text]` |
-> ###### [[Travel Calculator]] 
+> ###### Party
 >  |
 > ---|---|
-> **TBD** | `VIEW[round(52 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 > [!recite]- Introduction

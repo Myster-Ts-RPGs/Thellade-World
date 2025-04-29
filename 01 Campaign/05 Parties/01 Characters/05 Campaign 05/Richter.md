@@ -2,7 +2,10 @@
 tags:
   - "#Character"
   - "#Player"
+  - "#Group5"
 art: z_Assets/Misc/PlaceholderImage.png
+whichparty:
+  - "[[Campaign Group 5]]"
 ---
 
 > [!metadata|metadata]- Metadata 

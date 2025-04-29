@@ -1,9 +1,7 @@
 /* Make the first column (Name) wider in all dataview tables */
 .dataview.table-view-table td:first-child,
 .dataview.table-view-table th:first-child {
-  min-width: 200px;
-  width: 200px;
-  max-width: 300px;
+  auto;
   white-space: normal !important;
   word-wrap: break-word;
 }

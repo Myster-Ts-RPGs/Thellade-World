@@ -11,6 +11,8 @@ districttype:
   - Dockyard
   - Commercial
   - Underbelly
+organization:
+  - "[[The Order of the Ember Blades]]"
 ---
 
 ```meta-bind-js-view 

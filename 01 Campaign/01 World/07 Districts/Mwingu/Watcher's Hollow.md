@@ -8,6 +8,8 @@ location:
   - "[[Mwingu]]"
 organization:
   - "[[The Blazing Pledge]]"
+  - "[[The Dawnbringers of Lunara]]"
+  - "[[The Lumina Guardians]]"
 ---
 
 ```meta-bind-js-view 
@@ -98,7 +100,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Residential region tucked into overgrown ruins; peaceful and eerie
 
 ## Keyed Locations
 

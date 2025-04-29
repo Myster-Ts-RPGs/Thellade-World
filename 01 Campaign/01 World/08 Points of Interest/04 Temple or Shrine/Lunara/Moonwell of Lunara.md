@@ -10,6 +10,10 @@ location:
   - "[[Seaside Cape]]"
 poitype:
   - Temple
+organization:
+  - "[[The Dawnbringers of Lunara]]"
+owner:
+  - "[[Nymeriel]]"
 ---
 
 ```meta-bind-js-view 
@@ -61,11 +65,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
 > **Location** | `VIEW[{location}][link]` |
-> ###### [[Travel Calculator]] 
+> ###### Party
 >  |
 > ---|---|
-> **TBD** | `VIEW[round(52 / (({Travel Calculator#MilesPerHour}*{Travel Calculator#HoursPerDay})*{Travel Calculator#SpeedMultiplier}),1)]` Day(s)
-> **TBD** | `VIEW[round(0.5 / ({Travel Calculator#MilesPerHour} * {Travel Calculator#SpeedMultiplier}) * 60, 1)]` Minute(s)
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 

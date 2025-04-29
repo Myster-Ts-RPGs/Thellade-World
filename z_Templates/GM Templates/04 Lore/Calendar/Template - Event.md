@@ -1,7 +1,11 @@
 ---
 tags:
   - "#Event"
+  - "#TODO"
 calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
+eventcategory: Secular
+eventtype: Historical
+enddate: DATE GOES HERE
 ---
 
 > [!metadata|metadata]- Metadata 

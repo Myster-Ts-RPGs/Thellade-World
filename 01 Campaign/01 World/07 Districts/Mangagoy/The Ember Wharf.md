@@ -15,6 +15,7 @@ organization:
   - "[[The Emberheart Traders]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
+  - "[[The Bleeding Tide]]"
 ---
 
 ```meta-bind-js-view 

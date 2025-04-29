@@ -2,10 +2,13 @@
 tags:
   - "#Character"
   - "#Player"
-art: z_Assets/Misc/PlaceholderImage.png
+  - "#Group6"
+art: 90 Assets/Images/Players/Eidolon_Anton_Breachmane.webp
 aliases:
   - Ser Breachmane
   - Pops
+whichparty:
+  - "[[Campaign Group 6]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -51,6 +54,9 @@ aliases:
 > # `=this.file.name`
 > `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ###### Played By: `VIEW[{playedby}][text]`
+> 
+> ###### `=this.whichparty`
+> 
 > ###### Bio
 >  |
 > ---|---|

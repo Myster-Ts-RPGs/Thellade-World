@@ -1,7 +1,7 @@
 {
   "devMode": false,
   "ignoreCodeBlockRestrictions": true,
-  "preferredDateFormat": "DD/MM/yyyy",
+  "preferredDateFormat": "YYYY-MM-DD",
   "firstWeekday": {
     "index": 1,
     "name": "Monday",
@@ -15,7 +15,7 @@
   "inputFieldTemplates": [
     {
       "name": "Tags",
-      "declaration": "INPUT[inlineSelect(option(#TODO),\n  option(#Location), option(#Plane), option(#Planet), option(#Region), option(#Subregion), option(#Reach), option(#Settlement), option(#District), option(#POI),\n  option(#Character), option(#NPC), option(#Player), option(#Party),\n  option(#Organization), option(#Hierarchy),option(#Government),\n  option(#Deity), option(#Demigod), option(#LegendaryBeing), option(#Creature), option(#Hazard), option(#Vehicle),\n  option(#Item),\n  option(#Quest), option(#Adventure), option(#JourneyBoard), option(#SessionNote), option(#Service),\n  option(#Letter), option(#Literature),\n  option(#Prophecy), option(#Folklore), option(#CulturalPractice), option(#Script), option(#Language), option(#Law)\n)]"
+      "declaration": "INPUT[inlineSelect(\n  option(#TODO), \n  option(#Group1),\n  option(#Group2),\n  option(#Group3),\n  option(#Group4),\n  option(#Group5),\n  option(#Group6),\n  option(#Location), \n  option(#Plane), \n  option(#Planet), \n  option(#Region), \n  option(#Subregion), \n  option(#Reach), \n  option(#Settlement), \n  option(#District), \n  option(#POI), \n  option(#Character), \n  option(#NPC), \n  option(#Player), \n  option(#Party), \n  option(#Organization), \n  option(#Hierarchy),\n  option(#Government), \n  option(#Deity), \n  option(#Demigod), \n  option(#LegendaryBeing), \n  option(#Creature), \n  option(#Hazard), \n  option(#Vehicle), \n  option(#Item), \n  option(#Quest), \n  option(#Adventure), \n  option(#JourneyBoard), \n  option(#SessionNote), \n  option(#Encounter),\n  option(#Service), \n  option(#Letter), \n  option(#Literature), \n  option(#Prophecy), \n  option(#Folklore), \n  option(#CulturalPractice), \n  option(#Script), \n  option(#Language), \n  option(#Law) \n)]"
     },
     {
       "name": "Ancestry",
@@ -75,7 +75,7 @@
     },
     {
       "name": "OrganizationType",
-      "declaration": "INPUT[inlineSelect(\n  option(Alliance),\n  option(Army),\n  option(Association),\n  option(Band),\n  option(Battalion),\n  option(Cabal),\n  option(Cartel),\n  option(Circle),\n  option(Clan),\n  option(Coalition),\n  option(Colony),\n  option(Company),\n  option(Confederacy),\n  option(Congregation),\n  option(Corp),\n  option(Corporation),\n  option(Council),\n  option(Coven),\n  option(Covenant),\n  option(Crew),\n  option(Cult),\n  option(Domain),\n  option(Faith),\n  option(Family),\n  option(Fellowship),\n  option(Fraternity),\n  option(Gang),\n  option(Government),\n  option(Guard),\n  option(Guild),\n  option(House),\n  option(Legion),\n  option(Magic),\n  option(Nation),\n  option(Navy),\n  option(Order),\n  option(Outfit),\n  option(Pack),\n  option(Pact),\n  option(Regulatory),\n  option(Secret),\n  option(Sect),\n  option(Society),\n  option(Squad),\n  option(State),\n  option(Syndicate),\n  option(Team),\n  option(Trade),\n  option(Tribe),\n  option(Union),\n  option(Watch)\n)]"
+      "declaration": "INPUT[inlineSelect(\n  option(Academic),\n  option(Alliance),\n  option(Arcane),\n  option(Army),\n  option(Association),\n  option(Band),\n  option(Battalion),\n  option(Cabal),\n  option(Cartel),\n  option(Circle),\n  option(Clan),\n  option(Coalition),\n  option(Colony),\n  option(Company),\n  option(Confederacy),\n  option(Congregation),\n  option(Corp),\n  option(Corporation),\n  option(Council),\n  option(Coven),\n  option(Covenant),\n  option(Crew),\n  option(Cult),\n  option(Cultural),\n  option(Domain),\n  option(Educational),\n  option(Faith),\n  option(Family),\n  option(Fellowship),\n  option(Fraternity),\n  option(Gang),\n  option(Government),\n  option(Guard),\n  option(Guild),\n  option(House),\n  option(Legion),\n  option(Magic),\n  option(Military),\n  option(Nation),\n  option(Navy),\n  option(Order),\n  option(Outfit),\n  option(Pack),\n  option(Pact),\n  option(Regulatory),\n  option(Religious),\n  option(Secret),\n  option(Sect),\n  option(Social),\n  option(Society),\n  option(Squad),\n  option(State),\n  option(Syndicate),\n  option(Team),\n  option(Trade),\n  option(Tribe),\n  option(Union),\n  option(Watch)\n)]"
     },
     {
       "name": "POIType",
@@ -87,7 +87,7 @@
     },
     {
       "name": "PartyRelation",
-      "declaration": "INPUT[inlineSelect(option(null), option(Friend), option(Family), option(Ally), option(Enemy), option(Unmet), option(Acquaintance), option(Like), option(Dislike))]"
+      "declaration": "INPUT[inlineListSuggester(\n  option(null),\n  option(Family),\n  option(Mentor),\n  option(Ally),\n  option(Friend),\n  option(Acquaintance),\n  option(Unmet),\n  option(Like),\n  option(Dislike),\n  option(Enemy),\n  option(Nemesis)\n)]"
     },
     {
       "name": "Null",
@@ -172,6 +172,14 @@
     {
       "name": "SignatureAbilities",
       "declaration": "INPUT[inlineListSuggester(option(Astral Step), option(Banish Reality), option(Blood Moon Ascendance), option(Chrono Shatter), option(Consume Memory), option(Curse of Unmaking), option(Deathless Advance), option(Devour Magic), option(Dreamwalk), option(Elemental Eruption), option(Empathic Overwhelm), option(Eternal Vigil), option(Faeblight Cloak), option(Flamebind), option(Forge Soul), option(Ghostveil), option(Gift of Ancients), option(Grasp of the Depths), option(Heartpierce Gaze), option(Howl of the Forgotten), option(Infernal Mandate), option(Light Devourer), option(Living Eclipse), option(Mirage Step), option(Mirror Rend), option(Nova Collapse), option(Oblivion Touch), option(Pact Severance), option(Reality Warp), option(Ruinous Howl), option(Sanctified Flame), option(Shadow Anchor), option(Shatter Vow), option(Soulburn), option(Starlight Surge), option(Stormcall), option(Temporal Bind), option(Void Beacon), option(Ward of Ages), option(Wildshape Mastery))]"
+    },
+    {
+      "name": "EncounterType",
+      "declaration": "INPUT[inlineListSuggester(\n  option(Combat),\n  option(Social),\n  option(Skill),\n  option(Chase),\n  option(Environment),\n  option(Stealth),\n  option(Puzzle),\n  option(Investigation),\n  option(Siege),\n  option(Survival),\n  option(Downtime),\n  option(Espionage),\n  option(Ritual),\n  option(Escort),\n  option(Travel Hazard),\n  option(Non-Combat),\n  option(Other)\n)]"
+    },
+    {
+      "name": "ShortGroup",
+      "declaration": "INPUT[inlineListSuggester(\n  option(Group 1),\n  option(Group 2),\n  option(Group 3),\n  option(Group 4),\n  option(Group 5),\n  option(Group 6)\n)]"
     }
   ],
   "buttonTemplates": [

@@ -61,7 +61,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
 > **Location** | `VIEW[{location}][link]` |
-
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
