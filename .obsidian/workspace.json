@@ -25,18 +25,33 @@
             }
           },
           {
-            "id": "2c2a6cf78d7ff1cf",
+            "id": "666a0e979e159b21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners.md",
+                "file": "01 Campaign/Master To Do List.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Red Runners"
+              "title": "Master To Do List"
+            }
+          },
+          {
+            "id": "6ee243e4da3dec31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Shroud.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Crimson Shroud"
             }
           },
           {
@@ -60,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
+                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kanda Isles"
+              "title": "Mwingu Isles"
             }
           },
           {
@@ -75,13 +90,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
+                "file": "01 Campaign/01 World/06 Settlements/The Outcast Isles/Jambito Isles/Jambito.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Mwingu"
+              "title": "Jambito"
             }
           },
           {
@@ -90,13 +105,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/07 Districts/Mwingu/The Tideflats.md",
+                "file": "01 Campaign/01 World/07 Districts/Jambito/Deepwall Reach District.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Tideflats"
+              "title": "Deepwall Reach District"
             }
           },
           {
@@ -105,13 +120,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Crimson Dagger Outpost.md",
+                "file": "01 Campaign/01 World/08 Points of Interest/07 Ships/The Outcast Isles/The Wraith's Wake.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Crimson Dagger Outpost"
+              "title": "The Wraith's Wake"
             }
           },
           {
@@ -120,13 +135,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/Council of Daggers.md",
+                "file": "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Council of Daggers"
+              "title": "The Eternal Concord"
             }
           },
           {
@@ -135,13 +150,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Zhen Ashun.md",
+                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Eldrik Vail.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Zhen Ashun"
+              "title": "Eldrik Vail"
             }
           }
         ],
@@ -295,6 +310,44 @@
               "icon": "lucide-file",
               "title": "Orcus' Lieutenants Released"
             }
+          },
+          {
+            "id": "5c0516796d12c8c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 Campaign/Master To Do List.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Master To Do List"
+            }
+          },
+          {
+            "id": "91763c057a74961c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7f67a8f02e62182f",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
           }
         ]
       }
@@ -318,35 +371,43 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "2c2a6cf78d7ff1cf",
+  "active": "666a0e979e159b21",
   "lastOpenFiles": [
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/Council of Daggers.md",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners.md",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Bleeding Tide.md",
-    "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Silver Chain.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Shroud.md",
+    "90 Assets/Images/Organizations/CrimsonShroud.png",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Ralek Torsen.md",
     "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Voidscourge Hunters.md",
     "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Gauge.md",
+    "01 Campaign/01 World/07 Districts/Jambito/Deepwall Reach District.md",
+    "01 Campaign/01 World/07 Districts/Mwingu/The Tideflats.md",
+    "01 Campaign/01 World/07 Districts/Lambaro/Crucible Hollow.md",
+    "01 Campaign/01 World/07 Districts/Kanda/Tallowgate.md",
+    "01 Campaign/01 World/07 Districts/Boba/Brimstone Docks.md",
+    "01 Campaign/01 World/07 Districts/Mangagoy/Binders' Lane.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Jambito Isles/Jambito.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Lambaro Isle/Lambaro.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Boba.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Seabreeze Haven.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Crimson Dagger Outpost.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Mwingu Apothecary.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Lambaro Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Jambito Isles.md",
+    "90 Assets/Images/Organizations/BlackwakeCorsairs.png",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Seabreeze Haven",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Innerwatch",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Smokey Shoals",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Smokey Shoals",
+    "90 Assets/Images/Organizations/CultOfOrcus.png",
+    "90 Assets/Images/Organizations/BlackSepulcher.png",
+    "90 Assets/Images/Organizations/CrimsonGauge.png",
     "90 Assets/Images/Organizations/RedRunners1.png",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Tidebreaker's Refuge.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/The Walled Den.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Sunken Temple Base.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Mangagoy Sea Caves.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/The Ember Vein Tavern.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Warehouse Undercrypts.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Lambaro Safehouse.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Embercoil Exchange.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/Infernal Veil Safehouse.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Runners/The Gilded Hook.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse.md",
-    "01 Campaign/01 World/07 Districts/Mwingu/The Tideflats.md",
-    "01 Campaign/01 World/07 Districts/Seaside Cape/Gullstone Row.md",
     "z_Assets/Unsorted/Pasted image 20250428105146.png",
     "z_Assets/Unsorted",
     "z_Assets",
@@ -354,18 +415,9 @@
     "01 Campaign/05 Parties/08 Encounters/Group 5",
     "01 Campaign/05 Parties/08 Encounters/Group 4",
     "01 Campaign/05 Parties/08 Encounters/Group 3",
-    "01 Campaign/05 Parties/08 Encounters/Group 2",
-    "01 Campaign/05 Parties/08 Encounters/Group 1",
-    "01 Campaign/05 Parties/08 Encounters",
     "90 Assets/Images/Players/emberly.webp",
     "90 Assets/Images/Players/Batrok.png",
     "90 Assets/Images/Players/aeonwyrdtoken.webp",
-    "90 Assets/Images/Players/vezertoken.webp",
-    "90 Assets/Images/Players/vezer.webp",
-    "90 Assets/Images/Players/VarisToken.png",
-    "90 Assets/Images/Players/Varis.png",
-    "90 Assets/Images/Players/tyratoken.webp",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Infernal Covenant/Untitled",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",
     "3. Campaign/4. Planes/Untitled.canvas",

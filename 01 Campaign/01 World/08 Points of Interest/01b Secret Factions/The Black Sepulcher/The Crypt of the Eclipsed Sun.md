@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Black Sepulcher]]"
+location:
+  - "[[Middle Isles]]"
+  - "[[Red Dunes]]"
 ---
 
 ```meta-bind-js-view 

@@ -40,6 +40,8 @@ rivals:
   - "[[The Bleeding Tide]]"
   - "[[The Infernal Covenant]]"
 pronounced: BLAY-zing PLEDGE
+aliases:
+  - Blazing Pledge
 ---
 
 ```meta-bind-js-view 

@@ -9,6 +9,7 @@ organizationscope:
 art: 90 Assets/Images/Organizations/SunfireHeralds.png
 aliases:
   - The Heralds
+  - Sunfire Heralds
 founded: 12 Springdawn -5PR
 organizationtype:
   - Educational

@@ -11,6 +11,8 @@ organization:
   - "[[The Lumina Guardians]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Crimson Gauge]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

@@ -17,6 +17,8 @@ export:
   - Coral
   - Tinctures
   - Whale Oil
+organization:
+  - "[[The Blackwake Corsairs]]"
 ---
 
 

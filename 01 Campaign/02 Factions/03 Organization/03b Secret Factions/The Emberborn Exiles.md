@@ -8,6 +8,8 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+aliases:
+  - Emberborn Exiles
 ---
 
 ```meta-bind-js-view 

@@ -11,6 +11,8 @@ founded: " 4 Springdawn -83 PR"
 aliases:
   - Dawnlight Order
   - Sisters of the Moon
+  - The Dawnbringers
+  - Dawnbringers of Lunara
 organizationtype:
   - Religious
 head:

@@ -5,6 +5,10 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
+location:
+  - "[[Middle Isles]]"
+organization:
+  - "[[The Black Sepulcher]]"
 ---
 
 ```meta-bind-js-view 

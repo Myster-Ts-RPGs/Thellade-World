@@ -8,6 +8,8 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+aliases:
+  - Gilded Daggers
 ---
 
 ```meta-bind-js-view 

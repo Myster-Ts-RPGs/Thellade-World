@@ -10,6 +10,7 @@ organization:
   - "[[The Emberborn League]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Sunfire Heralds]]"
+  - "[[The Crimson Gauge]]"
 ---
 
 ```meta-bind-js-view 

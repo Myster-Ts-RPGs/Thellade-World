@@ -10,6 +10,7 @@ art: 90 Assets/Images/Organizations/WardensOfTheDeepDark.png
 pronounced: WAR-dens of the DEEP DARK
 aliases:
   - The Black Wardens
+  - Wardens of the Deep Dark
 founded: 3 Duskwane -342 PR
 organizationtype:
   - Circle

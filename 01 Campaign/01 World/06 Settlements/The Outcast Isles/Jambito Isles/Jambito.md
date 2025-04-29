@@ -32,6 +32,8 @@ organization:
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Red Runners]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 

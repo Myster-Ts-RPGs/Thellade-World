@@ -8,6 +8,8 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+aliases:
+  - Hollow Saints
 ---
 
 ```meta-bind-js-view 

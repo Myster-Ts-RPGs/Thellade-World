@@ -17,6 +17,10 @@ rivals:
   - "[[The Rift Scholars Collective]]"
   - "[[The Sunfire Heralds]]"
   - "[[The Voidscourge Hunters]]"
+aliases:
+  - Infernal Covenant
+allies:
+  - "[[The Blackwake Corsairs]]"
 ---
 
 ```meta-bind-js-view 

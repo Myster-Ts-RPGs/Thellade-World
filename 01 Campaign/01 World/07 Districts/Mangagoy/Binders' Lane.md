@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Guilded Hammer Union]]"
   - "[[The Voidscourge Hunters]]"
+  - "[[The Blackwake Corsairs]]"
 ---
 
 ```meta-bind-js-view 

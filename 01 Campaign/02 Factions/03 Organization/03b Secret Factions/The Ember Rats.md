@@ -8,6 +8,8 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+aliases:
+  - Ember Rats
 ---
 
 ```meta-bind-js-view 

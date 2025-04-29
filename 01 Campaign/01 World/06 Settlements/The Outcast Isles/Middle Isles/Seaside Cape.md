@@ -28,6 +28,7 @@ organization:
   - "[[The Order of the Ember Blades]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Blackwake Corsairs]]"
 ---
 
 

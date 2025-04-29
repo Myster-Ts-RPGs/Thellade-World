@@ -1,7 +1,6 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
 hq: "[[The Walled Den]]"
 organizationstatus:
   - ✅ Active
@@ -35,6 +34,9 @@ location:
   - "[[Mangagoy]]"
   - "[[Deepwall Reach District]]"
   - "[[The Walled Den]]"
+founded: ""
+aliases:
+  - The Council of Daggers
 ---
 
 ```meta-bind-js-view 

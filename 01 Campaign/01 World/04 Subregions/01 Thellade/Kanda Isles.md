@@ -36,6 +36,10 @@ organization:
   - "[[The Bleeding Tide]]"
   - "[[The Arcane Wardens]]"
   - "[[The Red Runners]]"
+  - "[[The Crimson Gauge]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

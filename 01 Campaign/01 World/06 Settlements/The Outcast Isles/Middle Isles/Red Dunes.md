@@ -17,6 +17,8 @@ export:
   - Clay
   - Herbs
   - Cactus Fruit
+organization:
+  - "[[The Black Sepulcher]]"
 ---
 
 

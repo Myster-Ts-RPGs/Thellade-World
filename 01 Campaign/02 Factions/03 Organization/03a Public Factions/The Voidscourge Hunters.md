@@ -9,6 +9,8 @@ organizationscope:
 art: 90 Assets/Images/Organizations/VoidscourgeHunters.png
 aliases:
   - The Hunters
+  - Voidscourge Hunters
+  - Voidscourge
 pronounced: VOYD-skourj HUN-ters
 founded: 8 Wyrmsdusk -7 PR
 organizationtype:

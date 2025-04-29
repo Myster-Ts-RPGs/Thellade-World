@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[The Outcast Isles]]"
+organization:
+  - "[[The Blackwake Corsairs]]"
 ---
 
 ```meta-bind-js-view 

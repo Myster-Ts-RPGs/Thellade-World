@@ -8,7 +8,8 @@ organizationscope:
   - National
 art: 90 Assets/Images/Organizations/LuminaGuardians.png
 pronounced: LOO-mi-nuh GUAR-dee-ans
-aliases: []
+aliases:
+  - Lumina Guardians
 founded: 7 Emberwane -9 PR
 organizationtype:
   - Order

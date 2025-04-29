@@ -26,6 +26,8 @@ organization:
   - "[[The Guilded Hammer Union]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Sunfire Heralds]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 

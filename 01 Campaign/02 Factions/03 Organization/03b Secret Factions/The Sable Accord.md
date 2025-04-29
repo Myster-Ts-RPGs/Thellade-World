@@ -10,6 +10,8 @@ organizationscope:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 rivals:
   - "[[The Rift Scholars Collective]]"
+aliases:
+  - Sable Accord
 ---
 
 ```meta-bind-js-view 

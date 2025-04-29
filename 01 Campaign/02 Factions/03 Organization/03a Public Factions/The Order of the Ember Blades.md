@@ -47,6 +47,9 @@ location:
   - "[[Sanctuary of Evenlight]]"
   - "[[Crimson Rift Forward Post]]"
 pronounced: EM-ber BLADES
+aliases:
+  - Ember Blades
+  - Order of the Ember Blades
 ---
 
 ```meta-bind-js-view 

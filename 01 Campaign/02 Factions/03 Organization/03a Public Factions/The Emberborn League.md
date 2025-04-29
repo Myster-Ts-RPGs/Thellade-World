@@ -46,6 +46,8 @@ head:
 steward:
   - "[[Barnabas]]"
 pronounced: EM-ber-born LEAGUE
+aliases:
+  - Emberborn League
 ---
 
 ```meta-bind-js-view 

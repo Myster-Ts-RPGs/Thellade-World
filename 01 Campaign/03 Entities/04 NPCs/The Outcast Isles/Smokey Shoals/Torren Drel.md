@@ -6,16 +6,25 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Seaside Cape]]"
-condition: Healthy
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Captain Varros Darin
-  - Captain Darin
-  - Captain Varros 'Blackwake' Darin
-  - Varros 'Blackwake' Darin
+  - Torren 'Mistcloak' Drel
 organization:
-  - "[[The Crimson Shroud]]"
+  - "[[The Blackwake Corsairs]]"
+location:
+  - "[[Veilcutter's Refuge]]"
+  - "[[Smokey Shoals]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -72,7 +81,7 @@ organization:
 >> **Party 6 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group6), useLinks(partial)):party6tie]` |
 >> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
 
-> [!infobox]+
+> [!infobox|wsmall]+
 > # `=this.file.name`
 > `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ![[PlaceholderAudio.webm]]
@@ -150,3 +159,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

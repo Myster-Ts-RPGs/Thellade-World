@@ -1,13 +1,55 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+hq: "[[The Wraith's Wake]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/CrimsonShroud.png
+aliases:
+  - Crimson Shroud
+  - The Unseen Hand
+pronounced: KRIM-zuhn SHROWD
+founded: 14 Emberwake 88 PR
+organizationtype:
+  - Secret
+  - Espionage
+steward:
+  - "[[Valtheris Voss]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Tallowgate]]"
+  - "[[The Red Veil]]"
+  - "[[Boba]]"
+  - "[[Brimstone Docks]]"
+  - "[[The Hollow Chamber]]"
+  - "[[Mangagoy]]"
+  - "[[Glowquarter]]"
+  - "[[The Specter's Rest]]"
+  - "[[Lambaro Isles]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Lambaro]]"
+  - "[[Crucible Hollow]]"
+  - "[[The Umbral Vault]]"
+  - "[[Mwingu]]"
+  - "[[The Tideflats]]"
+  - "[[The Silent Sanctum]]"
+  - "[[Jambito Isles]]"
+  - "[[Mwingu Isles]]"
+  - "[[Jambito]]"
+  - "[[Deepwall Reach District]]"
+  - "[[The Forgotten Archive]]"
+  - "[[Middle Isles]]"
+  - "[[The Wraith's Wake]]"
+head:
+  - "[[Eldrik Vail]]"
+rivals:
+  - "[[The Ashen Vanguard]]"
+  - "[[The Eternal Concord]]"
+  - "[[The Arcane Wardens]]"
 ---
 
 ```meta-bind-js-view 
@@ -137,46 +179,95 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> The [[Crimson Shroud]] is a clandestine organization of assassins, archivists, and illusionists operating across the Outcast Isles. Originally formed as a royal intelligence network, the Shroud now acts independently to protect Kanda’s continuity from existential threats—political, revolutionary, or arcane.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "Loyalty weighs heavier than gold, cuts sharper than steel, and poisons deeper than betrayal."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To preserve the stability and legacy of Kanda through covert operations, information warfare, and selective elimination.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - Obey the Shrouded Council without question.  
+> - Protect the Shroud’s existence at all costs.  
+> - The mission's success outweighs personal survival.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Knowledge is dominion.  
+> - Stability over idealism.  
+> - History bends to the unseen hand.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - No alliances with infernal or abyssal forces.  
+> - No public disclosure of the Shroud’s missions.  
+> - No action without sanction from the Shrouded Council.
 
 ## Current Events
+- [[Lord Edrik Vail]] ('The Crimson Shade') remains undiscovered while manipulating court politics through shadows and proxies.
+- [[Valtheris Voss]] expands recruitment of elite operatives from newly destabilized regions like Mangagoy and Innerwatch.
+- Assassination targets across Boba and Kanda Isles have increased following political unrest.
 
 ## History
+- Secretly founded during the final century before the Rising under King Alvarion IV.
+- Adapted from royal secret police into an independent organization during the chaos post-Rising.
+- Key operations include the silent elimination of traitor houses during the Boba Reformation.
+
+### Campaign Connections
+[[Campaign Group 1]]
+- Discovered evidence of Shroud-led assassinations in the Tideflats under Mwingu.
+- Found partial records of Shroud deployments within the ruins of a failed revolution in Kanda.
+
+## Hierarchy
+- **Master of the Shroud:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Eldrik Vail|Lord Eldrik Vail]][[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Eldrik Vail|The Crimson Shade]] — True identity masked by his public persona.
+- **First Blade:** [[Valtheris Voss]] — Chief executor of field missions.
+
+### Shrouded Council (Unseen Hand)
+- [[Valtheris Voss]] — First Blade, Master of Assassinations  
+- [[Lirien Vayne]] — Whisperer, Mistress of Secrets  
+- [[Orik Solen]] — Revenant Marshal, Master of Field Warfare  
+- [[Myrthas Grell]] — Phantom Alchemist, Sabotage Specialist  
+- [[Savant Stone]] — Silent Judge, Internal Enforcer
+
+## Regional Operatives
+- **Kanda:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Eldrik Vail|Lord Eldrik Vail]] – Secretly directs missions while posing as a court advisor.  
+- **Boba:** [[Marlon Draen]] – Dockside recruiter and silent broker.  
+- **Mangagoy:** [[Ralek Torsen]] – Street-level blackmailer and field handler.  
+- **Lambaro:** [[Vasira Dellos]] – Merchant blade and data smuggler.  
+- **Mwingu:** [[Jalvor Therin]] – Illusionist for disruption campaigns.  
+- **Jambito:** [[Sariya Relleth]] – Archive infiltrator and false record creator.  
+- **Middle Isles (Mobile Operations):** [[Varros Darin]] – Naval intelligence liaison.
+
+## Locations
+### Major Operational Bases
+- [[The Red Veil]] (Kanda > Tallowgate)  
+- [[The Hollow Chamber]] (Boba > Brimstone Docks)  
+- [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Specter's Rest|The Specter's Rest]] (Mangagoy > Glowquarter)  
+- [[The Umbral Vault]] (Lambaro > Crucible Hollow)  
+- [[The Silent Sanctum]] (Mwingu > The Tideflats)  
+- [[The Forgotten Archive]] (Jambito > Deepwall Reach District)  
+- [[01 Campaign/01 World/08 Points of Interest/07 Ships/The Outcast Isles/The Wraith's Wake|The Wraith's Wake]] (Mobile Ship)
 
 ## Notes
+- **Threat Level:** Extreme
+- **Speculative Rift:** Tensions simmer between [[Valtheris Voss]] and [[Lirien Vayne]] over future leadership succession.
+- **Symbol:** A crimson dagger silhouette split by an inkblot eye, surrounded by silent runic script.
+- **Uniforms:** Blackened crimson cloaks with spell-woven fibers that deaden sound and obscure sight.
 
+### Key Plot Threads
+- The Secret Succession of the Shrouded Council  
+- The Cold Trade: Silent contracts with noble houses  
+- Restoration of the Forgotten Archive’s hidden vaults  
+- Tracking the origins of the Crimson Shade
 
-
+### Artifacts and Evidence
+- Encrypted mission logs disguised as temple ledgers.  
+- Assassin's tokens bearing the crimson eye insignia.  
+- Memory crystals containing royal blackmail material.  
+- Alchemical mists used to erase evidence at assassination sites.

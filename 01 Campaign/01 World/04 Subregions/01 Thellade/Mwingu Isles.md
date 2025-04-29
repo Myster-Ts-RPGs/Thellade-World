@@ -37,6 +37,7 @@ organization:
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

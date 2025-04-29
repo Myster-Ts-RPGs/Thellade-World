@@ -24,6 +24,10 @@ head:
 rivals:
   - "[[The Red Runners]]"
   - "[[The Bleeding Tide]]"
+  - "[[The Crimson Gauge]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"
@@ -50,6 +54,8 @@ location:
   - "[[Concord Library Annex]]"
   - "[[Sanctuary of Evenlight]]"
   - "[[House of Accorded Voices]]"
+aliases:
+  - Eternal Concord
 ---
 
 ```meta-bind-js-view 

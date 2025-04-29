@@ -8,9 +8,11 @@ language:
   - Common
 location:
   - "[[Mangagoy]]"
-condition: Healthy
+condition: Dead
 organization:
   - "[[The Bleeding Tide]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Eternal Concord]]"
 ---
 
 > [!metadata|metadata]- Metadata 

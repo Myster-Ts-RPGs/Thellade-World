@@ -11,6 +11,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies:
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Blackwake Corsairs]]"
+aliases:
+  - Silver Chain
 ---
 
 ```meta-bind-js-view 

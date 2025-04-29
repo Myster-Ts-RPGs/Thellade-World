@@ -4,9 +4,11 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
+banner: on
+location:
+  - "[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Innerwatch]]"
 organization:
-  - "[[The Crimson Shroud]]"
+  - "[[The Blackwake Corsairs]]"
 ---
 
 ```meta-bind-js-view 

@@ -11,7 +11,8 @@
     "DarkmodeIframe",
     "TabsInObsidian",
     "pf2-compendium",
-    "dataview-table-name-column"
+    "dataview-table-name-column",
+    "infobox-width"
   ],
   "showViewHeader": true,
   "nativeMenus": false,

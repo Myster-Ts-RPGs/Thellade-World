@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Crimson Shroud]]"
+location:
+  - "[[Mangagoy]]"
 ---
 
 ```meta-bind-js-view 

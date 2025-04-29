@@ -12,6 +12,7 @@ condition: Healthy
 aliases:
   - Lord Vail
   - Lord Eldrik Vail
+  - The Crimson Shade
 organization:
   - "[[The Crimson Shroud]]"
 ---

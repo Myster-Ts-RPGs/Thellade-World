@@ -51,6 +51,9 @@ rivals:
   - "[[The Eternal Concord]]"
   - "[[The Red Runners]]"
   - "[[The Bleeding Tide]]"
+  - "[[The Crimson Gauge]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens

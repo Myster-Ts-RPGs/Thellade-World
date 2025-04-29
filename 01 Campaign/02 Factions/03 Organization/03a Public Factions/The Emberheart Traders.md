@@ -36,6 +36,7 @@ head:
   - "[[Marrek Tindall]]"
 aliases:
   - Ember Traders
+  - Emberheart Traders
 founded: 22 Ashwane -5 PR
 organizationtype:
   - Guild

@@ -49,6 +49,8 @@ location:
   - "[[Sunken Temple Base]]"
   - "[[Tidebreaker's Refuge]]"
   - "[[Mwingu Apothecary]]"
+aliases:
+  - Red Runners
 ---
 
 ```meta-bind-js-view 

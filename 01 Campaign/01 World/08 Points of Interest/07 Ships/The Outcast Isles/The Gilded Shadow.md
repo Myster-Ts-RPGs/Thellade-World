@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Silver Chain]]"
+poitype:
+  - Ship
 ---
 
 ```meta-bind-js-view 

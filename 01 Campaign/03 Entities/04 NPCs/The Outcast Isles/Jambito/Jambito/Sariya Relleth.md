@@ -11,6 +11,7 @@ location:
 condition: Healthy
 aliases:
   - Sariya 'The Widow' Relleth
+  - The Widow
 organization:
   - "[[The Crimson Shroud]]"
 ---

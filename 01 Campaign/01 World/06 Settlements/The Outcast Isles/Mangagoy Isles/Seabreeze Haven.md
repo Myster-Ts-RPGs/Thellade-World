@@ -17,6 +17,8 @@ export:
   - Textiles
   - Candles
   - Glassware
+organization:
+  - "[[The Blackwake Corsairs]]"
 ---
 
 

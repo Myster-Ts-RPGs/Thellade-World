@@ -34,6 +34,10 @@ organization:
   - "[[The Voidscourge Hunters]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Crimson Gauge]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 

@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
+  - "[[The Blackwake Corsairs]]"
 ---
 
 ```meta-bind-js-view 

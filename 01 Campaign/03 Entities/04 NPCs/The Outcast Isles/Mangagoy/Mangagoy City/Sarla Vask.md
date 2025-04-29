@@ -14,8 +14,11 @@ condition: Dead
 aliases:
   - The Harbinger
   - Sarla 'The Harbinger' Vask
+  - High Priestess Sarla Vask
+  - The Voice of Orcus
 organization:
   - "[[The Bleeding Tide]]"
+  - "[[The Black Sepulcher]]"
 ---
 
 > [!metadata|metadata]- Metadata 

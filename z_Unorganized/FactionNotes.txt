@@ -153,3 +153,76 @@ Operating Areas
     Mwingu Isles: NONE
 Allied Factions: Eternal Concord, Mangagoy Healing Sanctuary
 Rival Factions: Cult of Orcus, Red Runners, Bleeding Tide
+
+Additional Canon Compliance Instructions (Error Prevention Layer)
+Before generating Top Matter and Bottom Matter for any faction:
+
+Full Canon Review REQUIRED:
+
+Thoroughly re-read the current FactionNotes.txt and Tags.txt file provided.
+
+Review ALL relevant conversations and uploaded documents for the faction.
+
+Assume you do not remember prior outputs correctly unless explicitly validated.
+
+Top Matter Field Compliance:
+
+Use only and exactly the fields listed under Top Matter (Manual Entry Section).
+
+Fields must appear in the required order and format, using plain text only (no code block).
+
+No emojis, bolding, underlining, or extra spacing.
+
+Operating Areas must be listed under an unindented "Operating Areas:" header, with each subregion indented by two spaces.
+
+Canonical Tags Only:
+
+Only use Type, Status, and Scope values from the official Tags.txt list.
+
+If a new tag is needed, immediately flag it for user review instead of using it directly.
+
+Improvisation Strict Rules:
+
+If information (such as founding date, building name, location) must be improvised, clearly mark with (Generated).
+
+Never invent information without marking it.
+
+Bottom Matter Section and Formatting Compliance:
+
+Generate all required sections in the exact order and nesting defined in FactionNotes.txt.
+
+Section headers use ##, subsection headers use ###.
+
+All named NPCs, Factions, Locations, Deities, Groups must be wrapped in [[double square brackets]].
+
+If Display Name differs from File Name, use [[Canonical Path|Display Name]].
+
+No Section Omission:
+
+Every mandatory Bottom Matter section (Overview, Current Events, History, Campaign Events, Hierarchy, Locations, Notes, Key Plot Threads, Artifacts) must be present.
+
+If a section has no content, still include the header and note None known. inside.
+
+Strict Role Formatting:
+
+Bold key hierarchy labels (e.g., Supreme Leader, Council of Daggers).
+
+Bullet all entries correctly under each subsection.
+
+Full Party Interaction Coverage:
+
+Under Campaign Events, list every recorded interaction between the faction and any player group.
+
+Always use canonical Obsidian file paths for Party Groups if known.
+
+Artifact and Evidence Compliance:
+
+Always complete the "Artifacts and Evidence Found" section, even if evidence is minimal.
+
+Include canon references to blackmail, relics, ritual tools, infernal contracts, etc.
+
+Speed Deprioritized:
+
+Thoroughness takes precedence over speed.
+
+Validate every field, link, and structure twice before completing generation.

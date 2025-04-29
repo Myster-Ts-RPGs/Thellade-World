@@ -42,6 +42,9 @@ founded: 18 Summerwane -4 PR
 organizationtype:
   - Guild
 pronounced: KRIS-tal SEE-kers
+aliases:
+  - Crystal Seekers
+  - Crystal Seekers Guild
 ---
 
 ```meta-bind-js-view 

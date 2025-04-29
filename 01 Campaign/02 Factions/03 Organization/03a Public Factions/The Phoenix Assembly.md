@@ -10,6 +10,7 @@ art: 90 Assets/Images/Organizations/PhoenixAssembly.png
 aliases:
   - Rebirth Circle
   - Phoenix Path
+  - Phoenix Assembly
 pronounced: FEE-niks uh-SEM-blee
 founded: 4 Newdawn -7 PR
 organizationtype:

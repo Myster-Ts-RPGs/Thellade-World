@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Black Sepulcher]]"
+location:
+  - "[[The Ember Wharf]]"
+  - "[[Mangagoy]]"
 ---
 
 ```meta-bind-js-view 

@@ -30,6 +30,7 @@ head:
 allies:
   - "[[The Red Runners]]"
   - "[[The Silver Chain]]"
+  - "[[The Black Sepulcher]]"
 aliases:
   - Bleeding Tide
   - The Red Tide

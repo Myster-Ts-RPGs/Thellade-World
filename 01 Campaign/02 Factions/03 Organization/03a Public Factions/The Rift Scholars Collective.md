@@ -10,6 +10,7 @@ art: 90 Assets/Images/Organizations/RiftScholars.png
 aliases:
   - Rift Scholars
   - The Rift Scholars
+  - Rift Scholars Collective
 founded: 6 Stonewake -3 PR
 organizationtype:
   - Arcane

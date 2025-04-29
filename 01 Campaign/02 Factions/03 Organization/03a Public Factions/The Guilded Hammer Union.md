@@ -45,6 +45,9 @@ pronounced: GILD-ed HAM-mer YOU-nion
 founded: 28 Stonewake -6 PR
 organizationtype:
   - Guild
+aliases:
+  - Guilded Hammers
+  - Guilded Hammer Union
 ---
 
 ```meta-bind-js-view 

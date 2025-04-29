@@ -6,6 +6,9 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Boba]]"
+organization:
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

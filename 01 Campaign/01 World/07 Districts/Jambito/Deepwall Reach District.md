@@ -11,6 +11,7 @@ organization:
   - "[[The Emberborn League]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Red Runners]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

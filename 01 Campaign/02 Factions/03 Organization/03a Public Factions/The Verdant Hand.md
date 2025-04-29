@@ -10,6 +10,7 @@ art: 90 Assets/Images/Organizations/VerdantHand.png
 pronounced: VER-dant HAND
 aliases:
   - The Circle of Verdancy
+  - Verdant Hand
 founded: 17 Stormcall -9 PR
 organizationtype:
   - Circle

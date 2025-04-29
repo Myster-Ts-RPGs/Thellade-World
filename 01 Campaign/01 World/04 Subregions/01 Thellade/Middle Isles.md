@@ -27,6 +27,9 @@ organization:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Order of the Ember Blades]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Black Sepulcher]]"
+  - "[[The Blackwake Corsairs]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 

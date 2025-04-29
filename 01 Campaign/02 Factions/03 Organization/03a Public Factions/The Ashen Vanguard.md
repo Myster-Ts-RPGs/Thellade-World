@@ -42,6 +42,7 @@ rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Crimson Shroud]]"
 allies:
   - "[[The Emberborn League]]"
   - "[[The Guilded Hammer Union]]"
