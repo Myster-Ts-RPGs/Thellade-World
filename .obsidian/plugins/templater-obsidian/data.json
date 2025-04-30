@@ -157,6 +157,10 @@
     {
       "folder": "01 Campaign/05 Parties/08 Encounters/Group 6",
       "template": "z_Templates/GM Templates/05 Parties/Template - Encounter Log 06.md"
+    },
+    {
+      "folder": "80 Versioning/Commits",
+      "template": "z_Templates/Git Commit - Template.md"
     }
   ],
   "enable_file_templates": false,
