@@ -89,10 +89,21 @@ let lowerBound = previousCommitFile ? previousCommitFile.stat.ctime : now.getTim
 
 let files = app.vault.getMarkdownFiles();
 let changedFiles = files
-  .filter(f => f.stat.mtime >= lowerBound && f.stat.mtime <= now.getTime())
-  .sort((a, b) => b.stat.mtime - a.stat.mtime)
-  .map(f => `- [[${f.basename}]] (${new Date(f.stat.mtime).toLocaleString()})`)
-  .join('\n');
+	.filter(f => {
+		let name = f.name;
+		let isExcluded =
+			name === "VaultChangelog.md" ||
+			name === "CurrentVersion.md" ||
+			/^Git Commit \d{4}-\d{2}-\d{2} \d{2}-\d{2}\.md$/.test(name);
+		return (
+			!isExcluded &&
+			f.stat.mtime >= lowerBound &&
+			f.stat.mtime <= now.getTime()
+		);
+	})
+	.sort((a, b) => b.stat.mtime - a.stat.mtime)
+	.map(f => `- [[${f.basename}]] (${new Date(f.stat.mtime).toLocaleString()})`)
+	.join('\n');
 
 // Step 9: Return commit body for note
 // Final commit content
