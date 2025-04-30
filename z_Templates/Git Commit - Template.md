@@ -73,11 +73,11 @@ let commitFolder = app.vault.getAbstractFileByPath("80 Versioning/Commits");
 let commitFiles = [];
 
 if (commitFolder && "children" in commitFolder) {
-  for (let f of commitFolder.children) {
-    if (f.name.startsWith("Git Commit") && f.extension === "md") {
-      commitFiles.push(f);
-    }
-  }
+	for (let f of commitFolder.children) {
+		if (f.name.startsWith("Git Commit") && f.extension === "md") {
+			commitFiles.push(f);
+		}
+	}
 }
 
 // Sort by actual file creation time (not filename)
@@ -87,18 +87,28 @@ commitFiles.sort((a, b) => b.stat.ctime - a.stat.ctime);
 let previousCommitFile = commitFiles[1];
 let lowerBound = previousCommitFile ? previousCommitFile.stat.ctime : now.getTime() - 2 * 60 * 60 * 1000;
 
+// Create exclusion list and cutoff date for z_Templates exceptions
 let files = app.vault.getMarkdownFiles();
+let templateCutoff = new Date("2025-04-29T00:00:00Z").getTime();
+
 let changedFiles = files
 	.filter(f => {
 		let name = f.name;
-		let isExcluded =
+		let path = f.path;
+		let mtime = f.stat.mtime;
+
+		let isExcludedByName =
 			name === "VaultChangelog.md" ||
 			name === "CurrentVersion.md" ||
 			/^Git Commit \d{4}-\d{2}-\d{2} \d{2}-\d{2}\.md$/.test(name);
+
+		let isOldTemplate = path.startsWith("z_Templates/") && mtime < templateCutoff;
+
 		return (
-			!isExcluded &&
-			f.stat.mtime >= lowerBound &&
-			f.stat.mtime <= now.getTime()
+			!isExcludedByName &&
+			!isOldTemplate &&
+			mtime >= lowerBound &&
+			mtime <= now.getTime()
 		);
 	})
 	.sort((a, b) => b.stat.mtime - a.stat.mtime)
