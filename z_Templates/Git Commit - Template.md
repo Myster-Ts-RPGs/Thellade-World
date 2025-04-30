@@ -59,14 +59,22 @@ let timestamp = tp.date.now("YYYY-MM-DD HH-mm");
 let newFileName = `Git Commit ${timestamp}`;
 await tp.file.rename(newFileName);
 
-// Step 7: Prepend to VaultChangelog.md
-const changelogFile = app.vault.getAbstractFileByPath(changelogFilePath);
+// Step 7: Prepend to VaultChangelog.md (Table-Compatible)
+const changelogFile = await app.vault.getAbstractFileByPath(changelogFilePath);
 let changelog = await app.vault.read(changelogFile);
-let changelogLines = changelog.split("\n");
-if (changelogLines[0].trim() === "# Changelog") changelogLines.shift();
-let changelogEntry = `${newVersion}\t${timestamp} – ${summary} → [[${newFileName}]]`;
-changelogLines.unshift("# Changelog", changelogEntry);
-await app.vault.modify(changelogFile, changelogLines.join("\n"));
+let changelogLines = changelog.split('\n');
+
+// Preserve the first two lines (header and separator)
+let headerLines = changelogLines.slice(0, 2);
+let dataLines = changelogLines.slice(2);
+
+let changelogEntry = `| ${newVersion} | ${timestamp} | ${summary} | [[${newFileName}]] |`;
+dataLines.unshift(changelogEntry);
+
+// Recombine and update
+let newChangelog = [...headerLines, ...dataLines].join('\n');
+await app.vault.modify(changelogFile, newChangelog);
+
 
 // Step 8: Get actual file objects from the folder
 let commitFolder = app.vault.getAbstractFileByPath("80 Versioning/Commits");

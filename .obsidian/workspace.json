@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Commits/Git Commit 2025-04-30 16-36.md",
-                "mode": "source",
+                "file": "80 Versioning/Commits/Git Commit 2025-04-30 16-48.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Commit 2025-04-30 16-36"
+              "title": "Git Commit 2025-04-30 16-48"
             }
           },
           {
@@ -373,9 +373,10 @@
   },
   "active": "cb1876bf0f01868a",
   "lastOpenFiles": [
+    "80 Versioning/VaultChangelog.md",
+    "80 Versioning/Commits/Git Commit 2025-04-30 16-48.md",
     "z_Templates/Git Commit - Template.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-36.md",
-    "80 Versioning/VaultChangelog.md",
     "80 Versioning/CurrentVersion.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-29.md",
     "z_Templates/How To Create New Templates.md",
@@ -399,7 +400,6 @@
     "z_Templates/New Text Document.txt",
     "80 Versioning/Commits/Git Commit 2025-04-30 14-21.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 14-17.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 14-15.md",
     "80 Versioning/Commits",
     "80 Versioning",
     "90 Assets/Images/Organizations/HollowMask2.png",
