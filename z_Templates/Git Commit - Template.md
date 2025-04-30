@@ -64,7 +64,7 @@ const changelogFile = app.vault.getAbstractFileByPath(changelogFilePath);
 let changelog = await app.vault.read(changelogFile);
 let changelogLines = changelog.split("\n");
 if (changelogLines[0].trim() === "# Changelog") changelogLines.shift();
-let changelogEntry = `${newVersion}    ${timestamp} – ${summary} → [[${newFileName}]]`;
+let changelogEntry = `${newVersion}\t${timestamp} – ${summary} → [[${newFileName}]]`;
 changelogLines.unshift("# Changelog", changelogEntry);
 await app.vault.modify(changelogFile, changelogLines.join("\n"));
 
