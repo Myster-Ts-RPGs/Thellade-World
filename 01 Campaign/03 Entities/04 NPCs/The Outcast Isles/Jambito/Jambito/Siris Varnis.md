@@ -7,12 +7,16 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Vault of Echoes]]"
+  - "[[Silverspire Terrace]]"
   - "[[Jambito]]"
 condition: Healthy
 aliases:
   - Siris 'The Faceless' Varnis
 organization:
   - "[[The Hollow Mask]]"
+ownedlocation:
+  - "[[The Vault of Echoes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

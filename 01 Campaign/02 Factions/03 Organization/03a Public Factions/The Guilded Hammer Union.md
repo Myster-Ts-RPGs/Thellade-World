@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Anvilworks]]"
 organizationstatus:
   - ✅ Active
@@ -14,6 +15,7 @@ rivals:
   - "[[The Red Runners]]"
   - "[[The Bleeding Tide]]"
   - "[[The Verdant Hand]]"
+  - "[[The Gilded Daggers]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

@@ -9,6 +9,8 @@ location:
 organization:
   - "[[The Crystal Seekers Guild]]"
   - "[[The Sunfire Heralds]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 ---
 
 ```meta-bind-js-view 

@@ -36,6 +36,8 @@ organization:
   - "[[The Black Sepulcher]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 ---
 
 

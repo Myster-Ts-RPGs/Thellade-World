@@ -1,0 +1,1 @@
+Please check that I have input everything correctly. Specifically ensure that each region, subregion, settlement, district, location, NPC, Ally, and Rival is entered in both the top matter and appears in the dataviews in the pdf. Ensure that all general information and bottom matter has been transferred correctly.

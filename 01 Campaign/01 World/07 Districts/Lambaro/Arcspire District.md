@@ -11,6 +11,7 @@ organization:
   - "[[The Ashen Vanguard]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
+  - "[[The Hollow Mask]]"
 ---
 
 ```meta-bind-js-view 

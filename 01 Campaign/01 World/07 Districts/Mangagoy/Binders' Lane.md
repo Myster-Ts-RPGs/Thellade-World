@@ -10,6 +10,7 @@ organization:
   - "[[The Guilded Hammer Union]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Blackwake Corsairs]]"
+  - "[[The Emberborn Exiles]]"
 ---
 
 ```meta-bind-js-view 

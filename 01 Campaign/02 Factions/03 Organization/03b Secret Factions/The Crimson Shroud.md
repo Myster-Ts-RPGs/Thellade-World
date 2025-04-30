@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Wraith's Wake]]"
 organizationstatus:
   - ✅ Active
@@ -50,6 +51,8 @@ rivals:
   - "[[The Ashen Vanguard]]"
   - "[[The Eternal Concord]]"
   - "[[The Arcane Wardens]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Hollow Mask]]"
 ---
 
 ```meta-bind-js-view 

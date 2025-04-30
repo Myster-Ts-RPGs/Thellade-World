@@ -40,6 +40,9 @@ organization:
   - "[[The Black Sepulcher]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 ---
 
 ```meta-bind-js-view 

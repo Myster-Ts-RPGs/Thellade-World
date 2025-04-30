@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Veilcutter's Refuge]]"
 organizationstatus:
   - ✅ Active

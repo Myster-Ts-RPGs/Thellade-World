@@ -1,15 +1,47 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+  - "#Canon"
+hq: "[[The Crimson Circle]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/CursedBlades.png
 aliases:
   - Cursed Blades
+  - Cursed Duelists
+  - Underground Duelists
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Boba]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Lambaro Isles]]"
+  - "[[Lambaro]]"
+  - "[[Jambito Isles]]"
+  - "[[Jambito]]"
+  - "[[Brimstone Docks]]"
+  - "[[The Hollow Arena]]"
+  - "[[Glowquarter]]"
+  - "[[The Ironbind Floor]]"
+  - "[[Glowmire Terrace]]"
+  - "[[The Redsteel Vault]]"
+  - "[[Riverbend Hollow]]"
+  - "[[The Crimson Circle]]"
+head:
+  - "[[Lenna Yelris]]"
+pronounced: KUR-sd BLAYDZ
+founded: 17 Redwane 76 PR
+organizationtype:
+  - Secret
+  - Martial
+steward:
+  - "[[Kaen Lulen]]"
+rivals:
+  - "[[The Ashen Vanguard]]"
+  - "[[The Crimson Shroud]]"
 ---
 
 ```meta-bind-js-view 
@@ -139,46 +171,77 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Cursed Blades|Cursed Blades]] are a secretive martial society of assassins, warriors, and duelists who uphold a blood-bound code of combat. Their duels are governed by sacred law and conducted with cursed blades that draw power from pain and sacrifice. Fights are not for show—they’re for judgment, vengeance, or payment of soul-debts. The organization upholds arcane dueling rites that, if violated, may summon enforcers from beyond death.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "One cut binds. One death ends. All debts paid in steel."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To uphold the sacred laws of cursed dueling, enact verdicts where mortal courts fail, and maintain balance through ritual combat.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - All duels must be sanctioned by the Circle.  
+> - No duel may be interrupted.  
+> - A defeated opponent’s weapon may only be claimed through ritual succession.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Power through restraint.  
+> - Death is a promise, not a punishment.  
+> - Duels serve the oath, not the ego.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - No use of cursed weapons outside the Circle’s approval.  
+> - No refusal once challenged.  
+> - No mercy in a bound duel.
 
 ## Current Events
+- [[Lenna Yelris]], known as 'The Crimson Duelist', has resurfaced in Jambito, enforcing old debts against newly empowered factions.
+- [[Kaen Lulen]] has been witnessed near shrine-ruins in Boba, performing ritual bindings on cursed blades.
+- [[Jeks Thal]] has begun inducting new duelists from Mangagoy’s underground weapon circuit.
 
 ## History
+- Founded shortly before the Rising by survivors of Kanda’s broken dueling houses.  
+- Forged their codes beneath obsidian vaults, their traditions passed through whispered blade oaths.  
+- Appeared periodically throughout history to resolve high-profile feuds too dangerous for public trial.  
+- Once served as silent executioners for noble disputes—until the practice was outlawed post-Rising.
+
+### Campaign Connections
+[[Campaign Group 3]] – Encountered rumors of cursed duelists in Mangagoy’s basements.  
+[[Campaign Group 5]] – Intercepted a smuggled cursed weapon in Boba traced to a silent vendetta.  
+[[Campaign Group 6]] – Kibo’s arc may unknowingly link to ancient weapon-binding rites tied to the Cursed Blades.
+
+## Hierarchy
+- **Crimson Duelist:** [[Lenna Yelris]] — Duelist-enforcer of the Circle, appears when laws are broken.  
+- **Ritebinder:** [[Kaen Lulen]] — 'Sister Kaen of the Violet Oath', ceremonial spellblade and arcane ritualist.  
+- **Blade-Bearer:** [[Jeks Thal]] — Overseer of weapon curses and trials by combat.
+
+## Locations
+- **Headquarters:** [[The Crimson Circle]] (Jambito > Riverbend Hollow)  
+- [[The Hollow Arena]] (Boba > Brimstone Docks)  
+- [[The Ironbind Floor]] (Mangagoy > Glowquarter)  
+- [[The Redsteel Vault]] (Lambaro > Glowmire Terrace)
 
 ## Notes
+- **Threat Level:** High in noble and underworld circles.  
+- **Rivalries:** Feud with [[The Crimson Shroud]] over execution jurisdiction.  
+- **Symbol:** Downward-pointed crimson and silver blades surrounded by a circle of glyphs.  
+- **Uniforms:** Duelists wear dark sashes bearing blood-threaded symbols of their last won duel.
 
+### Key Plot Threads
+- The Return of the Crimson Duelist  
+- Noble vendettas secretly enforced by the Circle  
+- Legacy of the Violet Oath and forbidden weaponry  
+- Rise of soul-bound blade contracts
 
-
+### Artifacts and Evidence
+- Cursed blades with names etched in infernal or abyssal runes.  
+- Duel tokens sealed in wax and blood.  
+- Duel manifests found encoded in prayer scrolls.  
+- Burned tattoo sigils on challengers’ corpses.

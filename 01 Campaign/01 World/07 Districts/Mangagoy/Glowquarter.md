@@ -14,6 +14,9 @@ organization:
   - "[[The Lumina Guardians]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Ember Rats]]"
+  - "[[The Gilded Daggers]]"
 ---
 
 ```meta-bind-js-view 

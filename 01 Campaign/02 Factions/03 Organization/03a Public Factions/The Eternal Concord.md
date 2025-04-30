@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Hall of Unity]]"
 organizationstatus:
   - ✅ Active
@@ -28,6 +29,8 @@ rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

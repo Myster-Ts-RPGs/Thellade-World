@@ -10,6 +10,7 @@ organization:
   - "[[The Lumina Guardians]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Red Runners]]"
+  - "[[The Cursed Blades]]"
 ---
 
 ```meta-bind-js-view 

@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Shardspire Hall]]"
 organizationstatus:
   - ✅ Active
@@ -38,6 +39,7 @@ allies:
 rivals:
   - "[[The Bleeding Tide]]"
   - "[[The Black Sepulcher]]"
+  - "[[The Gilded Daggers]]"
 founded: 18 Summerwane -4 PR
 organizationtype:
   - Guild

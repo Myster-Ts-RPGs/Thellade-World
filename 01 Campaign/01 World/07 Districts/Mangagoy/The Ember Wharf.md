@@ -16,6 +16,8 @@ organization:
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
   - "[[The Bleeding Tide]]"
+  - "[[The Ember Rats]]"
+  - "[[The Gilded Daggers]]"
 ---
 
 ```meta-bind-js-view 

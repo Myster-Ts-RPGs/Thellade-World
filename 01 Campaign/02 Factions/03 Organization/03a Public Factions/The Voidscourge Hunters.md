@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Voidwatch Bastion]]"
 organizationstatus:
   - ✅ Active

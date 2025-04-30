@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Crypt of the Eclipsed Sun]]"
 organizationstatus:
   - ✅ Active

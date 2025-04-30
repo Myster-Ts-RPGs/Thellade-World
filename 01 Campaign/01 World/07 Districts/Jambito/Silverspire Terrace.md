@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Eternal Concord]]"
+  - "[[The Hollow Mask]]"
 ---
 
 ```meta-bind-js-view 

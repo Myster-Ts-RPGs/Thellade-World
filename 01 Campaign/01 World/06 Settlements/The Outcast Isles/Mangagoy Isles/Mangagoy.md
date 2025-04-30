@@ -38,6 +38,10 @@ organization:
   - "[[The Black Sepulcher]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Ember Rats]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Gilded Daggers]]"
 ---
 
 

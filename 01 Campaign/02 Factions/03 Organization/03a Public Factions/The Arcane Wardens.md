@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Wardspire Tower]]"
 organizationstatus:
   - ✅ Active
@@ -54,6 +55,7 @@ rivals:
   - "[[The Crimson Gauge]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Emberborn Exiles]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens

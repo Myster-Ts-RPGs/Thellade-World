@@ -13,7 +13,7 @@ aliases:
   - Ashpaw
   - Brinna 'Ashpaw' Velm
 organization:
-  - "[[The Ember Rats]]"
+  - "[[The Emberborn League]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Citadel of Flame]]"
 organizationstatus:
   - ✅ Active

@@ -34,6 +34,9 @@ organization:
   - "[[The Red Runners]]"
   - "[[The Crimson Gauge]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 ---
 
 

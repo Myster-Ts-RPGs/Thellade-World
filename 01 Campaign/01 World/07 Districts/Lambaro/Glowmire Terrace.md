@@ -10,6 +10,7 @@ organization:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Eternal Concord]]"
   - "[[The Phoenix Assembly]]"
+  - "[[The Cursed Blades]]"
 ---
 
 ```meta-bind-js-view 

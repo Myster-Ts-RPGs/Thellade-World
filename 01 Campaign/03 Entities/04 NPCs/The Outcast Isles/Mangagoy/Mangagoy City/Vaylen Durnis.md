@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Forgefall Warrens]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Healthy
 aliases:

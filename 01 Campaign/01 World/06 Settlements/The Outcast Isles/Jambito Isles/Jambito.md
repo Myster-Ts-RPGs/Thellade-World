@@ -34,6 +34,8 @@ organization:
   - "[[The Red Runners]]"
   - "[[The Black Sepulcher]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Hollow Mask]]"
 ---
 
 

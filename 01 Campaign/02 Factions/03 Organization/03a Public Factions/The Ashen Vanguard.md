@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Fort Redstone]]"
 organizationstatus:
   - ✅ Active
@@ -43,6 +44,7 @@ rivals:
   - "[[The Red Ash Mauraders]]"
   - "[[The Infernal Covenant]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
 allies:
   - "[[The Emberborn League]]"
   - "[[The Guilded Hammer Union]]"

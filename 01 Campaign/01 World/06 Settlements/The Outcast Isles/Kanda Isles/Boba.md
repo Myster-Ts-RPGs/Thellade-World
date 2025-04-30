@@ -28,6 +28,9 @@ organization:
   - "[[The Sunfire Heralds]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
+  - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Mask]]"
 ---
 
 

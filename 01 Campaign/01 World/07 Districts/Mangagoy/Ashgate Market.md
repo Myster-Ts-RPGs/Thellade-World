@@ -11,6 +11,8 @@ organization:
   - "[[The Phoenix Assembly]]"
   - "[[The Sunfire Heralds]]"
   - "[[The Crimson Gauge]]"
+  - "[[The Ember Rats]]"
+  - "[[The Gilded Daggers]]"
 ---
 
 ```meta-bind-js-view 

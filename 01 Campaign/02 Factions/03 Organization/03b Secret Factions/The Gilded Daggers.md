@@ -1,15 +1,40 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+  - "#Canon"
+hq: "[[The Forgefall Warrens]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - Local
+art: 90 Assets/Images/Organizations/GildedDaggers.png
 aliases:
   - Gilded Daggers
+rivals:
+  - "[[The Ember Rats]]"
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Crystal Seekers Guild]]"
+pronounced: GILL-did DAG-gers
+founded: 22 Ashmarch 102 PR
+organizationtype:
+  - Secret
+  - Trade
+  - Criminal
+head:
+  - "[[Vaylen Durnis]]"
+steward:
+  - "[[Ressa Thelis]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[The Ember Wharf]]"
+  - "[[The Forgefall Warrens]]"
+  - "[[Glowquarter]]"
+  - "[[Blackstring Vault]]"
+  - "[[Ashgate Market]]"
+  - "[[Sootveil Alley]]"
+  - "[[Ember Coil]]"
 ---
 
 ```meta-bind-js-view 
@@ -139,46 +164,74 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Gilded Daggers]] are a covert cabal of rogue engineers, saboteurs, and black-market technomancers operating deep within Mangagoy’s industrial undercity. Once affiliated with sanctioned scholarly guilds, they now weaponize innovation against the institutions that cast them out. They deal in stolen schematics, volatile prototypes, and sabotage-for-hire—trading invention for vengeance.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "Progress without permission. Fire without warning."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To undermine the industrial elite through alchemical disruption, weaponized invention, and shadow trade of unregulated technology.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - Respect stolen craft—never destroy a blueprint without extracting value.  
+> - Loyalty lies with the craft, not the creed.  
+> - Leave a mark—every job deserves a signature.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Innovation belongs to the brave.  
+> - If it can't be bought, steal it.  
+> - Sabotage is just redesign through fire.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - No direct ties to noble patrons—only contracts.  
+> - Never reveal workshop coordinates.  
+> - Do not allow Crystal Seekers to recover stolen designs.
 
 ## Current Events
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Vaylen Durnis|Vaylen Durnis]] ('Gearbane') has been spotted scouting industrial sites near the Crystal Hall. Rumors suggest a weaponized prototype is nearing completion.  
+- [[Ressa Thelis]] ('Smokehand') has escalated alchemical strikes in Ashgate Market, forcing Gilded Hammer trade stalls to shut down for repairs.  
+- Several Rift Scholar labs report compromised devices—all traced to black-market components bearing silver-dagger etchings.
 
 ## History
+- Formed in the aftermath of the Gilded Hammer’s 92 PR consolidation, as disgraced inventors were expelled from Lambaro and Mangagoy institutes.  
+- Initial sabotage efforts targeted wardstone regulators, causing cascading industrial failures.  
+- Developed coded emblem signatures and prototype vaults to protect rogue designs.  
+- Still feared by sanctioned engineers and unlicensed merchants alike.
+
+### Campaign Connections
+[[Campaign Group 3]] – Ongoing exposure to mechanical sabotage, industrial accidents, and component theft in Mangagoy. No direct confrontation yet, but signs point toward escalation.
+
+## Hierarchy
+- **Master Artisan:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Vaylen Durnis|Vaylen Durnis]] – 'Gearbane', former Lambaro engineer turned renegade mechanist. Specializes in reverse-engineering warded prototypes.  
+- **Saboteur Commander:** [[Ressa Thelis]] – 'Smokehand', alchemist-saboteur and master of combustion logistics. Leaves black-silver smoke signatures behind each operation.
+
+## Locations
+- **Headquarters:** [[The Forgefall Warrens]] (Mangagoy > The Ember Wharf)  
+- **Known Fronts:**  
+  - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Blackstring Vault|Blackstring Vault]] (underground blueprint repository)  
+  - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Sootveil Alley|Sootveil Alley]] (black market forgeway)  
+  - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Ember Coil|Ember Coil]] (hidden smeltery for forbidden alloys)
 
 ## Notes
+- **Threat Level:** High—especially to arcane-industrial guilds.  
+- **Symbol:** A silver-edged dagger coiled in brass wire, often etched into scorched metal.  
+- **Uniforms:** Reinforced leather aprons or boilercoats laced with embedded tools and explosive pockets. Masked helms standard for saboteurs.
 
+### Key Plot Threads
+- Gearbane's Prototype — An unstable, planar-reactive engine being assembled beneath Mangagoy.  
+- Smokehand's Plague — Alchemical traps designed to infect tools, triggering explosive failure upon ignition.  
+- Contracted Destruction — Whispers of noble-funded sabotage targeting political rivals.  
+- Tech Blackout — A campaign to sever the city's main ley-industrial networks.
 
-
+### Artifacts and Evidence
+- Shattered tech infused with volatile glyphs.  
+- Etched schematics recovered from defunct black-market vendors.  
+- Alchemist's kits lined with blast-seared metal.  
+- Sabotaged Gilded Hammer devices pulsing with unstable arcano-circuitry.

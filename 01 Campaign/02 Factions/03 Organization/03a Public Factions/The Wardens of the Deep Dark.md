@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Black Vault]]"
 organizationstatus:
   - ✅ Active

@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Mirrored Walk]]"
+  - "[[Silverspire Terrace]]"
   - "[[Kanda]]"
 condition: Healthy
 aliases:

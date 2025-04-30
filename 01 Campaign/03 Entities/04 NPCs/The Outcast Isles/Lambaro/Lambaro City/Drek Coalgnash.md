@@ -10,7 +10,7 @@ location:
   - "[[Lambaro]]"
 condition: Healthy
 organization:
-  - "[[The Ember Rats]]"
+  - "[[The Emberborn League]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[The Riftspire Archives]]"
 organizationstatus:
   - ✅ Active

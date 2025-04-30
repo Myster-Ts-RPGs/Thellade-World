@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Lambaro]]"
+organization:
+  - "[[The Emberborn Exiles]]"
 ---
 
 ```meta-bind-js-view 

@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Sunfire Tower]]"
 organizationstatus:
   - ✅ Active

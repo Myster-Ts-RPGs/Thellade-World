@@ -1,15 +1,43 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+  - "#Canon"
+hq: "[[The Vault of Echoes]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/HollowMask.png
 aliases:
   - Hollow Mask
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Boba]]"
+  - "[[Jambito]]"
+  - "[[Lambaro]]"
+  - "[[Silverspire Terrace]]"
+  - "[[The Vault of Echoes]]"
+  - "[[Glimmershade]]"
+  - "[[The Mirrored Walk]]"
+  - "[[Sunfire Heights]]"
+  - "[[The Listening Hollow]]"
+  - "[[Arcspire District]]"
+  - "[[The Veilhouse of Names]]"
+pronounced: HAH-low MASK
+founded: 11 Veilwane 96 PR
+organizationtype:
+  - Espionage
+  - Secret
+  - Psychic
+head:
+  - "[[Siris Varnis]]"
+steward:
+  - "[[Mira Thelis]]"
+rivals:
+  - "[[The Crimson Shroud]]"
+  - "[[The Eternal Concord]]"
 ---
 
 ```meta-bind-js-view 
@@ -139,46 +167,75 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Hollow Mask]] is a secretive spy syndicate specializing in impersonation, psychic surveillance, and political manipulation. Its agents don shifting personas, infiltrate noble courts, and unmake alliances with a whispered word or altered memory. To speak to the Mask is to risk forgetting who you are—and why you ever asked. They don't wear masks to hide. They wear them to rewrite.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "We are the silence in the crowd. The shape in the mirror. The truth you forgot."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To destabilize threats to hidden order through infiltration, mind magic, and information disruption.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - No identity persists. Use only what serves the Mask.  
+> - All infiltrations must be logged—psychically or physically.  
+> - Do not fall in love with your face.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Memory is a weapon.  
+> - Secrets are currency.  
+> - Trust is your deadliest disguise.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - Never wear the same face twice in the same court.  
+> - Do not act without a second agent observing.  
+> - Do not kill a target until their memory has been recorded.
 
 ## Current Events
+- [[Siris Varnis]] (‘The Faceless’) is rumored to be orchestrating false flag betrayals across noble houses in Jambito and Boba.  
+- [[Mira Thelis]] (‘The Echo’) has been psychically tracking Eternal Concord intelligence drops in Glimmershade.  
+- In Lambaro, a diplomat’s complete behavioral shift has triggered quiet inquiries from both the Ashen Vanguard and the Crimson Shroud.
 
 ## History
+- Founded post-Rising by survivors of the Kingdom’s black court, the Mask was initially tasked with exposing foreign manipulation but quickly fractured into a covert, self-driven organization.  
+- Their techniques evolved from traditional subterfuge to include psionic eavesdropping, identity fragmentation, and memory erasure.  
+- They no longer speak names, only functions.
+
+### Campaign Connections
+[[Campaign Group 4]] – Investigating noble intrigue and corruption in Jambito may intersect with Hollow Mask operatives.  
+[[Campaign Group 6]] – Boba-based infiltration involving artifact theft or diplomatic disruption could uncover false identities.  
+Multiple parties have encountered unexplained memory gaps, altered statements, or infiltrated councils—likely symptoms of the Mask’s interference.
+
+## Hierarchy
+- **Faceless Director:** [[Siris Varnis]] – Known only by rumors and effects, ‘The Faceless’ may not be a single person.  
+- **Seer-Observer:** [[Mira Thelis]] – ‘The Echo’, capable of remote psychic resonance, listening through walls and minds.
+
+## Locations
+- [[The Vault of Echoes]] (Jambito > Silverspire Terrace) — Whisper archive and identity lab.  
+- [[The Mirrored Walk]] (Kanda > Glimmershade) — Illusion training path; memory-shift induction site.  
+- [[The Listening Hollow]] (Boba > Sunfire Heights) — Sound-sealed chamber for psychic interception.  
+- [[The Veilhouse of Names]] (Lambaro > Arcspire District) — Persona chamber for constructing false identities.
 
 ## Notes
+- **Threat Level:** Extreme—primarily to court security and political stability.  
+- **Symbol:** A blank mask marked by a single vertical eye and no mouth.  
+- **Uniforms:** None standard. Agents wear facial tattoos that vanish when exposed to divination magic.  
+- **Factional Relationship:** While not formally allied, Hollow Mask operations often foil Crimson Shroud interventions.
 
+### Key Plot Threads
+- The Mirrored Writ — A document signed in three names, none of which belong to the signee.  
+- The Forgotten Prince — A noble heir whose identity has been overwritten.  
+- The Silence Pact — Psychic infiltration contracts bound to planar echoes.  
+- Hollowbound — A ritual that splits memory from self, allowing agents to operate without conscious guilt.
 
-
+### Artifacts and Evidence
+- Burned masks with soul-binding runes.  
+- Psychic amplifiers disguised as court jewelry.  
+- Voice-activated keys linked to persona vaults.  
+- Sealed memory tomes with pages only readable under illusion light.

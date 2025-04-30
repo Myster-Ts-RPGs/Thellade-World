@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Cursed Blades]]"
 ---
 
 ```meta-bind-js-view 

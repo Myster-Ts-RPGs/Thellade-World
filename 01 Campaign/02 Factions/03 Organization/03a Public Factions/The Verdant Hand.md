@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Greenheart Grove]]"
 organizationstatus:
   - ✅ Active

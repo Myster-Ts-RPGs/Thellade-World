@@ -1,6 +1,7 @@
 ---
 tags:
   - "#Organization"
+  - "#Canon"
 hq: "[[Crimson  Current Hall]]"
 organizationstatus:
   - ✅ Active
@@ -19,6 +20,7 @@ rivals:
   - "[[The Emberheart Traders]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Arcane Wardens]]"
+  - "[[The Ember Rats]]"
 pronounced: BLEED-ing Tide
 founded: 04 Emberwake 16 PR
 organizationtype:
