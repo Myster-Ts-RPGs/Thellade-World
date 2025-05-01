@@ -9,5 +9,5 @@
   "automaticBookmarksIntegration": true,
   "bookmarksContextMenus": true,
   "bookmarksGroupToConsumeAsOrderingReference": "sortspec",
-  "delayForInitialApplication": 1000
+  "delayForInitialApplication": 5000
 }

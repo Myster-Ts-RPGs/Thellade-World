@@ -1,6 +1,9 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.0.0 | 2025-04-30 19:27 | Set initial Milestone Status | [[Git Commit 2025-04-30 19-27]]
+0.0.3.0 | 2025-04-30 19:26 | Add Release Automation | [[Git Commit 2025-04-30 19-26]]
+0.0.2.2 | 2025-04-30 19:19 | null | [[80 Versioning/Commits/sortspec]]
 0.0.2.1 | 2025-04-30 17:52 | Add summary field to Get Commit YAML | [[Git Commit 2025-04-30 17-52]]
 0.0.2.0 | 2025-04-30 16:58 | Complete Commit and Changelog Automation | [[Git Commit 2025-04-30 16-58]]
 0.0.1.7 | 2025-04-30 16:53 | Final Test of Commit and Changelog Automation | [[Git Commit 2025-04-30 16-53]]

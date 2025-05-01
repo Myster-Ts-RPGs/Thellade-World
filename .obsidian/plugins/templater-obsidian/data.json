@@ -161,6 +161,10 @@
     {
       "folder": "80 Versioning/Commits",
       "template": "z_Templates/Git Commit - Template.md"
+    },
+    {
+      "folder": "80 Versioning/Releases",
+      "template": "z_Templates/Git Release - Template.md"
     }
   ],
   "enable_file_templates": false,
