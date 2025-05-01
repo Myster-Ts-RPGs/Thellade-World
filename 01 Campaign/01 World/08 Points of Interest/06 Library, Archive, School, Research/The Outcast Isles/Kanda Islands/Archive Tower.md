@@ -4,11 +4,9 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
-organization:
-  - "[[The Infernal Covenant]]"
+banner: on
 location:
-  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
 ---
 
 ```meta-bind-js-view 

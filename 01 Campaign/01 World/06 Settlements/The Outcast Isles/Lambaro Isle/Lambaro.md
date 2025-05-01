@@ -37,6 +37,7 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 

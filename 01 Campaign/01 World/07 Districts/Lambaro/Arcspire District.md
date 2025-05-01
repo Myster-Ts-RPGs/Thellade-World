@@ -12,6 +12,7 @@ organization:
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Hollow Mask]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -17,6 +17,7 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

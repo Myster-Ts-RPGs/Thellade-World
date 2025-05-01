@@ -43,6 +43,7 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Saints]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 

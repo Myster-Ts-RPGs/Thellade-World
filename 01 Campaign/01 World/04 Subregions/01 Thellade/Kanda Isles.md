@@ -44,6 +44,7 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Hollow Saints]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

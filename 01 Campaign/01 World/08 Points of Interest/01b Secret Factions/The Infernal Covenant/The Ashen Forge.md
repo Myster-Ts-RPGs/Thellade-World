@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Infernal Covenant]]"
+location:
+  - "[[Driftwarf Docks]]"
+  - "[[Seaside Cape]]"
 ---
 
 ```meta-bind-js-view 

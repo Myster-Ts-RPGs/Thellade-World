@@ -12,6 +12,7 @@ organization:
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Red Runners]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[The Crimson Lexicon]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Infernal Covenant/The Crimson Lexicon]]"
   - "[[Kanda]]"
 condition: Healthy
 aliases:

@@ -36,6 +36,7 @@ organization:
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Mask]]"
   - "[[The Hollow Saints]]"
+  - "[[The Infernal Covenant]]"
 aliases:
   - Outcast Isles
 ---

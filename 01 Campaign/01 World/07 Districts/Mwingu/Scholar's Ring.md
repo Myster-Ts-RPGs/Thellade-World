@@ -11,6 +11,7 @@ organization:
   - "[[The Eternal Concord]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Wardens of the Deep Dark]]"
+  - "[[The Infernal Covenant]]"
 location:
   - "[[Mwingu]]"
 ---

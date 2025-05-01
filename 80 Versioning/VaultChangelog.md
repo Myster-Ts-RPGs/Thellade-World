@@ -1,6 +1,8 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.4.0 | 2025-05-01 08:03 | Canonize The Infernal Covenant Faction | [[Git Commit 2025-05-01 08-03]]
+1.0.3.0 | 2025-05-01 08:02 | null | [[Git Commit 2025-05-01 08-02]]
 1.0.2.0 | 2025-05-01 06:35 | Canonize The Hollow Saints Faction | [[Git Commit 2025-05-01 06-35]]
 1.0.1.0 | 2025-05-01 04:55 | Added Stubs for Shadowthread Warrens | [[Git Commit 2025-05-01 04-55]]
 1.0.0.1 | 2025-04-30 19:38 | Add Commit Time to Release Summary | [[Git Commit 2025-04-30 19-38]]

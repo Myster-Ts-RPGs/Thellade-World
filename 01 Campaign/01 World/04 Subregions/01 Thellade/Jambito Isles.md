@@ -35,6 +35,7 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
   - "[[The Hollow Mask]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -23,7 +23,7 @@ Provide the following fields in the exact order shown below:
 -----------------------------------------------
 Pronunciation: Phonetic pronunciation in english letters, not symbols, with emphasized syllables in ALL CAPS:
 Alias(es) - Optional, include if Known. NONE if they do not exist.
-*Date Founded -  Required. Use (Generated) if unknown and generate one and include lore bawed reason in bottom matter
+*Date Founded -  Required. Use (Generated) if unknown and generate one and include lore based reason in bottom matter
 *Type(s) - Must use values from the current MetaBind #Type tag list. If a new Type is needed, mark it clearly and notify the GM for review.
 *Status - Use only tags from the current MetaBind #Status list. If the faction is no longer active, use Defunct.
 *Scope  - Must use values from the MetaBind #Scope list.
@@ -173,7 +173,7 @@ Fields must appear in the required order and format, using plain text only (no c
 
 No emojis, bolding, underlining, or extra spacing.
 
-Operating Areas must be listed under an unindented "Operating Areas:" header, with each subregion indented by two spaces.
+Operating Areas must be listed under an unindented "Operating Areas:" header, with each subregion indented by four hard spaces.
 
 Canonical Tags Only:
 

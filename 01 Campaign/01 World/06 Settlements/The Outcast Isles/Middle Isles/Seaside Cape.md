@@ -29,6 +29,7 @@ organization:
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
   - "[[The Blackwake Corsairs]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 

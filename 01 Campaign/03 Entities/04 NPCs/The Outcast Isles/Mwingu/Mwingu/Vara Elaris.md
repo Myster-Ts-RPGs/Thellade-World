@@ -6,16 +6,24 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Infernal Covenant/The Crimson Lexicon]]"
-  - "[[Kanda]]"
-condition: Healthy
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Cleric Isareth Vael
-  - Cleric Isareth 'The Chainsworn' Vael
-  - Isarath 'The Chainsworn' Vael
+  - Vara 'The Veilborn' Elaris
 organization:
   - "[[The Infernal Covenant]]"
+location:
+  - "[[Mwingu]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -150,3 +158,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

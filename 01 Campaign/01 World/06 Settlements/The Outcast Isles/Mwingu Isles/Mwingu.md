@@ -33,6 +33,7 @@ organization:
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 

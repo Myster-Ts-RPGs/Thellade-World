@@ -1,0 +1,1 @@
+Please thoroughly check YAML (.md) vs dataview (.pdf) to ensure i have both forward and back references for everything we created. Everything in Operating Areas METADATA/YAML should appear in dataview for region, subregion, district, settlement, or poi. And everything in those dataviews should appear in Operating Areas. Then verify I have entered everything you provided.

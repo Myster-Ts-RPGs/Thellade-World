@@ -30,6 +30,7 @@ organization:
   - "[[The Black Sepulcher]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Infernal Covenant]]"
+location:
+  - "[[Deepwall Reach District]]"
+  - "[[Jambito]]"
 ---
 
 ```meta-bind-js-view 

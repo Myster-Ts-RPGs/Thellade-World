@@ -13,6 +13,7 @@ districttype:
   - Underbelly
 organization:
   - "[[The Order of the Ember Blades]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

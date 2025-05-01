@@ -11,6 +11,7 @@ organization:
   - "[[The Sunfire Heralds]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

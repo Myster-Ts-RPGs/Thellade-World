@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Rift Scholars Collective]]"
+  - "[[The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -5,10 +5,11 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
+location:
+  - "[[Wardspire District]]"
+  - "[[Kanda]]"
 organization:
   - "[[The Infernal Covenant]]"
-location:
-  - "[[Kanda]]"
 ---
 
 ```meta-bind-js-view 
