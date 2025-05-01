@@ -4,6 +4,15 @@ tags:
   - "#Reach"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+location:
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Veins of Night]]"
+terrain:
+  - Underdark Rift
+  - Molten Cavern
+  - Underground Sea
+  - Slag Field
+  - Caverns
+  - Lava Flats
 ---
 
 ```meta-bind-js-view 
@@ -99,7 +108,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+Deep vertical faults and jagged rift chambers plunge beneath the volcanic crust. This tectonic maze is scarred by magma-blooded golems, obsidian bluffs, and forgotten aboleth ruins drowned in subterranean seas.
 
 ## Current Events
 

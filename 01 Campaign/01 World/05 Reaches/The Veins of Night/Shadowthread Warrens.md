@@ -4,6 +4,15 @@ tags:
   - "#Reach"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+location:
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Veins of Night]]"
+terrain:
+  - Caverns
+  - Spore Cavern
+  - Fungus Forest
+  - Crystal Forest
+  - Tunnels
+  - Underground Lake
 ---
 
 ```meta-bind-js-view 
@@ -99,7 +108,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+A dense web of bioluminescent tunnels, ancient fungal colonies, and crumbling dwarven outposts wrapped in silken growths. Sentient myconids and lurking ettercaps dominate the region.
 
 ## Current Events
 

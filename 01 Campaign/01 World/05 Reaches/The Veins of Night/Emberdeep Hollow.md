@@ -4,6 +4,15 @@ tags:
   - "#Reach"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+location:
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Veins of Night]]"
+terrain:
+  - Lava Flats
+  - Slag Field
+  - Caverns
+  - Molten Cavern
+  - Underground Lake
+  - Tunnels
 ---
 
 ```meta-bind-js-view 
@@ -99,7 +108,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+A blistering hollow beneath desert sands, carved by magma rivers and ancient worm tunnels. Collapsed vaults and half-melted arcane relics hint at a Pre-Rising civilization swallowed by earthfire.
 
 ## Current Events
 
