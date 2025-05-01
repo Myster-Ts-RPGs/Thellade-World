@@ -1,0 +1,3 @@
+Generate the faction symbol based on the description of iy that you generated in the Bottom Matter.
+
+Transparent Background, No Border, Objects Outlined with Thin Black Lines, Vibrant Colors

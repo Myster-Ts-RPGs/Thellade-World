@@ -1,1 +1,69 @@
-TopMatter.txt
+Compliance Instructions (Error Prevention Layer):
+- Before generating Top Matter and Bottom Matter for any faction:
+    - Full Canon Review REQUIRED:
+        - Thoroughly re-read the current FactionNotes.txt and Tags.txt file provided.
+        - Review ALL relevant conversations and uploaded documents for the faction.
+        Assume you do not remember prior outputs correctly unless explicitly validated.
+- Top Matter Field Compliance:
+    - Use only and exactly the fields listed under Top Matter (Manual Entry Section).
+    - Fields must appear in the required order and format, using plain text only (no code block, no backticks ```).
+    - No emojis, bolding, underlining, or extra spacing.
+    - Operating Areas must be listed under an unindented "Operating Areas:" header, with each subregion indented by four hard spaces.
+- Canonical Tags Only:
+    - Only use Type, Status, and Scope values from the official Tags.txt list.
+    - If a new tag is needed, immediately flag it for user review instead of using it directly.
+- Improvisation Strict Rules:
+    - If information (such as founding date, building name, location) must be improvised, clearly mark with (Generated).
+    - Never invent information without marking it.
+- Speed Deprioritized:
+    - Thoroughness takes precedence over speed.
+    - Validate every field, link, and structure twice before completing generation.
+
+----------------------------------------------------------------------------
+
+TOP-MATTER (Manual Entry Section – Plaintext Only)
+==================================================
+Provide the following fields in the exact order shown below:
+-----------------------------------------------
+Pronunciation: Phonetic pronunciation in english letters, not symbols, with emphasized syllables in ALL CAPS:
+Alias(es) - Optional, include if Known. NONE if they do not exist.
+*Date Founded -  Required. Use (Generated) if unknown and generate one and include lore based reason in bottom matter
+*Type(s) - Must use values from the current MetaBind #Type tag list. If a new Type is needed, mark it clearly and notify the GM for review.
+*Status - Use only tags from the current MetaBind #Status list. If the faction is no longer active, use Defunct.
+*Scope  - Must use values from the MetaBind #Scope list.
+*Head -  This must be an existing, canon-confirmed NPC.
+Steward -  Only include if known from canon. Do not improvise. NONE if it does not exist.
+Parent Organization -  Optional. NONE it does not exist.
+*Headquarters Location (Need to specify Settlement ,District, and Location -OR- Region/Subregion and Location) Location needs to give specific Building Name.  Use canonical building names where possible. If the exact name must be improvised, append (Generated) to the name.
+*Operating Areas:  Format: Settlement > District > Location. Use (Generated) if any part of the name must be improvised. If the specific location is unknown, use Unknown. If the faction has no presence in a region, use NONE.
+    Jambito Isles:
+    Kanda Isles:
+    Lambaro Isles:
+    Mangagoy Isles:
+    Middle Isles:
+    Mwingu Isles:
+Allied Factions - Optional, include if Known. NONE if they do not exist.
+Rival Factions - Optional, include if Known. NONE if they do not exist.
+
+----------------------------------------------------------------------------
+
+EXAMPLE (NOT CANON)
+====================
+Alias(es): Wardens of the Glyph, Azure Cloaks
+Date Founded: 07 Emberfall 141 PR
+Type(s): Regulatory
+Status: Active
+Scope: Regional
+Head: Archmage Selvik Thorne
+Steward: Ghelp
+Parent Organization: NONE
+Headquarters Location: Kanda > Wardspire District > Wardspire Tower
+Operating Areas
+    Jambito Isles: NONE
+    Kanda Isles: Kanda > Wardspire District > Wardspire Tower
+    Lambaro Isles: NONE
+    Mangagoy Isles: NONE
+    Middle Isles: NONE
+    Mwingu Isles: NONE
+Allied Factions: Eternal Concord, Mangagoy Healing Sanctuary
+Rival Factions: Cult of Orcus, Red Runners, Bleeding Tide

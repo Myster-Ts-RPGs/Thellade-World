@@ -1,0 +1,115 @@
+Compliance Instructions (Error Prevention Layer):
+- Before generating Top Matter and Bottom Matter for any faction:
+    - Full Canon Review REQUIRED:
+        - Thoroughly re-read the current FactionNotes.txt and Tags.txt file provided.
+        - Review ALL relevant conversations and uploaded documents for the faction.
+        Assume you do not remember prior outputs correctly unless explicitly validated.
+- Bottom Matter Section and Formatting Compliance:
+    - Generate all required sections in the exact order and nesting defined in FactionNotes.txt.
+    - Section headers use ##, subsection headers use ###.
+    - All named NPCs, Factions, Locations, Deities, Groups must be wrapped in [[double square brackets]].
+    - If Display Name differs from File Name, use [[Canonical Path|Display Name]].
+    - No Section Omission:
+        - Every mandatory Bottom Matter section (Overview, Current Events, History, Campaign Events, Hierarchy, Locations, Notes, Key Plot Threads, Artifacts) must be present.
+        - If a section has no content, still include the header and note None known. inside.
+    - Strict Role Formatting:
+        - Bold key hierarchy labels (e.g., Supreme Leader, Council of Daggers).
+        - Bullet all entries correctly under each subsection.
+    - Full Party Interaction Coverage:
+        - Under Campaign Events, list every recorded interaction between the faction and any player group.
+        - Always use canonical Obsidian file paths for Party Groups if known.
+    - Artifact and Evidence Compliance:
+        - Always complete the "Artifacts and Evidence Found" section, even if evidence is minimal.
+    - Include canon references to blackmail, relics, ritual tools, infernal contracts, etc.
+- Canonical Tags Only:
+    - Only use Type, Status, and Scope values from the official Tags.txt list.
+    - If a new tag is needed, immediately flag it for user review instead of using it directly.
+- Improvisation Strict Rules:
+    - If information (such as founding date, building name, location) must be improvised, clearly mark with (Generated).
+    - Never invent information without marking it.
+- Speed Deprioritized:
+    - Thoroughness takes precedence over speed.
+    - Validate every field, link, and structure twice before completing generation.
+
+----------------------------------------------------------------------------
+Bottom Matter Generation Guidelines (Canon-Compliant Standard)
+
+When generating the Bottom Matter for a faction, use the structure and formatting rules below to ensure compatibility with Obsidian and consistency across Thellade Project files.
+
+Bottom Matter to be provided as a Code Block that I can click copy and paste as a single block in Obsidian
+
+FORMAT RULES
+- All named references to NPCs, Deities, Factions, Organizations, Locations, Player Groups, and Parties MUST be wrapped in Obsidian-compliant internal links using [[double square brackets]].
+  - If the Display Name differs from the File Name, use: [[Canonical File Path|Display Name]]
+  - If the full file path is known, use it. If not, use [[Name]] and flag for later revision.
+- Bold leadership and role labels (e.g., **Supreme Leader**, **Council of Daggers**) for clarity.
+- Use bullet points where appropriate. Keep language professional and narrative-driven.
+- Use (Generated) to mark any improvised names or structures not yet confirmed as canon.
+
+SECTION STRUCTURE (In this exact order)
+
+## Overview
+### Description
+> Concise description of the faction’s identity, operations, goals, and tone.
+
+### Oaths
+> Sacred or symbolic promises members take upon joining.
+
+### Mission Statement
+> Core purpose and long-term goals; why the organization exists.
+
+### Laws
+> Rules or codes members must follow.
+
+### Tenets
+> Guiding values, ideals, or behaviors central to the organization.
+
+### Prohibitions
+> Forbidden behaviors, taboos, or violations that result in exile or punishment.
+
+## Current Events
+- Bullet-style summary of recent faction activity, status changes, regional impact, or player interaction. Tie in references to NPCs, locations, and factions using [[ ]].
+
+## History
+- Chronological bullet list of major events: founding, schisms, alliances, purges, expansions.
+- Use [[ ]] to reference key events, people, and locations.
+
+### Campaign Events
+- Use canonical Obsidian file paths for party dashboards when known.
+- Format: [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group X|Campaign Group X]]
+  - Bullet points detailing specific events or consequences of party involvement.
+  - Include named NPCs or locations involved.
+
+## Hierarchy (If known)
+- **Supreme Leader:** [[Path/To/NPC|Display Name]] – Short title and role description.
+- **Council-Level Members:** List by name with clear function and file-linked.
+- **Regional Contacts / Lieutenants:** Assigned by region or city. Must include location reference and file link. Flag NPC status if applicable (e.g., missing, dead, corrupted).
+
+## Locations
+### Primary Hideouts
+- List known headquarters and core operational hubs. Use canonical formatting and (Generated) if not yet confirmed.
+
+### Secondary Hideouts
+- Include secret cells, regional caches, safehouses, or improvised locations. Include faction role or cover purpose if known.
+
+## Notes
+- **Threat Level:** General danger level of the faction (e.g., Extreme, High, Moderate)
+- **Speculative Rift:** Any internal ideological divides, leadership doubts, or conflicting agendas.
+- **Allied Factions:** List known or implied factional alliances. Use [[ ]] for all.
+- **Rival Factions:** List known enemies or opposing organizations. Use [[ ]] for all.
+- **Symbol:** Brief sentence description of the faction's emblem or visual mark (do not include image).
+- **Uniforms:** Summary of any standardized garb or visual identifiers.
+
+### Key Plot Threads
+- Bullet-style summary of major faction objectives, expansion plans, or current machinations.
+- Include tie-ins to campaigns or NPCs when relevant.
+
+### Artifacts and Evidence Found
+- List any recovered or referenced items directly linked to this faction:
+  - Ritual tools
+  - Magical relics
+  - Contracts or ledgers
+  - Blackmail materials
+  - Evidence used to expose or oppose the faction
+
+---------------------------------------------------------------------------

@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.4.1 | 2025-05-01 08:20 | Revise Faction Generation Prompts | [[Git Commit 2025-05-01 08-20]]
 1.0.4.0 | 2025-05-01 08:03 | Canonize The Infernal Covenant Faction | [[Git Commit 2025-05-01 08-03]]
 1.0.3.0 | 2025-05-01 08:02 | null | [[Git Commit 2025-05-01 08-02]]
 1.0.2.0 | 2025-05-01 06:35 | Canonize The Hollow Saints Faction | [[Git Commit 2025-05-01 06-35]]
