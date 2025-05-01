@@ -38,6 +38,7 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
+  - "[[The Hollow Saints]]"
 ---
 
 

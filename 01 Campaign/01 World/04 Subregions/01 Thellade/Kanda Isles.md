@@ -43,6 +43,7 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
+  - "[[The Hollow Saints]]"
 ---
 
 ```meta-bind-js-view 

@@ -26,6 +26,8 @@ terrain:
   - Underdark Rift
 location:
   - "[[The Deep Dark]]"
+organization:
+  - "[[The Hollow Saints]]"
 ---
 
 ```meta-bind-js-view 

@@ -35,6 +35,7 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Mask]]"
+  - "[[The Hollow Saints]]"
 aliases:
   - Outcast Isles
 ---

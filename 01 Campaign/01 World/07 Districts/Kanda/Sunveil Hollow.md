@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Kanda]]"
+organization:
+  - "[[The Hollow Saints]]"
 ---
 
 ```meta-bind-js-view 

@@ -11,6 +11,7 @@ organization:
   - "[[The Voidscourge Hunters]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Emberborn Exiles]]"
+  - "[[The Hollow Saints]]"
 ---
 
 ```meta-bind-js-view 

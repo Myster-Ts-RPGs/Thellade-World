@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Veins of Night]]"
+  - "[[The Veins of Night]]"
 terrain:
   - Caverns
   - Spore Cavern
@@ -13,6 +13,8 @@ terrain:
   - Crystal Forest
   - Tunnels
   - Underground Lake
+organization:
+  - "[[The Hollow Saints]]"
 ---
 
 ```meta-bind-js-view 

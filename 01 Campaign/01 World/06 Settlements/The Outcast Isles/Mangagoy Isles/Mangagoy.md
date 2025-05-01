@@ -42,6 +42,7 @@ organization:
   - "[[The Ember Rats]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Gilded Daggers]]"
+  - "[[The Hollow Saints]]"
 ---
 
 

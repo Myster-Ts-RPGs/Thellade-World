@@ -29,6 +29,7 @@ allies:
 rivals:
   - "[[The Infernal Covenant]]"
   - "[[The Black Sepulcher]]"
+  - "[[The Hollow Saints]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Kanda Isles]]"

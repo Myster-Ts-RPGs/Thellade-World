@@ -6,8 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
-  - "[[Highhold Rise]]"
-  - "[[Mangagoy]]"
+  - "[[The Sundering Deep]]"
 ---
 
 ```meta-bind-js-view 
@@ -127,4 +126,18 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Notes
+☠️ Sunken Catacombs
+Location: Unnamed sunken island in the Sundering Deep, within the Outcast Isles
+
+District: Not applicable
+
+Geographic Nesting:
+Region: The Outcast Isles → Subregion: The Sundering Deep → Settlement: [Unnamed Sunken Island] → POI: Sunken Catacombs
+
+Description:
+These catacombs lie within a partially submerged ruin—once a sacred site to Lunara—now lost beneath the waves. Unlike their Kanda counterpart, they are marked by faded mosaics, ancient burial alcoves, and a constant thrum of celestial leyline interference. They are not connected to the Infernal Covenant, but legends suggest they may house a tether to the Shroud of the Abyss.
+
+Notes:
+Distinct from the similarly named site beneath Kanda. No cult activity currently observed, though several recent expeditions have gone missing near the submerged shrine entrance.
+
 
