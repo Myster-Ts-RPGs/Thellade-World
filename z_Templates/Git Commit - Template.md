@@ -55,8 +55,9 @@ const summary = await tp.system.prompt("Commit Summary:");
 const description = await tp.system.prompt("Commit Description:");
 
 // Step 6: Rename file
-let timestamp = tp.date.now("YYYY-MM-DD HH-mm");
-let newFileName = `Git Commit ${timestamp}`;
+let fileNameTimestamp = tp.date.now("YYYY-MM-DD HH-mm");
+let timestamp = tp.date.now("YYYY-MM-DD HH:mm");
+let newFileName = `Git Commit ${fileNameTimestamp}`;
 await tp.file.rename(newFileName);
 
 // Step 7: Prepend to VaultChangelog.md (Table-Compatible)
@@ -65,10 +66,10 @@ let changelog = await app.vault.read(changelogFile);
 let changelogLines = changelog.split('\n');
 
 // Preserve the first two lines (header and separator)
-let headerLines = changelogLines.slice(0, 2);
-let dataLines = changelogLines.slice(2);
+let headerLines = changelogLines.slice(0, 3);
+let dataLines = changelogLines.slice(3);
 
-let changelogEntry = `| ${newVersion} | ${timestamp} | ${summary} | [[${newFileName}]] |`;
+let changelogEntry = `${newVersion} | ${timestamp} | ${summary} | [[${newFileName}]]`;
 dataLines.unshift(changelogEntry);
 
 // Recombine and update
