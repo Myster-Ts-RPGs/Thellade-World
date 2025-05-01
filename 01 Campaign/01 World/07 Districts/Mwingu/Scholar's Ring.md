@@ -12,6 +12,7 @@ organization:
   - "[[The Phoenix Assembly]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Midnight Covenant]]"
 location:
   - "[[Mwingu]]"
 ---

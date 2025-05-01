@@ -32,6 +32,7 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 

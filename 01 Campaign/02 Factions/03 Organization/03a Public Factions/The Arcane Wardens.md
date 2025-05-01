@@ -56,6 +56,7 @@ rivals:
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
   - "[[The Emberborn Exiles]]"
+  - "[[The Midnight Covenant]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens

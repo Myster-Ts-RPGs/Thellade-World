@@ -39,6 +39,7 @@ organization:
   - "[[The Red Runners]]"
   - "[[The Crimson Shroud]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 

@@ -31,6 +31,7 @@ rivals:
   - "[[The Crimson Shroud]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
+  - "[[The Midnight Covenant]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

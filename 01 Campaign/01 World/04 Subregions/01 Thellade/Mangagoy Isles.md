@@ -50,6 +50,7 @@ organization:
   - "[[The Hollow Saints]]"
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 

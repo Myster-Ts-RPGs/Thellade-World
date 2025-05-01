@@ -12,6 +12,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Saints]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 

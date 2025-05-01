@@ -6,17 +6,28 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Westport]]"
-  - "[[Middle Isles]]"
-condition: Healthy
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Captain Jarron
-  - Captain Selka Jarron
-  - Captain Selka 'Nightwave' Jarron
-  - Selka 'Nightwave' Jarron
+  - Voidbinder Nyzara Velis
+  - Master of Forbidden Magic
 organization:
   - "[[The Midnight Covenant]]"
+condition: Healthy
+location:
+  - "[[The Gloamspire]]"
+  - "[[Glowmire Terrace]]"
+  - "[[Lambaro]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -151,3 +162,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

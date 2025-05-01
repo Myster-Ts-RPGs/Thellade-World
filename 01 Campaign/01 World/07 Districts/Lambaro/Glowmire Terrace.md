@@ -11,6 +11,7 @@ organization:
   - "[[The Eternal Concord]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Cursed Blades]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 

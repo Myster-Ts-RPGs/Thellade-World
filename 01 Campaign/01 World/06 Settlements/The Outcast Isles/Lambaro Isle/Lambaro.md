@@ -39,6 +39,7 @@ organization:
   - "[[The Hollow Mask]]"
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 

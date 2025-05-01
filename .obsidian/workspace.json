@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Commits/Git Commit 2025-05-01 09-02.md",
+                "file": "80 Versioning/Commits/Git Commit 2025-05-01 09-52.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Commit 2025-05-01 09-02"
+              "title": "Git Commit 2025-05-01 09-52"
             }
           },
           {
@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
+                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Middle Isles"
+              "title": "Mwingu Isles"
             }
           },
           {
@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Westport.md",
+                "file": "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Westport"
+              "title": "Mwingu"
             }
           },
           {
@@ -90,13 +90,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/07 Districts/Mangagoy/Ashgate Market.md",
+                "file": "01 Campaign/01 World/07 Districts/Mwingu/Scholar's Ring.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ashgate Market"
+              "title": "Scholar's Ring"
             }
           },
           {
@@ -105,13 +105,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock.md",
+                "file": "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Midnight Covenant/The Sunken Veil.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Smuggler's Dock"
+              "title": "The Sunken Veil"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Selira Duskweld.md",
+                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Serrik Valdus.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Selira Duskweld"
+              "title": "Serrik Valdus"
             }
           },
           {
@@ -136,7 +136,7 @@
               "type": "markdown",
               "state": {
                 "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Bleeding Tide.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
@@ -373,34 +373,35 @@
   },
   "active": "666a0e979e159b21",
   "lastOpenFiles": [
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Iron Syndicate.md",
     "80 Versioning/Commits/Git Commit 2025-05-01 09-02.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport/Varnick Greyhollow.md",
-    "01 Campaign/01 World/02 Planets/Thellade.md",
-    "90 Assets/Images/Organizations/IronSyndicate.png",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Embercoil Forge.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Blackhook Salvage Yard.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Selira Duskweld.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Vara Elaris.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Bleeding Tide.md",
+    "80 Versioning/Commits/Git Commit 2025-05-01 09-52.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Midnight Covenant.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Varian Kel.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Sira Morwyn.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Serrik Valdus.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Malrik Vayne.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport/Kael Dren.md",
+    "01 Campaign/01 World/07 Districts/Mwingu/Scholar's Ring.md",
+    "01 Campaign/01 World/07 Districts/Mangagoy/Binders' Lane.md",
+    "01 Campaign/01 World/07 Districts/Lambaro/Glowmire Terrace.md",
+    "01 Campaign/01 World/07 Districts/Kanda/Tallowgate.md",
     "01 Campaign/01 World/07 Districts/Mangagoy/Ashgate Market.md",
-    "01 Campaign/01 World/07 Districts/Lambaro/Crucible Hollow.md",
-    "01 Campaign/01 World/07 Districts/Kanda/Wardspire District.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mwingu Isles/Mwingu.md",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Westport.md",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Lambaro Isle/Lambaro.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
     "01 Campaign/01 World/04 Subregions/01 Thellade/Lambaro Isles.md",
-    "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
     "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly.md",
-    "01 Campaign/02 Factions/03 Organization/03e Other Organizations/Silver Tongues.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Nyzara Velis.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Selira Duskweld.md",
+    "90 Assets/Images/Organizations/MidnightCovenant.png",
+    "90 Assets/Images/Organizations/IronSyndicate.png",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport",
     "z_Unorganized/SymbolGeneration.txt",
     "z_Unorganized/BottomMatter.txt",
     "z_Unorganized/FactionValidation.txt",
@@ -418,7 +419,6 @@
     "90 Assets/Images/Organizations/GildedDaggers.png",
     "90 Assets/Images/Organizations/EmberbornExiles.png",
     "90 Assets/Images/Organizations/EmberRats2.png",
-    "90 Assets/Images/Organizations/EmberRats.png",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",
     "3. Campaign/4. Planes/Untitled.canvas",

@@ -4,12 +4,14 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
+banner: on
+location:
+  - "[[Westport]]"
+  - "[[Middle Isles]]"
 organization:
   - "[[The Midnight Covenant]]"
-location:
-  - "[[Scholar's Ring]]"
-  - "[[Mwingu]]"
+owner:
+  - "[[Selka Jarron]]"
 ---
 
 ```meta-bind-js-view 
@@ -130,3 +132,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 
+Captain Selka Jarron's ship is named **_The Umbral Wraith_**.
+
+This sleek, shadow-cloaked vessel is enchanted for silence, concealment, and swift traversal of leyline-charged waters. Rumors claim its hull is interwoven with nightglass and soulsteel, allowing it to phase partially into the Shadow Plane during evasive maneuvers. It serves as both command ship and floating training ground for elite Midnight Covenant operatives.

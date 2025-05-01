@@ -19,6 +19,7 @@ export:
   - Coral
 organization:
   - "[[The Iron Syndicate]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 

@@ -45,6 +45,7 @@ organization:
   - "[[The Hollow Mask]]"
   - "[[The Hollow Saints]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Midnight Covenant]]"
 ---
 
 ```meta-bind-js-view 
