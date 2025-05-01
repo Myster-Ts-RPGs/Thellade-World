@@ -126,7 +126,7 @@ let changedFiles = files
 
 // Step 9: Return commit body for note
 // Final commit content
-tR += `---\ncreated: ${timestamp}\n---\n\n`;
+tR += `---\ncreated: ${timestamp}\nsummary: "${summary}"\n---\n\n`;
 tR += `# Git Commit ${timestamp}\n\n`;
 tR += `Version ${newVersion}\n\n`;
 tR += `## Summary\n> ${summary}\n\n`;

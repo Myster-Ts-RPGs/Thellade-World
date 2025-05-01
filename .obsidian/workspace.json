@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Commits/Git Commit 2025-04-30 16-58.md",
+                "file": "80 Versioning/Commits/Git Commit 2025-04-30 17-52.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Commit 2025-04-30 16-58"
+              "title": "Git Commit 2025-04-30 17-52"
             }
           },
           {
@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+                "file": "01 Campaign/01 World/02 Planets/Thellade.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Outcast Isles"
+              "title": "Thellade"
             }
           },
           {
@@ -374,9 +374,25 @@
   "active": "cb1876bf0f01868a",
   "lastOpenFiles": [
     "z_Templates/Git Commit - Template.md",
+    "80 Versioning/Commits/Git Commit 2025-04-30 17-52.md",
+    "80 Versioning/Commits/Git Commit 2025-04-30 14-22.md",
+    "80 Versioning/Untitled.md",
+    "80 Versioning/Releases",
+    "80 Versioning/Commits/Untitled",
     "80 Versioning/VaultChangelog.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 16-58.md",
+    "80 Versioning/Milestones.md",
     "80 Versioning/CurrentVersion.md",
+    "01 Campaign/Master To Do List.md",
+    "01 Campaign/03 Entities/02 Demigods/Ciralei.md",
+    "01 Campaign/03 Entities/02a Demon Lords/Vholorax.md",
+    "01 Campaign/03 Entities/01 Deities/Aevaris.md",
+    "80 Versioning/Versioning-Workflow-Guide.md",
+    "01 Campaign/01 World/02 Planets/Thellade.md",
+    "01 Campaign/01 World/01 Planes/Material Plane.md",
+    "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mwingu Isles.md",
+    "80 Versioning/VersioningRules.md",
+    "80 Versioning/Commits/Git Commit 2025-04-30 16-58.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-53.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-48.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-36.md",
@@ -385,20 +401,6 @@
     "80 Versioning/Commits/Git Commit 2025-04-30 16-24.md",
     "80 Versioning/Commits/Git Commit 2025-04-30 16-16.md",
     "LICENSE.md",
-    "90 Assets/Images/ASSETS.md",
-    "Readme.md",
-    "80 Versioning/VersioningRules.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 15-34.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 15-30.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 15-27.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 15-24.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 14-22.md",
-    "80 Versioning/Commits/Git Commit 2025-04-30 15-20.md",
-    "80 Versioning/Commits/Untitled 1.md",
-    "z_Templates/Text Generator Templates/Generate Spell Book.md",
-    "z_Templates/Git Commit - Template (1).md",
-    "z_Templates/Text Generator Templates/Generate Weaponry.md",
-    "z_Templates/Text Generator Templates/Session Summary.md",
     "z_Templates/New Text Document.txt",
     "80 Versioning/Commits",
     "80 Versioning",
@@ -417,8 +419,6 @@
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Smokey Shoals",
     "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Smokey Shoals",
     "90 Assets/Images/Organizations/CultOfOrcus.png",
-    "z_Assets/Unsorted",
-    "z_Assets",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",
     "3. Campaign/4. Planes/Untitled.canvas",

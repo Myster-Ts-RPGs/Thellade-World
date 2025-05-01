@@ -130,7 +130,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >TABLE without id   file.link AS "Name",   settlementtype AS "Type",   population AS "Population",   choice(length(location) > 1, location[0], "") AS  "Subregion",   join(link(dominion), ", ") AS "Dominion"
 >FROM "01 Campaign"
 >WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
->SORT location[0] ASC, file.name ASC
+>SORT location[0] ASC, population ASC
 >```
 
 
