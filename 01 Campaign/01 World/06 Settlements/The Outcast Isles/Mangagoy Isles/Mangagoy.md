@@ -44,6 +44,7 @@ organization:
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Saints]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Iron Syndicate]]"
 ---
 
 

@@ -31,6 +31,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Iron Syndicate]]"
 ---
 
 ```meta-bind-js-view 

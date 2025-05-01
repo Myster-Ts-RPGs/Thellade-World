@@ -38,6 +38,7 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Iron Syndicate]]"
 ---
 
 

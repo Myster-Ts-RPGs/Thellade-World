@@ -1,15 +1,38 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+  - "#Canon"
+hq: "[[Embercoil Forge]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/IronSyndicate.png
 aliases:
   - Iron Syndicate
+pronounced: EYE-urn SIN-di-ket
+founded: 19 Frostfall 178 PR
+organizationtype:
+  - Criminal
+  - Technological
+head:
+  - "[[Halden Voss]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Lambaro Isles]]"
+  - "[[Lambaro]]"
+  - "[[Crucible Hollow]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Ashgate Market]]"
+  - "[[Middle Isles]]"
+  - "[[Embercoil Forge]]"
+  - "[[Blackhook Salvage Yard]]"
+  - "[[Smuggler's Dock]]"
+rivals:
+  - "[[The Guilded Hammer Union]]"
+  - "[[The Phoenix Assembly]]"
+  - "[[Silver Tongues]]"
 ---
 
 ```meta-bind-js-view 
@@ -139,46 +162,87 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Iron Syndicate]] is a covert coalition of rogue inventors, black-market engineers, and disgraced artificers operating in the shadows of [[Lambaro]]'s industrial districts. Ruthlessly pragmatic and fiercely protective of technological advantage, they undermine rivals like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Verdant Hand|The Verdant Hand]] through espionage, sabotage, and theft. The Syndicate traffics in forbidden schematics and Pre-Rising relics, seeking to dominate innovation through subversion, not cooperation.
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> “From scrap, supremacy. From shadow, salvation.”
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To reclaim control over innovation and invention by any means necessary, ensuring that no invention is ever again monopolized by academic elites or state-sponsored guilds.
 
 ### Laws
-
-> Rules or codes members must follow.
+> • Secrecy above all.  
+> • Theft of invention is a right of the capable.  
+> • Syndicate designs must never fall into regulated hands.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> • Innovation requires risk.  
+> • Markets are meant to be exploited, not protected.  
+> • Authority stifles progress.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> • Revealing Syndicate blueprints to outside guilds.  
+> • Assisting the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|Guilded Hammer Union]] or state regulators.  
+> • Refusing an assigned sabotage contract.
 
 ## Current Events
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] has ordered a series of thefts targeting prototype weapon cores from a Gilded Hammer vault.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] was last seen near [[Lambaro]]’s industrial quarter during an interrupted tech demonstration.  
+- A new cache has been established at [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]], linking the Syndicate to relic smugglers in the [[Middle Isles]].  
+- Surveillance indicates Syndicate infiltrators may be operating under false identities at [[01 Campaign/02 Factions/03 Organization/03d Educational Institutions/Outcast Isles/Lambaro Education Hall (Faction)|Lambaro Education Hall]] and the [[Lambaro Institute of Innovation]].
 
 ## History
+- 19 Frostfall 178 PR: Founded by expelled artificers from the [[University of Emberlight]].  
+- 181 PR: First confirmed sabotage of a Gilded Hammer manufacturing plant.  
+- 195 PR: Began trafficking Pre-Rising relics to black market buyers in [[Mangagoy Isles]].  
+- 202 PR: Infiltration of [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly|Phoenix Assembly]] tech expos leads to widespread disinformation campaign.  
+- 209 PR: Rumors surface of a captured Syndicate automaton containing encrypted blackmail on several nobles.
+
+### Campaign Events
+- [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 2|Campaign Group 2]]  
+  - Syndicate sabotage of the Lambaro excavation draws citywide suspicion; party uncovers partial schematics tied to a failed relic ignition chamber.  
+  - Rumors of a disguised agent working through [[Lambaro Institute of Innovation]] circulate following the destruction of a test automaton.
+
+- [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 5|Campaign Group 5]]  
+  - During an investigation into smuggling routes in the [[Middle Isles]], a Syndicate symbol was recovered from a wrecked crate near [[Westport]]’s shore.
+
+## Hierarchy
+- **Syndicate Head:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] – Master forger and senior strategist, based in [[Embercoil Forge]]
+- **Council-Level Members:**
+  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] – Elite saboteur and field operative known for stealth infiltration and arcane traps.
+- **Regional Contacts / Lieutenants:**
+  - [[Varnick Greyhollow]] – Manages smuggling operations from [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]].
+  - [[Selira Duskweld]] – Allegedly coordinating relic transactions from [[Blackhook Salvage Yard]].
+
+## Locations
+### Primary Hideouts
+- [[Lambaro]] > [[Crucible Hollow]] > [[Embercoil Forge]] – Main engineering and design hub.
+### Secondary Hideouts
+- [[Mangagoy]] > [[Ashgate Market]] > [[Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
+- [[Westport]] > [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]] – [[Middle Isles]] smuggling node, used for offloading stolen components and experimental parts.
 
 ## Notes
+- **Threat Level:** High
+- **Speculative Rift:** Internal disputes have emerged between relic purists and technomancers experimenting with abyssal cores.
+- **Symbol:** A cracked black gear encircling a red flame, flanked by two broken chains.
+- **Uniforms:** Members wear plain reinforced work-cloaks bearing soot-stained collars, often lined with hidden tools or glyph-inscribed gear pockets.
 
+### Key Plot Threads
+- Syndicate aims to reverse-engineer sealed Pre-Rising technology for resale to offshore buyers.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] is suspected of acquiring an unstable planar battery from a ruined vault.  
+- A rogue automaton bearing Syndicate glyphs is rumored to contain a memory crystal with blackmail on [[Lambaro]]'s artisan nobles.  
+- Plans to sabotage the next innovation summit may implicate multiple high-profile inventors and disrupt regulated tech entirely.
 
-
+### Artifacts and Evidence Found
+- Cracked automaton core etched with the Iron Syndicate’s glyph [[Campaign Group 2]].  
+- Blueprints containing flawed ignition sequences, traced to [[Halden Voss]]’s signature formula.  
+- Forged Gilded Hammer documents discovered in a Syndicate cache.  
+- Ledger referencing sales to unnamed buyers via [[Westport]] and [[Mangagoy]] ports.  
+- Blackmail crystal rumored to contain recordings of illicit Pre-Rising relic use by city officials.

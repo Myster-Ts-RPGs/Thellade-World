@@ -26,6 +26,7 @@ allies:
 rivals:
   - "[[The Bleeding Tide]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Iron Syndicate]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

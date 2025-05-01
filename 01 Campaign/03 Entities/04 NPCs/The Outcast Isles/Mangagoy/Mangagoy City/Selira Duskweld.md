@@ -6,16 +6,27 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Embercoil Forge]]"
-  - "[[Crucible Hollow]]"
-  - "[[Lambaro]]"
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 condition: Healthy
-aliases:
-  - Ressa 'The Phantom Tinkerer' Meris
-  - The Phantom Tinkerer
 organization:
   - "[[The Iron Syndicate]]"
+ownedlocation:
+  - "[[Blackhook Salvage Yard]]"
+location:
+  - "[[Blackhook Salvage Yard]]"
+  - "[[Ashgate Market]]"
+  - "[[Mangagoy]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -150,3 +161,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

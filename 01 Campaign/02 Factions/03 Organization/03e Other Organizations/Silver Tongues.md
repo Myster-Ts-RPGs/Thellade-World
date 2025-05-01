@@ -1,56 +1,15 @@
 ---
 tags:
   - "#Organization"
-  - "#Canon"
-hq: "[[The Anvilworks]]"
+  - "#TODO"
+hq: "[[Thellade]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - National
-art: 90 Assets/Images/Organizations/GuildedHammerUnion.png
-allies:
-  - "[[Lambaro Institute of Innovation (Faction)]]"
-  - "[[The Ashen Vanguard]]"
+  - Regional
+art: 90 Assets/Images/Misc/PlaceholderImage.png
 rivals:
-  - "[[The Red Runners]]"
-  - "[[The Bleeding Tide]]"
-  - "[[The Verdant Hand]]"
-  - "[[The Gilded Daggers]]"
   - "[[The Iron Syndicate]]"
-location:
-  - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Jambito]]"
-  - "[[Eastwatch District]]"
-  - "[[Union Smelthouse Cooperative]]"
-  - "[[Kanda Isles]]"
-  - "[[Kanda]]"
-  - "[[Frostlock Commons]]"
-  - "[[Forgewright's Circle]]"
-  - "[[Boba]]"
-  - "[[Crucible Hollow]]"
-  - "[[Ironhall Trade Pavilion]]"
-  - "[[Thundertread Ward]]"
-  - "[[Lambaro Isles]]"
-  - "[[Lambaro]]"
-  - "[[The Anvilworks]]"
-  - "[[Mangagoy Isles]]"
-  - "[[Mangagoy]]"
-  - "[[Binders' Lane]]"
-  - "[[Union Freight & Forging Annex]]"
-  - "[[Mwingu Isles]]"
-  - "[[Mwingu]]"
-  - "[[The Tideflats]]"
-  - "[[Hammerlight Port Forge]]"
-head:
-  - "[[Boran Steelwright]]"
-pronounced: GILD-ed HAM-mer YOU-nion
-founded: 28 Stonewake -6 PR
-organizationtype:
-  - Guild
-aliases:
-  - Guilded Hammers
-  - Guilded Hammer Union
 ---
 
 ```meta-bind-js-view 
@@ -180,59 +139,46 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
+
 ### Description
-> [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|The Guilded Hammer Union]] is one of the most respected artisan guilds in Kanda. Representing smiths, relic-crafters, and material specialists, the Union controls the production of refined alloys, Pre-Rising weapon housing, and enchanted containment frames. They protect guild independence, regulate quality standards, and oppose both criminal smuggling of relics and reckless magitech tampering.
+
+> Describe the organization’s core identity, purpose, and place in the world.
 
 ### Oaths
-> “Strike true, temper fair, forge legacy.”
+
+> Sacred or symbolic promises members take upon joining.
 
 ### Mission Statement
-> To preserve, elevate, and defend the forge-bound traditions of Kanda through quality craft, lawful trade, and inter-island unity.
+
+> Core purpose and long-term goals; why the organization exists.
 
 ### Laws
-> - Blueprints are considered sacred guild property.  
-> - Void-touched materials must be destroyed or purified.  
-> - Apprentices must serve under two masters before commission.  
-> - All relics forged for external factions require Union mark and approval.
+
+> Rules or codes members must follow.
 
 ### Tenets
-> - Trust the weight of honest work.  
-> - No shortcut forges truth.  
-> - Flame remembers the shape of every failure.  
-> - A bad blade scars more than flesh.
+
+> Guiding values, ideals, or behaviors central to the organization.
 
 ### Prohibitions
-> - Selling to cult agents, smugglers, or known pirates.  
-> - Forging cursed materials knowingly.  
-> - Bidding against fellow Union members in closed contracts.  
-> - Refusing safe harbor to a sanctioned craftsman.
+
+> Forbidden behaviors, taboos, or violations that result in exile or punishment.
+
+
+
+## Culture
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Boran Steelwright|Foreman Boran Steelwright]] declined House Kelthorne’s artifact commission request after reviewing soulstone blueprints.  
-> - [[Lazlo]] is assisting the [[Lambaro Institute of Innovation]] with experiments to stabilize rune-conductive alloys.  
-> - [[Batrok]] of Group 3 retains honorary Union membership and may return to assist in the testing of hammer-tech relics.  
-> - [[Mwingu]]’s forgeport has reported several encounters with black-market agents bearing modified Union sigils—an investigation is underway.  
-> - Tensions rise in [[Mangagoy]] between the Union and local shipping guilds regarding control of reinforced relic packaging methods.
 
 ## History
-> Born from the ashes of southern forge-cults and independent masters during the prelude to the Rising, [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|The Guilded Hammer Union]] was founded on 28 Stonewake -6 PR. Their first act: the codification of an ethical relicsmithing code. Over time, they became the standard by which all post-Rising craft guilds were measured.  
->  
-> Although their influence waned during the infernal pact era, the Union regained prominence by refusing to allow their designs to fall into abyssal hands. Today, they maintain strongholds across five Isles, and are considered among the last defenders of purely material craftsmanship.
 
 ## Notes
-- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Boran Steelwright|Foreman Boran Steelwright]] – Stoic and pragmatic founder; believes in tradition with purpose.  
-- [[Lazlo]] – Dwarven smith and rune-crafter; deeply involved with modern alloy stabilization research.  
-- [[Talgar Anvilmarr]], [[Hodden Anvilmarr]] – Master forge-duo operating in Lambaro under Union charter.  
-- [[The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[Lambaro]]; houses master-forges, guild archive, and dispute court.  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Guilded Hammer Union/Forgewright's Circle|Forgewright's Circle]] – District forgehall in [[Kanda]]; custom commission site for Vanguard and Blazing Pledge arms.  
-- [[Ironhall Trade Pavilion]] – Merchant outpost in [[Boba]] dealing in refined gear and sigil-bound tools.  
-- [[Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
-- [[Hammerlight Port Forge]] – Coastal forge-and-dock fusion serving resource intake and barge armor repair in [[Mwingu]].  
-- Symbol: Twin hammers crossed over a circular anvil, rimmed in golden flame etchings.  
-- Uniforms: Heavy aprons, thick gloves, and rune-bound hammer pins. Formal delegates wear blackened steel mantles over trade robes.
+
+
+

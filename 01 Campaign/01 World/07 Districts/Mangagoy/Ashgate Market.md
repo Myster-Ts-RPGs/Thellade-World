@@ -13,6 +13,7 @@ organization:
   - "[[The Crimson Gauge]]"
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"
+  - "[[The Iron Syndicate]]"
 ---
 
 ```meta-bind-js-view 

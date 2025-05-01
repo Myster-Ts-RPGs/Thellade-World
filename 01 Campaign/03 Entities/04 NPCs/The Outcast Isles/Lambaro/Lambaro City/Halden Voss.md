@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[Embercoil Forge]]"
+  - "[[Crucible Hollow]]"
   - "[[Lambaro]]"
 condition: Healthy
 aliases:

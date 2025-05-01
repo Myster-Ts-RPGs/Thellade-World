@@ -17,6 +17,8 @@ export:
   - Salt
   - Dried Fish
   - Coral
+organization:
+  - "[[The Iron Syndicate]]"
 ---
 
 

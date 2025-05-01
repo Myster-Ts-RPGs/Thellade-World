@@ -6,16 +6,26 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Embercoil Forge]]"
-  - "[[Crucible Hollow]]"
-  - "[[Lambaro]]"
-condition: Healthy
-aliases:
-  - Ressa 'The Phantom Tinkerer' Meris
-  - The Phantom Tinkerer
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 organization:
   - "[[The Iron Syndicate]]"
+ownedlocation:
+  - "[[Smuggler's Dock]]"
+location:
+  - "[[Smuggler's Dock]]"
+  - "[[Westport]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -150,3 +160,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+
