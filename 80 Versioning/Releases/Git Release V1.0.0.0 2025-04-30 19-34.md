@@ -3,22 +3,6 @@
 ## Summary
 > Public release of version 1.0.0.0
 
-## Commits Since Last Release
-| Summary | Commit File |
-| --- | --- |
-| Set initial Milestone Status | [[Git Commit 2025-04-30 19-27]] |
-| Add Release Automation | [[Git Commit 2025-04-30 19-26]] |
-| Add summary field to Get Commit YAML | [[Git Commit 2025-04-30 17-52]] |
-| Complete Commit and Changelog Automation | [[Git Commit 2025-04-30 16-58]] |
-| Final Test of Commit and Changelog Automation | [[Git Commit 2025-04-30 16-53]] |
-| Improve the readability of the changelog by making it into a table | [[Git Commit 2025-04-30 16-48]] |
-| Minor Changlog Formatting Change | [[Git Commit 2025-04-30 16-36]] |
-| Exclude z_Template Changes from Change Log | [[Git Commit 2025-04-30 16-29]] |
-| Remove Versioning Files from changed files in changelog | [[Git Commit 2025-04-30 16-24]] |
-| Add Readme and License Information | [[Git Commit 2025-04-30 16-16]] |
-| Added Automated Versioning Control | [[Git Commit 2025-04-30 15-34]] |
-| Add GIT Versioning | [[Git Commit 2025-04-30 14-22]] |
-
 ## Vault Status
 
 Thellade World Archive as of this release includes the following:
@@ -59,6 +43,22 @@ Thellade World Archive as of this release includes the following:
 - Finalize remaining 10 factions
 - Complete settlements + districts in *Smokey Shoals* and *The Sundering Deep*
 - Begin POI and NPC stubbing at the settlement level
+
+## Commits Since Last Release
+| Summary | Commit Date |
+| --- | --- |
+| Set initial Milestone Status | 2025-04-30 19:26:36 |
+| Add Release Automation | 2025-04-30 19:25:28 |
+| Add summary field to Get Commit YAML | 2025-04-30 17:52:06 |
+| Complete Commit and Changelog Automation | 2025-04-30 16:58:23 |
+| Final Test of Commit and Changelog Automation | 2025-04-30 16:52:52 |
+| Improve the readability of the changelog by making it into a table | 2025-04-30 16:47:43 |
+| Minor Changlog Formatting Change | 2025-04-30 16:36:06 |
+| Exclude z_Template Changes from Change Log | 2025-04-30 16:29:11 |
+| Remove Versioning Files from changed files in changelog | 2025-04-30 16:23:31 |
+| Add Readme and License Information | 2025-04-30 16:15:44 |
+| Added Automated Versioning Control | 2025-04-30 15:34:11 |
+| Add GIT Versioning | 2025-04-30 14:22:09 |
 
 ## Notes
 - Release performed via Obsidian on: Wed Apr 30 2025

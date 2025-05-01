@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.0.1 | 2025-04-30 19:38 | Add Commit Time to Release Summary | [[Git Commit 2025-04-30 19-38]]
 1.0.0.0 | 2025-04-30 19:27 | Set initial Milestone Status | [[Git Commit 2025-04-30 19-27]]
 0.0.3.0 | 2025-04-30 19:26 | Add Release Automation | [[Git Commit 2025-04-30 19-26]]
 0.0.2.2 | 2025-04-30 19:19 | null | [[80 Versioning/Commits/sortspec]]

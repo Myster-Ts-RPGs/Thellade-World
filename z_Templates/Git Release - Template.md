@@ -50,7 +50,7 @@ for (const file of commitFiles) {
   const match = contents.match(/summary:\s*["']?(.*?)["']?\n/);
   const summary = match ? match[1] : "(No summary)";
   const time = new Date(file.stat.ctime).toLocaleString("sv-SE");
-  commitSummaries.push(`| ${summary} | [[${file.basename}]] |`);
+  commitSummaries.push(`| ${summary} | ${time} |`);
 }
 
 
@@ -60,7 +60,7 @@ tR = '';
 tR += `# Git Release v${currentVersion}\n\n`;
 tR += `## Summary\n> Public release of version ${currentVersion}\n\n`;
 tR += '## Commits Since Last Release\n';
-tR += '| Summary | Commit File |\n';
+tR += '| Summary | Commit Date |\n';
 tR += '| --- | --- |\n';
 tR += commitSummaries.join('\n') + '\n\n';
 tR += `## Notes\n- Release performed via Obsidian on: ${now.toDateString()}\n- Author: Steven Allyn Taylor\n`;
