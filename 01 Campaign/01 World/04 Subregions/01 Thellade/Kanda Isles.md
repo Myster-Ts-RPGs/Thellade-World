@@ -47,6 +47,7 @@ organization:
   - "[[The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 ```meta-bind-js-view 

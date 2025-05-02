@@ -7,7 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Kanda]]"
+  - "[[The Bloodied Hollow]]"
+  - "[[Kanda Isles]]"
 condition: Healthy
 aliases:
   - The Shadow Wolf

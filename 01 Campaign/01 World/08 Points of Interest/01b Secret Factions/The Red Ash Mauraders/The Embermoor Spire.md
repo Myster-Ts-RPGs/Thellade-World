@@ -4,11 +4,13 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
+banner: on
+location:
+  - "[[Middle Isles]]"
 organization:
   - "[[The Red Ash Mauraders]]"
-location:
-  - "[[Kanda Isles]]"
+owner:
+  - "[[Farman Raulf]]"
 ---
 
 ```meta-bind-js-view 

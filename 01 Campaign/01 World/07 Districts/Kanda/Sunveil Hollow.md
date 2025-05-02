@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Hollow Saints]]"
   - "[[The Mistwalkers]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 ```meta-bind-js-view 

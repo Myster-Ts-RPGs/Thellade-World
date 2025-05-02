@@ -28,6 +28,7 @@ rivals:
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Red Ash Mauraders]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

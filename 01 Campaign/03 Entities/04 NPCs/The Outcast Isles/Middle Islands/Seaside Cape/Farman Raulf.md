@@ -7,12 +7,15 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Seaside Cape]]"
+  - "[[The Embermoor Spire]]"
+  - "[[Middle Isles]]"
 condition: Healthy
 aliases:
   - The Crimson Watcher
 organization:
   - "[[The Red Ash Mauraders]]"
+ownedlocation:
+  - "[[The Embermoor Spire]]"
 ---
 
 > [!metadata|metadata]- Metadata 

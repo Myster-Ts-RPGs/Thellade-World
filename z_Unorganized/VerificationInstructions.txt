@@ -1,5 +1,18 @@
 Please check that I have input everything correctly. Specifically ensure that each region, subregion, settlement, district, location, NPC, Ally, and Rival is entered in both the top matter and appears in the dataviews in the pdf. Ensure that all general information and bottom matter has been transferred correctly.
 
-You need to provide two sets of outout for this Step
-- (1) Every YAML entry is present in dataview
-- (2) Every dataview entry is present in YAML
+You need to provide the following output:
+- (1) YAML Top Matter Verification in MD File. Must ensure that I have entered the following items from the top matter you generated and it is correct:
+    - Pronunciation
+    - Alias(es)
+    - Date Founded
+    - Type(s)
+    - Status
+    - Scope
+    - Head
+    - Steward
+    - Parent Organization
+    - Headquarters Location 
+- (2) YAML Location duplication Check in MD file. Ensure there are no duplicates in this Areas.
+- (3) Ensure EVERY location in the YAML MD file is listed in the dataview of the pdf
+- (4) Ensure EVERY location in the dataview of the PDF is listed in the TAML of the MD file
+- (5) Provide a count of location in the MD file TAML and the sum of the Regions, Subregions, Settlements, Districts, and Specific Locations in the PDF. These should Match.

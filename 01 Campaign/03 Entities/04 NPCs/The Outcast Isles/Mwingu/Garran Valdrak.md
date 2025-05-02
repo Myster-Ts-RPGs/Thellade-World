@@ -6,15 +6,27 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[The Cinder Refuge]]"
-  - "[[Glowmire Terrace]]"
-  - "[[Lambaro]]"
-condition: Healthy
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Silva 'The Silent Blade' Merix
+  - Garren 'The Emberfist' Valdrak
+  - The Ember Fist
 organization:
   - "[[The Red Ash Mauraders]]"
+location:
+  - "[[The Ember Hold]]"
+  - "[[Mwingu Isles]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -149,3 +161,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

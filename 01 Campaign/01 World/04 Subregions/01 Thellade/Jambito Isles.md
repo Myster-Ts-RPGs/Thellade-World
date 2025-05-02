@@ -37,6 +37,7 @@ organization:
   - "[[The Hollow Mask]]"
   - "[[The Infernal Covenant]]"
   - "[[The Mistwalkers]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 ```meta-bind-js-view 

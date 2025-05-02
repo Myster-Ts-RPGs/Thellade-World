@@ -40,6 +40,7 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 ```meta-bind-js-view 

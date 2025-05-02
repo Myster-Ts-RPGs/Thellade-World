@@ -11,6 +11,8 @@ aliases:
 organization:
   - "[[The Red Ash Mauraders]]"
 location:
+  - "[[The Rusted Wake]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
 ---

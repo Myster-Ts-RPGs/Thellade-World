@@ -10,6 +10,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 ```meta-bind-js-view 

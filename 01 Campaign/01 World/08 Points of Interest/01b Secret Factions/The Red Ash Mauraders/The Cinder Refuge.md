@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Red Ash Mauraders]]"
+location:
+  - "[[Glowmire Terrace]]"
+  - "[[Lambaro]]"
 ---
 
 ```meta-bind-js-view 

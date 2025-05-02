@@ -45,6 +45,7 @@ rivals:
   - "[[The Infernal Covenant]]"
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
+  - "[[The Red Ash Mauraders]]"
 allies:
   - "[[The Emberborn League]]"
   - "[[The Guilded Hammer Union]]"

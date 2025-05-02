@@ -7,7 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Mangagoy]]"
+  - "[[The Smoldering Roost]]"
+  - "[[Mangagoy Isles]]"
 condition: Healthy
 aliases:
   - The Hollow Mask

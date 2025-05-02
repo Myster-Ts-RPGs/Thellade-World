@@ -7,7 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Jambito]]"
+  - "[[The Red Dagger Hold]]"
+  - "[[Jambito Isles]]"
 condition: Healthy
 aliases:
   - The Bloodied Hand

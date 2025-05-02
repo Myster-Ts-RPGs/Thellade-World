@@ -32,6 +32,7 @@ rivals:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Red Ash Mauraders]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

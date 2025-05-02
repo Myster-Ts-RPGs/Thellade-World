@@ -6,15 +6,29 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[The Cinder Refuge]]"
-  - "[[Glowmire Terrace]]"
-  - "[[Lambaro]]"
-condition: Healthy
-aliases:
-  - Silva 'The Silent Blade' Merix
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 organization:
   - "[[The Red Ash Mauraders]]"
+location:
+  - "[[The Ember Hold]]"
+  - "[[Mwingu Isles]]"
+condition: Healthy
+aliases:
+  - Rask One-Eye
+  - The Red Warlord
+ownedlocation:
+  - "[[The Ember Hold]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -149,3 +163,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

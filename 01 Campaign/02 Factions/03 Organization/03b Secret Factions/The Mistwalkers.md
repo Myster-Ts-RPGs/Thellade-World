@@ -6,10 +6,11 @@ hq: "[[The Veil Sanctum]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - Regional
+  - Global
 art: 90 Assets/Images/Organizations/Mistwalkers.png
 aliases:
   - Mistwalkers
+  - The Veiled Watch
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"
@@ -42,6 +43,11 @@ rivals:
   - "[[The Sable Accord]]"
 head:
   - "[[Vaelin Thorne]]"
+founded: 04 Umbralcrown 91 PR
+organizationtype:
+  - Espionage
+  - Navigation
+  - Planar
 ---
 
 ```meta-bind-js-view 

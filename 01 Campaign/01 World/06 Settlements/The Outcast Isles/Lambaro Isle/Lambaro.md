@@ -41,6 +41,7 @@ organization:
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
+  - "[[The Red Ash Mauraders]]"
 ---
 
 
