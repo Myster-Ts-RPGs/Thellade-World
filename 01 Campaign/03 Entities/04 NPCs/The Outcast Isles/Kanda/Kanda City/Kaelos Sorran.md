@@ -7,13 +7,17 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Kanda]]"
+  - "[[The Veil of Midnight]]"
+  - "[[The Starlost Reach]]"
+  - "[[Neroshade]]"
 condition: Healthy
 aliases:
   - Warden Kaelos Sorran
   - Warden Sorran
 organization:
   - "[[The Sable Accord]]"
+ownedlocation:
+  - "[[The Veil of Midnight]]"
 ---
 
 > [!metadata|metadata]- Metadata 

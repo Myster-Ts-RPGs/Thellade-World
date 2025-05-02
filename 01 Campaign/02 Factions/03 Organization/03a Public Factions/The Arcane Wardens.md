@@ -57,6 +57,7 @@ rivals:
   - "[[The Crimson Shroud]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Sable Accord]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens

@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Sable Accord]]"
+location:
+  - "[[The Starlost Reach]]"
+  - "[[Neroshade]]"
 ---
 
 ```meta-bind-js-view 
@@ -43,7 +46,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#Plane AND !"z_Templates"), optionQuery(#Region AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`

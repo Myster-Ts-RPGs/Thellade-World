@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Sable Accord]]"
+location:
+  - "[[Sunveil Hollow]]"
+  - "[[Kanda]]"
 ---
 
 ```meta-bind-js-view 

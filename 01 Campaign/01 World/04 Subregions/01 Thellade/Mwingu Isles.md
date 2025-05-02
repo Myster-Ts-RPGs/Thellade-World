@@ -41,6 +41,7 @@ organization:
   - "[[The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sable Accord]]"
 ---
 
 ```meta-bind-js-view 

@@ -6,16 +6,27 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Lambaro]]"
-  - "[[The Hollow Spire]]"
-  - "[[Glowmire Terrace]]"
-condition: Healthy
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Elyssara 'The Silent Archivist' Vornis
-  - The Silent Archivist
+  - Varethis 'The Echo' Thaldris
 organization:
   - "[[The Sable Accord]]"
+location:
+  - "[[The Black Aetherium]]"
+  - "[[Scholar's Ring]]"
+  - "[[Mwingu]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -150,3 +161,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

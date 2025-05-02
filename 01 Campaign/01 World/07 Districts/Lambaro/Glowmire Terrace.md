@@ -13,6 +13,7 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
+  - "[[The Sable Accord]]"
 ---
 
 ```meta-bind-js-view 

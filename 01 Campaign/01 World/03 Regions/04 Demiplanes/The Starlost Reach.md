@@ -1,44 +1,13 @@
 ---
 tags:
   - "#Location"
-  - "#Subregion"
+  - "#Region"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-location:
-  - "[[The Outcast Isles]]"
-terrain:
-  - Volcanic Slope
-  - Coral Reef
-  - Sandy Beach
-  - Highlands
-  - Rainforest
-  - Wetlands
-  - Floating Isles
-  - Lava Flats
 organization:
-  - "[[The Arcane Wardens]]"
-  - "[[The Ashen Vanguard]]"
-  - "[[The Blazing Pledge]]"
-  - "[[The Crystal Seekers Guild]]"
-  - "[[The Dawnbringers of Lunara]]"
-  - "[[The Emberborn League]]"
-  - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
-  - "[[The Lumina Guardians]]"
-  - "[[The Order of the Ember Blades]]"
-  - "[[The Phoenix Assembly]]"
-  - "[[The Verdant Hand]]"
-  - "[[The Voidscourge Hunters]]"
-  - "[[The Wardens of the Deep Dark]]"
-  - "[[The Red Runners]]"
-  - "[[The Black Sepulcher]]"
-  - "[[The Crimson Shroud]]"
-  - "[[The Cursed Blades]]"
-  - "[[The Hollow Mask]]"
-  - "[[The Infernal Covenant]]"
-  - "[[The Mistwalkers]]"
-  - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+location:
+  - "[[Neroshade]]"
 ---
 
 ```meta-bind-js-view 
@@ -72,8 +41,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Aliases** | `INPUT[list:aliases]` |
 > **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
 > **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
-> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Region AND !"z_Templates"), useLinks(partial)):location]` |
 > **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+> **Location** | `INPUT[inlineListSuggester(optionQuery(#Plane OR #Planet AND !"z_Templates"), useLinks(partial)):location]`
+
+
 
 > [!infobox]+
 > # `=this.file.name`
@@ -84,7 +55,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Region** | `VIEW[{location}][link]` |
+> **Planet** | `VIEW[{location}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
@@ -111,6 +82,14 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
+> [!metadata|subregions]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "Subregion")
+> SORT file.name ASC
+> ```
+
 > [!metadata|reaches]- Reaches
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain
@@ -121,16 +100,16 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|settlements]- Settlements
 >```dataview
->TABLE without id   file.link AS "Name",   settlementtype AS "Type",   population AS "Population",   join(link(dominion), ", ") AS "Dominion"
+>TABLE without id   file.link AS "Name",   settlementtype AS "Type",   population AS "Population",   choice(length(location) > 1, location[0], "") AS  "Subregion",   join(link(dominion), ", ") AS "Dominion"
 >FROM "01 Campaign"
 >WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
->SORT file.name ASC
+>SORT location[0] ASC, file.name ASC
 >```
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
-> FROM "01 Campaign"
+> FROM "Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
 
@@ -141,11 +120,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > WHERE contains(location, this.file.link) AND contains(tags, "Organization")
 > SORT organizationtype ASC, file.name ASC
 
-## Overview 
->[!quote]
->*“The breath of fire cradled in ocean’s hush.”*
+## Overview
+> [!quote]+ Regional Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
 
-The Jambito Isles are remote, windswept islands clustered around a single central volcano. The terrain is subtropical, with sparse trees, black sand beaches, and isolated coral-ringed shallows. The region feels quiet—held in timeless balance between water and flame.
+
+
+## Geography
+
+
 
 ## Current Events
 
@@ -156,4 +139,3 @@ The Jambito Isles are remote, windswept islands clustered around a single centra
 
 
 ## Notes
-

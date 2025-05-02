@@ -12,7 +12,8 @@ aliases:
 organization:
   - "[[The Sable Accord]]"
 location:
-  - "[[Boba]]"
+  - "[[The Silent Observatory]]"
+  - "[[Kanda Isles]]"
 condition: Healthy
 ---
 

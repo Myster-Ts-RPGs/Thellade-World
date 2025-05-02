@@ -46,6 +46,7 @@ rivals:
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sable Accord]]"
 allies:
   - "[[The Emberborn League]]"
   - "[[The Guilded Hammer Union]]"

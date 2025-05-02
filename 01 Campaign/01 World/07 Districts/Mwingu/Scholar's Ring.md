@@ -13,6 +13,7 @@ organization:
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Sable Accord]]"
 location:
   - "[[Mwingu]]"
 ---

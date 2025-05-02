@@ -7,7 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Mangagoy]]"
+  - "[[The Sunken Archive]]"
+  - "[[Mangagoy Isles]]"
 condition: Healthy
 aliases:
   - The Drowned Scholar

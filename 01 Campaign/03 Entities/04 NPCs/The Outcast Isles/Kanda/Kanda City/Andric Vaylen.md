@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Umbral Vault]]"
+  - "[[Sunveil Hollow]]"
   - "[[Kanda]]"
 condition: Healthy
 aliases:

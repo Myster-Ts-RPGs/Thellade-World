@@ -33,6 +33,7 @@ rivals:
   - "[[The Hollow Mask]]"
   - "[[The Midnight Covenant]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sable Accord]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

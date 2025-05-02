@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Sable Accord]]"
+location:
+  - "[[Mangagoy Isles]]"
 ---
 
 ```meta-bind-js-view 

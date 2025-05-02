@@ -35,6 +35,7 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Sable Accord]]"
 ---
 
 

@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Sable Accord]]"
+location:
+  - "[[Silverspire Terrace]]"
+  - "[[Jambito]]"
 ---
 
 ```meta-bind-js-view 

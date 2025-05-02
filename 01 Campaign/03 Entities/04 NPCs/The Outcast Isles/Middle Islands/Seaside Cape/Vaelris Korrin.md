@@ -7,7 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Seaside Cape]]"
+  - "[[The Twilight Nexus]]"
+  - "[[Middle Isles]]"
 condition: Healthy
 aliases:
   - Vaelris 'The Stormbound' Korrin

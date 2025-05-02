@@ -7,7 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Kanda]]"
+  - "[[The Veil of Midnight]]"
+  - "[[The Starlost Reach]]"
+  - "[[Neroshade]]"
 condition: Healthy
 aliases:
   - Archmage Lyrel Nightshade
