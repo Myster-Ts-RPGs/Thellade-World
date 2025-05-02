@@ -1,1 +1,5 @@
 Please check that I have input everything correctly. Specifically ensure that each region, subregion, settlement, district, location, NPC, Ally, and Rival is entered in both the top matter and appears in the dataviews in the pdf. Ensure that all general information and bottom matter has been transferred correctly.
+
+You need to provide two sets of outout for this Step
+- (1) Every YAML entry is present in dataview
+- (2) Every dataview entry is present in YAML

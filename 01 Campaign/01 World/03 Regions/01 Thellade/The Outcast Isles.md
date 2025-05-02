@@ -39,6 +39,7 @@ organization:
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Mistwalkers]]"
 aliases:
   - Outcast Isles
 ---

@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Eyes Beneath]]"
+  - "[[Silverspire Terrace]]"
   - "[[Jambito]]"
 condition: Healthy
 aliases:

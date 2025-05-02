@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.7.0 | 2025-05-01 21:25 | Canonize The Mistwalkers | [[Git Commit 2025-05-01 21-25]]
 1.0.6.0 | 2025-05-01 09:52 | Canonize The Midnight Covenant Faction | [[Git Commit 2025-05-01 09-52]]
 1.0.5.0 | 2025-05-01 09:02 | Canonize The Iron Syndicate Faction | [[Git Commit 2025-05-01 09-02]]
 1.0.4.1 | 2025-05-01 08:20 | Revise Faction Generation Prompts | [[Git Commit 2025-05-01 08-20]]

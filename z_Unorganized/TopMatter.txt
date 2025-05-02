@@ -35,7 +35,7 @@ Alias(es) - Optional, include if Known. NONE if they do not exist.
 Steward -  Only include if known from canon. Do not improvise. NONE if it does not exist.
 Parent Organization -  Optional. NONE it does not exist.
 *Headquarters Location (Need to specify Settlement ,District, and Location -OR- Region/Subregion and Location) Location needs to give specific Building Name.  Use canonical building names where possible. If the exact name must be improvised, append (Generated) to the name.
-*Operating Areas:  Format: Settlement > District > Location. Use (Generated) if any part of the name must be improvised. If the specific location is unknown, use Unknown. If the faction has no presence in a region, use NONE.
+*Operating Areas:  Format: Settlement > District > Location. Use (Generated) if any part of the name must be improvised. If the specific location is unknown, use Unknown. If the faction has no presence in a region, use NONE. The main city on the island must have a District (canon already provided) for each POI.
     Jambito Isles:
     Kanda Isles:
     Lambaro Isles:

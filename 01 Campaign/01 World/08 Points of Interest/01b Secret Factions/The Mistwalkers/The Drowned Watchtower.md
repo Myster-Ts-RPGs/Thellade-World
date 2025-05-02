@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Mistwalkers]]"
+location:
+  - "[[Mistspire Anchorage]]"
+  - "[[Smokey Shoals]]"
 ---
 
 ```meta-bind-js-view 

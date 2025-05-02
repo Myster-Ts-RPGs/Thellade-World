@@ -20,7 +20,7 @@ organization:
   - "[[The Crimson Shroud]]"
 ownedlocation:
   - "[[The Cursed Storm]]"
-  - "[[Veilcutter's Refuge]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
 ---
 
 > [!metadata|metadata]- Metadata 

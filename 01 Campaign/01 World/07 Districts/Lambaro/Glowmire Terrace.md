@@ -12,6 +12,7 @@ organization:
   - "[[The Phoenix Assembly]]"
   - "[[The Cursed Blades]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

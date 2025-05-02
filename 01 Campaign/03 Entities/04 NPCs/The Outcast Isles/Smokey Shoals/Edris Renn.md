@@ -6,12 +6,28 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 aliases:
-  - Saris 'Driftwalker' Orwyn
+  - Edris 'The Balck Tide ' Renn
+  - Harbormaster Edris
+  - Harbormaster Renn
+  - The Black Tide
 organization:
   - "[[The Mistwalkers]]"
 location:
-  - "[[Boba]]"
+  - "[[The Veil Sanctum]]"
+  - "[[Mistspire Anchorage]]"
 condition: Healthy
 ---
 
@@ -147,3 +163,8 @@ condition: Healthy
 
 
 ## Notes
+
+
+
+
+

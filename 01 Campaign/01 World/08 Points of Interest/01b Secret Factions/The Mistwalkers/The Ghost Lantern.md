@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Mistwalkers]]"
+location:
+  - "[[Sunveil Hollow]]"
+  - "[[Kanda]]"
 ---
 
 ```meta-bind-js-view 

@@ -36,6 +36,7 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Hollow Mask]]"
   - "[[The Infernal Covenant]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

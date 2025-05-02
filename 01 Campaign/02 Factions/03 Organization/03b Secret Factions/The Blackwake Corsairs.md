@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[Veilcutter's Refuge]]"
+hq: "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -31,7 +31,7 @@ location:
   - "[[The Ashgild Exchange]]"
   - "[[Mistcatcher Shack]]"
   - "[[Hollowbone Trading Post]]"
-  - "[[Veilcutter's Refuge]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
 head:
   - "[[Varros Darin]]"
 steward:
@@ -47,6 +47,7 @@ allies:
 rivals:
   - "[[The Eternal Concord]]"
   - "[[The Ashen Vanguard]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

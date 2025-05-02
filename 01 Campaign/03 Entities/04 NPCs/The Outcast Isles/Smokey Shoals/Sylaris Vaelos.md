@@ -6,17 +6,30 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Seaside Cape]]"
-condition: Healthy
-aliases:
-  - Captain Torrin Vasl
-  - Captain Vask
-  - Captain Torrin 'The Pale Sail' Vask
-  - Torrin 'The Pail Sail' Vask
-  - The Pail Sail
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 organization:
   - "[[The Mistwalkers]]"
+location:
+  - "[[The Veil Sanctum]]"
+  - "[[Mistspire Anchorage]]"
+aliases:
+  - Warden Sylaris
+  - Warden Vaelos
+  - The Grey Gele
+  - Sylaris 'The Grey Gale' Vaelos
+  - Warden Sylaris 'The Grey Gale' Vaelos
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -151,3 +164,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

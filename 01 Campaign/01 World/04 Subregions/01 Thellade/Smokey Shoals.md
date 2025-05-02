@@ -8,6 +8,7 @@ location:
   - "[[The Outcast Isles]]"
 organization:
   - "[[The Blackwake Corsairs]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

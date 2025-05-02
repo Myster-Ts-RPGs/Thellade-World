@@ -41,6 +41,7 @@ organization:
   - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

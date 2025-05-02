@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Mistwalkers]]"
+location:
+  - "[[The Sundering Deep]]"
 ---
 
 ```meta-bind-js-view 

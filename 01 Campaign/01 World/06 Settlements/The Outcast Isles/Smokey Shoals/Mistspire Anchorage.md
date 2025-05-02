@@ -4,51 +4,11 @@ tags:
   - "#Settlement"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-location:
-  - "[[Mangagoy Isles]]"
-  - "[[The Outcast Isles]]"
-settlementtype: Large City
-population: 11,222
-import:
-  - Magical Trinkets
-  - Scrolls
-  - Rare Books
-export:
-  - Potions and Elixirs
-  - Arcane Knowledge
-  - Instruments
 organization:
-  - "[[The Emberheart Traders]]"
-  - "[[The Crystal Seekers Guild]]"
-  - "[[The Arcane Wardens]]"
-  - "[[The Ashen Vanguard]]"
-  - "[[The Blazing Pledge]]"
-  - "[[The Dawnbringers of Lunara]]"
-  - "[[The Emberborn League]]"
-  - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
-  - "[[The Lumina Guardians]]"
-  - "[[The Order of the Ember Blades]]"
-  - "[[The Phoenix Assembly]]"
-  - "[[The Sunfire Heralds]]"
-  - "[[The Voidscourge Hunters]]"
-  - "[[The Bleeding Tide]]"
-  - "[[The Red Runners]]"
-  - "[[The Crimson Gauge]]"
-  - "[[The Black Sepulcher]]"
-  - "[[The Blackwake Corsairs]]"
-  - "[[The Crimson Shroud]]"
-  - "[[The Cursed Blades]]"
-  - "[[The Ember Rats]]"
-  - "[[The Emberborn Exiles]]"
-  - "[[The Gilded Daggers]]"
-  - "[[The Hollow Saints]]"
-  - "[[The Infernal Covenant]]"
-  - "[[The Iron Syndicate]]"
-  - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
+location:
+  - "[[Smokey Shoals]]"
 ---
-
 
 ```meta-bind-js-view 
 {art} as art {banner} as banner

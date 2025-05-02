@@ -8,6 +8,7 @@ location:
   - "[[Kanda]]"
 organization:
   - "[[The Hollow Saints]]"
+  - "[[The Mistwalkers]]"
 ---
 
 ```meta-bind-js-view 

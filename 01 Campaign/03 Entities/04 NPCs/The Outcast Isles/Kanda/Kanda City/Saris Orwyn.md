@@ -19,12 +19,14 @@ party5relation:
 party6relation:
   - Unmet
 aliases:
-  - Torren 'Mistcloak' Drel
+  - Saris 'Driftwalker' Orwyn
 organization:
-  - "[[The Blackwake Corsairs]]"
+  - "[[The Mistwalkers]]"
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
-  - "[[Smokey Shoals]]"
+  - "[[The Ghost Lantern]]"
+  - "[[Sunveil Hollow]]"
+  - "[[Kanda]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -81,7 +83,7 @@ location:
 >> **Party 6 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group6), useLinks(partial)):party6tie]` |
 >> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
 
-> [!infobox|wsmall]+
+> [!infobox]+
 > # `=this.file.name`
 > `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ![[PlaceholderAudio.webm]]

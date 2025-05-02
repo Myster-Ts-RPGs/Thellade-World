@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Ghost Lantern]]"
+  - "[[Sunveil Hollow]]"
   - "[[Kanda]]"
 condition: Healthy
 aliases:
