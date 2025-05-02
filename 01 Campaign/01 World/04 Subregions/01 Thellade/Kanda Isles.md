@@ -49,6 +49,8 @@ organization:
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

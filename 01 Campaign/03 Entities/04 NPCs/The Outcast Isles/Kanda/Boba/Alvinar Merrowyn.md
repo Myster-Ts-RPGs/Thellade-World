@@ -6,16 +6,30 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[Broken Bell Safehose]]"
-  - "[[Lowmire Gutter]]"
-  - "[[Boba]]"
-condition: Healthy
-aliases:
-  - Verrik 'The Blade' Myrros
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 organization:
   - "[[The Silver Chain]]"
-ownedlocation: []
+location:
+  - "[[01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba/Merrowyn Estate]]"
+  - "[[Ambassadors Row]]"
+  - "[[Boba]]"
+condition: Healthy
+ownedlocation:
+  - "[[01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba/Merrowyn Estate]]"
+  - "[[The Ashen Vault]]"
+aliases:
+  - The Silver Fang
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -150,3 +164,8 @@ ownedlocation: []
 
 
 ## Notes
+
+
+
+
+

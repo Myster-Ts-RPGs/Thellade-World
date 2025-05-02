@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[Reskar's Inkfold]]"
+  - "[[Arcspire District]]"
   - "[[Lambaro]]"
 condition: Healthy
 aliases:
@@ -14,6 +16,8 @@ aliases:
   - Olin 'The Quill' Reskar
 organization:
   - "[[The Silver Chain]]"
+ownedlocation:
+  - "[[Reskar's Inkfold]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -32,6 +32,8 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 ---
 
 

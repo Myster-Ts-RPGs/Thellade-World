@@ -1,19 +1,17 @@
 ---
 tags:
   - "#Location"
-  - "#District"
+  - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-location:
-  - "[[Lambaro]]"
+banner: on
+owner:
+  - "[[Lysara Verannis]]"
 organization:
-  - "[[The Arcane Wardens]]"
-  - "[[The Ashen Vanguard]]"
-  - "[[The Lumina Guardians]]"
-  - "[[The Order of the Ember Blades]]"
-  - "[[The Hollow Mask]]"
-  - "[[The Infernal Covenant]]"
   - "[[The Silver Chain]]"
+location:
+  - "[[Gilded Strand]]"
+  - "[[Boba]]"
 ---
 
 ```meta-bind-js-view 
@@ -43,11 +41,14 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> #### Info
 >>  |
 >> ---|---|
-> **Pronounced** |  `INPUT[textArea:pronounced]`
-> **Aliases** | `INPUT[list:aliases]` |
-> **Type** | `INPUT[DistrictType][inlineListSuggester:districttype]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Settlement AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Pronounced** |  `INPUT[textArea:pronounced]`
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
+>> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
+>> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
+>> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -56,10 +57,23 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Type** | `VIEW[{districttype}][text]` |
+> **Type** | `VIEW[{poitype}][text]` |
+> **Dominion** | `VIEW[{dominion}][link]` |
+> **Owners** | `VIEW[{owner}][link]` |
+> **Assistant** | `VIEW[{assistant}][link]` |
+> **Organization** | `VIEW[{organization}][link]` |
 > **Location** | `VIEW[{location}][link]` |
+> ###### Party
+>  |
+> ---|---|
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
-# **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+# `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!recite]- Introduction
 > A script for the GM to read when the party arrive to this location for the first time.
@@ -90,21 +104,19 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> WHERE econtains(location, this.file.link) AND contains(tags, "Location")
 > SORT tags DESC, poitype ASC, file.name ASC
 
-> [!metadata|organizations]- Organizations
+> [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
+> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
 ## Overview 
-> [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
 
-Academic and artisan sector; scholars and relic-smiths operate here
+
 
 ## Keyed Locations
 

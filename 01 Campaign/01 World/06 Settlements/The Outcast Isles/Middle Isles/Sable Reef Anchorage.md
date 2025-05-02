@@ -5,47 +5,11 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Kanda Isles]]"
-  - "[[The Outcast Isles]]"
-settlementtype: Capital
-population: 25,000
-import:
-  - Exotic Woods
-  - Magical Trinkets
-  - Rare Books
-export:
-  - Textiles
-  - Gold
-  - Pottery
+  - "[[Middle Isles]]"
+population: "45"
 organization:
-  - "[[The Arcane Wardens]]"
-  - "[[The Blazing Pledge]]"
-  - "[[The Dawnbringers of Lunara]]"
-  - "[[The Emberborn League]]"
-  - "[[The Guilded Hammer Union]]"
-  - "[[The Lumina Guardians]]"
-  - "[[The Order of the Ember Blades]]"
-  - "[[The Phoenix Assembly]]"
-  - "[[The Rift Scholars Collective]]"
-  - "[[The Sunfire Heralds]]"
-  - "[[The Voidscourge Hunters]]"
-  - "[[The Wardens of the Deep Dark]]"
-  - "[[The Bleeding Tide]]"
-  - "[[The Red Runners]]"
-  - "[[The Crimson Gauge]]"
-  - "[[The Black Sepulcher]]"
-  - "[[The Blackwake Corsairs]]"
-  - "[[The Crimson Shroud]]"
-  - "[[The Emberborn Exiles]]"
-  - "[[The Hollow Mask]]"
-  - "[[The Hollow Saints]]"
-  - "[[The Infernal Covenant]]"
-  - "[[The Midnight Covenant]]"
-  - "[[The Mistwalkers]]"
-  - "[[The Sable Accord]]"
   - "[[The Silver Chain]]"
 ---
-
 
 ```meta-bind-js-view 
 {art} as art {banner} as banner
@@ -168,7 +132,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location[0]), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC

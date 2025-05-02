@@ -6,6 +6,8 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Boba]]"
+organization:
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

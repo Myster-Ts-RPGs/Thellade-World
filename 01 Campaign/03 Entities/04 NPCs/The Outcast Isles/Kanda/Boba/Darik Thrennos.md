@@ -11,8 +11,12 @@ aliases:
 organization:
   - "[[The Silver Chain]]"
 location:
+  - "[[Thrennos Exchange]]"
+  - "[[Ironveil Commons]]"
   - "[[Boba]]"
 condition: Healthy
+ownedlocation:
+  - "[[Thrennos Exchange]]"
 ---
 
 > [!metadata|metadata]- Metadata 

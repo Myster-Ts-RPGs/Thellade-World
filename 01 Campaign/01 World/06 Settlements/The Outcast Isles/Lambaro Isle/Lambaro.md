@@ -43,6 +43,7 @@ organization:
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+  - "[[The Silver Chain]]"
 ---
 
 

@@ -14,8 +14,12 @@ aliases:
 organization:
   - "[[The Sea Vultures]]"
 location:
+  - "[[The Silverwake]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
+ownedlocation:
+  - "[[The Silverwake]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Silver Chain]]"
+location:
+  - "[[Brimstone Docks]]"
+  - "[[Boba]]"
 ---
 
 ```meta-bind-js-view 

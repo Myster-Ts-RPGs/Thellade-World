@@ -47,6 +47,8 @@ rivals:
   - "[[The Cursed Blades]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 allies:
   - "[[The Emberborn League]]"
   - "[[The Guilded Hammer Union]]"

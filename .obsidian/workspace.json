@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Commits/Git Commit 2025-05-02 00-22.md",
+                "file": "80 Versioning/Milestones.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Commit 2025-05-02 00-22"
+              "title": "Milestones"
             }
           },
           {
@@ -45,13 +45,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Sable Accord.md",
+                "file": "80 Versioning/Commits/Git Commit 2025-05-02 16-27.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Git Commit 2025-05-02 16-27"
+            }
+          },
+          {
+            "id": "3e1d8050f951570a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Sable Accord"
+              "title": "The Ashen Vanguard"
             }
           },
           {
@@ -60,17 +75,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Varethis Thaldris.md",
+                "file": "01 Campaign/01 World/07 Districts/Boba/Brimstone Docks.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Varethis Thaldris"
+              "title": "Brimstone Docks"
+            }
+          },
+          {
+            "id": "005b2d449a5ba18d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Alvinar Merrowyn.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Alvinar Merrowyn"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,36 +311,42 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "666a0e979e159b21",
+  "active": "f83da23477015382",
   "lastOpenFiles": [
-    "80 Versioning/Commits/Git Commit 2025-05-01 23-17.md",
     "80 Versioning/Commits/Git Commit 2025-05-02 00-22.md",
-    "90 Assets/Images/Hub/HubBackground.png",
-    "01 Campaign/Master To Do List.md",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Sable Accord.md",
-    "90 Assets/Images/Organizations/SableAccord.png",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Varethis Thaldris.md",
-    "Vault Hub.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Seaside Cape/Vaelris Korrin.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Jambito/Tyren Zorath.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Thalvian Vex.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Seraphina Aldren.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Malryss Fen.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Maelis Durn.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Lyrel Nightshade.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Kaelos Sorran.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Elyssara Vornis.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Araniss Velis.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Andric Vaylen.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Umbral Vault.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Sable Accord/The Umbral Vault.md",
+    "80 Versioning/Commits/Git Commit 2025-05-02 16-27.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Silver Chain.md",
+    "90 Assets/Images/Organizations/SilverChain.png",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Silver Chain/The Ashen Vault.md",
     "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens.md",
-    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Bleeding Tide.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Sable Accord/The Veil of Midnight.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Sable Accord/The Silent Observatory.md",
-    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Red Ash Mauraders/The Embermoor Spire.md",
+    "01 Campaign/01 World/07 Districts/Mangagoy/Ashgate Market.md",
+    "01 Campaign/01 World/07 Districts/Lambaro/Arcspire District.md",
+    "01 Campaign/01 World/07 Districts/Boba/Sunfire Heights.md",
+    "01 Campaign/01 World/07 Districts/Boba/Lowmire Gutter.md",
+    "01 Campaign/01 World/07 Districts/Boba/Ironveil Commons.md",
+    "01 Campaign/01 World/07 Districts/Boba/Gilded Strand.md",
+    "01 Campaign/01 World/07 Districts/Boba/Brimstone Docks.md",
+    "01 Campaign/01 World/07 Districts/Boba/Ambassadors Row.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Sable Reef Anchorage.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Lambaro Isle/Lambaro.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Boba.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Lambaro Isles.md",
+    "01 Campaign/01 World/04 Subregions/01 Thellade/Kanda Isles.md",
+    "01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles.md",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders.md",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba/Merrowyn Estate.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Verrik Myrros.md",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Kanda/Untitled",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Kanda",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands",
+    "90 Assets/Images/Organizations/SeaVultures.png",
+    "90 Assets/Images/Hub/HubBackground.png",
+    "90 Assets/Images/Organizations/SableAccord.png",
     "01 Campaign/01 World/03 Regions/04 Demiplanes",
     "90 Assets/Images/Organizations/RedAshMarauders.png",
     "90 Assets/Images/Organizations/Mistwalkers.png",
@@ -322,13 +358,7 @@
     "z_Unorganized/FactionValidation.txt",
     "90 Assets/Images/Organizations/InfernalCovenant.png",
     "z_Unorganized/TopMatter.txt",
-    "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Asmodeus",
     "90 Assets/Images/Organizations/HollowSaints.png",
-    "01 Campaign/03 Entities/04 NPCs/Shadowthread Warrens/Daggerfall Hollow",
-    "01 Campaign/03 Entities/04 NPCs/Shadowthread Warrens",
-    "01 Campaign/01 World/06 Settlements/The Veins of Night/Shadowthread Warrens",
-    "z_Assets/Unsorted/Pasted image 20250428105146.png",
-    "90 Assets/Images/Organizations/HollowMask2.png",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",
     "3. Campaign/4. Planes/Untitled.canvas",

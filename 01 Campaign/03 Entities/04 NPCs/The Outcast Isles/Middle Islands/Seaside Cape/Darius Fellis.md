@@ -7,13 +7,17 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Seaside Cape]]"
+  - "[[The Gilded Shadow]]"
+  - "[[Sable Reef Anchorage]]"
+  - "[[Middle Isles]]"
 condition: Healthy
 aliases:
   - The Ghost
   - Darius 'The Ghost' Fellis
 organization:
   - "[[The Silver Chain]]"
+ownedlocation:
+  - "[[The Gilded Shadow]]"
 ---
 
 > [!metadata|metadata]- Metadata 

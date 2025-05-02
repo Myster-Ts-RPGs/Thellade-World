@@ -8,6 +8,7 @@ location:
   - "[[Boba]]"
 organization:
   - "[[The Phoenix Assembly]]"
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

@@ -7,6 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Silver Chain]]"
+location:
+  - "[[Ashgate Market]]"
+  - "[[Mangagoy]]"
 ---
 
 ```meta-bind-js-view 

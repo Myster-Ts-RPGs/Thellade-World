@@ -11,8 +11,12 @@ aliases:
 organization:
   - "[[The Sea Vultures]]"
 location:
+  - "[[The Barnacled Ledger]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
+ownedlocation:
+  - "[[The Barnacled Ledger]]"
 ---
 
 > [!metadata|metadata]- Metadata 

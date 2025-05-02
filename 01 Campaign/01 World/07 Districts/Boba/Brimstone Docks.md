@@ -11,6 +11,8 @@ organization:
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

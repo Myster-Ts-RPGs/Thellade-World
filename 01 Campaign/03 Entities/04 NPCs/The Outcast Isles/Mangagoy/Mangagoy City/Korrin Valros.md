@@ -7,12 +7,16 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Mangagoy]]"
+  - "[[The Embercoils]]"
+  - "[[Sunfire Heights]]"
+  - "[[Boba]]"
 condition: Healthy
 aliases:
   - Korrin 'The Smoke' Valros
 organization:
   - "[[The Silver Chain]]"
+ownedlocation:
+  - "[[The Embercoils]]"
 ---
 
 > [!metadata|metadata]- Metadata 

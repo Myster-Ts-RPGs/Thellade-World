@@ -14,6 +14,7 @@ organization:
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"
   - "[[The Iron Syndicate]]"
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

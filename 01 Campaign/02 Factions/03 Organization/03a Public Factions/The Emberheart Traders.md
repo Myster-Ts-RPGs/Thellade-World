@@ -48,6 +48,8 @@ allies:
 rivals:
   - "[[The Bleeding Tide]]"
   - "[[Golden Tides Trading Guild]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 ---
 
 ```meta-bind-js-view 

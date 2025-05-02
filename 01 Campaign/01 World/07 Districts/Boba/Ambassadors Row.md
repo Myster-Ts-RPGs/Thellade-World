@@ -8,6 +8,7 @@ organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Eternal Concord]]"
+  - "[[The Silver Chain]]"
 location:
   - "[[Boba]]"
 ---

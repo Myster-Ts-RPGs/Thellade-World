@@ -11,8 +11,12 @@ aliases:
 organization:
   - "[[The Silver Chain]]"
 location:
+  - "[[Verannis Estate]]"
+  - "[[Gilded Strand]]"
   - "[[Boba]]"
 condition: Healthy
+ownedlocation:
+  - "[[Verannis Estate]]"
 ---
 
 > [!metadata|metadata]- Metadata 

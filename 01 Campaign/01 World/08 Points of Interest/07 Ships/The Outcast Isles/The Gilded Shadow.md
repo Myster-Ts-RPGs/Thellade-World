@@ -9,6 +9,9 @@ organization:
   - "[[The Silver Chain]]"
 poitype:
   - Ship
+location:
+  - "[[Sable Reef Anchorage]]"
+  - "[[Middle Isles]]"
 ---
 
 ```meta-bind-js-view 

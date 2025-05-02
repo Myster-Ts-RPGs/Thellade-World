@@ -41,6 +41,8 @@ organization:
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
+  - "[[The Sea Vultures]]"
+  - "[[The Silver Chain]]"
 aliases:
   - Outcast Isles
 ---

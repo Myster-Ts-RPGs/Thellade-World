@@ -7,6 +7,11 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
   - "[[The Silver Chain]]"
+location:
+  - "[[Glimmershade]]"
+  - "[[Kanda]]"
+owner:
+  - "[[Alvinar Merrowyn]]"
 ---
 
 ```meta-bind-js-view 

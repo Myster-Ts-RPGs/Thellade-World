@@ -7,12 +7,16 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Mist Market]]"
+  - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 condition: Healthy
 aliases:
   - Selaya 'The Whisper' Dornis
 organization:
   - "[[The Silver Chain]]"
+ownedlocation:
+  - "[[The Mist Market]]"
 ---
 
 > [!metadata|metadata]- Metadata 

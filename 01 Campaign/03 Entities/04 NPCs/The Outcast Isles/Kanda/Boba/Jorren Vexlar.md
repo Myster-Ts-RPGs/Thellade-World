@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Hollow Fang]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
 aliases:
