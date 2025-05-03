@@ -10,7 +10,7 @@ organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Blazing Pledge]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Voidscourge Hunters]]"
 ---

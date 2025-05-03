@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[Thellade]]"
+hq: "[[The Silverwake]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -11,7 +11,7 @@ art: 90 Assets/Images/Organizations/SeaVultures.png
 aliases:
   - Sea Vultures
 pronounced: SEE VUHL-churz
-founded: 17 Emberwane 208 PR
+founded: 17 Emberwake 208 PR
 organizationtype:
   - Espionage
   - Smuggling
@@ -27,6 +27,7 @@ location:
 rivals:
   - "[[The Ashen Vanguard]]"
   - "[[The Emberheart Traders]]"
+foundedshort: 208.04.17 PR
 ---
 
 ```meta-bind-js-view 
@@ -59,6 +60,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -79,6 +81,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Founded** | `VIEW[{founded}][text]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `VIEW[{organizationtype}][text]` |
 > **Status** | `VIEW[{organizationstatus}][text]` |
 > **Scope** | `VIEW[{organizationscope}][text]` |

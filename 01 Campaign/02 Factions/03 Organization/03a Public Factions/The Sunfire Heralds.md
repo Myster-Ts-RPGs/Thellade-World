@@ -11,7 +11,7 @@ art: 90 Assets/Images/Organizations/SunfireHeralds.png
 aliases:
   - The Heralds
   - Sunfire Heralds
-founded: 12 Springdawn -5PR
+founded: 12 Blossomveil -5 PR
 organizationtype:
   - Educational
   - Regulatory
@@ -38,6 +38,7 @@ location:
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
 pronounced: SUN-fire HER-alds
+foundedshort: -5.02.12 PR
 ---
 
 ```meta-bind-js-view 
@@ -70,6 +71,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

@@ -1,0 +1,11 @@
+You are to read the front YAML matter for every faction in the category requested. 
+Using the Front Matter you will generate a table with the following columns (Items in {}'s indicate what goes in that column):
+- Faction {Faction Name - This is the filname less the .md at the end}
+- Alias Check {Green Check if Short Faction Name is Present in Aliases(i.e., the version without the word "THE"), Red X if not Present}
+- Founded Long {The Founding date in the form DD Month YYY Era, Red X if it was not provided}
+    - If the Month you origianlly gave me (what is in the YAML) does not exisit in canon month list, pick one that does and replace
+- Founded Short {The Founding Date in YYY.MM.DD Era Form (can have - for years prior to the rising) based on the Founded Long Entry}
+- Has Type {Green Check if Present, Red X if not Present}
+- Has Head {Green Check if Present, Red X if not Present}
+- Has HQ {Green Check if Present, Red X if not Present}
+- Has Art {Green Check if Present (does not have Placeholder), Red X if not Present}

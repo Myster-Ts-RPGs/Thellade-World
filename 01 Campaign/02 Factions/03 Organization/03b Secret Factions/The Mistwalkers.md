@@ -43,11 +43,13 @@ rivals:
   - "[[The Sable Accord]]"
 head:
   - "[[Vaelin Thorne]]"
-founded: 04 Umbralcrown 91 PR
+founded: 04 Stardrift 91 PR
 organizationtype:
   - Espionage
   - Navigation
   - Planar
+foundedshort: 91.08.04 PR
+pronounced: MIST-walk-ers
 ---
 
 ```meta-bind-js-view 
@@ -80,6 +82,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

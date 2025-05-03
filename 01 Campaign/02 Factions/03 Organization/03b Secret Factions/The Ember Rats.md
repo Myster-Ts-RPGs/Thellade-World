@@ -34,6 +34,8 @@ location:
 rivals:
   - "[[The Bleeding Tide]]"
   - "[[The Gilded Daggers]]"
+foundedshort: 208.07.13 PR
+founded: 13 Nightveil 208 PR
 ---
 
 ```meta-bind-js-view 
@@ -66,6 +68,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

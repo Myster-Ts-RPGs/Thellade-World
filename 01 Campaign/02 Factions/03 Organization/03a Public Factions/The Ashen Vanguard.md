@@ -34,7 +34,7 @@ location:
 pronounced: A-shun VAN-guard
 aliases:
   - Ashen Vanguard
-founded: 12 Springdawn -1 PR
+founded: 12 Dawnmarch -1 PR
 organizationtype:
   - Army
 head:
@@ -51,10 +51,11 @@ rivals:
   - "[[The Silver Chain]]"
 allies:
   - "[[The Emberborn League]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Rift Scholars Collective]]"
+foundedshort: -1.01.12 PR
 ---
 
 ```meta-bind-js-view 
@@ -87,6 +88,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

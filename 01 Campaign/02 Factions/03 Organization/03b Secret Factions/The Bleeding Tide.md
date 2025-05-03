@@ -12,7 +12,7 @@ rivals:
   - "[[The Crystal Seekers Guild]]"
   - "[[The Emberborn League]]"
   - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Sunfire Heralds]]"
   - "[[The Verdant Hand]]"
@@ -62,6 +62,7 @@ location:
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Black Market Network]]"
+foundedshort: 16.04.04 PR
 ---
 
 ```meta-bind-js-view 
@@ -94,6 +95,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

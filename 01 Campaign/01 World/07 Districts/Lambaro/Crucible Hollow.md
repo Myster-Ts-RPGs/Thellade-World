@@ -8,7 +8,7 @@ location:
   - "[[Lambaro]]"
 organization:
   - "[[The Emberborn League]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
   - "[[The Crimson Gauge]]"

@@ -8,7 +8,7 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Organizations/DawnbringersOfLunara.png
-founded: " 4 Springdawn -83 PR"
+founded: 04 Blossomveil -83 PR
 aliases:
   - Dawnlight Order
   - Sisters of the Moon
@@ -57,6 +57,7 @@ location:
   - "[[Moonlight Hospice]]"
   - "[[Shrine of Crystallight Reflection]]"
 pronounced: DAWN-bring-ers of loo-NAR-uh
+foundedshort: -83.02.04 PR
 ---
 
 ```meta-bind-js-view 
@@ -89,6 +90,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

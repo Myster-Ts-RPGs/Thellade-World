@@ -13,7 +13,7 @@ aliases:
   - The Veiled Hand
 head:
   - "[[Elaris Vex]]"
-founded: 12 Duskwane 127 PR
+founded: 12 Nightveil 127 PR
 pronounced: MID-night KOV-uh-nuhnt
 organizationtype:
   - Arcane
@@ -45,6 +45,7 @@ rivals:
   - "[[The Eternal Concord]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Arcane Wardens]]"
+foundedshort: 127.07.12 PR
 ---
 
 ```meta-bind-js-view 
@@ -77,6 +78,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

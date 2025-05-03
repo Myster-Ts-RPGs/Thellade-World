@@ -40,6 +40,7 @@ location:
 rivals:
   - "[[The Arcane Wardens]]"
   - "[[The Eternal Concord]]"
+foundedshort: 84.04.19 PR
 ---
 
 ```meta-bind-js-view 
@@ -72,6 +73,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -92,6 +94,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Founded** | `VIEW[{founded}][text]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `VIEW[{organizationtype}][text]` |
 > **Status** | `VIEW[{organizationstatus}][text]` |
 > **Scope** | `VIEW[{organizationscope}][text]` |

@@ -6,7 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 location:
   - "[[Binders' Lane]]"
   - "[[Mangagoy Isles]]"

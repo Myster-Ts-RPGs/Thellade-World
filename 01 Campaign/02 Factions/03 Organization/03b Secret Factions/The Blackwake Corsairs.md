@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
+hq: "[[Veilcutter's Refuge]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -31,13 +31,13 @@ location:
   - "[[The Ashgild Exchange]]"
   - "[[Mistcatcher Shack]]"
   - "[[Hollowbone Trading Post]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
+  - "[[Veilcutter's Refuge]]"
 head:
   - "[[Varros Darin]]"
 steward:
   - "[[Veyra Torell]]"
 pronounced: BLAK-wake KOR-sairs
-founded: 07 Seastide 131 PR
+founded: 07 Emberwake 131 PR
 organizationtype:
   - Secret
   - Trade
@@ -48,6 +48,7 @@ rivals:
   - "[[The Eternal Concord]]"
   - "[[The Ashen Vanguard]]"
   - "[[The Mistwalkers]]"
+foundedshort: 131.04.07 PR
 ---
 
 ```meta-bind-js-view 
@@ -80,6 +81,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

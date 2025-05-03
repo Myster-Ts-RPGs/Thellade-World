@@ -13,12 +13,11 @@ aliases:
   - Voidscourge Hunters
   - Voidscourge
 pronounced: VOYD-skourj HUN-ters
-founded: 8 Wyrmsdusk -7 PR
+founded: 08 Stardrift -7 PR
 organizationtype:
   - Circle
   - Order
-steward:
-  - "[[Garrick Stonefist]]"
+steward: []
 allies:
   - "[[The Arcane Wardens]]"
 rivals:
@@ -26,6 +25,23 @@ rivals:
   - "[[The Infernal Covenant]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
+foundedshort: -7.08.08 PR
+head:
+  - "[[Garrick Stonefist]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+  - "[[Watcher's Hollow]]"
+  - "[[Hollowfield Waystation]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Stonebrace Docks]]"
+  - "[[Hunter's Spur Outpost]]"
+  - "[[Jambito Isles]]"
+  - "[[Jambito]]"
+  - "[[Eastwatch District]]"
+  - "[[The Voidwatch Bastion]]"
 ---
 
 ```meta-bind-js-view 
@@ -58,6 +74,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -78,6 +95,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Founded** | `VIEW[{founded}][text]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `VIEW[{organizationtype}][text]` |
 > **Status** | `VIEW[{organizationstatus}][text]` |
 > **Scope** | `VIEW[{organizationscope}][text]` |

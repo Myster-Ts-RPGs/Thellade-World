@@ -12,7 +12,7 @@ pronounced: VER-dant HAND
 aliases:
   - The Circle of Verdancy
   - Verdant Hand
-founded: 17 Stormcall -9 PR
+founded: 17 Sunreach -9 PR
 organizationtype:
   - Circle
   - Religious
@@ -22,13 +22,14 @@ allies:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Eternal Concord]]"
 rivals:
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Bleeding Tide]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"
   - "[[Lambaro Isles]]"
   - "[[Mangagoy Isles]]"
+foundedshort: -9.03.17 PR
 ---
 
 ```meta-bind-js-view 
@@ -61,6 +62,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -196,7 +198,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - A new outpost, [[Ashenbloom Refuge]], has been established at the base of Fireplume Mountain near [[Mangagoy]], aimed at containing volcanic pollutant flows.  
 > - A secondary sanctuary, [[Whisperwood Hollow]], now flourishes at the edge of [[Ravensath Woods]] near [[Lambaro]], monitoring aggressive logging operations and assisting nearby communities.  
 > - Members are coordinating discreetly with [[the Dawnbringers of Lunara]] to purify leyline scars linked to the decaying Pre-Rising barrier.  
-> - Tensions are escalating with factions such as [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|the Guilded Hammer Union]] over expansionist mining projects, particularly around Lambaro’s highlands.
+> - Tensions are escalating with factions such as [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union|the Guilded Hammer Union]] over expansionist mining projects, particularly around Lambaro’s highlands.
 
 ## History
 > Founded long before the Rising, the Verdant Hand arose during a time of increasingly reckless resource exploitation. After the volcanic and abyssal devastations of the Rising, their mission expanded dramatically: to heal what could be healed, and prevent further loss.  

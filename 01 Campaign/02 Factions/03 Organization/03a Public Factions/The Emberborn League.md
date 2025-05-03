@@ -11,7 +11,7 @@ art: 90 Assets/Images/Organizations/EmberbornLeague.png
 allies:
   - "[[The Crystal Seekers Guild]]"
   - "[[The Ashen Vanguard]]"
-founded: 20 Ironfall -3 PR
+founded: 20 Frostfall -3 PR
 organizationtype:
   - Guild
 rivals:
@@ -49,6 +49,7 @@ steward:
 pronounced: EM-ber-born LEAGUE
 aliases:
   - Emberborn League
+foundedshort: -3.06.20 PR
 ---
 
 ```meta-bind-js-view 
@@ -81,6 +82,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

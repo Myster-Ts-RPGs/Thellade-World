@@ -13,7 +13,7 @@ aliases:
 head:
   - "[[Irlos Vale]]"
 pronounced: HAW-low SAYNTS
-founded: 09 Ashfall 74 PR
+founded: 09 Frostfall 74 PR
 organizationtype:
   - Cult
 location:
@@ -35,6 +35,7 @@ location:
 rivals:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Lumina Guardians]]"
+foundedshort: 74.06.09 PR
 ---
 
 ```meta-bind-js-view 
@@ -67,6 +68,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

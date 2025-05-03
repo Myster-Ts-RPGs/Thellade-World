@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Mangagoy]]"
 organization:
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Emberborn Exiles]]"

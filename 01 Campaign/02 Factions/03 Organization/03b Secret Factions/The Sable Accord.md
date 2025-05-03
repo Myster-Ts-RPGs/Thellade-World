@@ -45,11 +45,12 @@ location:
   - "[[The Obsidian Hall]]"
 head:
   - "[[Lyrel Nightshade]]"
-founded: 11 Duskwane 94 PR
+founded: 11 Nightveil 94 PR
 organizationtype:
   - Arcane
   - Religious
 pronounced: SAY-buhl uh-KORD
+foundedshort: 94.07.11 PR
 ---
 
 ```meta-bind-js-view 
@@ -82,6 +83,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

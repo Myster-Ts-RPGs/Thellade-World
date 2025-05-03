@@ -5,7 +5,7 @@ tags:
   - "#Group3"
 art: z_Assets/Misc/PlaceholderImage.png
 organization:
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 whichparty:
   - "[[Campaign Group 3]]"
 ---

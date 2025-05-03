@@ -26,7 +26,7 @@ location:
   - "[[Arcspire District]]"
   - "[[The Veilhouse of Names]]"
 pronounced: HAH-low MASK
-founded: 11 Veilwane 96 PR
+founded: 11 Nightveil 96 PR
 organizationtype:
   - Espionage
   - Secret
@@ -38,6 +38,7 @@ steward:
 rivals:
   - "[[The Crimson Shroud]]"
   - "[[The Eternal Concord]]"
+foundedshort: 96.07.11 PR
 ---
 
 ```meta-bind-js-view 
@@ -70,6 +71,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

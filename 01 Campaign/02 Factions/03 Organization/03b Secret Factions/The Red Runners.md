@@ -11,7 +11,7 @@ art: 90 Assets/Images/Organizations/RedRunners1.png
 rivals:
   - "[[The Arcane Wardens]]"
   - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Voidscourge Hunters]]"
 allies:
   - "[[The Bleeding Tide]]"
@@ -52,6 +52,7 @@ location:
   - "[[Mwingu Apothecary]]"
 aliases:
   - Red Runners
+foundedshort: 43.04.17 PR
 ---
 
 ```meta-bind-js-view 
@@ -84,6 +85,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -198,7 +200,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > To control commerce, secrets, and influence across the Isles by any means necessary, advancing infernal or abyssal supremacy when it strengthens their position.
 
 ### Laws
-> - Never betray the Syndicate without permission of the [[Council of Daggers]].
+> - Never betray the Syndicate without permission of the [[01 Campaign/02 Factions/03 Organization/03e Other Organizations/The Council of Daggers]].
 > - Protect trade routes and smuggling operations at all costs.
 > - Execute traitors and informants without public exposure.
 > - Respect contracts made with allied factions unless rescinded by [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Jambito/Kaelos Vark|Kaelos 'The Blooded Blade' Vark]] himself.

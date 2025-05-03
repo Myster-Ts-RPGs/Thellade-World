@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[Thellade]]"
+hq: "[[Emberheart Trade Office]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -38,7 +38,7 @@ head:
 aliases:
   - Ember Traders
   - Emberheart Traders
-founded: 22 Ashwane -5 PR
+founded: 12 Emberwake -5 PR
 organizationtype:
   - Guild
   - Trade
@@ -50,6 +50,7 @@ rivals:
   - "[[Golden Tides Trading Guild]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
+foundedshort: -5.04.12 PR
 ---
 
 ```meta-bind-js-view 
@@ -82,6 +83,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

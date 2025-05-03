@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.12.0 | 2025-05-02 21:17 | Cleaned and standardized founding dates for all public factions; filled missing values | [[Git Commit 2025-05-02 21-17]]
 1.0.11.0 | 2025-05-02 17:43 | Canonize The Veilbound Circle Faction | [[Git Commit 2025-05-02 17-43]]
 1.0.10.0 | 2025-05-02 16:27 | Canonize The Sea Vulture and The Silver Chain Factions | [[Git Commit 2025-05-02 16-27]]
 1.0.9.0 | 2025-05-02 00:22 | Canonize The Sable Accord | [[Git Commit 2025-05-02 00-22]]

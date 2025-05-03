@@ -33,7 +33,7 @@ location:
 head:
   - "[[Lenna Yelris]]"
 pronounced: KUR-sd BLAYDZ
-founded: 17 Redwane 76 PR
+founded: 17 Nightveil 76 PR
 organizationtype:
   - Secret
   - Martial
@@ -42,6 +42,7 @@ steward:
 rivals:
   - "[[The Ashen Vanguard]]"
   - "[[The Crimson Shroud]]"
+foundedshort: 76.07.17 PR
 ---
 
 ```meta-bind-js-view 
@@ -74,6 +75,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

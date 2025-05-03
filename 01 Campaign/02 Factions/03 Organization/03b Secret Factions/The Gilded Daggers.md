@@ -12,10 +12,10 @@ aliases:
   - Gilded Daggers
 rivals:
   - "[[The Ember Rats]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Crystal Seekers Guild]]"
 pronounced: GILL-did DAG-gers
-founded: 22 Ashmarch 102 PR
+founded: 12 Emberwake 102 PR
 organizationtype:
   - Secret
   - Trade
@@ -35,6 +35,7 @@ location:
   - "[[Ashgate Market]]"
   - "[[Sootveil Alley]]"
   - "[[Ember Coil]]"
+foundedshort: 102.04.12 PR
 ---
 
 ```meta-bind-js-view 
@@ -67,6 +68,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

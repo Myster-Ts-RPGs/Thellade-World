@@ -115,5 +115,18 @@
 >   dateformat(file.ctime, "yyyy-MM-dd HH:mm") AS "Created",
 >   dateformat(file.mtime, "yyyy-MM-dd HH:mm") AS "Last Modified"
 > FROM "01 Campaign"
-> WHERE (contains(tags, "Organization") AND contains(tags, "TODO") AND !contains(file.name,"Faction"))
+> WHERE (contains(tags, "Organization") AND contains(tags, "TODO") AND !contains(file.name,"Faction")) 
+> SORT file.name ASC
+
+## Cleanup
+> [!metadata|character]- Factions
+> ```dataview
+> TABLE without id file.link AS "Name", 
+> 	hq AS "HQ", 
+> 	head AS "Leader",
+> 	organizationtype AS "Type", 
+> 	founded AS "Founded", 
+> 	pronounced AS "Pronounced"
+> FROM "01 Campaign"
+> WHERE (contains(tags, "Organization") AND contains(tags, "Canon") AND !contains(file.name,"Faction")) AND !location
 > SORT file.name ASC

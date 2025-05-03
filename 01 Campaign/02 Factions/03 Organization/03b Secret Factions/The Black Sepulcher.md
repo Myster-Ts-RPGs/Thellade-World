@@ -43,7 +43,7 @@ location:
 head:
   - "[[Malakar Venmire]]"
 pronounced: BLAK SEP-ul-ker
-founded: 24 Umbraldeep 93 PR
+founded: 24 Stardrift 93 PR
 organizationtype:
   - Cult
   - Secret
@@ -51,6 +51,7 @@ steward:
   - "[[Sarla Vask]]"
 allies:
   - "[[The Bleeding Tide]]"
+foundedshort: 93.08.14 PR
 ---
 
 ```meta-bind-js-view 
@@ -83,6 +84,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -103,6 +105,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Founded** | `VIEW[{founded}][text]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `VIEW[{organizationtype}][text]` |
 > **Status** | `VIEW[{organizationstatus}][text]` |
 > **Scope** | `VIEW[{organizationscope}][text]` |

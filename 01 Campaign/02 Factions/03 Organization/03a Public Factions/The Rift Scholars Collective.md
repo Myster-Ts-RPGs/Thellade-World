@@ -12,7 +12,7 @@ aliases:
   - Rift Scholars
   - The Rift Scholars
   - Rift Scholars Collective
-founded: 6 Stonewake -3 PR
+founded: 06 Harvestshade -3 PR
 organizationtype:
   - Arcane
   - Academic
@@ -30,6 +30,7 @@ location:
   - "[[Wardspire District]]"
   - "[[The Riftspire Archives]]"
 pronounced: RIFT SKA-lers kuh-LEK-tiv
+foundedshort: -3.05.06 PR
 ---
 
 ```meta-bind-js-view 
@@ -62,6 +63,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

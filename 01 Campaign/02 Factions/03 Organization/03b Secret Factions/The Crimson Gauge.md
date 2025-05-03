@@ -14,7 +14,7 @@ rivals:
 aliases:
   - Crimson Gauge
 pronounced: CRIM-son GAYJ
-founded: 09 Frostwane 137 PR
+founded: 09 Frostfall 137 PR
 organizationtype:
   - Secret
   - Trade
@@ -37,6 +37,7 @@ location:
   - "[[Black Powder Cache]]"
   - "[[The Rusted Gauge Foundry]]"
   - "[[Smuggler's Walk Cell]]"
+foundedshort: 137.06.09 PR
 ---
 
 ```meta-bind-js-view 
@@ -69,6 +70,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

@@ -11,7 +11,7 @@ art: 90 Assets/Images/Organizations/LuminaGuardians.png
 pronounced: LOO-mi-nuh GUAR-dee-ans
 aliases:
   - Lumina Guardians
-founded: 7 Emberwane -9 PR
+founded: 07 Emberwake -9 PR
 organizationtype:
   - Order
   - Religious
@@ -51,6 +51,7 @@ rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Infernal Covenant]]"
   - "[[The Hollow Saints]]"
+foundedshort: -9.04.07 PR
 ---
 
 ```meta-bind-js-view 
@@ -83,6 +84,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

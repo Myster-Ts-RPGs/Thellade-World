@@ -23,7 +23,7 @@ organization:
   - "[[The Sunfire Heralds]]"
   - "[[The Crystal Seekers Guild]]"
   - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Sunfire Heralds]]"
   - "[[The Blackwake Corsairs]]"

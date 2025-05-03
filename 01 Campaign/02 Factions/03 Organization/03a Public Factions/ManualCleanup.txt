@@ -1,0 +1,35 @@
+For each of the bl
+
+Name	                        Long Date	
+The Black Sepulcher             14 Umbraldeep 93 PR	
+The Blackwake Corsairs	        07 Seastide 131 PR	
+The Bleeding Tide	            04 Emberwake 16 PR	
+The Crimson Gauge	            09 Frostwane 137 PR	
+The Crimson Shroud	            14 Emberwake 88 PR	
+The Cursed Blades	            17 Redwane 76 PR	
+The Ember Rats                  13 Nightveil 208 PR
+The Emberborn Exiles	        19 Emberwake 84 PR	
+The Emberheart Traders	        12 Ashwane -5 PR	
+The Eternal Concord	            11 Springdawn -12 PR	
+The Gilded Daggers	            12 Ashmarch 102 PR	
+The Gilded Hammer Union	        08 Stonewake -6 PR	
+The Hollow Mask	                11 Veilwane 96 PR	
+The Hollow Saints	            09 Ashfall 74 PR	
+The Infernal Covenant	        02 Sunreach 1 PR	
+The Iron Syndicate	            19 Frostfall 178 PR	
+The Lumina Guardians	        07 Emberwane -9 PR	
+The Midnight Covenant	        12 Duskwane 127 PR	
+The Mistwalkers	                04 Umbralcrown 91 PR	
+The Order of the Ember Blades	18 Stormwake -11 PR	
+The Phoenix Assembly	        04 Newdawn -7 PR	
+The Red Ash Mauraders	        18 Ashfall 122 PR	
+The Red Runners	                17 Emberwake 43 PR	
+The Rift Scholars Collective	06 Stonewake -3 PR	
+The Sable Accord	            11 Duskwane 94 PR	
+The Sea Vultures	            17 Emberwane 208 PR	
+The Silver Chain	            03 Emberwake 187 PR 	
+The Sunfire Heralds	            12 Springdawn -5PR	
+The Veilbound Circle	        12 Nightveil 149 PR	
+The Verdant Hand	            17 Stormcall -9 PR	
+The Voidscourge Hunters	        08 Wyrmsdusk -7 PR	
+The Wardens of the Deep Dark	03 Duskwane -342 PR	

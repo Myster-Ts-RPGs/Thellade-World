@@ -23,7 +23,7 @@ organization:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Emberborn League]]"
   - "[[The Eternal Concord]]"
-  - "[[The Guilded Hammer Union]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Phoenix Assembly]]"

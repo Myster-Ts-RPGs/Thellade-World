@@ -45,12 +45,13 @@ location:
 head:
   - "[[Boran Steelwright]]"
 pronounced: GILD-ed HAM-mer YOU-nion
-founded: 28 Stonewake -6 PR
+founded: 08 Harvestshade -6 PR
 organizationtype:
   - Guild
 aliases:
-  - Guilded Hammers
-  - Guilded Hammer Union
+  - Gilded Hammers
+  - Gilded Hammer Union
+foundedshort: -6.05.08 PR
 ---
 
 ```meta-bind-js-view 
@@ -83,6 +84,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
@@ -187,7 +189,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|The Guilded Hammer Union]] is one of the most respected artisan guilds in Kanda. Representing smiths, relic-crafters, and material specialists, the Union controls the production of refined alloys, Pre-Rising weapon housing, and enchanted containment frames. They protect guild independence, regulate quality standards, and oppose both criminal smuggling of relics and reckless magitech tampering.
+> [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union|The Gilded Hammer Union]] is one of the most respected artisan guilds in Kanda. Representing smiths, relic-crafters, and material specialists, the Union controls the production of refined alloys, Pre-Rising weapon housing, and enchanted containment frames. They protect guild independence, regulate quality standards, and oppose both criminal smuggling of relics and reckless magitech tampering.
 
 ### Oaths
 > “Strike true, temper fair, forge legacy.”
@@ -221,7 +223,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Tensions rise in [[Mangagoy]] between the Union and local shipping guilds regarding control of reinforced relic packaging methods.
 
 ## History
-> Born from the ashes of southern forge-cults and independent masters during the prelude to the Rising, [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Guilded Hammer Union|The Guilded Hammer Union]] was founded on 28 Stonewake -6 PR. Their first act: the codification of an ethical relicsmithing code. Over time, they became the standard by which all post-Rising craft guilds were measured.  
+> Born from the ashes of southern forge-cults and independent masters during the prelude to the Rising, [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union|The Gilded Hammer Union]] was founded on 28 Stonewake -6 PR. Their first act: the codification of an ethical relicsmithing code. Over time, they became the standard by which all post-Rising craft guilds were measured.  
 >  
 > Although their influence waned during the infernal pact era, the Union regained prominence by refusing to allow their designs to fall into abyssal hands. Today, they maintain strongholds across five Isles, and are considered among the last defenders of purely material craftsmanship.
 

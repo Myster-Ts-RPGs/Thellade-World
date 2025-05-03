@@ -6,11 +6,10 @@ hq: "[[Wardspire Tower]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
-  - Regional
   - National
 art: 90 Assets/Images/Organizations/ArcaneWardens.png
 pronounced: ar-KANE WAR-dens
-founded: 07 Emberfall -1 PR
+founded: 07 Emberwake -1 PR
 organizationtype:
   - Regulatory
 location:
@@ -63,6 +62,7 @@ aliases:
   - Wardens of the Glyph
   - Arcane Wardens
 banner: off
+foundedshort: -1.04.07 PR
 ---
 
 ```meta-bind-js-view 
@@ -95,6 +95,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|

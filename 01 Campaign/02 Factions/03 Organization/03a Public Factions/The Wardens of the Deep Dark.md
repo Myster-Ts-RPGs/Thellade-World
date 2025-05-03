@@ -12,7 +12,7 @@ pronounced: WAR-dens of the DEEP DARK
 aliases:
   - The Black Wardens
   - Wardens of the Deep Dark
-founded: 3 Duskwane -342 PR
+founded: 03 Nightveil -342 PR
 organizationtype:
   - Circle
   - Order
@@ -38,6 +38,7 @@ allies:
 rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Bleeding Tide]]"
+foundedshort: -342.07.03 PR
 ---
 
 ```meta-bind-js-view 
@@ -70,6 +71,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
 > **Founded** | `INPUT[text:founded]` |
+> **Founded Short**| `INPUT[text:foundedshort]` |
 > **Type** | `INPUT[OrganizationType][inlineListSuggester:organizationtype]` |
 > **Status** | `INPUT[OrganizationStatus][inlineListSuggester:organizationstatus]` |
 > **Scope** | `INPUT[OrganizationScope][inlineListSuggester:organizationscope]`|
