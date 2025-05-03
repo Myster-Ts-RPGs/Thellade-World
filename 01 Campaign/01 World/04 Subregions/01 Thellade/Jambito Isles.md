@@ -39,6 +39,7 @@ organization:
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+  - "[[The Veilbound Circle]]"
 ---
 
 ```meta-bind-js-view 

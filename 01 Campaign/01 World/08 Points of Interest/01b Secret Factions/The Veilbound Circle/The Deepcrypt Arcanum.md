@@ -1,15 +1,15 @@
 ---
 tags:
   - "#Location"
-  - "#Settlement"
+  - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+banner: on
 location:
+  - "[[Daggerfall Hollow]]"
   - "[[Shadowthread Warrens]]"
   - "[[The Veins of Night]]"
-  - "[[The Deep Dark]]"
 organization:
-  - "[[The Hollow Saints]]"
   - "[[The Veilbound Circle]]"
 ---
 
@@ -27,7 +27,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> #### System
 >>  |
 >> ---|---|
->> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
 >
 >> [!metadata|metadataoption]- Art
 >> #### Art
@@ -42,28 +42,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> ---|---|
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
->> **Type** | `INPUT[SettlementType][:settlementtype]` |
->> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
->> **Defences** | `INPUT[Defence][:defence]`
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#Region AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
->
->> [!metadata|metadataoption]- Demographics
->> #### Demographics
->>  |
->> ---|---|
+>> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
->> **Rulers** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):ruler]` |
->> **Leaders** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):leader]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Government Type** | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` |
->> **Population** |  `INPUT[textArea:population]`
->
->> [!metadata|metadataoption]- Commerce
->> #### Commerce
->>  |
->> ---|---|
->> **Imports** | `INPUT[Goods][inlineListSuggester:import]` |
->> **Exports** | `INPUT[Goods][inlineListSuggester:export]` |
+>> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
+>> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
+>> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -72,23 +56,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Type** | `VIEW[{settlementtype}][text]` |
-> **Terrain** | `VIEW[{terrain}][text]` |
-> **Defences** | `VIEW[{defence}]` |
-> **Location** | `VIEW[{location}][link]` |
-> ###### Demographics
->  |
-> ---|---|
-> **Rulers** | `VIEW[{ruler}][link]` |
-> **Leaders** | `VIEW[{leader}][link]` |
+> **Type** | `VIEW[{poitype}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Government Type** | `VIEW[{governmenttype}][text]` |
-> **Population** | `VIEW[{population}][text]` |
-> ###### Commerce
->  |
-> ---|---|
-> **Imports** | `VIEW[{import}][text]` |
-> **Exports** | `VIEW[{export}][text]` |
+> **Owners** | `VIEW[{owner}][link]` |
+> **Assistant** | `VIEW[{assistant}][link]` |
+> **Organization** | `VIEW[{organization}][link]` |
+> **Location** | `VIEW[{location}][link]` |
 > ###### Party
 >  |
 > ---|---|
@@ -99,7 +72,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Party 5 Reputation** | `INPUT[text:party5reputation]` |
 > **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
-# **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+# `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+
 > [!recite]- Introduction
 > A script for the GM to read when the party arrive to this location for the first time.
 
@@ -125,26 +99,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
-> [!metadata|district]- Districts
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "District")
-> SORT districttype ASC, file.name ASC
-
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> WHERE econtains(location, this.file.link) AND contains(tags, "Location")
 > SORT tags DESC, poitype ASC, file.name ASC
-
-> [!metadata|organizations]- Organizations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
-> SORT tags DESC, file.name ASC
 
 > [!metadata|characters]- Characters
 > ```dataview
@@ -153,9 +113,11 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
-## Overview
-> [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
+## Overview 
+
+
+
+## Keyed Locations
 
 
 

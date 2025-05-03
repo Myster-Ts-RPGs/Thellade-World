@@ -7,8 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Jambito]]"
-condition: Healthy
+  - "[[Vault of the Fifth Veil]]"
+  - "[[Mangagoy Isles]]"
+condition: Dead
 organization:
   - "[[The Veilbound Circle]]"
 ---

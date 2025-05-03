@@ -16,3 +16,6 @@ You need to provide the following output:
 - (3) Ensure EVERY location in the YAML MD file is listed in the dataview of the pdf
 - (4) Ensure EVERY location in the dataview of the PDF is listed in the TAML of the MD file
 - (5) Provide a count of location in the MD file TAML and the sum of the Regions, Subregions, Settlements, Districts, and Specific Locations in the PDF. These should Match.
+- (6) Remind me to make a Git Commit for the Faction with the following entries listed (Replace THE FACTION with the actual faction name):
+    - Summary: Canonize THE FACTION Faction
+    - Description: Fully fleshed out THE FACTION and generated relevant stubs and backlinks

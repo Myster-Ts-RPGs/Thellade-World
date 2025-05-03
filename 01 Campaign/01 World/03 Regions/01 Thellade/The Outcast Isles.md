@@ -43,6 +43,7 @@ organization:
   - "[[The Red Ash Mauraders]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
+  - "[[The Veilbound Circle]]"
 aliases:
   - Outcast Isles
 ---

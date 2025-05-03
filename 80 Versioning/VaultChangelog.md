@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.0.11.0 | 2025-05-02 17:43 | Canonize The Veilbound Circle Faction | [[Git Commit 2025-05-02 17-43]]
 1.0.10.0 | 2025-05-02 16:27 | Canonize The Sea Vulture and The Silver Chain Factions | [[Git Commit 2025-05-02 16-27]]
 1.0.9.0 | 2025-05-02 00:22 | Canonize The Sable Accord | [[Git Commit 2025-05-02 00-22]]
 1.0.8.0 | 2025-05-01 23:17 | Canonize The Red Ash Marauders | [[Git Commit 2025-05-01 23-17]]

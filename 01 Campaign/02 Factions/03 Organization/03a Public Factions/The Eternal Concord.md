@@ -34,6 +34,7 @@ rivals:
   - "[[The Midnight Covenant]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
+  - "[[The Veilbound Circle]]"
 location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"

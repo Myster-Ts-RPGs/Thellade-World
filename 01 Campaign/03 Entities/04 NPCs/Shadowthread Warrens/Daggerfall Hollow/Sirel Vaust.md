@@ -19,22 +19,17 @@ party5relation:
 party6relation:
   - Unmet
 aliases:
-  - Sister Thessa Morrin
-  - Thessa 'The Weeping Veil' Morrin
-  - The Weeping Vale
-  - Sister Thessa 'The Weeping Veil' Morrin
-  - Sister Thessa
-organization:
-  - "[[The Hollow Saints]]"
+  - The Deepbind Archivist
+  - Sirel 'The Deepbind Archivist' Vaust
 location:
-  - "[[The Forgotten Vault]]"
+  - "[[The Deepcrypt Arcanum]]"
   - "[[Daggerfall Hollow]]"
   - "[[Shadowthread Warrens]]"
   - "[[The Veins of Night]]"
   - "[[The Deep Dark]]"
 condition: Healthy
-ownedlocation:
-  - "[[The Forgotten Vault]]"
+organization:
+  - "[[The Veilbound Circle]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -1,15 +1,39 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
-hq: "[[Thellade]]"
+  - "#Canon"
+hq: "[[Sanctum of the Unbound Eye]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
   - Regional
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Organizations/VeilboundCircle.png
 aliases:
   - Veilbound Circle
+pronounced: VAYL-bound SIR-kuhl
+founded: 12 Nightveil 149 PR
+head:
+  - "[[Kaige Maganti]]"
+location:
+  - "[[The Outcast Isles]]"
+  - "[[Jambito Isles]]"
+  - "[[Jambito]]"
+  - "[[The Hidden City]]"
+  - "[[Sanctum of the Unbound Eye]]"
+  - "[[Kanda Isles]]"
+  - "[[Kanda]]"
+  - "[[Sunveil Hollow]]"
+  - "[[Vault of Forgotten Hymns]]"
+  - "[[Mangagoy Isles]]"
+  - "[[Vault of the Fifth Veil]]"
+  - "[[The Deep Dark]]"
+  - "[[The Veins of Night]]"
+  - "[[Shadowthread Warrens]]"
+  - "[[Daggerfall Hollow]]"
+  - "[[The Deepcrypt Arcanum]]"
+rivals:
+  - "[[The Arcane Wardens]]"
+  - "[[The Eternal Concord]]"
 ---
 
 ```meta-bind-js-view 
@@ -139,46 +163,96 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(location), ", ") AS "Location"
+> TABLE without id file.link AS "Name", condition AS Condition, aliases AS Aliases, join(occupation, ", ") AS "Occupations", link(location) AS "Location"
 > FROM "01 Campaign"
-> WHERE contains(tags, "Character") AND econtains(organization, this.file.link) AND !contains(condition, "Dead")
+> WHERE contains(tags, "Character") AND econtains(organization, this.file.link)
 > SORT tags DESC, file.name ASC
 
 ## Overview
-
 ### Description
-
-> Describe the organization’s core identity, purpose, and place in the world.
+> [[The Veilbound Circle]] is a secretive cabal of scholars, warlocks, and archivists who safeguard forbidden texts, Pre-Rising magical theories, and suppressed histories. Operating from concealed sanctums scattered across the [[Outcast Isles]] and [[The Deep Dark]], the Circle is committed to preserving arcane truth—even at the cost of defying modern dogma. Members engage in clandestine rituals and magical conservation, resisting suppression by institutions like the [[Arcane Wardens]] and [[Eternal Concord]].
 
 ### Oaths
-
-> Sacred or symbolic promises members take upon joining.
+> "Let no veil obscure the truth eternal."
 
 ### Mission Statement
-
-> Core purpose and long-term goals; why the organization exists.
+> To recover, protect, and disseminate lost magical knowledge and Pre-Rising truth through ritual, scholarship, and defiance of imposed dogma.
 
 ### Laws
-
-> Rules or codes members must follow.
+> - Obey the Circle’s secrecy mandates.
+> - Report all significant discoveries to a higher-ranked archivist.
+> - Preserve all knowledge intact—no redactions or omissions.
 
 ### Tenets
-
-> Guiding values, ideals, or behaviors central to the organization.
+> - Truth before obedience.
+> - Revelation through preservation.
+> - The hidden past illuminates the present.
 
 ### Prohibitions
-
-> Forbidden behaviors, taboos, or violations that result in exile or punishment.
-
-
-
-## Culture
+> - Destroying Pre-Rising materials without approval.
+> - Revealing Circle membership to the public or to state agents.
+> - Aligning with divine churches or the [[Eternal Concord]].
 
 ## Current Events
+- [[Kaige Maganti]] is confirmed alive and continues to lead from the [[Sanctum of the Unbound Eye]] beneath [[Jambito]].
+- The organization’s cell at the [[Vault of the Fifth Veil]] was compromised following the death of [[Jorvas Fellshade]] during a catastrophic encounter involving a released Lieutenant of [[Orcus]].
+- Recruitment among outcast scholars and defecting wardens is on the rise in [[Mangagoy Isles]] and [[Kanda]].
+- An archive discovered in the [[Vault of Forgotten Hymns]] may contain ritual instructions used to suppress Abyssal entities.
 
 ## History
+- Founded in 149 PR during the suppression of arcane material by the [[Eternal Concord]].
+- Survived three major purges by [[Arcane Wardens]] between 153 PR and 188 PR.
+- Expanded influence into the [[Deep Dark]] and remote island vaults by 200 PR.
+- Internal reformation under [[Kaige Maganti]] consolidated splinter cells under a single doctrine of "reveal and preserve."
+
+### Campaign Events
+- [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3|Campaign Group 3]]
+  - Discovered the [[Vault of the Fifth Veil]] on [[Mangagoy Isles]] during pursuit of cult activity.
+  - Encountered [[Jorvas Fellshade]] and inadvertently triggered a cascading failure in a Pre-Rising binding seal, resulting in the release of a Lieutenant of [[Orcus]].
+  - Jorvas was killed during the resulting collapse of the vault’s protective enchantments.
+  - Partial ritual scrolls recovered describe a layered system of memory-anchored sigils used to maintain Abyssal seals.
+
+- [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 1|Campaign Group 1]]
+  - Currently exploring the [[Deep Dark]] via the [[Mwingu Isles]] descent, unknowingly on a path toward [[The Deepcrypt Arcanum]].
+  - Minor arcane disturbances and psychic echoes have been reported near [[Daggerfall Hollow]], suggesting latent warding runes may still be active.
+  - The group may encounter remnants of failed Circle experiments, including shadowbind glyphs and deteriorated archival fragments referencing “Veil Protocols.”
+
+## Hierarchy
+- **Supreme Leader:** [[Kaige Maganti]] – Known as ‘The Whispered Scribe,’ leads the Circle from the [[Sanctum of the Unbound Eye]].
+- **Council-Level Members:**
+  - [[Sirel Vaust]] – ‘The Deepbind Archivist,’ guardian of [[The Deepcrypt Arcanum]].
+  - [[Vaelin Dros]] – ‘The Veiled Hymnist,’ caretaker of [[Vault of Forgotten Hymns]].
+- **Regional Contacts / Lieutenants:**
+  - [[Jorvas Fellshade]] – Former overseer of [[Vault of the Fifth Veil]], deceased.
+  - (Vacant) – Mangagoy Isles contact pending replacement.
+  - (Vacant) – Additional replacements for Lambaro or Middle Isles under review.
+
+## Locations
+### Primary Hideouts
+- [[Sanctum of the Unbound Eye]] – Located in [[The Hidden City]], beneath [[Jambito]]. Headquarters and central archive.
+- [[Vault of the Forgotten Hymns]] – Archive site in [[Sunveil Hollow]], [[Kanda]].
+- [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[Mangagoy Isles]].
+- [[The Deepcrypt Arcanum]] – Located in [[Daggerfall Hollow]], within the [[Shadowthread Warrens]] of [[The Veins of Night]] in [[The Deep Dark]].
+
+### Secondary Hideouts
+- Rumored ritual sanctum beneath [[Old Silverbend Bridge]] (Unconfirmed).
+- Hidden reliquary cave system near the cliffs of [[Ihena]] (Unconfirmed).
+- Abandoned wardstone lab north of [[Kurth]] believed to be part of a retrieval operation (Unconfirmed).
 
 ## Notes
+- **Threat Level:** High
+- **Speculative Rift:** Some members argue for full public disclosure of Pre-Rising knowledge, while others advocate for more measured revelation to prevent widespread chaos.
+- **Symbol:** An open eye surrounded by a ring of broken script glyphs.
+- **Uniforms:** Dark robes embroidered with mirrored eyes over the heart, enchanted to shimmer faintly in candlelight. Field operatives often wear layered veils or facemasks during rituals.
 
+### Key Plot Threads
+- Investigating the true nature of Pre-Rising magical suppression campaigns.
+- Seeking the original instructions for the sealing rituals used on [[Orcus]]’ Lieutenants.
+- Locating the missing Fifth Vault key, rumored to be held by [[Kaige Maganti]] or his predecessor.
+- Ongoing secret war of knowledge with the [[Arcane Wardens]] in cities like [[Boba]] and [[Lambaro]].
 
-
+### Artifacts and Evidence Found
+- Ritual blade used in the aborted binding of the Deepcrypt (retrieved by [[Campaign Group 3]]).
+- Blackened scroll fragments describing multi-sigil seals tied to celestial conjunctions.
+- Ancient encoded directive from an unknown Pre-Rising archmage, marked with the Circle’s sigil.
+- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[Mangagoy Isles]].

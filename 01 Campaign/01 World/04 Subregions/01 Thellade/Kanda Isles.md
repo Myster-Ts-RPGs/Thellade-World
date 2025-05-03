@@ -51,6 +51,7 @@ organization:
   - "[[The Sable Accord]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
+  - "[[The Veilbound Circle]]"
 ---
 
 ```meta-bind-js-view 

@@ -19,22 +19,17 @@ party5relation:
 party6relation:
   - Unmet
 aliases:
-  - Sister Thessa Morrin
-  - Thessa 'The Weeping Veil' Morrin
-  - The Weeping Vale
-  - Sister Thessa 'The Weeping Veil' Morrin
-  - Sister Thessa
-organization:
-  - "[[The Hollow Saints]]"
-location:
-  - "[[The Forgotten Vault]]"
-  - "[[Daggerfall Hollow]]"
-  - "[[Shadowthread Warrens]]"
-  - "[[The Veins of Night]]"
-  - "[[The Deep Dark]]"
-condition: Healthy
+  - The Veiled Hynmist
+  - Vaelin 'The Veiled Hymnist' Dros
 ownedlocation:
-  - "[[The Forgotten Vault]]"
+  - "[[Vault of Forgotten Hymns]]"
+location:
+  - "[[Vault of Forgotten Hymns]]"
+  - "[[Sunveil Hollow]]"
+  - "[[Kanda]]"
+organization:
+  - "[[The Veilbound Circle]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 

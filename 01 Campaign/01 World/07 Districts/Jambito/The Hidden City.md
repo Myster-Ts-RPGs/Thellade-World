@@ -1,20 +1,12 @@
 ---
 tags:
   - "#Location"
-  - "#Reach"
+  - "#District"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[The Veins of Night]]"
-terrain:
-  - Caverns
-  - Spore Cavern
-  - Fungus Forest
-  - Crystal Forest
-  - Tunnels
-  - Underground Lake
+  - "[[Jambito]]"
 organization:
-  - "[[The Hollow Saints]]"
   - "[[The Veilbound Circle]]"
 ---
 
@@ -47,10 +39,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> ---|---|
 > **Pronounced** |  `INPUT[textArea:pronounced]`
 > **Aliases** | `INPUT[list:aliases]` |
-> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
-> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
-> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Region OR #Subregion AND !"z_Templates"), useLinks(partial)):location]` |
+> **Type** | `INPUT[DistrictType][inlineListSuggester:districttype]` |
 > **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+> **Location** | `INPUT[inlineListSuggester(optionQuery(#Settlement AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -59,15 +50,16 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Terrain** | `VIEW[{terrain}][text]` |
-> **Dominion** | `VIEW[{dominion}][link]` |
-> **Location** | `VIEW[{region}][link]` |
+> **Type** | `VIEW[{districttype}][text]` |
+> **Location** | `VIEW[{location}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
+> [!recite]- Introduction
+> A script for the GM to read when the party arrive to this location for the first time.
+
 > [!metadata|map]- Map
 > ```leaflet
-> ### Video Tutorial: https://www.youtube.com/watch?v=8MI5JyiH-Wo
 > id: TBD
 > image: [[PlaceholderImage.png]]
 > lock: true
@@ -88,16 +80,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
-> [!metadata|settlements]- Settlements
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
-> SORT nation ASC, file.name ASC
-
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
@@ -106,12 +91,18 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
 > FROM "01 Campaign"
-> WHERE contains(location, this.file.link) AND contains(tags, "Organization")
-> SORT organizationtype ASC, file.name ASC
+> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
+> SORT tags DESC, file.name ASC
 
 ## Overview 
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
 
-A dense web of bioluminescent tunnels, ancient fungal colonies, and crumbling dwarven outposts wrapped in silken growths. Sentient myconids and lurking ettercaps dominate the region.
+
+
+## Keyed Locations
+
+
 
 ## Current Events
 

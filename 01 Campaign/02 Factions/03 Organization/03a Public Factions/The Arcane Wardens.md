@@ -58,6 +58,7 @@ rivals:
   - "[[The Emberborn Exiles]]"
   - "[[The Midnight Covenant]]"
   - "[[The Sable Accord]]"
+  - "[[The Veilbound Circle]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens

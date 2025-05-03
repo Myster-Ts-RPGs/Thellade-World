@@ -55,6 +55,7 @@ organization:
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
   - "[[The Silver Chain]]"
+  - "[[The Veilbound Circle]]"
 ---
 
 ```meta-bind-js-view 

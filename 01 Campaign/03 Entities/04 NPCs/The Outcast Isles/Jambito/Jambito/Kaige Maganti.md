@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[Sanctum of the Unbound Eye]]"
+  - "[[The Hidden City]]"
   - "[[Jambito]]"
 condition: Healthy
 aliases:
@@ -14,6 +16,8 @@ aliases:
   - Kaige 'The Whispered Scribe' Maganti
 organization:
   - "[[The Veilbound Circle]]"
+ownedlocation:
+  - "[[Sanctum of the Unbound Eye]]"
 ---
 
 > [!metadata|metadata]- Metadata 

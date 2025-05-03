@@ -44,6 +44,8 @@ organization:
   - "[[The Mistwalkers]]"
   - "[[The Sable Accord]]"
   - "[[The Silver Chain]]"
+  - "[[The Veilbound Circle]]"
+  - "[[The Veilbound Circle]]"
 ---
 
 

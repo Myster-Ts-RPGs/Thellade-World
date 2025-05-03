@@ -8,6 +8,7 @@ location:
   - "[[Thellade]]"
 organization:
   - "[[The Hollow Saints]]"
+  - "[[The Veilbound Circle]]"
 ---
 
 ```meta-bind-js-view 
