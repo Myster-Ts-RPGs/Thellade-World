@@ -6,14 +6,20 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-aliases:
-  - Chief Archivist Inaya Voss
-  - Archivist Inaya Voss
-organization:
-  - "[[The Sunfire Heralds]]"
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
 location:
-  - "[[Sunfire Tower]]"
-  - "[[Sunfire Heights]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
 ---
@@ -150,3 +156,8 @@ condition: Healthy
 
 
 ## Notes
+
+
+
+
+

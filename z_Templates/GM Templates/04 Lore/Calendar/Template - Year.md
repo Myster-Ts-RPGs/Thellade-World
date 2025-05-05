@@ -56,48 +56,18 @@ SORT file.name ASC
 > [!kirk|info] Prompt (Remove me)
 Provide a summary of the year, including its position within the larger era and any notable events or developments. Highlight key occurrences in politics, warfare, culture, technology, or magic that took place during this year. Mention significant figures who rose to prominence or had a major impact during this time. Consider any seasonal changes, festivals, or annual traditions that characterize this year and how they might affect the campaign setting.
 
-## Months
-
-> [!kirk|info] Info (Remove me)
-> You will need to manually add a new section for each month you use within your campaign. You will also need to update the Dataviews.
-
-### [[Aurora]]
-
-> [!metadata|event]- Recurring Events
+> [!metadata|event]- All Significant Events This Year
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(startdate, ", ") AS "Start Date", eventcategory AS "Category", join(location, ", ") AS Location
-> FROM "Campaign"
-> WHERE econtains(monthofoccurrence, link("Aurora")) AND econtains(tags, "#Event") AND !econtains(eventtype, "Significant")
-> SORT startdate ASC
+> FROM "01 Campaign"
+> WHERE econtains(yearofoccurrence, this.file.link) AND econtains(tags, "#Event") AND econtains(eventtype, "Significant")
+> SORT startdateshort ASC
+> ```
 
-> [!metadata|event]- Significant Events
+> [!metadata|event]- All Recurring Events This Year
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(startdate, ", ") AS "Start Date", eventcategory AS "Category", join(location, ", ") AS Location
-> FROM "Campaign"
-> WHERE econtains(yearofoccurrence, this.file.link) AND econtains(monthofoccurrence, link("Aurora")) AND econtains(tags, "#Event") AND econtains(eventtype, "Significant")
-> SORT startdate ASC
-
-#### Month Notes
-
-
-
-### [[Novus]]
-
-> [!metadata|event]- Recurring Events
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(startdate, ", ") AS "Start Date", eventcategory AS "Category", join(location, ", ") AS Location
-> FROM "Campaign"
-> WHERE econtains(monthofoccurrence, link("Novus")) AND econtains(tags, "#Event") AND !econtains(eventtype, "Significant")
-> SORT startdate ASC
-
-> [!metadata|event]- Significant Events
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(startdate, ", ") AS "Start Date", eventcategory AS "Category", join(location, ", ") AS Location
-> FROM "Campaign"
-> WHERE econtains(yearofoccurrence, this.file.link) AND econtains(monthofoccurrence, link("Novus")) AND econtains(tags, "#Event") AND econtains(eventtype, "Significant")
-> SORT startdate ASC
-
-#### Month Notes
-
-
-
+> FROM "01 Campaign"
+> WHERE econtains(yearofoccurrence, this.file.link) AND econtains(tags, "#Event") AND !econtains(eventtype, "Significant")
+> SORT startdateshort ASC
+> ```

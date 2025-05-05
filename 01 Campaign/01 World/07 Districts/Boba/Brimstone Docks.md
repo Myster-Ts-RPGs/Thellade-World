@@ -13,6 +13,10 @@ organization:
   - "[[The Red Ash Mauraders]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
+districttype:
+  - Dockyard
+  - Harbor
+  - Industrial
 ---
 
 ```meta-bind-js-view 

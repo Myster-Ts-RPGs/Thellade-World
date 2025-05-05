@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.0.0 | 2025-05-05 06:40 | Expanded Calendar & Settlement Infrastructure: Month, Year, and Era Templates Finalized | [[Git Commit 2025-05-05 06-40]]
 1.0.12.0 | 2025-05-02 21:17 | Cleaned and standardized founding dates for all public factions; filled missing values | [[Git Commit 2025-05-02 21-17]]
 1.0.11.0 | 2025-05-02 17:43 | Canonize The Veilbound Circle Faction | [[Git Commit 2025-05-02 17-43]]
 1.0.10.0 | 2025-05-02 16:27 | Canonize The Sea Vulture and The Silver Chain Factions | [[Git Commit 2025-05-02 16-27]]

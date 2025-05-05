@@ -11,6 +11,10 @@ organization:
   - "[[The Silver Chain]]"
 location:
   - "[[Boba]]"
+districttype:
+  - Noble
+  - Foreign Quarter
+  - Government
 ---
 
 ```meta-bind-js-view 

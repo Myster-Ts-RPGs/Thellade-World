@@ -8,10 +8,17 @@ language:
   - Common
 organization:
   - "[[The Arcane Wardens]]"
+  - "[[The Eternal Concord]]"
 aliases:
   - Ambassador Kaelen Duskbloom
   - Abmassador Duskbloom
 condition: Healthy
+occupation:
+  - Ambassador
+location:
+  - "[[Arcane Embassy of Boba]]"
+  - "[[Ambassadors Row]]"
+  - "[[Boba]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Ambassadors Row]]"
   - "[[Boba]]"
+poitype:
+  - Hall
 ---
 
 ```meta-bind-js-view 

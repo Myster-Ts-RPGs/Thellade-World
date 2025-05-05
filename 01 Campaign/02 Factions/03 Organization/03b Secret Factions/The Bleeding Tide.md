@@ -14,7 +14,7 @@ rivals:
   - "[[The Eternal Concord]]"
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Phoenix Assembly]]"
-  - "[[The Sunfire Heralds]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Verdant Hand]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Emberheart Traders]]"

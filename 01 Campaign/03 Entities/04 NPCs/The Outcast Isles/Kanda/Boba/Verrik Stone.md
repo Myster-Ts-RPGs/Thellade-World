@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 aliases:
-  - Capatain Verrik 'The Vulture' Stone
+  - Captain Verrik 'The Vulture' Stone
   - The Vulture
   - Captain Stone
 location:

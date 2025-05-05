@@ -176,7 +176,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Sunfire Heralds]] are an order dedicated to preserving Pre-Rising lore, rekindling Kanda’s cultural pride, and uplifting the kingdom’s morale through knowledge and celebration. They work tirelessly to recover lost chronicles, sponsor festivals, support educational reforms, and commission inspirational works of literature and art. Their headquarters, [[Sunfire Tower|The Sunfire Tower]] in [[Boba]], gleams as a beacon of enlightenment and hope.
+> [The Sunfire Heralds]] are an order dedicated to preserving Pre-Rising lore, rekindling Kanda’s cultural pride, and uplifting the kingdom’s morale through knowledge and celebration. They work tirelessly to recover lost chronicles, sponsor festivals, support educational reforms, and commission inspirational works of literature and art. Their headquarters, [[Sunfire Tower|The Sunfire Tower]] in [[Boba]], gleams as a beacon of enlightenment and hope.
 
 ### Oaths
 > "Light forgotten is light lost. We are the dawn reborn."
@@ -219,7 +219,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Notes
 - [[Lysara Dawnstar|High Herald Lysara Dawnstar]] – Charismatic leader, cultural visionary, master planner of festivals and archives.  
 - [[Dorian Grey|High Herald Dorian Grey]] – Flamboyant diplomat and administrator, skilled in social navigation and public engagement.  
-- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Inaya Voss|Chief Archivist Inaya Voss]] – Oversees daily archive management at [[Sunfire Tower|The Sunfire Tower]]; concerned with threats beneath the Tower.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Inaya Voss|Chief Archivist Inaya Voss]] – Oversees daily archive management at [[Sunfire Tower|The Sunfire Tower]]; concerned with threats beneath the Tower.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]] – Assistant Scribe rescued by Group 5; victim of temporal warping and abyssal influence in the sealed archives.  
 - [[Sunfire Tower|The Sunfire Tower]] – Their shining headquarters in [[Sunfire Heights]], [[Boba]], symbol of hope and renewal.  
 - [[Hall of the Shining Dawn]] – Newly founded center in [[Glimmershade]], [[Kanda]], designed to host cultural summits and relic exhibitions.  

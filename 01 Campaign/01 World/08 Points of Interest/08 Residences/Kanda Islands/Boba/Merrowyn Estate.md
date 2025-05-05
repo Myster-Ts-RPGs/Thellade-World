@@ -5,9 +5,13 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-location: []
+location:
+  - "[[Ambassadors Row]]"
+  - "[[Boba]]"
 owner:
   - "[[Alvinar Merrowyn]]"
+poitype:
+  - Estate
 ---
 
 ```meta-bind-js-view 

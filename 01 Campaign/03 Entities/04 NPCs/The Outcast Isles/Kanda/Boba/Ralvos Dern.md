@@ -20,6 +20,9 @@ location:
 condition: Healthy
 ownedlocation:
   - "[[The Silverwake]]"
+occupation:
+  - Captain
+  - Sailor
 ---
 
 > [!metadata|metadata]- Metadata 

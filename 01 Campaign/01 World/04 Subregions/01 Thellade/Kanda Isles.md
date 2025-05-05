@@ -30,7 +30,7 @@ organization:
   - "[[The Order of the Ember Blades]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Rift Scholars Collective]]"
-  - "[[The Sunfire Heralds]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Bleeding Tide]]"

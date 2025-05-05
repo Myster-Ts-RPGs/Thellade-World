@@ -1,8 +1,16 @@
 ---
+eratag: R
 tags:
   - "#Era"
 calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
+aliases:
+  - The Rising
+  - Rising Era
+  - R Era
+  - Age of Chains Broken
+  - War of Seals
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -51,17 +59,17 @@ SORT file.name ASC
 
 ## Overview
 
-> [!kirk|info] Prompt (Remove me)
-Provide a brief overview of the era, including its name, timeframe, and defining characteristics. Describe the major events, cultural shifts, and significant figures that shaped this era. Highlight any key developments in politics, technology, magic, or society that distinguish this period from others. Consider the general atmosphere or mood of the era, as well as any lasting legacies or influences it has on the current timeline.
+**The Rising** was the cataclysmic era when the Abyss breached the mortal plane. The seals failed, and demon lords such as Orcus and his lieutenants poured forth from the Deep Spiral. Great heroes rose, alliances fractured, and gods were said to walk again. The Outcast Isles were torn apart, their nations left in ruin. The sealing of Orcus’ lieutenants at terrible cost marked the end of this age—and the beginning of a tenuous new peace.  
+
+**–62 PR – 0 PR**
 
 ## Years
 
-> [!metadata|calendar]- Years
+> [!metadata|year]- Years
 > ```dataview
 > TABLE without id file.link AS "Year", join(aliases, ", ") AS Aliases
-> FROM "Campaign"
+> FROM "01 Campaign"
 > WHERE econtains(era, this.file.link) AND econtains(tags, "#Year")
 > SORT file.name ASC
 
 ## Notes
-

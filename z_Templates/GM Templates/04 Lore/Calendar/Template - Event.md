@@ -4,7 +4,7 @@ tags:
   - "#TODO"
 calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
 eventcategory: Secular
-eventtype: Historical
+eventtype: Significant
 enddate: DATE GOES HERE
 ---
 
@@ -22,8 +22,10 @@ enddate: DATE GOES HERE
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Category** | `INPUT[EventCategory][:eventcategory]` |
 >> **Type** | `INPUT[EventType][:eventtype]` |
->> **Start Date** |  `INPUT[textArea:startdate]` |
->> **End Date** |  `INPUT[textArea:enddate]` |
+>> **Start Date** |  `INPUT[text:startdate]` |
+>> **Start Date** |  `INPUT[text:startdateshort]` |
+>> **End Date** |  `INPUT[text:enddate]` |
+>> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |

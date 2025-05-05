@@ -8,6 +8,7 @@ banner: on
 organization:
   - "[[The Blackwake Corsairs]]"
 location:
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 poitype:
   - Ship

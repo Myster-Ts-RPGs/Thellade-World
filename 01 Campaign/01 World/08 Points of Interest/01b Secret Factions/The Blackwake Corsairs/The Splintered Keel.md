@@ -8,7 +8,7 @@ banner: on
 organization:
   - "[[The Blackwake Corsairs]]"
 location:
-  - "[[Brimstone]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 aliases:
   - The Driftwreck

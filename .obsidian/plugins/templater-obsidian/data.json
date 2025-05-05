@@ -165,6 +165,26 @@
     {
       "folder": "80 Versioning/Releases",
       "template": "z_Templates/Git Release - Template.md"
+    },
+    {
+      "folder": "01 Campaign/05 Parties/05 Quests",
+      "template": "z_Templates/GM Templates/05 Parties/Template - Quest.md"
+    },
+    {
+      "folder": "01 Campaign/04 Lore/02 Calendar/Events",
+      "template": "z_Templates/GM Templates/04 Lore/Calendar/Template - Event.md"
+    },
+    {
+      "folder": "01 Campaign/04 Lore/02 Calendar/Months",
+      "template": "z_Templates/GM Templates/04 Lore/Calendar/Template - Month.md"
+    },
+    {
+      "folder": "01 Campaign/04 Lore/02 Calendar/Eras",
+      "template": "z_Templates/GM Templates/04 Lore/Calendar/Template - Era.md"
+    },
+    {
+      "folder": "01 Campaign/04 Lore/02 Calendar/Years",
+      "template": "z_Templates/GM Templates/04 Lore/Calendar/Template - Year.md"
     }
   ],
   "enable_file_templates": false,

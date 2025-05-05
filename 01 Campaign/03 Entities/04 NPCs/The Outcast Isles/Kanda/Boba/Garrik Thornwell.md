@@ -6,17 +6,23 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
-location:
-  - "[[The Embercoils]]"
-  - "[[Sunfire Heights]]"
-  - "[[Boba]]"
+party1relation:
+  - Unmet
+party2relation:
+  - Unmet
+party3relation:
+  - Unmet
+party4relation:
+  - Unmet
+party5relation:
+  - Unmet
+party6relation:
+  - Unmet
+occupation:
+  - Bard
 condition: Healthy
-aliases:
-  - Korrin 'The Smoke' Valros
-organization:
-  - "[[The Silver Chain]]"
-ownedlocation:
-  - "[[The Embercoils]]"
+location:
+  - "[[Boba]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -151,3 +157,8 @@ ownedlocation:
 
 
 ## Notes
+
+
+
+
+

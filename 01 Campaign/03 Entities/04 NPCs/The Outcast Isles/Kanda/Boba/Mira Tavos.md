@@ -29,6 +29,9 @@ location:
   - "[[The Drowned Siren]]"
   - "[[Boba]]"
 condition: Healthy
+occupation:
+  - Quartermaster
+  - Sailor
 ---
 
 > [!metadata|metadata]- Metadata 

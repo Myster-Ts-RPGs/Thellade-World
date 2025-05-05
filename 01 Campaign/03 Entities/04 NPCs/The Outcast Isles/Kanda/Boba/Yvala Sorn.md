@@ -32,6 +32,9 @@ location:
   - "[[Brimstone]]"
   - "[[Boba]]"
 condition: Healthy
+occupation:
+  - Captain
+  - Sailor
 ---
 
 > [!metadata|metadata]- Metadata 

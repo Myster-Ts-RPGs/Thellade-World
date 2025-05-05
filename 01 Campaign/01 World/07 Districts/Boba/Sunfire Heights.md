@@ -8,7 +8,7 @@ location:
   - "[[Boba]]"
 organization:
   - "[[The Crystal Seekers Guild]]"
-  - "[[The Sunfire Heralds]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Silver Chain]]"

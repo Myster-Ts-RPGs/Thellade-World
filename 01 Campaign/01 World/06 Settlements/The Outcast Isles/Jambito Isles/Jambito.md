@@ -199,3 +199,278 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 
+```dataviewjs
+
+const city = dv.current().file.name.replace(/\.md$/, "");
+
+const cityAliases = [city, dv.current().file.name];
+
+  
+
+// === HELPERS ===
+
+function normalizeLocationField(entry) {
+
+    if (!entry.location) return [];
+
+    let locs = Array.isArray(entry.location) ? entry.location : [entry.location];
+
+    return locs.map(l =>
+
+        String(l).replaceAll('"', '').replaceAll("[[", "").replaceAll("]]", "").trim()
+
+    );
+
+}
+
+function normalizeTags(entry) {
+
+    if (!entry.tags) return [];
+
+    let tags = Array.isArray(entry.tags) ? entry.tags : [entry.tags];
+
+    return tags.map(t => t.toLowerCase().trim());
+
+}
+
+function matchesLocation(entry, targets) {
+
+    const locs = normalizeLocationField(entry).filter(x => x);
+
+    const normTargets = targets.filter(x => x);
+
+    return locs.some(loc =>
+
+        normTargets.some(t =>
+
+            String(loc).toLowerCase().includes(String(t).toLowerCase())
+
+        )
+
+    );
+
+}
+
+function isDistrict(entry) {
+
+    return normalizeTags(entry).includes("#district");
+
+}
+
+function isPOI(entry) {
+
+    return normalizeTags(entry).includes("#poi");
+
+}
+
+function isNPC(entry) {
+
+    return normalizeTags(entry).includes("#npc");
+
+}
+
+  
+
+// === DATA ===
+
+const allPages = dv.pages();
+
+const allNPCs = allPages.where(p => isNPC(p));
+
+const districts = allPages.where(p => isDistrict(p) && matchesLocation(p, cityAliases));
+
+const pois = allPages.where(p => isPOI(p));
+
+  
+
+// === GET NPCs FOR A POI ===
+
+function getNPCsForPOI(poiName) {
+
+    return allNPCs.where(n => matchesLocation(n, [poiName]));
+
+}
+
+  
+
+// === CITY-LEVEL POIs ===
+
+const cityPOIs = pois.where(p =>
+
+    matchesLocation(p, cityAliases) &&
+
+    !districts.some(d => matchesLocation(p, [d.file.name, d.file.basename]))
+
+);
+
+  
+
+// === DISTRICT-LEVEL POIS ===
+
+const districtPOIs = pois.where(p =>
+
+  districts.some(d => matchesLocation(p, [d.file.name, d.file.basename]))
+
+);
+
+  
+
+// === PREPARE DISTRICT POI MAP ===
+
+const districtPOIMap = {};
+
+for (let poi of districtPOIs) {
+
+  const districts = (poi.location ?? []).filter(loc => typeof loc === "string" && loc.includes("District:"));
+
+  for (let d of districts) {
+
+    const label = d.replace("District:", "").trim();
+
+    if (!districtPOIMap[label]) districtPOIMap[label] = [];
+
+    districtPOIMap[label].push(poi);
+
+  }
+
+}
+
+  
+
+// === OUTPUT ===
+
+if (!districts.length && !cityPOIs.length) {
+
+    dv.paragraph("No districts or POIs found.");
+
+} else {
+
+    const root = dv.el("div");
+
+    // === CITY-LEVEL POIs ===
+
+    if (cityPOIs.length) {
+
+      const cityDetails = dv.el("details", "", { cls: "city-block" });
+
+      const citySummary = dv.el("summary", "", {});
+
+      const cityPage = dv.page(city); // fix: get the page object for the city
+
+      citySummary.appendChild(dv.el("span", cityPage.file.link)); // clickable city name
+
+      citySummary.appendChild(dv.el("span", ` (${cityPOIs.length} POIs)`)); // count
+
+      cityDetails.appendChild(citySummary);
+
+      for (let poi of cityPOIs) {
+
+        const npcList = getNPCsForPOI(poi.file.name);
+
+        const poiDetails = dv.el("details", "", { attr: { style: "margin-left: 1.5em;" } });
+
+        const poiSummary = dv.el("summary", "", { attr: { style: "margin-left: 1.5em;" } });
+
+        poiSummary.appendChild(dv.el("span", poi.file.link)); // clickable link
+
+        poiSummary.appendChild(dv.el("span", ` (${npcList.length} NPCs)`));
+
+        poiDetails.appendChild(poiSummary);
+
+        if (npcList.length) {
+
+          const npcDiv = dv.el("div", "", { attr: { style: "margin-left:2em;" } });
+
+          for (let npc of npcList) {
+
+            npcDiv.appendChild(dv.el("p", npc.file.link, { cls: "npc-entry", attr: { style: "margin:0;" } }));
+
+          }
+
+          poiDetails.appendChild(npcDiv);
+
+        }
+
+        cityDetails.appendChild(poiDetails);
+
+      }
+
+      root.appendChild(cityDetails);
+
+    }
+
+    // === DISTRICT-LEVEL POIs ===
+
+    for (let district of districts) {
+
+        const districtPOIs = pois.where(p =>
+
+            p.location?.some(loc =>
+
+                loc.path?.includes(district.file.path) ||
+
+                loc.name?.includes(district.file.name) ||
+
+                loc.basename?.includes(district.file.basename)
+
+            )
+
+        );
+
+        if (!districtPOIs.length) continue;
+
+        const districtDetails = dv.el("details", "", { cls: "district-block" });
+
+        const districtSummary = dv.el("summary", "", {});
+
+        districtSummary.appendChild(dv.el("span", district.file.link));  // clickable district name
+
+        districtSummary.appendChild(dv.el("span", ` (${districtPOIs.length} POIs)`));  // count
+
+        districtDetails.appendChild(districtSummary);
+
+        for (let poi of districtPOIs) {
+
+            const npcList = getNPCsForPOI(poi.file.name);
+
+            const poiDetails = dv.el("details", "", { attr: { style: "margin-left: 1.5em;" } });
+
+            const poiSummary = dv.el("summary", "", { attr: { style: "margin-left: 1.5em;" } });
+
+            poiSummary.appendChild(dv.el("span", poi.file.link));  // clickable link
+
+            poiSummary.appendChild(dv.el("span", ` (${npcList.length} NPCs)`));  // appended count
+
+            poiDetails.appendChild(poiSummary);
+
+            if (npcList.length) {
+
+                const npcDiv = dv.el("div", "", { attr: { style: "margin-left:2em;" } });
+
+                for (let npc of npcList) {
+
+                    npcDiv.appendChild(dv.el("p", npc.file.link, { cls: "npc-entry", attr: { style: "margin:0;" } }));
+
+                }
+
+                poiDetails.appendChild(npcDiv);
+
+            }
+
+            districtDetails.appendChild(poiDetails);
+
+        }
+
+        root.appendChild(districtDetails);
+
+    }
+
+    dv.container.appendChild(root);
+
+}
+
+  
+  
+  
+
+```

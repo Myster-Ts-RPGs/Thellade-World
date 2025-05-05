@@ -11,7 +11,7 @@ location:
   - "[[Brimstone Docks]]"
   - "[[Boba]]"
 owner:
-  - "[[Kaen Lulen]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Kaen Lulen]]"
 ---
 
 ```meta-bind-js-view 

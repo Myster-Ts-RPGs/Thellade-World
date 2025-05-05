@@ -38,7 +38,7 @@ organizationtype:
   - Secret
   - Martial
 steward:
-  - "[[Kaen Lulen]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Kaen Lulen]]"
 rivals:
   - "[[The Ashen Vanguard]]"
   - "[[The Crimson Shroud]]"
@@ -205,7 +205,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 - [[Lenna Yelris]], known as 'The Crimson Duelist', has resurfaced in Jambito, enforcing old debts against newly empowered factions.
-- [[Kaen Lulen]] has been witnessed near shrine-ruins in Boba, performing ritual bindings on cursed blades.
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Kaen Lulen]] has been witnessed near shrine-ruins in Boba, performing ritual bindings on cursed blades.
 - [[Jeks Thal]] has begun inducting new duelists from Mangagoy’s underground weapon circuit.
 
 ## History
@@ -221,7 +221,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Hierarchy
 - **Crimson Duelist:** [[Lenna Yelris]] — Duelist-enforcer of the Circle, appears when laws are broken.  
-- **Ritebinder:** [[Kaen Lulen]] — 'Sister Kaen of the Violet Oath', ceremonial spellblade and arcane ritualist.  
+- **Ritebinder:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Kaen Lulen]] — 'Sister Kaen of the Violet Oath', ceremonial spellblade and arcane ritualist.  
 - **Blade-Bearer:** [[Jeks Thal]] — Overseer of weapon curses and trials by combat.
 
 ## Locations

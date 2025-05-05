@@ -21,13 +21,13 @@ party6relation:
 organization:
   - "[[The Silver Chain]]"
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba/Merrowyn Estate]]"
+  - "[[Merrowyn Estate]]"
   - "[[Ambassadors Row]]"
   - "[[Boba]]"
 condition: Healthy
 ownedlocation:
-  - "[[01 Campaign/01 World/08 Points of Interest/08 Residences/Kanda Islands/Boba/Merrowyn Estate]]"
   - "[[The Ashen Vault]]"
+  - "[[Merrowyn Estate]]"
 aliases:
   - The Silver Fang
 ---

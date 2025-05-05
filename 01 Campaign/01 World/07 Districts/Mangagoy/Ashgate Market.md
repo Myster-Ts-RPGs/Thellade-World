@@ -9,7 +9,7 @@ location:
 organization:
   - "[[The Emberborn League]]"
   - "[[The Phoenix Assembly]]"
-  - "[[The Sunfire Heralds]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Crimson Gauge]]"
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"

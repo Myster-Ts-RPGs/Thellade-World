@@ -244,7 +244,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Selaya Dornis]] – 'The Whisper'; liaison to arcane suppliers.
 - **Regional Contacts / Lieutenants:**
   - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[The Hollow Fang]] in [[Boba]].
-  - [[Korrin Valros]] – 'The Smoke'; handles low-visibility logistics from [[The Embercoils]].
+  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]] – 'The Smoke'; handles low-visibility logistics from [[The Embercoils]].
   - [[Olin Reskar]] – 'The Quill'; Lambaro-based scribe and document forger.
   - [[Verrik Myrros]] – 'The Blade'; executes enforcements and silencing operations in [[Boba]].
 

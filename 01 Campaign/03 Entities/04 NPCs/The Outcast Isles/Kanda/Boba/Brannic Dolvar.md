@@ -27,6 +27,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
 location:
   - "[[The Drowned Siren]]"
+  - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy
 ---

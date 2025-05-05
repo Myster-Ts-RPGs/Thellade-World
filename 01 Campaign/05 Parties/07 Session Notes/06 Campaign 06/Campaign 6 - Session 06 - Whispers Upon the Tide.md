@@ -4,7 +4,8 @@
 **In-Game Time:** Dawn 03–04, 212 PR  
 **Party Members:** Spike, Kibo, Varis, Boud-Celsus, Garrik, Euril Breachmane  
 **Allies Present:** Dame Alenwyn Duskforge, Zakka (kobold cult escapee)  
-**Location:** Seaside Cape → The Emberwake (aboard ship)
+**Location:** [[Seaside Cape]] → [[The Emberwake]] (aboard ship)
+Test: [[Boba]]
 
 ---
 

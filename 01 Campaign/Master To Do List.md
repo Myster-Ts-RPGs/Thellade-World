@@ -42,7 +42,7 @@
 >   dateformat(file.ctime, "yyyy-MM-dd HH:mm") AS "Created",
 >   dateformat(file.mtime, "yyyy-MM-dd HH:mm") AS "Last Modified"
 > FROM "01 Campaign"
-> WHERE (contains(tags, "Settlement") AND contains(tags, "TODO"))
+> WHERE (contains(tags, "Settlement") AND contains(tags, "TODO")) AND organization
 > SORT file.name ASC
 
 > [!metadata|county]- District

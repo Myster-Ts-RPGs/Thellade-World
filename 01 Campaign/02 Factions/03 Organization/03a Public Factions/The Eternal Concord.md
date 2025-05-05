@@ -13,7 +13,7 @@ allies:
   - "[[The Dawnbringers of Lunara]]"
   - "[[Mangagoy Healing Sanctuary (Faction)]]"
   - "[[The Phoenix Assembly]]"
-  - "[[The Sunfire Heralds]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Verdant Hand]]"
   - "[[The Emberheart Traders]]"
 pronounced: ee-TER-nal CON-cord

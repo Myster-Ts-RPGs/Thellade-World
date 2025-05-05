@@ -13,6 +13,8 @@ organization:
 location:
   - "[[Boba]]"
 condition: Healthy
+occupation:
+  - Assassin
 ---
 
 > [!metadata|metadata]- Metadata 

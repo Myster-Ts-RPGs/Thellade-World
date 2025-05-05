@@ -8,8 +8,10 @@ banner: on
 organization:
   - "[[The Arcane Wardens]]"
 location:
-  - "[[Boba]]"
   - "[[Ambassadors Row]]"
+  - "[[Boba]]"
+poitype:
+  - Embassy
 ---
 
 ```meta-bind-js-view 

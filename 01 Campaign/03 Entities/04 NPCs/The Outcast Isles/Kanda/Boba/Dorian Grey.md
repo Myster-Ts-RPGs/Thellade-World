@@ -12,6 +12,8 @@ organization:
   - "[[The Arcane Wardens]]"
   - "[[The Sunfire Heralds]]"
 condition: Healthy
+occupation:
+  - Noble
 ---
 
 > [!metadata|metadata]- Metadata 

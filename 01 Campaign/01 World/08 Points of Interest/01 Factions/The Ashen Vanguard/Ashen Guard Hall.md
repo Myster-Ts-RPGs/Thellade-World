@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Ambassadors Row]]"
   - "[[Boba]]"
+poitype:
+  - Guardhouse
 ---
 
 ```meta-bind-js-view 

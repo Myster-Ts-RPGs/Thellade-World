@@ -11,7 +11,7 @@ location:
 organization:
   - "[[The Silver Chain]]"
 owner:
-  - "[[Korrin Valros]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]]"
 ---
 
 ```meta-bind-js-view 
