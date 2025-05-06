@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.0.3 | 2025-05-06 12:27 | Stubbed Thundertread Ward POIs and District Content | [[Git Commit 2025-05-06 12-27]]
 1.1.0.2 | 2025-05-06 11:45 | Stubbed Sunfire Heights District POIs in Boba | [[Git Commit 2025-05-06 11-45]]
 1.1.0.1 | 2025-05-06 11:12 | Stubbed Out Lowmire Quarter and Old Boba Districts | [[Git Commit 2025-05-06 11-12]]
 1.1.0.0 | 2025-05-05 06:40 | Expanded Calendar & Settlement Infrastructure: Month, Year, and Era Templates Finalized | [[Git Commit 2025-05-05 06-40]]

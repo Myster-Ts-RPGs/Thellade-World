@@ -9,7 +9,7 @@ language:
 ancestry: Dwarf
 heritage: Dwarf - Anvil
 location:
-  - "[[The Anvilworks]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]]"
   - "[[Crucible Hollow]]"
   - "[[Lambaro]]"
 organization:

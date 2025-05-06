@@ -235,6 +235,18 @@ await dv.view("z_Templates/Scripts/view2");
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
+```dataview
+TABLE WITHOUT ID
+	file.link AS "Name",
+	join(shoptype, ",") AS "Types",
+	location[0] AS "District",
+	location[1] AS "Settlement"
+FROM "01 Campaign"
+WHERE econtains(location, this.file.link)
+	AND contains(poitype, "Shop")
+SORT location[0] ASC,
+	file.name ASC
+```
 ## Current Events
 - Faction tension
 - Market or leyline instability

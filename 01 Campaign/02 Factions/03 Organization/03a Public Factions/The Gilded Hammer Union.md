@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[The Anvilworks]]"
+hq: "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -22,26 +22,26 @@ location:
   - "[[Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
-  - "[[Union Smelthouse Cooperative]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Union Smelthouse Cooperative]]"
   - "[[Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Frostlock Commons]]"
-  - "[[Forgewright's Circle]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Forgewright's Circle]]"
   - "[[Boba]]"
   - "[[Crucible Hollow]]"
-  - "[[Ironhall Trade Pavilion]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]]"
   - "[[Thundertread Ward]]"
   - "[[Lambaro Isles]]"
   - "[[Lambaro]]"
-  - "[[The Anvilworks]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]]"
   - "[[Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Binders' Lane]]"
-  - "[[Union Freight & Forging Annex]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Union Freight & Forging Annex]]"
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[The Tideflats]]"
-  - "[[Hammerlight Port Forge]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Hammerlight Port Forge]]"
 head:
   - "[[Boran Steelwright]]"
 pronounced: GILD-ed HAM-mer YOU-nion
@@ -231,10 +231,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Boran Steelwright|Foreman Boran Steelwright]] – Stoic and pragmatic founder; believes in tradition with purpose.  
 - [[Lazlo]] – Dwarven smith and rune-crafter; deeply involved with modern alloy stabilization research.  
 - [[Talgar Anvilmarr]], [[Hodden Anvilmarr]] – Master forge-duo operating in Lambaro under Union charter.  
-- [[The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[Lambaro]]; houses master-forges, guild archive, and dispute court.  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Guilded Hammer Union/Forgewright's Circle|Forgewright's Circle]] – District forgehall in [[Kanda]]; custom commission site for Vanguard and Blazing Pledge arms.  
-- [[Ironhall Trade Pavilion]] – Merchant outpost in [[Boba]] dealing in refined gear and sigil-bound tools.  
-- [[Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
-- [[Hammerlight Port Forge]] – Coastal forge-and-dock fusion serving resource intake and barge armor repair in [[Mwingu]].  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[Lambaro]]; houses master-forges, guild archive, and dispute court.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Forgewright's Circle|Forgewright's Circle]] – District forgehall in [[Kanda]]; custom commission site for Vanguard and Blazing Pledge arms.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]] – Merchant outpost in [[Boba]] dealing in refined gear and sigil-bound tools.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Hammerlight Port Forge]] – Coastal forge-and-dock fusion serving resource intake and barge armor repair in [[Mwingu]].  
 - Symbol: Twin hammers crossed over a circular anvil, rimmed in golden flame etchings.  
 - Uniforms: Heavy aprons, thick gloves, and rune-bound hammer pins. Formal delegates wear blackened steel mantles over trade robes.
