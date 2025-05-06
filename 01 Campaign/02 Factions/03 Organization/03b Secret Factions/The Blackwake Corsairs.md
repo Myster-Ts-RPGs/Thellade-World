@@ -26,7 +26,7 @@ location:
   - "[[Brimstone Docks]]"
   - "[[Stonebrace Docks]]"
   - "[[Binders' Lane]]"
-  - "[[The Splintered Keel]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]]"
   - "[[The Mooring Flagon]]"
   - "[[The Ashgild Exchange]]"
   - "[[Mistcatcher Shack]]"
@@ -252,7 +252,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge|Veilcutter's Refuge]] (Smokey Shoals)
 
 ### Key Operational Points
-- [[The Splintered Keel]] (Boba > Brimstone Docks)
+- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]] (Boba > Brimstone Docks)
 - [[The Mooring Flagon]] (Kanda > Stonebrace Docks)
 - [[The Ashgild Exchange]] (Mangagoy > Binders’ Lane)
 - [[Mistcatcher Shack]] (Seabreeze Haven)

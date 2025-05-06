@@ -9,7 +9,7 @@ location:
   - "[[Ambassadors Row]]"
   - "[[Boba]]"
 poitype:
-  - Government
+  - City Hall
 ---
 
 ```meta-bind-js-view 

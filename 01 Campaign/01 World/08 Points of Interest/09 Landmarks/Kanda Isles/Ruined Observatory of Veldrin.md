@@ -4,10 +4,11 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
-organization:
-  - "[[The Crimson Shroud]]"
+banner: on
+poitype:
+  - Historical Site
 location:
+  - "[[Old Boba]]"
   - "[[Boba]]"
 ---
 

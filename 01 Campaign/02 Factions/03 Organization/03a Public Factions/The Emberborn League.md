@@ -214,7 +214,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Joining field operations while under sanction.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Orrek Flintbraid|Captain Orrek Flintbraid]] maintains excavation site security near [[Mount Crystalspire]], supporting Group 1’s efforts in Mwingu.  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Orrek Flintbraid|Captain Orrek Flintbraid]] maintains excavation site security near [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]], supporting Group 1’s efforts in Mwingu.  
 > - [[Barnabas]], a high-ranking cleric of [[Aurion]] and leader of the League’s southern wing, contracted Group 4 in [[Jambito]] to infiltrate a Red Runner hideout tied to infernal cults&#8203;:contentReference[oaicite:1]{index=1}.  
 > - A cooperation pact with the [[Crystal Seekers Guild]] remains in place for joint dig coordination and magical site triage.  
 > - League scouts have reported attempted artifact interference by [[The Bleeding Tide]] in the [[Mangagoy]] region, prompting relic convoy escorts.  

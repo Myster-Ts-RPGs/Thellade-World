@@ -23,7 +23,7 @@ location:
   - "[[Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Brimstone Docks]]"
-  - "[[The Hollow Arena]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/The Hollow Arena]]"
   - "[[Glowquarter]]"
   - "[[The Ironbind Floor]]"
   - "[[Glowmire Terrace]]"
@@ -226,7 +226,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Locations
 - **Headquarters:** [[The Crimson Circle]] (Jambito > Riverbend Hollow)  
-- [[The Hollow Arena]] (Boba > Brimstone Docks)  
+- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/The Hollow Arena]] (Boba > Brimstone Docks)  
 - [[The Ironbind Floor]] (Mangagoy > Glowquarter)  
 - [[The Redsteel Vault]] (Lambaro > Glowmire Terrace)
 

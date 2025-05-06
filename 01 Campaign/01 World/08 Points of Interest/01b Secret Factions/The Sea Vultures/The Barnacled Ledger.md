@@ -12,6 +12,8 @@ organization:
   - "[[The Sea Vultures]]"
 owner:
   - "[[Jessa Dorne]]"
+poitype:
+  - Office
 ---
 
 ```meta-bind-js-view 

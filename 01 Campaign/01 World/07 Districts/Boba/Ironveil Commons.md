@@ -9,6 +9,10 @@ location:
 organization:
   - "[[The Phoenix Assembly]]"
   - "[[The Silver Chain]]"
+districttype:
+  - Military
+  - Residential
+  - Industrial
 ---
 
 ```meta-bind-js-view 

@@ -5,13 +5,11 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[The Cursed Blades]]"
+poitype:
+  - Monument
 location:
-  - "[[Brimstone Docks]]"
+  - "[[Ambassadors Row]]"
   - "[[Boba]]"
-owner:
-  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Kaen Lulen]]"
 ---
 
 ```meta-bind-js-view 

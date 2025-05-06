@@ -6,7 +6,10 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
+  - "[[Boba (Central)]]"
   - "[[Boba]]"
+poitype:
+  - Academy
 ---
 
 ```meta-bind-js-view 

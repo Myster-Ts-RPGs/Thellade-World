@@ -27,7 +27,7 @@ location:
   - "[[Scholar's Ring]]"
   - "[[Ashen Vanguard Watchpost]]"
   - "[[Fort Redstone]]"
-  - "[[Ashen Guard Hall]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Kanda Isles/Boba/Ashen Guard Hall]]"
   - "[[Detached Command Wing]]"
   - "[[Coastal Watch Barracks]]"
   - "[[Vanguard Scout Liaison Post]]"

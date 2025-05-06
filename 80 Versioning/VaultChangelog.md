@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.0.1 | 2025-05-06 11:12 | Stubbed Out Lowmire Quarter and Old Boba Districts | [[Git Commit 2025-05-06 11-12]]
 1.1.0.0 | 2025-05-05 06:40 | Expanded Calendar & Settlement Infrastructure: Month, Year, and Era Templates Finalized | [[Git Commit 2025-05-05 06-40]]
 1.0.12.0 | 2025-05-02 21:17 | Cleaned and standardized founding dates for all public factions; filled missing values | [[Git Commit 2025-05-02 21-17]]
 1.0.11.0 | 2025-05-02 17:43 | Canonize The Veilbound Circle Faction | [[Git Commit 2025-05-02 17-43]]

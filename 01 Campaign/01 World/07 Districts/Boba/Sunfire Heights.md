@@ -12,6 +12,11 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Silver Chain]]"
+districttype:
+  - Noble
+  - Religious
+  - Educational
+  - Entertainment
 ---
 
 ```meta-bind-js-view 

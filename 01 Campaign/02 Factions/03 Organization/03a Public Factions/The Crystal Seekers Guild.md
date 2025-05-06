@@ -212,7 +212,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Assisting known crystal poachers or cult-affiliated smugglers.
 
 ## Current Events
-> - [[Arlyn Thorne]] was encountered by Group 1 during an excavation beneath [[Mount Crystalspire]] in [[Mwingu]]. Her reckless methods contrasted with the party’s caution, but cooperation led to discoveries about crystal instability and abyssal echoes.  
+> - [[Arlyn Thorne]] was encountered by Group 1 during an excavation beneath [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]] in [[Mwingu]]. Her reckless methods contrasted with the party’s caution, but cooperation led to discoveries about crystal instability and abyssal echoes.  
 > - Guild operatives maintain contact with [[The Emberborn League]] and [[The Wardens of the Deep Dark]] at active digs, including near [[Lambaro]] and [[Seaside Cape]].  
 > - [[Kiva Shadeveil]] reported unusual flux in leyline resonance, indicating a latent rift forming near the [[Boba]] coastline. An expedition is being assembled.  
 > - Multiple crystal caravans have been targeted by [[The Bleeding Tide]] and cult agents of [[The Black Sepulcher (Cult of Orcus)]] — protection requests have been issued across Lambaro and Mangagoy.

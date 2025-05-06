@@ -12,6 +12,8 @@ location:
   - "[[Boba]]"
 owner:
   - "[[Verrik Myrros]]"
+poitype:
+  - Hideout
 ---
 
 ```meta-bind-js-view 

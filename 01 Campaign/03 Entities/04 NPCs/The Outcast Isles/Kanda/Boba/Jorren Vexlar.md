@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[The Hollow Fang]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]]"
   - "[[Brimstone Docks]]"
   - "[[Boba]]"
 condition: Healthy

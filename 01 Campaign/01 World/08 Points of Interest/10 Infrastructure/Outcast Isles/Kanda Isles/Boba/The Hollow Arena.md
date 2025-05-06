@@ -6,10 +6,14 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Emberheart Traders]]"
+  - "[[The Cursed Blades]]"
 location:
   - "[[Brimstone Docks]]"
   - "[[Boba]]"
+owner:
+  - "[[Kaen Lulen]]"
+poitype:
+  - Arena
 ---
 
 ```meta-bind-js-view 

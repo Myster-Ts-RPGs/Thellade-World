@@ -9,7 +9,7 @@ language:
 aliases:
   - Vaultkeeper Dren Hollowstone
 location:
-  - "[[Mount Crystalspire]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]]"
 organization:
   - "[[The Wardens of the Deep Dark]]"
 ---

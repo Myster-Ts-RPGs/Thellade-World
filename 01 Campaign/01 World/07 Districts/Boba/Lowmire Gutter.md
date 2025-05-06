@@ -8,6 +8,11 @@ location:
   - "[[Boba]]"
 organization:
   - "[[The Silver Chain]]"
+districttype:
+  - Slums
+  - Market
+  - Medical
+  - Underbelly
 ---
 
 ```meta-bind-js-view 

@@ -26,7 +26,7 @@ location:
   - "[[The Red Veil]]"
   - "[[Boba]]"
   - "[[Brimstone Docks]]"
-  - "[[The Hollow Chamber]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/The Hollow Chamber]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[The Specter's Rest]]"
@@ -252,7 +252,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Locations
 ### Major Operational Bases
 - [[The Red Veil]] (Kanda > Tallowgate)  
-- [[The Hollow Chamber]] (Boba > Brimstone Docks)  
+- [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/The Hollow Chamber]] (Boba > Brimstone Docks)  
 - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Specter's Rest|The Specter's Rest]] (Mangagoy > Glowquarter)  
 - [[The Umbral Vault]] (Lambaro > Crucible Hollow)  
 - [[The Silent Sanctum]] (Mwingu > The Tideflats)  

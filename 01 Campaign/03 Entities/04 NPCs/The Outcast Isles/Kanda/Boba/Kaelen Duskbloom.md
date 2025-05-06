@@ -16,7 +16,7 @@ condition: Healthy
 occupation:
   - Ambassador
 location:
-  - "[[Arcane Embassy of Boba]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Kanda Isles/Boba/Arcane Embassy of Boba]]"
   - "[[Ambassadors Row]]"
   - "[[Boba]]"
 ---

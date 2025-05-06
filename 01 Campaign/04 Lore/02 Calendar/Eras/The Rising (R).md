@@ -70,6 +70,6 @@ SORT file.name ASC
 > TABLE without id file.link AS "Year", join(aliases, ", ") AS Aliases
 > FROM "01 Campaign"
 > WHERE econtains(era, this.file.link) AND econtains(tags, "#Year")
-> SORT file.name ASC
+> SORT file.name DESC
 
 ## Notes

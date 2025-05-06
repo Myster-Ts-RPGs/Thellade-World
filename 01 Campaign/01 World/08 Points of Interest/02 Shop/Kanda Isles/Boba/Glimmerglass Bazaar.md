@@ -5,13 +5,22 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[The Silver Chain]]"
+poitype:
+  - Shop
+shoptype:
+  - Merchant Stall
+  - General Goods
+  - Magic Goods
+  - Potion Vendor
+  - Jeweler
+  - Tailor
+  - Apothecary
+  - Spice Vendor
+  - Herbalist
+  - Antiques and Relics
 location:
-  - "[[Ironveil Commons]]"
+  - "[[Boba (Central)]]"
   - "[[Boba]]"
-owner:
-  - "[[Darik Thrennos]]"
 ---
 
 ```meta-bind-js-view 
@@ -44,11 +53,18 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Shop Type** | `INPUT[ShopType][inlineListSuggester:shoptype]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -57,7 +73,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Type** | `VIEW[{poitype}][text]` |
+> **Shop Type** | `VIEW[{shoptype}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Owners** | `VIEW[{owner}][link]` |
 > **Assistant** | `VIEW[{assistant}][link]` |
@@ -66,12 +82,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ###### Party
 >  |
 > ---|---|
-> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
-> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
-> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
-> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
-> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
-> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
+> **Party 1 Reputation** | `VIEW[{party1reputation}][text]`|
+> **Party 2 Reputation** | `VIEW[{party2reputation}][text]`|
+> **Party 3 Reputation** | `VIEW[{party3reputation}][text]`|
+> **Party 4 Reputation** | `VIEW[{party4reputation}][text]`|
+> **Party 5 Reputation** | `VIEW[{party5reputation}][text]`|
+> **Party 6 Reputation** | `VIEW[{party6reputation}][text]` |
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
@@ -100,13 +116,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
-> [!metadata|location]- Locations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Location")
-> SORT tags DESC, poitype ASC, file.name ASC
-
 > [!metadata|characters]- Characters
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
@@ -114,13 +123,30 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
-## Overview 
+## Overview
+Glimmerglass Bazaar is Boba’s vibrant central market, home to five permanent shopfronts nestled under colorful awnings and enchanted glass canopies. The bazaar hosts:
+
+- **Arcane Curios & Elixirs**, a dual-purpose stall for magic goods and potions;
+- **The Glinting Trinket**, a haven for jewelers and antique collectors;
+- **Spice & Bloom Pavilion**, offering exotic spices and alchemical herbs;
+- **Thread & Tassel Atelier**, tailored garments and fine clothwork;
+- **The Common Coffer**, purveyor of general goods and merchant odds and ends.
+
+The bazaar also features rotating merchant carts and temporary stalls, ensuring no two visits are ever quite the same.
 
 
 
-## Keyed Locations
 
+## Special Items
 
+| Item | Cost |
+| ---- | ---- |
+|      |      |
+## Services
+
+| Service | Description | Cost |
+| ------- | ----------- | ---- |
+|         |             |      |
 
 ## Current Events
 

@@ -11,12 +11,12 @@ aliases:
 organization:
   - "[[The Silver Chain]]"
 location:
-  - "[[Thrennos Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]]"
   - "[[Ironveil Commons]]"
   - "[[Boba]]"
 condition: Healthy
 ownedlocation:
-  - "[[Thrennos Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]]"
 ---
 
 > [!metadata|metadata]- Metadata 

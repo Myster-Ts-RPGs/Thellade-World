@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Brimstone Docks]]"
   - "[[Boba]]"
+poitype:
+  - Guildhall
 ---
 
 ```meta-bind-js-view 

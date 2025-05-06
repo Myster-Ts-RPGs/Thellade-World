@@ -4,11 +4,11 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
-organization:
-  - "[[The Silver Chain]]"
+banner: on
+poitype:
+  - Historical Site
 location:
-  - "[[Brimstone Docks]]"
+  - "[[Old Boba]]"
   - "[[Boba]]"
 ---
 

@@ -32,7 +32,7 @@ location:
   - "[[The Ashen Vault]]"
   - "[[Boba]]"
   - "[[Brimstone Docks]]"
-  - "[[The Hollow Fang]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]]"
   - "[[Sunfire Heights]]"
   - "[[The Embercoils]]"
   - "[[Ambassadors Row]]"
@@ -227,9 +227,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## History
 - 03 Emberwake 187 PR: Founded by rogue merchants and dissident nobles following the collapse of a Kandan banking house.
 - 192 PR: Secured long-term political immunity for the Merrowyn family via covert contracts.
-- 198 PR: Opened the first arcane ledger hub at [[Thrennos Exchange]] in [[Ironveil Commons]].
+- 198 PR: Opened the first arcane ledger hub at [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]] in [[Ironveil Commons]].
 - 203 PR: Failed assassination attempt on a rival smuggling lord led to splinter faction formation in [[Lowmire Gutter]].
-- 208 PR: [[The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[Boba]] and [[Kanda]] respectively.
+- 208 PR: [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[Boba]] and [[Kanda]] respectively.
 - 211 PR: Initiated discreet smuggling through the [[Mist Market]] during leyline flux disturbances.
 
 ### Campaign Events
@@ -243,7 +243,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Lysara Verannis]] – 'The Silk'; controls high-society infiltrations.
   - [[Selaya Dornis]] – 'The Whisper'; liaison to arcane suppliers.
 - **Regional Contacts / Lieutenants:**
-  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[The Hollow Fang]] in [[Boba]].
+  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] in [[Boba]].
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]] – 'The Smoke'; handles low-visibility logistics from [[The Embercoils]].
   - [[Olin Reskar]] – 'The Quill'; Lambaro-based scribe and document forger.
   - [[Verrik Myrros]] – 'The Blade'; executes enforcements and silencing operations in [[Boba]].
@@ -254,9 +254,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Ashen Vault]] (Kanda – Glimmershade) – Secure storage and internal tribunal hall.
 
 ### Secondary Hideouts
-- [[The Hollow Fang]] (Boba – Brimstone Docks) – Coastal receiving center for stolen goods.
+- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] (Boba – Brimstone Docks) – Coastal receiving center for stolen goods.
 - [[The Embercoils]] (Boba – Sunfire Heights) – Smuggler hideaway masked as a glassworks furnace.
-- [[Thrennos Exchange]] (Boba – Ironveil Commons) – Falsified trade office for laundering gold.
+- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]] (Boba – Ironveil Commons) – Falsified trade office for laundering gold.
 - [[Broken Bell Safehouse]] (Boba – Lowmire Gutter) – Emergency fallback for compromised agents.
 - [[Verannis Estate]] (Boba – Gilded Strand) – Noble-owned salon front for black-market meetings.
 - [[Reskar’s Inkfold]] (Lambaro – Arcspire District) – Secret contract and forgery hall.
@@ -275,6 +275,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Quill]] possibly fabricating false relic documents affecting player access to real Pre-Rising artifacts.
 
 ### Artifacts and Evidence Found
-- Forged shipping manifests traced to [[Thrennos Exchange]].
+- Forged shipping manifests traced to [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]].
 - Smuggled moonsteel weapons found in [[Mist Market]] cache (no direct link yet).
 - Partial ledger burned from [[The Gilded Shadow]] recovered near [[Cradlecliff]] harbor.

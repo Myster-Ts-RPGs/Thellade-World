@@ -8,6 +8,11 @@ location:
   - "[[Boba]]"
 organization:
   - "[[The Silver Chain]]"
+districttype:
+  - Market
+  - Commercial
+  - Cultural
+  - Financial
 ---
 
 ```meta-bind-js-view 

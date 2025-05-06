@@ -23,7 +23,7 @@ location:
   - "[[Amberveil Market]]"
   - "[[The Glowing Exchange]]"
   - "[[Boba]]"
-  - "[[Ashen Ledger Hall]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Ashen Ledger Hall]]"
   - "[[Brimstone Docks]]"
   - "[[Lambaro Isles]]"
   - "[[Lambaro]]"

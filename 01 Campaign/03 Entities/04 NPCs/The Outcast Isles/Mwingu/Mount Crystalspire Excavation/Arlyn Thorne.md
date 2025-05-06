@@ -9,7 +9,7 @@ language:
 ancestry: Human
 heritage: Versatile Heritage - Aiuvarin
 location:
-  - "[[Mount Crystalspire]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]]"
 organization:
   - "[[The Crystal Seekers Guild]]"
 condition: Healthy

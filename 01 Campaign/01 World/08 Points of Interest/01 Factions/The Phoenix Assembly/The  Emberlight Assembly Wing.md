@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Ironveil Commons]]"
   - "[[Boba]]"
+poitype:
+  - Headquarters
 ---
 
 ```meta-bind-js-view 
@@ -114,7 +116,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
+Regional meeting chamber for Phoenix Assembly envoys and authorized liaisons from celestial-aligned ministries. Acts as a radiant beacon and parliamentary chamber with divine oversight. Often tied to sanctified civic decisions and law mediation.
 
+This facility connects to the Phoenix Assembly’s known function as a lawful-neutral political and religious order enforcing the Sunfire Compact and negotiating divine disputes
 
 ## Keyed Locations
 
