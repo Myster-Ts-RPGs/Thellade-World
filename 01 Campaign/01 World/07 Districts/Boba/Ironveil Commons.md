@@ -13,6 +13,9 @@ districttype:
   - Military
   - Residential
   - Industrial
+  - Guild District
+  - Festival Grounds
+  - Recreational
 ---
 
 ```meta-bind-js-view 

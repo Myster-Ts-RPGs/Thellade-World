@@ -8,15 +8,16 @@ location:
   - "[[Boba]]"
 organization:
   - "[[The Crystal Seekers Guild]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Silver Chain]]"
+  - "[[The Sunfire Heralds]]"
 districttype:
   - Noble
   - Religious
   - Educational
   - Entertainment
+  - Arcane
 ---
 
 ```meta-bind-js-view 
@@ -107,7 +108,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-Elevated near the coast; home to the [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Kanda Islands/Sunfire Tower]] and the historical archives.  
+Elevated near the coast; home to the [[Sunfire Tower]] and the historical archives.  
 _Functions:_ Pre-Rising research, forbidden texts, ritual sites.
 
 ## Keyed Locations

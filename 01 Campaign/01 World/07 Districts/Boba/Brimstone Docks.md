@@ -17,6 +17,8 @@ districttype:
   - Dockyard
   - Harbor
   - Industrial
+  - Underbelly
+  - Slums
 ---
 
 ```meta-bind-js-view 

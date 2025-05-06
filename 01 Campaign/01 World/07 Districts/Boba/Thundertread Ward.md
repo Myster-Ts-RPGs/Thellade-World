@@ -13,6 +13,8 @@ districttype:
   - Market
   - Magical District
   - Military
+  - Religious
+  - Guild District
 ---
 
 ```meta-bind-js-view 

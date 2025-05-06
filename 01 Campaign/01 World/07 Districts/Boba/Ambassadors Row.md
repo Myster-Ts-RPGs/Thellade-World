@@ -15,6 +15,8 @@ districttype:
   - Noble
   - Foreign Quarter
   - Government
+  - Educational
+  - Cultural
 ---
 
 ```meta-bind-js-view 

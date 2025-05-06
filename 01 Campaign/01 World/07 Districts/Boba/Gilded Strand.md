@@ -13,6 +13,8 @@ districttype:
   - Commercial
   - Cultural
   - Financial
+  - Noble
+  - Entertainment
 ---
 
 ```meta-bind-js-view 

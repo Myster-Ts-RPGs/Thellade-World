@@ -1,7 +1,7 @@
 ---
-version: "1.1.0.4"
+version: "1.1.0.5"
 major: 1
 minor: 1
 feature: 0
-breakdown: 4
+breakdown: 5
 ---

@@ -13,6 +13,8 @@ districttype:
   - Market
   - Medical
   - Underbelly
+  - Religious
+  - Residential
 ---
 
 ```meta-bind-js-view 

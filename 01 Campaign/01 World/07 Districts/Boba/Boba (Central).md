@@ -10,6 +10,9 @@ districttype:
   - Government
   - Market
   - Educational
+  - Arcane
+  - Cultural
+  - Historical
 ---
 
 ```meta-bind-js-view 

@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.0.5 | 2025-05-06 13:06 | Finalized District Type Tags for Boba Districts | [[Git Commit 2025-05-06 13-06]]
 1.1.0.4 | 2025-05-06 12:54 | Finalize Boba District Shops | [[Git Commit 2025-05-06 12-54]]
 1.1.0.3 | 2025-05-06 12:27 | Stubbed Thundertread Ward POIs and District Content | [[Git Commit 2025-05-06 12-27]]
 1.1.0.2 | 2025-05-06 11:45 | Stubbed Sunfire Heights District POIs in Boba | [[Git Commit 2025-05-06 11-45]]
