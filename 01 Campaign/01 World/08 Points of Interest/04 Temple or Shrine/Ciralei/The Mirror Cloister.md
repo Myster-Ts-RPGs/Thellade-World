@@ -12,6 +12,8 @@ organization:
 location:
   - "[[Sunfire Heights]]"
   - "[[Boba]]"
+poitype:
+  - Sanctum
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +118,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+Serves as a secluded shelter for Pre-Rising arcanists afflicted by psychic instability, reflective enchantments, and aberrant mutations. Also functions as a sanctuary for Emberborn defectors
 
 ## Keyed Locations
 

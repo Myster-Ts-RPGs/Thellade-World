@@ -234,7 +234,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## History
 
-- Founded on **02 Sunreach 1 PR** during the early years of the [[Rising]], immediately following the Prophet of [[Aurion]]’s betrayal and self-sacrifice to [[Asmodeus]] to empower the seal.
+- Founded on **02 Sunreach 1 PR** during the early years of the [[Rising]], immediately following the Prophet of [[01 Campaign/03 Entities/01 Deities/Aurion]]’s betrayal and self-sacrifice to [[Asmodeus]] to empower the seal.
 - The cult was formed by disciples of the Last Prophet who deemed law and infernal authority the only viable defense against the Deep Spiral.
 - Forged the Crimson Compact—a planar accord that legitimized infernal law across major city-states.
 - Directly opposed the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|Black Sepulcher]] during the Maw Awakening attempts beneath [[Lambaro]] and [[Jambito]].

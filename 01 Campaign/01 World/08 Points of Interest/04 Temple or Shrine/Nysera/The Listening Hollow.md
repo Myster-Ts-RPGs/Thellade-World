@@ -6,12 +6,12 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Crystal Seekers Guild]]"
+  - "[[The Hollow Mask]]"
 location:
   - "[[Sunfire Heights]]"
   - "[[Boba]]"
 poitype:
-  - Observatory
+  - Shrine
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +116,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-Used as a transmission node and coordination hub for arcane excavation efforts
+Designed as a quiet reflection chamber for recovering, storing, and sometimes extracting key memories and secrets; aligned with Hollow Mask philosophy of shadow-memory preservation .
 
 ## Keyed Locations
 

@@ -5,13 +5,13 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[The Crystal Seekers Guild]]"
+poitype:
+  - Estate
 location:
   - "[[Sunfire Heights]]"
   - "[[Boba]]"
-poitype:
-  - Observatory
+owner:
+  - "[[Cassandra Valmora]]"
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +116,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-Used as a transmission node and coordination hub for arcane excavation efforts
+
 
 ## Keyed Locations
 

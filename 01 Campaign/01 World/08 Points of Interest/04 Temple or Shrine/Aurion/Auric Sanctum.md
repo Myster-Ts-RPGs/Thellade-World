@@ -5,13 +5,11 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[The Crystal Seekers Guild]]"
+poitype:
+  - Temple
 location:
   - "[[Sunfire Heights]]"
   - "[[Boba]]"
-poitype:
-  - Observatory
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +114,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-Used as a transmission node and coordination hub for arcane excavation efforts
+A radiant domed temple that crowns the highest rise of [[Sunfire Heights]], the **Auric Sanctum** gleams with golden inlays and sunstone mosaics. It is devoted to the worship of [[Aurion]], _The Dawnbringer_, god of light, healing, and redemption. Morning services bathe the sanctum in refracted light, seen as symbolic rebirths by devotees. The temple also serves as a training ground for sun-clerics and redemption paladins.
 
 ## Keyed Locations
 

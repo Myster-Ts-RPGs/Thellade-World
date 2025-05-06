@@ -33,7 +33,7 @@ location:
   - "[[Sunfire Heights]]"
   - "[[Market Row]]"
   - "[[Binders' Lane]]"
-  - "[[The Mirror Cloister]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Ciralei/The Mirror Cloister]]"
   - "[[The Rifted Archive]]"
   - "[[The Cinderglass Study]]"
   - "[[The Veiled Anthenaeum]]"
@@ -224,7 +224,7 @@ All Parties recovering Pre-Rising knowledge or resisting magical bureaucracy are
 
 ## Locations
 - [[The Veiled Anthenaeum]] (Kanda > Glimmershade) — Hidden archive and central safehouse for Vexis.  
-- [[The Mirror Cloister]] (Boba > Sunfire Heights) — Secret meeting hall among progressive political theorists.  
+- [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Ciralei/The Mirror Cloister]] (Boba > Sunfire Heights) — Secret meeting hall among progressive political theorists.  
 - [[The Rifted Archive]] (Lambaro > Market Row) — Smuggled industrial documents and recovered planar glyphs stored here.  
 - [[The Cinderglass Study]] (Mangagoy > Binders' Lane) — Experimental artifact vault and planar laboratory hidden behind a false alchemical studio.
 

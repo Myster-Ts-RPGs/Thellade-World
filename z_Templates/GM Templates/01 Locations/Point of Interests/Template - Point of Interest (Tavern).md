@@ -5,7 +5,8 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 poitype:
-  - Shop [Tavern]
+  - Tavern
+  - Inn
 banner: on
 ---
 

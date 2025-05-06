@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 poitype:
-  - Shop [Tavern]
+  - Tavern
 banner: on
 taverntype:
   - Dive Bar

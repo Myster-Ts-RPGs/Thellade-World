@@ -222,7 +222,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - If they pursue ancient tomes in the ruins of Jambito’s Temple Row, they may cross paths with hidden converts.
 
 ## Hierarchy
-- **Archdeacon:** [[Irlos Vale]] – Visionary founder and high prophet of the Silent Chorus; once a cleric of [[Aurion]], now the voice of the unspoken.  
+- **Archdeacon:** [[Irlos Vale]] – Visionary founder and high prophet of the Silent Chorus; once a cleric of [[01 Campaign/03 Entities/01 Deities/Aurion]], now the voice of the unspoken.  
 - **Circle Keeper:** [[Thessa Morrin]] – Mistress of sacred rites and veil-laced liturgies; bearer of 'The Weeping Veil' relic.  
 - **Shrine Custodians:**  
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Ilvarra Milton|Saint Ilvarra 'The Shorn']] – Oversees Mangagoy's Shattered Abbey; masked relic guardian.  

@@ -215,7 +215,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Orrek Flintbraid|Captain Orrek Flintbraid]] maintains excavation site security near [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]], supporting Group 1’s efforts in Mwingu.  
-> - [[Barnabas]], a high-ranking cleric of [[Aurion]] and leader of the League’s southern wing, contracted Group 4 in [[Jambito]] to infiltrate a Red Runner hideout tied to infernal cults&#8203;:contentReference[oaicite:1]{index=1}.  
+> - [[Barnabas]], a high-ranking cleric of [[01 Campaign/03 Entities/01 Deities/Aurion]] and leader of the League’s southern wing, contracted Group 4 in [[Jambito]] to infiltrate a Red Runner hideout tied to infernal cults&#8203;:contentReference[oaicite:1]{index=1}.  
 > - A cooperation pact with the [[Crystal Seekers Guild]] remains in place for joint dig coordination and magical site triage.  
 > - League scouts have reported attempted artifact interference by [[The Bleeding Tide]] in the [[Mangagoy]] region, prompting relic convoy escorts.  
 > - The League has quietly warned the Arcane Wardens of a possible cult reactivation near the Smokey Shoals.
@@ -228,7 +228,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Tharos Emberbane|League Captain Tharos Emberbane]] – Visionary leader with a reputation for blazing the first trail into any sealed ruin. Believed to have personally closed two minor planar rifts.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Orrek Flintbraid|Captain Orrek Flintbraid]] – Veteran dwarf field commander, stationed at [[Mwingu]]; scarred and blunt but efficient.  
-- [[Barnabas]] – Cleric of [[Aurion]], manages southern operations. Known for hiring moral but capable parties to assist with cult-cleansing and extraction support.  
+- [[Barnabas]] – Cleric of [[01 Campaign/03 Entities/01 Deities/Aurion]], manages southern operations. Known for hiring moral but capable parties to assist with cult-cleansing and extraction support.  
 - Known to contract members temporarily, offering coin and lodging per mission.  
 - Symbol: A blazing flame rising from a split obsidian circle; some versions include a silver compass rose behind it.  
 - Uniforms: Emberplate tabards, heavy travel boots, rune-etched gloves. Expeditionary colors include flame-orange, charcoal gray, and steel trim.

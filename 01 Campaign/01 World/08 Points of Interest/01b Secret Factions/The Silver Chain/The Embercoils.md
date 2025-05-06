@@ -11,7 +11,9 @@ location:
 organization:
   - "[[The Silver Chain]]"
 owner:
-  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]]"
+  - "[[Korrin Valros]]"
+poitype:
+  - Guildhall
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +118,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+Known smuggling node for exotic magical goods and alchemical contraband routed through Boba’s noble quarter .
 
 ## Keyed Locations
 

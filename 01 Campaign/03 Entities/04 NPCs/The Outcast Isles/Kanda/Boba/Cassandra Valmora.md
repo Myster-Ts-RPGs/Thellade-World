@@ -22,11 +22,14 @@ aliases:
   - Lady Cassandra
   - Lady Cassandra Valmora
 location:
-  - "[[Gilded Strand]]"
+  - "[[Valmora Estate]]"
+  - "[[Sunfire Heights]]"
   - "[[Boba]]"
 occupation:
   - Noble
 condition: Healthy
+ownedlocation:
+  - "[[Valmora Estate]]"
 ---
 
 > [!metadata|metadata]- Metadata 
