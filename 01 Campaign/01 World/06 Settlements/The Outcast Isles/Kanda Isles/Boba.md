@@ -235,23 +235,16 @@ await dv.view("z_Templates/Scripts/view2");
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
-```dataview
-TABLE WITHOUT ID
-	file.link AS "Name",
-	join(shoptype, ",") AS "Types",
-	location[0] AS "District",
-	location[1] AS "Settlement"
-FROM "01 Campaign"
-WHERE econtains(location, this.file.link)
-	AND contains(poitype, "Shop")
-SORT location[0] ASC,
-	file.name ASC
-```
+
 ## Current Events
-- Faction tension
-- Market or leyline instability
-- Rumors or crime
-- Local Holidays and Festivals
+[[Boba]] teeters on the edge of controlled chaos. In the gilded halls of merchant estates and the soot-choked alleys of [[Lowmire Gutter]] alike, tensions rise as old alliances fracture and hidden powers stir. Recent arcane anomalies in [[Sunfire Heights]] have thrown scholars and sentinels into disarray—leyline flares ripple unpredictably, warping spells and sparking panic among the city’s magical elite. The merchant dynasties, always one contract from open war, trade whispered threats and shadowed sabotage, igniting fears of a coming trade conflict.
+
+Even as banners are raised for the [[Sunfire Convocation Festival]], unease simmers beneath the celebration. Rumors of cult activity draw wary glances toward the undercity, where missing persons and cryptic symbols suggest something far older and darker now walks the streets. Each district holds its breath, waiting to see whether [[Boba]]’s fractured peace will hold—or splinter into fire and ash.
+
+- **Faction tension** is escalating across Boba’s key districts, particularly between merchant guilds, arcane researchers, and clandestine groups. Eyes are on the [[Gilded Strand]] and [[Ironveil Commons]] where allegiances are shifting quickly.
+- **Market or leyline instability** has become a major concern after abnormal magical surges were detected across Sunfire Heights. Scholars from the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Crystal Seekers Guild|Crystal Seekers Guild]] and [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens|Arcane Wardens]] are investigating leyline fluctuations that may be linked to [[01 Campaign/04 Lore/02 Calendar/Eras/The Rising (R)|Pre-Rising]] infrastructure.
+- **Rumors or crime** circulate of deep smuggling routes beneath Brimstone Docks. Unrest grows in Lowmire Gutter following coordinated disappearances of informants and local enforcers.
+- **Local Holidays and Festivals** include the **Sunfire Convocation Festival**, a citywide celebration of the academic and arcane elite, held on 15 Sunreach. Attendance is expected to be high, despite growing unrest.
 
 > [!metadata|events]- Recent Events
 >```dataview 
