@@ -1,26 +1,22 @@
 ---
 tags:
   - "#Event"
-  - "#TODO"
-calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Cultural
-eventtype: Annual
-startdate: 10 Blossomveil
-startdateshort: -0062.02.10 PR
+  - "#Canon"
+calendarlink: https://app.fantasy-calendar.com/calendars/ef4bc8ce5816a8ef752d35b7e4cfd4d
+eventcategory: Political
+eventtype: Significant
+startdate: 15 Frostfall 12 PR
+enddate: 03 Dawnmarch 13 PR
+startdateshort: 0012.06.15 PR
+enddateshort: 0013.01.03 PR
 monthofoccurrence:
-  - "[[02 - Blossomveil]]"
+  - "[[01 - Dawnmarch]]"
 location:
-  - "[[Thellade]]"
-  - "[[The Outcast Isles]]"
+  - "[[Boba]]"
+  - "[[The Verdant Accord Forum]]"
 yearofoccurrence:
-  - "[[-62]]"
-  - "[[-12]]"
-  - "[[-1]]"
-  - "[[211]]"
-  - "[[212]]"
-aliases:
-  - Moon Grace Festival
-  - Lunara's Blessing Night
+  - "[[13]]"
+yearnumeric: 13
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -84,7 +80,10 @@ WHERE !econtains(tags,"#Location") OR econtains(tags,"#Character")
 SORT file.name ASC
 
 ## Overview
-Each year on the 10th of Blossomveil, citizens gather to honor [[Lunara]] and give thanks for the protection of night and dreams. Illuminated by silver lanterns and starlight rituals, the event symbolizes hope amid darkness.
+
+Brokered by [[the Eternal Concord]], rival guilds and noble houses agreed to end violent street wars and codify merchant law. Negotiations held at [[the Verdant Accord Forum]] cemented the city’s new merchant codes and judicial practices. This catalyzed the formation of modern [[Boba]]’s trade governance.. The Accord catalyzed Boba's rise as a structured trade capital.
+
+
 
 ## Notes
-The tradition is believed to have originated in the early post-Rising years and continues to hold cultural importance across coastal settlements.
+

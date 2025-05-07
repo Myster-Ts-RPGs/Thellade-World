@@ -3,21 +3,22 @@ tags:
   - "#Event"
   - "#TODO"
 calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Leyline Instability
+eventcategory: Arcane
 eventtype: Significant
 enddate: 20 Sunreach 212 PR
 startdate: 15 Sunreach 212 PR
-startdateshort: 212.03.15 PR
-enddateshort: 212.03.20 PR
+startdateshort: 0212.03.15 PR
+enddateshort: 0212.03.20 PR
 monthofoccurrence:
   - "[[03 - Sunreach]]"
 location:
   - "[[Thellade]]"
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isle]]"
+  - "[[Kanda Isles]]"
   - "[[Boba]]"
 yearofoccurrence:
   - "[[212]]"
+yearnumeric: 212
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -40,6 +41,7 @@ yearofoccurrence:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

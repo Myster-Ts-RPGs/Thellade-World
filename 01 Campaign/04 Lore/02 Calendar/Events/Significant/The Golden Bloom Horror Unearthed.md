@@ -1,28 +1,24 @@
 ---
 tags:
   - "#Event"
-  - "#TODO"
-calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Cultural
-eventtype: Annual
-startdate: 10 Blossomveil
-startdateshort: -0062.02.10 PR
-monthofoccurrence:
-  - "[[02 - Blossomveil]]"
+  - "#Canon"
+calendarlink: https://app.fantasy-calendar.com/calendars/ef4bc8ce5816a8ef752d35b7e4cfd4d
+eventcategory: Arcane
+eventtype: Significant
+startdate: 01 Dawnmarch 212 PR
+enddate: 04 Dawnmarch 212 PR
+startdateshort: 0212.01.01 PR
+enddateshort: 0212.01.04 PR
+monthofoccurrence: "[[01 - Dawnmarch]]"
 location:
   - "[[Thellade]]"
   - "[[The Outcast Isles]]"
+  - "[[Kanda Isles]]"
+  - "[[Boba]]"
 yearofoccurrence:
-  - "[[-62]]"
-  - "[[-12]]"
-  - "[[-1]]"
-  - "[[211]]"
   - "[[212]]"
-aliases:
-  - Moon Grace Festival
-  - Lunara's Blessing Night
+yearnumeric: 212
 ---
-
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
 >> #### System
@@ -84,7 +80,11 @@ WHERE !econtains(tags,"#Location") OR econtains(tags,"#Character")
 SORT file.name ASC
 
 ## Overview
-Each year on the 10th of Blossomveil, citizens gather to honor [[Lunara]] and give thanks for the protection of night and dreams. Illuminated by silver lanterns and starlight rituals, the event symbolizes hope amid darkness.
+
+Beneath the ruins of a forgotten chapel in [[01 Campaign/01 World/07 Districts/Boba/Sunfire Heights|Sunfire Heights]], cultists of the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|Black Sepulcher (Cult of Orcus)]] attempted to awaken the Golden Bloom, a malformed abyssal entity. The ritual was disrupted, but leyline backlash inflicted arcane sickness across several districts.
 
 ## Notes
-The tradition is believed to have originated in the early post-Rising years and continues to hold cultural importance across coastal settlements.
+
+
+
+

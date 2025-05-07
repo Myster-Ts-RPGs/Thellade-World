@@ -1,26 +1,20 @@
 ---
 tags:
   - "#Event"
-  - "#TODO"
-calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Cultural
-eventtype: Annual
-startdate: 10 Blossomveil
-startdateshort: -0062.02.10 PR
-monthofoccurrence:
-  - "[[02 - Blossomveil]]"
+  - "#Canon"
+calendarlink: https://app.fantasy-calendar.com/calendars/ef4bc8ce5816a8ef752d35b7e4cfd4d
+eventcategory: Historical
+eventtype: Significant
+startdate: 01 Sunreach 1 PR
+enddate: 02 Sunreach 1 PR
+startdateshort: 0001.03.01 PR
+enddateshort: 0001.03.02 PR
+monthofoccurrence: "[[03 - Sunreach]]"
 location:
-  - "[[Thellade]]"
-  - "[[The Outcast Isles]]"
+  - "[[Boba]]"
 yearofoccurrence:
-  - "[[-62]]"
-  - "[[-12]]"
-  - "[[-1]]"
-  - "[[211]]"
-  - "[[212]]"
-aliases:
-  - Moon Grace Festival
-  - Lunara's Blessing Night
+  - "[[1]]"
+yearnumeric: 1
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -43,7 +37,7 @@ aliases:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
->> **Year Numeric**|`INPUT[number:yearnumeric]`|
+>> **Year Numeric**|`INPUT[number:yearnumeric]`
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 
@@ -84,7 +78,8 @@ WHERE !econtains(tags,"#Location") OR econtains(tags,"#Character")
 SORT file.name ASC
 
 ## Overview
-Each year on the 10th of Blossomveil, citizens gather to honor [[Lunara]] and give thanks for the protection of night and dreams. Illuminated by silver lanterns and starlight rituals, the event symbolizes hope amid darkness.
+
+A series of massive volcanic quakes and magical detonations during the Rising destroyed all arcane institutions in [[Boba]]. Over 95% of the city's Pre-Rising records were burned. Libraries such as the [[Aurionium Archive]] and the [[House Calvetra Repository]] were lost. This event defined the city's historical amnesia and opened it to post-Rising factional manipulation.
 
 ## Notes
-The tradition is believed to have originated in the early post-Rising years and continues to hold cultural importance across coastal settlements.
+

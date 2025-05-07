@@ -1,6 +1,7 @@
 Tags
 INPUT[inlineSelect(
   option(#TODO), 
+  option(#Canon),
   option(#Group1),
   option(#Group2),
   option(#Group3),
@@ -425,36 +426,16 @@ Sexuality
 INPUT[inlineSelect(option(null), option(Straight), option(Gay), option(Bisexual), option(Asexual))]
 
 Age
-INPUT[inlineSelect(
-    option(null), 
-    option(Infant), 
-    option(Child), 
-    option(Teen), 
-    option(Young Adult), 
-    option(Adult), 
-    option(Mature Adult), 
-    option(Elderly), 
-    option(Ancient)
-)]
+INPUT[inlineSelect(option(null), option(Infant), option(Child), option(Teen), option(Young Adult), option(Adult), option(Mature Adult), option(Elderly), option(Ancient))]
 
 Alignment
-INPUT[inlineSelect(
-    option(null), 
-    option(Lawful Good), 
-    option(Neutral Good), 
-    option(Chaotic Good), 
-    option(Lawful Neutral), 
-    option(True Neutral), 
-    option(Chaotic Neutral), 
-    option(Lawful Evil), 
-    option(Neutral Evil), 
-    option(Chaotic Evil)
-)]
+INPUT[inlineSelect(option(null), option(Lawful Good), option(Neutral Good), option(Chaotic Good), option(Lawful Neutral), option(True Neutral), option(Chaotic Neutral), option(Lawful Evil), option(Neutral Evil), option(Chaotic Evil))]
 
 Occupation
 INPUT[inlineSelect(
     option(Adventurer), 
     option(Alchemist), 
+    option(Ambassador),
     option(Animal Trainer), 
     option(Apothecary),
     option(Archaeologist), 
@@ -479,6 +460,8 @@ INPUT[inlineSelect(
     option(Chandler), 
     option(Chef), 
     option(Chief), 
+    option(City Watch),
+    option(Clerk),
     option(Clockmaker), 
     option(Cobbler), 
     option(Commander),
@@ -491,6 +474,7 @@ INPUT[inlineSelect(
     option(Dancer), 
     option(Diplomat), 
     option(Druid), 
+    option(Doctor),
     option(Enchanter), 
     option(Engineer), 
     option(Entertainer), 
@@ -503,15 +487,18 @@ INPUT[inlineSelect(
     option(Falconry Handler), 
     option(Falconry Trainer), 
     option(Farmer), 
+    option(Fence),
     option(Fletcher), 
     option(Fortune Teller), 
     option(Forger), 
     option(Gang Member), 
     option(Glassblower), 
     option(Gong Farmer), 
+    option(Governor),
     option(Grocer), 
     option(Guard), 
     option(Healer), 
+    option(Herbalist),
     option(Hermit), 
     option(High Priest), 
     option(Hierarch), 
@@ -537,6 +524,7 @@ INPUT[inlineSelect(
     option(Linguist), 
     option(Locksmith), 
     option(Lumberjack), 
+    option(Maid),
     option(Mage), 
     option(Mason), 
     option(Merchant), 
@@ -564,6 +552,7 @@ INPUT[inlineSelect(
     option(Royal), 
     option(Sailor), 
     option(Saboteur), 
+    option(Scholar),
     option(Scout),
     option(Scribe), 
     option(Sculptor), 
@@ -592,6 +581,7 @@ INPUT[inlineSelect(
     option(Venturer), 
     option(Vigilante), 
     option(Wainwright), 
+    option(Waiter-Waitress),
     option(Water Clock Maker), 
     option(Weaponsmith), 
     option(Weaver), 
@@ -661,6 +651,7 @@ INPUT[inlineListSuggester(
   option(Floodplain),
   option(Frozen Coast),
   option(Frozen Tundra),
+  option(Fungus Forest),
   option(Glacier),
   option(Graveyard),
   option(Hellglass Plain),
@@ -668,6 +659,7 @@ INPUT[inlineListSuggester(
   option(Howling Crag),
   option(Infernal Rift),
   option(Lava Flats),
+  option(Magical Bubble),
   option(Magnetic Mesa),
   option(Marsh),
   option(Meadow),
@@ -704,7 +696,10 @@ INPUT[inlineListSuggester(
   option(Swamp),
   option(Thornwood),
   option(Thunderplain),
+  option(Tunnels),
   option(Underdark Rift),
+  option(Underground Lake),
+  option(Underground Sea),
   option(Volcanic Slope),
   option(Warped Glade),
   option(Webbed Expanse),
@@ -724,6 +719,7 @@ INPUT[inlineSelect(
   option(Capitalism),
   option(Confederacy),
   option(Corporate Rule),
+  option(Council),
   option(Cryptocracy),
   option(Democracy),
   option(Dictatorship),
@@ -965,6 +961,7 @@ POIType
 INPUT[inlineSelect(
   option(Academy),
   option(Altar),
+  option(Apartment),
   option(Arena),
   option(Aqueduct),
   option(Asylum),
@@ -980,17 +977,22 @@ INPUT[inlineSelect(
   option(Castle),
   option(Cave),
   option(Cemetery),
+  option(City Hall),
   option(Clock Tower),
+  option(Cottage),
   option(Court),
   option(Crag),
   option(Customs House),
   option(Docks),
+  option(Dormitory),
   option(Embassy),
+  option(Estate),
   option(Farm),
   option(Forge),
   option(Fountain),
   option(Gatehouse),
   option(Glade),
+  option(Government-Other),
   option(Grave),
   option(Guildhall),
   option(Guardhouse),
@@ -998,13 +1000,16 @@ INPUT[inlineSelect(
   option(Headquarters),
   option(Hideout),
   option(Historical Site),
+  option(Hospital),
   option(House),
   option(Hot Spring),
+  option(Hut),
   option(Inn),
   option(Keep),
   option(Leyline Convergence),
   option(Library),
   option(Mage Tower),
+  option(Manor),
   option(Market),
   option(Mill),
   option(Mine),
@@ -1024,7 +1029,9 @@ INPUT[inlineSelect(
   option(Sanctum),
   option(Sanitarium),
   option(School),
+  option(Shack),
   option(Ship),
+  option(Shop),
   option(Shrine),
   option(Smithy),
   option(Standing Stones),
@@ -1032,8 +1039,10 @@ INPUT[inlineSelect(
   option(Summoning Circle),
   option(Tavern),
   option(Temple),
+  option(Tenement),
   option(Town Hall),
   option(Town Square),
+  option(Villa),
   option(Volcano),
   option(Warehouse),
   option(Watchtower),
@@ -1221,7 +1230,7 @@ INPUT[inlineSelect(
   option(✅ Completed), 
   option(❌ Failed), 
   option(💀 Abandoned), 
-  option(🕯️Archived)
+  option(🕯️ Archived)
 )]
 
 DeityPower
@@ -1241,6 +1250,7 @@ INPUT[inlineSelect(
 
 ShopType
 INPUT[inlineSelect(
+  option(Armor),
   option(Antiques and Relics),
   option(Apothecary),
   option(Architect),
@@ -1282,7 +1292,8 @@ INPUT[inlineSelect(
   option(Tailor),
   option(Tanner),
   option(Tinkerer),
-  option(Toymaker),
+  option(Toys),
+  option(Weapons),
   option(Weaver),
   option(Winery)
 )]
@@ -1328,11 +1339,10 @@ INPUT[inlineSelect(
   option(Folklore)
 )]
 
+
 EventType
 INPUT[inlineSelect(
   option(Significant),
-  option(Recurring),
-  option(Historical),
   option(Annual),
   option(Seasonal),
   option(Monthly),

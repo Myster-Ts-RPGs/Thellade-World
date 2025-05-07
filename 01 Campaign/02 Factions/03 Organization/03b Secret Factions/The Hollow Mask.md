@@ -22,7 +22,7 @@ location:
   - "[[Glimmershade]]"
   - "[[The Mirrored Walk]]"
   - "[[Sunfire Heights]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Nysera/The Listening Hollow]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Thassila/The Listening Hollow]]"
   - "[[Arcspire District]]"
   - "[[The Veilhouse of Names]]"
 pronounced: HAH-low MASK
@@ -221,7 +221,7 @@ Multiple parties have encountered unexplained memory gaps, altered statements, o
 ## Locations
 - [[The Vault of Echoes]] (Jambito > Silverspire Terrace) — Whisper archive and identity lab.  
 - [[The Mirrored Walk]] (Kanda > Glimmershade) — Illusion training path; memory-shift induction site.  
-- [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Nysera/The Listening Hollow]] (Boba > Sunfire Heights) — Sound-sealed chamber for psychic interception.  
+- [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Thassila/The Listening Hollow]] (Boba > Sunfire Heights) — Sound-sealed chamber for psychic interception.  
 - [[The Veilhouse of Names]] (Lambaro > Arcspire District) — Persona chamber for constructing false identities.
 
 ## Notes

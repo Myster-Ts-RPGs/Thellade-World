@@ -28,6 +28,7 @@ enddate: DATE GOES HERE
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

@@ -12,6 +12,8 @@ organization:
 location:
   - "[[Gilded Strand]]"
   - "[[Boba]]"
+poitype:
+  - Estate
 ---
 
 ```meta-bind-js-view 

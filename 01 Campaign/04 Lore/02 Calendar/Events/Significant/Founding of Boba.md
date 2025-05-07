@@ -3,24 +3,19 @@ tags:
   - "#Event"
   - "#TODO"
 calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Cultural
-eventtype: Annual
-startdate: 10 Blossomveil
-startdateshort: -0062.02.10 PR
+eventcategory: Historical
+eventtype: Significant
+enddate: 08 Nightveil -128 PR
+startdate: 08 Nightveil -128 PR
+startdateshort: -0128.07.08 PR
+enddateshort: -0128.07.08 PR
 monthofoccurrence:
-  - "[[02 - Blossomveil]]"
-location:
-  - "[[Thellade]]"
-  - "[[The Outcast Isles]]"
+  - "[[07 - Nightveil]]"
 yearofoccurrence:
-  - "[[-62]]"
-  - "[[-12]]"
-  - "[[-1]]"
-  - "[[211]]"
-  - "[[212]]"
-aliases:
-  - Moon Grace Festival
-  - Lunara's Blessing Night
+  - "[[-128]]"
+yearnumeric: -128
+location:
+  - "[[Boba]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -84,7 +79,9 @@ WHERE !econtains(tags,"#Location") OR econtains(tags,"#Character")
 SORT file.name ASC
 
 ## Overview
-Each year on the 10th of Blossomveil, citizens gather to honor [[Lunara]] and give thanks for the protection of night and dreams. Illuminated by silver lanterns and starlight rituals, the event symbolizes hope amid darkness.
+
+> [!kirk|info] Prompt (Remove me)
+Provide a detailed summary of the event, including its name, date, and significance within the campaign. Describe the nature of the event, such as whether it is a festival, battle, ceremony, natural disaster, or other notable occurrence. Highlight the key participants, locations, and any important actions or outcomes associated with the event. Consider how this event impacts the broader storyline, the players, and the world they inhabit.
 
 ## Notes
-The tradition is believed to have originated in the early post-Rising years and continues to hold cultural importance across coastal settlements.
+

@@ -7,8 +7,8 @@ eventcategory: Crime/Rumor
 eventtype: Significant
 enddate: 20 Dawnmarch 212 PR
 startdate: 02 Dawnmarch 212 PR
-startdateshort: 212.01.02 PR
-enddateshort: 212.01.20 PR
+startdateshort: 0212.01.02 PR
+enddateshort: 0212.01.20 PR
 monthofoccurrence:
   - "[[01 - Dawnmarch]]"
 location:
@@ -18,6 +18,7 @@ location:
   - "[[Boba]]"
 yearofoccurrence:
   - "[[212]]"
+yearnumeric: 212
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -40,6 +41,7 @@ yearofoccurrence:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

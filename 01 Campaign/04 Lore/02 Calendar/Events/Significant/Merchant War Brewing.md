@@ -9,13 +9,14 @@ aliases:
   - Merchant War Brewing
   - Merchant Tensions in Boba
 startdate: 03 Dawnmarch 212 PR
-startdateshort: 212.03.03 PR
+startdateshort: 0212.03.03 PR
 enddate: 06 Dawnmarch 212 PR
-enddateshort: 212.03.06 PR
+enddateshort: 0212.03.06 PR
 monthofoccurrence:
   - "[[01 - Dawnmarch]]"
 yearofoccurrence:
   - "[[212]]"
+yearnumeric: 212
 location:
   - "[[Boba]]"
 ---
@@ -40,6 +41,7 @@ location:
 >> **End Date Short ** |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

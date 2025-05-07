@@ -7,8 +7,8 @@ eventcategory: Historical
 eventtype: Significant
 enddate: 20 Emberwake -12 PR
 startdate: 01 Emberwake -12 PR
-startdateshort: -12.04.01 PR
-enddateshort: -12.04.20 PR
+startdateshort: -0012.04.01 PR
+enddateshort: -0012.04.20 PR
 monthofoccurrence:
   - "[[04 - Emberwake]]"
 location:
@@ -16,6 +16,7 @@ location:
   - "[[The Outcast Isles]]"
 yearofoccurrence:
   - "[[-12]]"
+yearnumeric: -12
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -38,6 +39,7 @@ yearofoccurrence:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

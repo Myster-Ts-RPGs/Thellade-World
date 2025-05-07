@@ -1,26 +1,20 @@
 ---
 tags:
   - "#Event"
-  - "#TODO"
-calendarlink: https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d
-eventcategory: Cultural
-eventtype: Annual
-startdate: 10 Blossomveil
-startdateshort: -0062.02.10 PR
-monthofoccurrence:
-  - "[[02 - Blossomveil]]"
+  - "#Canon"
+calendarlink: https://app.fantasy-calendar.com/calendars/ef4bc8ce5816a8ef752d35b7e4cfd4d
+eventcategory: Economic
+eventtype: Significant
+startdate: 03 Sunfall 210 PR
+enddate: 12 Sunfall 210 PR
+startdateshort: 0210.10.03 PR
+enddateshort: 0210.10.12 PR
+monthofoccurrence: "[[10 - Sunfall]]"
 location:
-  - "[[Thellade]]"
-  - "[[The Outcast Isles]]"
+  - "[[Boba]]"
 yearofoccurrence:
-  - "[[-62]]"
-  - "[[-12]]"
-  - "[[-1]]"
-  - "[[211]]"
-  - "[[212]]"
-aliases:
-  - Moon Grace Festival
-  - Lunara's Blessing Night
+  - "[[210]]"
+yearnumeric: 210
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -83,8 +77,13 @@ FROM outgoing([[]])
 WHERE !econtains(tags,"#Location") OR econtains(tags,"#Character")
 SORT file.name ASC
 
-## Overview
-Each year on the 10th of Blossomveil, citizens gather to honor [[Lunara]] and give thanks for the protection of night and dreams. Illuminated by silver lanterns and starlight rituals, the event symbolizes hope amid darkness.
+## Overview  
+
+A violent clash between the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Golden Tides Trading Guild|Golden Tides Trading Guild]] and the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|Emberheart Traders]] erupted across [[Boba]]’s dockside warehouses and merchant quarters. False-flag attacks orchestrated by the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|Red Runners]] smuggling syndicate stoked tensions between the guilds, prompting street fights, arson, and economic blockades. Intervention by an adventuring party exposed the scheme, unveiling forged shipping manifests and a cache of stolen ledgers that directly implicated [[Captain Verrik the Vulture]]. Order was restored after a public arbitration mediated at the [[The Verdant Accord Forum]].
 
 ## Notes
-The tradition is believed to have originated in the early post-Rising years and continues to hold cultural importance across coastal settlements.
+
+
+
+
+

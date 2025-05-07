@@ -7,8 +7,8 @@ eventcategory: Historical
 eventtype: Significant
 enddate: 20 Harvestshade -62 PR
 startdate: 01 Harvestshade -62 PR
-startdateshort: -62.05.01 PR
-enddateshort: -62.05.20 PR
+startdateshort: -0062.05.01 PR
+enddateshort: -0062.05.20 PR
 monthofoccurrence:
   - "[[05 - Harvestshade]]"
 location:
@@ -16,6 +16,7 @@ location:
   - "[[The Outcast Isles]]"
 yearofoccurrence:
   - "[[-62]]"
+yearnumeric: -62
 ---
 
 
@@ -40,6 +41,7 @@ yearofoccurrence:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

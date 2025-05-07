@@ -7,8 +7,8 @@ eventcategory: Historical
 eventtype: Significant
 enddate: 20 Dawnmarch -1 PR
 startdate: 01 Dawnmarch -1 PR
-startdateshort: -01.01.01 PR
-enddateshort: -01.01.20 PR
+startdateshort: -0001.01.01 PR
+enddateshort: -0001.01.20 PR
 monthofoccurrence:
   - "[[01 - Dawnmarch]]"
 location:
@@ -16,6 +16,7 @@ location:
   - "[[The Outcast Isles]]"
 yearofoccurrence:
   - "[[-1]]"
+yearnumeric: -1
 ---
 
 
@@ -40,6 +41,7 @@ yearofoccurrence:
 >> **End Date Short * |  `INPUT[text:enddateshort]` |
 >> **Month of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Month AND !"z_Templates"), useLinks(partial)):monthofoccurrence]` |
 >> **Year of Occurrence** | `INPUT[inlineListSuggester(optionQuery(#Year AND !"z_Templates"), useLinks(partial)):yearofoccurrence]` |
+>> **Year Numeric**|`INPUT[number:yearnumeric]`|
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 >> **Calendar Link** |  `INPUT[textArea:calendarlink]` |
 

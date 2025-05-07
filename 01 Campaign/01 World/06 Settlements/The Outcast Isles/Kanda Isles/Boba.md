@@ -2,7 +2,7 @@
 tags:
   - "#Location"
   - "#Settlement"
-  - "#TODO"
+  - "#Canon"
 art: 90 Assets/Images/Settlements/Boba.png
 location:
   - "[[Kanda Isles]]"
@@ -13,10 +13,20 @@ import:
   - Armor
   - Parchment
   - Maps
+  - Rare Books
+  - Magical Trinkets
+  - Spices
+  - Medicinal Plants
+  - Potions and Elixirs
 export:
   - Wine
   - Coral
   - Alabaster
+  - Stained Glass
+  - Scrolls
+  - Velvet
+  - Perfumed Oils
+  - Tapestries
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Ashen Vanguard]]"
@@ -44,6 +54,40 @@ party3reputation: "0"
 party4reputation: "0"
 party5reputation: "0"
 party6reputation: "0"
+defence: Average
+leader:
+  - "[[Elara Virelan]]"
+dominion:
+  - "[[The Kingdom of Kanda]]"
+levelgeneral: "5"
+levelmagic: "5"
+leveltech: "4"
+governmenttype:
+  - Council
+militarypresence: "Moderate: A dedicated City Watch and Naval Presence are maintained, but not overwhelming."
+threats: |-
+  The Infernal Covenant
+  The Black Sepulcher
+  Internal Unrest
+  Leyline Instability
+religions:
+  - Asmodeus
+  - Aurion
+  - Lunara
+  - Thassila
+  - Vaelun
+  - Ekzol
+  - Ciralei
+  - Melroth
+  - Elaris
+  - Thassila
+founded: 08 Nightveil -128 PR
+foundedshort: -0128.07.08 PR
+tradepartners:
+  - "[[Mangagoy]]"
+  - "[[Kanda]]"
+  - "[[Jambito]]"
+  - "[[Lambaro]]"
 ---
 
 
@@ -85,7 +129,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> #### Civic Overview
 >>  |
 >> ---|---|
->> **Rulers** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):ruler]` |
 >> **Leaders** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):leader]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Government Type** | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` |
@@ -132,7 +175,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ###### Demographics
 >  |
 > ---|---|
-> **Rulers** | `VIEW[{ruler}][link]` |
 > **Leaders** | `VIEW[{leader}][link]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Government Type** | `VIEW[{governmenttype}][text]` |
@@ -142,12 +184,16 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Population** | `VIEW[{population}][text]` |
 > 
 > <span style="display:block; text-align:center; font-size:0.9em;"><strong>Racial Makeup</strong></span>
-> - <span style="font-size:0.8em;"><strong>Humans</strong> – 45% (Kandan Natives, Merchant Class)</span>
-> - <span style="font-size:0.8em;"><strong>Elves</strong> – 20% (Moonshade Diaspora, Diplomatic Caste)</span>
-> - <span style="font-size:0.8em;"><strong>Dwarves</strong> – 15% (Blackrock Lineage, Smiths)</span>
-> - <span style="font-size:0.8em;"><strong>Halflings</strong> – 10% (Dockworkers, Trade Guilds)</span>
-> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 5%</span>
-> - <span style="font-size:0.8em;"><strong>Other</strong> – 5% (Gnomes, Kobolds, Rare Lineages)</span>
+> - <span style="font-size:0.8em;"><strong>Humans</strong> – 81% [~10,935] (Dominant merchant caste, noble families, and native Kandans)</span>
+> - <span style="font-size:0.8em;"><strong>Elves</strong> – 1.7% [~230] (Mostly [[Moonshade Diaspora]] envoys and diplomatic retainers)</span>
+> - <span style="font-size:0.8em;"><strong>Dwarves</strong> – 2.3% [~310] (Primarily [[Blackrock Lineage]], working as smiths and wardmasters)</span>
+> - <span style="font-size:0.8em;"><strong>Halflings</strong> – 5.7% [~770] (Stevedores, guild clerks, and innkeepers in [[Lowmire Gutter]])</span>
+> - <span style="font-size:0.8em;"><strong>Gnomes</strong> – 1.2% [~160] (Rare inventors and eccentric cartographers in [[Sunfire Heights]])</span>
+> - <span style="font-size:0.8em;"><strong>Kobolds</strong> – 0.5% [~65]  (Once present, but driven underground during the [[Rising]])</span>
+> - <span style="font-size:0.8em;"><strong>Orcs</strong> – 1.5% [~200] (Sailhands and shipbuilders, many tied to [[The Emberwake]])</span>
+> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 1.2% [~160] (Scholars and smugglers, linked to [[The Infernal Covenant]])</span>
+> - <span style="font-size:0.8em;"><strong>Other</strong> – 4.9% [~660] (Includes planar refugees, changelings, and other lineages)</span>
+
 >
 > ###### Commerce
 >  |
@@ -246,28 +292,70 @@ Even as banners are raised for the [[Sunfire Convocation Festival]], unease simm
 - **Rumors or crime** circulate of deep smuggling routes beneath Brimstone Docks. Unrest grows in Lowmire Gutter following coordinated disappearances of informants and local enforcers.
 - **Local Holidays and Festivals** include the **Sunfire Convocation Festival**, a citywide celebration of the academic and arcane elite, held on 15 Sunreach. Attendance is expected to be high, despite growing unrest.
 
+#### ⚠️ **Threats**
+
+- **List:**
+    
+    - Political infiltration by **The Infernal Covenant (Asmodeus)** via diplomatic caste and merchant contracts
+        
+    - Cult of **The Black Sepulcher (Orcus)** trying to corrupt ancient Pre-Rising ruins beneath the city
+        
+    - Internal unrest tied to rising tension among **dockworker unions and noble trade cartels**
+        
+    - Increasing leyline instability near the **Sunfire Tower**, a potential magical breach point
+
 > [!metadata|events]- Recent Events
 >```dataview 
 > table without id enddate as "Date", file.link as "Event"
 > from "01 Campaign"
-> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Significant")
-> sort enddateshort desc
+> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Significant") and yearnumeric >= 212
+> sort enddateshort asc
 > ```
 
 
 ## History
-- **Founding**
-- **Rising-era Events**
-- **Post-Rising Growth**
-- **Recent Shifts (last decade)**
+
+Nestled between glimmering coastal cliffs and the warm currents of the Sundering Deep, [[Boba]] has long been a gateway between the Outcast Isles and the greater continent of Thellade. In the Pre-Rising Era, it was a thriving trade port, its harbors bustling with ships from across the world and its markets dealing in rare artifacts and arcane curiosities. Its cosmopolitan culture was forged in gold, ink, and sea-salt.
+
+During [[01 Campaign/04 Lore/02 Calendar/Eras/The Rising (R)|The Rising]], the city was battered by quakes, flooded by storms, and nearly lost to the fires of rebellion and planar chaos. It survived—but only barely—becoming a fractured echo of its former self. Entire noble houses were lost, and the city’s grand libraries were reduced to ash. Boba’s recovery in the decades that followed was slow, guided by merchant guilds and factions like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds|Sunfire Heralds]] and [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens|Arcane Wardens]], who each sought to shape its destiny.
+
+In the last decade, [[Boba]] has simmered with tension. Merchant rivalries turned bloody, the barrier’s weakening has awakened abyssal forces beneath its streets, and factions vie in the shadows for control of knowledge and power. Still, the city endures, its spirit unbroken—sharp as obsidian and bright as sunrise over the coral towers.
+
+### 🔹 **Founding**
+
+- [[Boba]] was originally founded as a Pre-Rising trade enclave, growing from a fortified harbor post into a vibrant merchant republic.  
+- Its rise was linked to control over Pre-Rising arcane relic trade routes and a nexus of elemental leyline currents that made it a natural hub for crystal-powered vessels.
+
+### 🔹 **Rising-era Events**
+
+- Suffered catastrophic damage during the [[01 Campaign/04 Lore/02 Calendar/Eras/The Rising (R)|The Rising]], including volcanic quakes and the destruction of all libraries and arcane archives.
+- Noble Houses Valmerayne and Calvetra perished during the chaos; their estates remain in ruins.
+- Planar barrier formation caused an arcane feedback event that obliterated the city’s old teleportation ring.
+
+### 🔹 **Post-Rising Growth**
+
+- The [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds|Sunfire Heralds]] helped rebuild and magically stabilize the city, forming the basis of a new civil structure.
+- Merchant guilds like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|Emberheart Traders]] and [[Golden Tides Trading Guild]] gained power as arcane authority waned.
+- The rise of The Gilded Cup as a cultural nexus marked the city's return to Pre-Rising levels of decadence and intrigue.
+
+### 🔹 **Recent Shifts (last decade)**
+
+- Escalating conflict between merchant factions nearly caused civil war (see: “Blood and Coin” crisis).
+- Abyssal cult activity uncovered beneath a ruined chapel led to a confrontation with the Golden Bloom Horror.
+- A mysterious illness tied to void magic is spreading in poorer districts, prompting secret investigations.
+- Factions such as [[The Crimson Shroud]] and [[The Silver Chain]] are suspected of infiltrating local governance.
 
 > [!metadata|events]- Historical Events
->```dataview 
-> table without id enddate as "Date", file.link as "Event"
-> from "01 Campaign"
-> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Historical")
-> sort enddateshort asc
+> ```dataview
+> TABLE startdate AS "Date", eventcategory AS "Category", eventtype AS "Type"
+> FROM "01 Campaign"
+> WHERE contains(tags, "#Event")
+> AND contains(location, this.file.link)
+> AND contains(eventtype , "Significant")
+> AND yearnumeric <212
+> SORT startdateshort DESC
 > ```
+
 
 
 ## Notes
@@ -289,6 +377,10 @@ Even as banners are raised for the [[Sunfire Convocation Festival]], unease simm
 >where contains(file.outlinks, this.file.link)
 >sort file.name asc
 >```
-## GM Notes (Collapsible)
-For secrets, planned events, etc.
-
+## 🧾 GM Notes (Quest Hooks, Events, Plot Threads)
+- **⚖️ Political Unrest:** Merchant nobles under House Virelan have begun covert disputes over infernal contract law. The Pact of Veiled Flame is rumored to have been broken.
+- **🔍 Cult Activity:** Agents of the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|Black Sepulcher]] have gone missing beneath the [[Sunfire Tower]] crypt levels—tunnels are expanding unnaturally.
+- **🌕 Celestial Alignment Event:** An eclipse of both EmberMoon and Deimos is approaching—expected on 01 Blossomveil 212 PR. [[Sunfire Tower]] preparing a rare dual-rite ritual.
+- **📜 The Drowned Treaty:** Rumors persist that a sealed Pre-Rising agreement hidden in coral chambers beneath the Boba docks may resurface due to leyline instability.
+- **📦 Smuggling Networks:** Rootcoil smuggler cells are using bardic performance codes to move relics. A bardic college offshoot may be compromised.
+- **🧭 Arcane Storm Warnings:** Navigator guilds report wild fluctuations in the planar sea currents—trade lanes are under threat from rift leakage.

@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.1.0 | 2025-05-07 13:30 | Initial Canonization of Boba | [[Git Commit 2025-05-07 13-30]]
 1.1.0.6 | 2025-05-06 13:22 | Finalize Boba – Current Events Section | [[Git Commit 2025-05-06 13-22]]
 1.1.0.5 | 2025-05-06 13:06 | Finalized District Type Tags for Boba Districts | [[Git Commit 2025-05-06 13-06]]
 1.1.0.4 | 2025-05-06 12:54 | Finalize Boba District Shops | [[Git Commit 2025-05-06 12-54]]
