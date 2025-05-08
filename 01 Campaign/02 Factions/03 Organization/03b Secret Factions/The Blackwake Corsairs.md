@@ -28,7 +28,7 @@ location:
   - "[[Binders' Lane]]"
   - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]]"
   - "[[The Mooring Flagon]]"
-  - "[[The Ashgild Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]]"
   - "[[Mistcatcher Shack]]"
   - "[[Hollowbone Trading Post]]"
   - "[[Veilcutter's Refuge]]"
@@ -254,7 +254,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Key Operational Points
 - [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]] (Boba > Brimstone Docks)
 - [[The Mooring Flagon]] (Kanda > Stonebrace Docks)
-- [[The Ashgild Exchange]] (Mangagoy > Binders’ Lane)
+- [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]] (Mangagoy > Binders’ Lane)
 - [[Mistcatcher Shack]] (Seabreeze Haven)
 - [[Hollowbone Trading Post]] (Innerwatch)
 

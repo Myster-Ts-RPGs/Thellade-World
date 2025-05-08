@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
+poitype:
+  - Hideout
 ---
 
 ```meta-bind-js-view 

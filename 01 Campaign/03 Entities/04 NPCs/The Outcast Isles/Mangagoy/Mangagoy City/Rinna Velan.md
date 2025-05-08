@@ -21,9 +21,9 @@ party6relation:
 aliases:
   - Rinna 'Whisperleaf' Velan
 ownedlocation:
-  - "[[The Ashgild Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]]"
 location:
-  - "[[The Ashgild Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]]"
   - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
 condition: Healthy

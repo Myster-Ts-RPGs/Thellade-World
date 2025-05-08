@@ -6,12 +6,12 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Emberborn Exiles]]"
+  - "[[The Midnight Covenant]]"
 location:
   - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
-aliases:
-  - Cinderglass Study
+poitype:
+  - Library
 ---
 
 ```meta-bind-js-view 

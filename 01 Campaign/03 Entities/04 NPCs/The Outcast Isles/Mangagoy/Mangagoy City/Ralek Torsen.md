@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[The Shattered Abbey]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars/The Shattered Abbey]]"
   - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
 condition: Healthy

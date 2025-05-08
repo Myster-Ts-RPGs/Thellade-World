@@ -35,7 +35,7 @@ location:
   - "[[Binders' Lane]]"
   - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Ciralei/The Mirror Cloister]]"
   - "[[The Rifted Archive]]"
-  - "[[The Cinderglass Study]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Cinderglass Study]]"
   - "[[The Veiled Anthenaeum]]"
 rivals:
   - "[[The Arcane Wardens]]"
@@ -226,7 +226,7 @@ All Parties recovering Pre-Rising knowledge or resisting magical bureaucracy are
 - [[The Veiled Anthenaeum]] (Kanda > Glimmershade) — Hidden archive and central safehouse for Vexis.  
 - [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Ciralei/The Mirror Cloister]] (Boba > Sunfire Heights) — Secret meeting hall among progressive political theorists.  
 - [[The Rifted Archive]] (Lambaro > Market Row) — Smuggled industrial documents and recovered planar glyphs stored here.  
-- [[The Cinderglass Study]] (Mangagoy > Binders' Lane) — Experimental artifact vault and planar laboratory hidden behind a false alchemical studio.
+- [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Cinderglass Study]] (Mangagoy > Binders' Lane) — Experimental artifact vault and planar laboratory hidden behind a false alchemical studio.
 
 ## Notes
 - **Threat Level:** Considered existential to magical regulatory order by the Arcane Wardens.  

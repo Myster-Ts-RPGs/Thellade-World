@@ -6,10 +6,14 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
+  - "[[The Hollow Saints]]"
 location:
   - "[[Binders' Lane]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[Mangagoy]]"
+owner:
+  - "[[Ilvarra Milton]]"
+poitype:
+  - Temple
 ---
 
 ```meta-bind-js-view 

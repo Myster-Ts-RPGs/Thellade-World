@@ -7,13 +7,19 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Mangagoy]]"
 organization:
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Blackwake Corsairs]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Saints]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
+  - "[[The Gilded Hammer Union]]"
+districttype:
+  - Guild District
+  - Historical
+  - Residential
+  - Religious
+  - Market
 ---
 
 ```meta-bind-js-view 

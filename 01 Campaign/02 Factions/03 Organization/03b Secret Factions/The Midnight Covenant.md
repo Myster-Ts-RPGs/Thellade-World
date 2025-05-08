@@ -31,7 +31,7 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Binders' Lane]]"
-  - "[[Whispervault Archive]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]]"
   - "[[Middle Isles]]"
   - "[[Westport]]"
   - "[[The Sunken Veil]]"
@@ -219,7 +219,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - 141 PR: [[The Twilight Cell]] infiltrates [[01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda|Kanda]]’s noble houses; three governors are removed within five years.  
 - 160 PR: [[The Sunken Veil]] constructed near [[01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Westport|Westport]] and used to train shadow-wielding commandos.  
 - 191 PR: A defector from the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens|Arcane Wardens]] is executed after leaking spells to the Covenant.  
-- 205 PR: Forbidden rituals from the  [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Midnight Covenant/Whispervault Archive|Whispervault Archive]] are used to destroy a rival assassin guild overnight.
+- 205 PR: Forbidden rituals from the  [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive|Whispervault Archive]] are used to destroy a rival assassin guild overnight.
 
 ### Campaign Events
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 1|Campaign Group 1]]  
@@ -236,7 +236,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Sira Morwyn|Wraithcaller Sira Morwyn]] – Oversees assassination and elimination squads from '[[The Daggerhall Cloisters]]'.  
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Malrik Vayne|Inquisitor Malrik Vayne]] – Controls memory magic and espionage cells from '[[The Twilight Cell]]'.  
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Nyzara Velis|Voidbinder Nyzara Velis]] – Leads dark arcane research and relic recovery from '[[The Gloamspire]]'.  
-  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Varian Kel|Cipher Varian Kel]] – Manipulates political factions through illusion and blackmail from '[[Whispervault Archive]]'.  
+  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Varian Kel|Cipher Varian Kel]] – Manipulates political factions through illusion and blackmail from '[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]]'.  
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport/Kael Dren|Revenant Commander Kael Dren]] – Military director of shadow operatives based at '[[The Sunken Veil]].
 
 - **Regional Contacts / Lieutenants:**  
@@ -251,7 +251,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Secondary Hideouts
 - [[The Gloamspire]] – Black-market library of arcane contraband in [[Lambaro]].  
 - [[The Twilight Cell]] – Secret noble estate chamber used for political infiltration in [[Kanda]].  
-- [[Whispervault Archive]] – Hidden record-forgery site and arcane intelligence cell in [[Mangagoy]].  
+- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]] – Hidden record-forgery site and arcane intelligence cell in [[Mangagoy]].  
 - [[The Sunken Veil]] – Remote training fortress and naval hub near [[Westport]].  
 - [[The Daggerhall Cloisters]] – Elite assassination training compound in [[Mwingu]].
 
@@ -264,7 +264,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Key Plot Threads
 - The Covenant seeks to infiltrate every major center of magical research before the next lunar convergence.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Varian Kel|Cipher Varian Kel]] is building a shadow dossier on key members of the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly|Phoenix Assembly]].  
-- A forbidden Pre-Rising relic stored in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Midnight Covenant/Whispervault Archive|Whispervault Archive]] may contain prophecy fragments about the weakening of the boundary.  
+- A forbidden Pre-Rising relic stored in [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive|Whispervault Archive]] may contain prophecy fragments about the weakening of the boundary.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Seaside Cape/Selka Jarron|Captain Selka Jarron]] is using naval maneuvers to smuggle unregistered shadow-forged weapons into conflict zones.  
 - One Veiled Hand member may be seeking an alliance with a player group to undermine Elaris Vex from within.
 

@@ -24,7 +24,7 @@ location:
   - "[[Sunveil Hollow]]"
   - "[[The Weeping Shrine]]"
   - "[[Binders' Lane]]"
-  - "[[The Shattered Abbey]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars/The Shattered Abbey]]"
   - "[[The Deep Dark]]"
   - "[[The Veins of Night]]"
   - "[[Shadowthread Warrens]]"
@@ -232,7 +232,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Primary Sanctums
 - [[The Hollow Reliquary]] – Hidden cathedral of cracked faiths and reassembled gods.  
 - [[The Weeping Shrine]] – Secret vault beneath Kanda, marked by ritual weeping stones.  
-- [[The Shattered Abbey]] – Deconsecrated sanctum in Mangagoy where dead gods are remembered.
+- [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars/The Shattered Abbey]] – Deconsecrated sanctum in Mangagoy where dead gods are remembered.
 
 ### Deep Sanctums
 - [[The Forgotten Vault]] Beneath the [[Chapel of Falling Stars]] – Located in The Veins of Night > Shadowthread Warrens > Daggerfall Hollow; lined with divine silence sigils.  

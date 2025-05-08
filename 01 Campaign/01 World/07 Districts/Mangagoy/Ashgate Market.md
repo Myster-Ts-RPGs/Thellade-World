@@ -9,12 +9,17 @@ location:
 organization:
   - "[[The Emberborn League]]"
   - "[[The Phoenix Assembly]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Crimson Gauge]]"
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"
   - "[[The Iron Syndicate]]"
   - "[[The Silver Chain]]"
+  - "[[The Sunfire Heralds]]"
+districttype:
+  - Market
+  - Commercial
+  - Industrial
+  - Underbelly
 ---
 
 ```meta-bind-js-view 

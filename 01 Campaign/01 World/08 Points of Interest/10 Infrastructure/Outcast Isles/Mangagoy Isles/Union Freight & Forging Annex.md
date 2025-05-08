@@ -6,10 +6,12 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Midnight Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 location:
   - "[[Binders' Lane]]"
-  - "[[Mangagoy]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+poitype:
+  - Warehouse
 ---
 
 ```meta-bind-js-view 
