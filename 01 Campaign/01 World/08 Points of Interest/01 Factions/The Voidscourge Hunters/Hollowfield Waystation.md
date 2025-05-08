@@ -9,7 +9,7 @@ organization:
   - "[[The Voidscourge Hunters]]"
 location:
   - "[[Watcher's Hollow]]"
-  - "[[Mangagoy]]"
+  - "[[Mwingu]]"
 ---
 
 ```meta-bind-js-view 

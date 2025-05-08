@@ -2,6 +2,7 @@
 tags:
   - "#Character"
   - "#NPC"
+  - "#Canon"
 art: 90 Assets/Images/NPCs/MarrekTindallSmall.webp
 language:
   - Common

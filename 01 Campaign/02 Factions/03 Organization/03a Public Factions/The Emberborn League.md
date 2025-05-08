@@ -22,7 +22,7 @@ location:
   - "[[Jambito Isles]]"
   - "[[Kanda Isles]]"
   - "[[Lambaro Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Middle Isles]]"
   - "[[Mwingu Isles]]"
   - "[[Jambito]]"

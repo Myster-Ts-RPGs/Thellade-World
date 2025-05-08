@@ -45,7 +45,7 @@ location:
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Reskar's Inkfold]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[The Mist Market]]"

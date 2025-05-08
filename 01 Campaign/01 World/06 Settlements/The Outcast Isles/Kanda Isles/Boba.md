@@ -149,6 +149,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Magic Level** | `INPUT[text:levelmagic]` |
 >> **Tech Level** | `INPUT[text:leveltech]` |
 > 
+>> >> [!metadata|metadataoption]- Party
 >> ###### Party
 >>  |
 >> ---|---|
@@ -193,7 +194,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - <span style="font-size:0.8em;"><strong>Orcs</strong> – 1.5% [~200] (Sailhands and shipbuilders, many tied to [[The Emberwake]])</span>
 > - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 1.2% [~160] (Scholars and smugglers, linked to [[The Infernal Covenant]])</span>
 > - <span style="font-size:0.8em;"><strong>Other</strong> – 4.9% [~660] (Includes planar refugees, changelings, and other lineages)</span>
-
 >
 > ###### Commerce
 >  |
@@ -276,10 +276,14 @@ await dv.view("z_Templates/Scripts/view2");
 ## Complete NPC List
 > [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> TABLE without id file.link AS "Name", 
+>       join(aliases, ", ") AS Aliases, 
+>       join(occupation, ", ") AS "Occupations", 
+>       join(link(organization), ", ") AS "Organizations"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
-> SORT tags DESC, file.name ASC
+> WHERE econtains(location, this.file.link) AND contains(tags, "Character")
+> SORT file.name ASC
+> ```
 
 
 ## Current Events

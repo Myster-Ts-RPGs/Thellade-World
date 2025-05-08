@@ -35,7 +35,7 @@ location:
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Emberblade Training Yard]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Highhold Rise]]"
   - "[[The Citadel of Flame]]"

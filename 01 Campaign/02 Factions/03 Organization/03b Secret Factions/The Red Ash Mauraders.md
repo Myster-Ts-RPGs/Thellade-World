@@ -26,7 +26,7 @@ location:
   - "[[Jambito Isles]]"
   - "[[Kanda Isles]]"
   - "[[Lambaro Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Middle Isles]]"
   - "[[Mwingu Isles]]"
   - "[[The Ember Hold]]"
@@ -242,7 +242,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Jorak Relis]] – 'The Stormbrand'; mountain raider coordinating from [[The Ember Hold]] ([[Mwingu Isles]])  
   - [[Harren Velka]] – 'The Shadow Wolf'; noble patron shielding operations from [[The Bloodied Hollow]] ([[Kanda Isles]])  
   - [[Karis Valen]] – 'The Black Tide'; smuggler queen of [[The Rusted Wake]] ([[Boba]])  
-  - [[Malrik Grell]] – 'The Hollow Mask'; kidnapper and burglar tied to [[The Smoldering Roost]] ([[Mangagoy Isles]])  
+  - [[Malrik Grell]] – 'The Hollow Mask'; kidnapper and burglar tied to [[The Smoldering Roost]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]])  
   - [[Zorath Renvar]] – 'The Bloodied Hand'; arms dealer and recruiter at [[The Red Dagger Hold]] ([[Jambito Isles]])  
   - [[Farman Raulf]] – 'The Crimson Watcher'; scoutmaster and fugitive hunter from [[The Embermoor Spire]] ([[Middle Isles]])
 
@@ -254,7 +254,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Bloodied Hollow]] – Raiding camp rebuilt repeatedly across the [[Kanda Isles]]  
 - [[The Rusted Wake]] – Dockside smuggler’s den in [[Brimstone Docks]], [[Boba]]  
 - [[The Cinder Refuge]] – Hidden cavern depot in [[Glowmire Terrace]], [[Lambaro]]  
-- [[The Smoldering Roost]] – Outpost on a reef-ringed isle in the [[Mangagoy Isles]]  
+- [[The Smoldering Roost]] – Outpost on a reef-ringed isle in the [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]  
 - [[The Red Dagger Hold]] – Ruined stronghold used for weapons caching and recruitment in [[Jambito Isles]]  
 - [[The Embermoor Spire]] – Cliffside watchtower and ambush coordination point in the [[Middle Isles]]  
 - [[The Shadow Break]] – Jungle fallback shelter for fugitives and wounded raiders in the [[Middle Isles]]

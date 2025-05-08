@@ -28,7 +28,7 @@ location:
   - "[[The Outcast Isles]]"
   - "[[Jambito Isles]]"
   - "[[Lambaro Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
 foundedshort: -9.03.17 PR
 ---
 

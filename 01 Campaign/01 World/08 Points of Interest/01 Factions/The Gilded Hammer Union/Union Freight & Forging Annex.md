@@ -9,7 +9,7 @@ organization:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 location:
   - "[[Binders' Lane]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
 ---
 
 ```meta-bind-js-view 

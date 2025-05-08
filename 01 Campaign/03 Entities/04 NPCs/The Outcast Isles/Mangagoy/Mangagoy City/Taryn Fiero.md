@@ -13,7 +13,10 @@ aliases:
 organization:
   - "[[The Order of the Ember Blades]]"
 location:
+  - "[[The Citadel of Flame]]"
+  - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 

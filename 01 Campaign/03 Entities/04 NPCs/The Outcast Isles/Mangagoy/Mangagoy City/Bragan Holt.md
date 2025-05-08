@@ -7,7 +7,9 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Mist Piercer]]"
   - "[[Mangagoy]]"
+  - "[[The Ember Wharf]]"
 condition: Healthy
 aliases:
   - Captain Bragan 'Two-Tooth' Holt

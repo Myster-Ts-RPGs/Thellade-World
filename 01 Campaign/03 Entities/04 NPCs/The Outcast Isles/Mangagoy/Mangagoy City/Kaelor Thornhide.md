@@ -3,11 +3,14 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/KaelorThornhide1Small.webp
 language:
   - Common
 organization:
   - "[[The Dawnbringers of Lunara]]"
+location:
+  - "[[Mangagoy]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -108,6 +111,8 @@ organization:
 
 ## Overview
 
+## Overview
+Kaelor Thornhide was a once-revered Beastmaster of Aurion whose legacy became a cautionary tale. Corrupted by abyssal influence during an expedition, Kaelor succumbed to madness and was sealed beneath Mangagoy in a ritual chamber. His memory lives on in whispered warnings, and remnants of his power remain locked away behind ancient seals now weakening.
 
 
 > [!column|2 no-title]

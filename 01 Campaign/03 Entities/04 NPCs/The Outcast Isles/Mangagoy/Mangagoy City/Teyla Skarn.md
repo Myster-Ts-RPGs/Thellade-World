@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/TeylaSkarnSmall.webp
 language:
   - Common
 ancestry: Human
@@ -112,7 +112,9 @@ condition: Healthy
 > WHERE econtains(holder, this.file.link) AND contains(tags, "Literature")
 > SORT file.name ASC
 
+
 ## Overview
+Teyla Skarn is a resourceful human scout and field agent for the Crystal Seekers Guild. She specializes in dangerous extraction of planar shards, often returning with injuries and relics in equal measure. Despite her sarcastic demeanor, she is fiercely loyal to Relian and the Guild.
 
 
 

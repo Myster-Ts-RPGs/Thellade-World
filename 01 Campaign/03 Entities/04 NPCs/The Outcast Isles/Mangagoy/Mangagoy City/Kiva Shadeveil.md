@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/KivaShadeveilSmall.webp
 language:
   - Common
 heritage: Versatile Heritage - Nephilim
@@ -114,6 +114,8 @@ organization:
 > SORT file.name ASC
 
 ## Overview
+A sharp-eyed tiefling with a soft voice and a mind like a cipher lock, Kiva oversees artifact categorization within the Crystal Seekers Guild. She's fond of cursed objects and suspicious of sunlight—preferring her workspace buried in glowing tomes and sealed crates.
+
 
 
 

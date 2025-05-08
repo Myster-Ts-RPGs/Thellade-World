@@ -31,7 +31,7 @@ location:
   - "[[Glowquarter]]"
   - "[[The Specter's Rest]]"
   - "[[Lambaro Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Lambaro]]"
   - "[[Crucible Hollow]]"
   - "[[The Umbral Vault]]"

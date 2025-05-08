@@ -21,7 +21,7 @@ location:
   - "[[Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Ironspan Gate District]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
   - "[[Middle Isles]]"

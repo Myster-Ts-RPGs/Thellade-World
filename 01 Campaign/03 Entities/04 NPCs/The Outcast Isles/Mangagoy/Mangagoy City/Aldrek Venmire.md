@@ -3,10 +3,12 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/AldrekVenmire.webp
 language:
   - Common
 location:
+  - "[[Smuggling Warehouse]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Dead
 organization:

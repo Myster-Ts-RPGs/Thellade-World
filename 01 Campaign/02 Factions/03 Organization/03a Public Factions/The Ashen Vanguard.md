@@ -10,7 +10,7 @@ organizationscope:
 art: 90 Assets/Images/Organizations/AshenVanguard.png
 location:
   - "[[The Outcast Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
   - "[[Lambaro Isles]]"

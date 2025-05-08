@@ -108,8 +108,8 @@ organization:
 > FROM "01 Campaign"
 > WHERE econtains(holder, this.file.link) AND contains(tags, "Literature")
 > SORT file.name ASC
-
 ## Overview
+Lazlo is a human gunsmith who mentored Batrok after his departure from Mangagoy. Gruff and reclusive, Lazlo avoids city life but occasionally trades refurbished weapons with Ember Wharf smugglers. His crafting style is recognizable for its brutal efficiency and deep etching — often prayers or curses rendered in steel.
 
 
 

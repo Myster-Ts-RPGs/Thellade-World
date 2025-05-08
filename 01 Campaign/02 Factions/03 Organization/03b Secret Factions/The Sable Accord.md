@@ -32,7 +32,7 @@ location:
   - "[[Lambaro]]"
   - "[[Glowmire Terrace]]"
   - "[[The Hollow Spire]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[The Sunken Archive]]"
   - "[[Middle Isles]]"
   - "[[The Twilight Nexus]]"
@@ -247,7 +247,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Andric Vaylen]] – 'The Black Veil Councilor'; noble patron operating from [[Kanda]] – [[Sunveil Hollow]] – [[The Umbral Vault]]  
   - [[Elyssara Vornis]] – 'The Silent Archivist'; relic keeper in [[Lambaro]] – [[Glowmire Terrace]] – [[The Hollow Spire]]  
   - [[Maelis Durn]] – 'The Hollow Hand'; alchemical researcher in [[Kanda Isles]] – [[The Silent Observatory]]  
-  - [[Araniss Velis]] – 'The Drowned Scholar'; archivist of [[Mangagoy Isles]] – [[The Sunken Archive]]  
+  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Araniss Velis]] – 'The Drowned Scholar'; archivist of [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] – [[The Sunken Archive]]  
   - [[Tyren Zorath]] – 'The Forgotten'; lorebroker in [[Jambito]] – [[Silverspire Terrace]] – [[The Obsidian Hall]]  
   - [[Varethis Thaldris]] – 'The Echo'; rift scholar in [[Mwingu]] – [[Scholar's Ring]] – [[The Black Aetherium]]  
   - [[Vaelris Korrin]] – 'The Stormbound'; artifact retriever in [[Middle Isles]] – [[The Twilight Nexus]]
@@ -261,7 +261,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Black Aetherium]] – Rift experiment site in [[Mwingu]]  
 - [[The Umbral Vault]] – Forbidden knowledge archive in [[Kanda]] – [[Sunveil Hollow]]  
 - [[The Silent Observatory]] – Remote arcane observatory in [[Kanda Isles]]  
-- [[The Sunken Archive]] – Submerged relic containment site in [[Mangagoy Isles]]  
+- [[The Sunken Archive]] – Submerged relic containment site in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]  
 - [[The Obsidian Hall]] – Noble-linked broker site in [[Jambito]]  
 - [[The Twilight Nexus]] – Free-floating arcane structure near a planar rift in [[Middle Isles]]
 

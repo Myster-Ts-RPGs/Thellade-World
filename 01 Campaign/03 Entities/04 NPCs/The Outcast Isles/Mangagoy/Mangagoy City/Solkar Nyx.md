@@ -21,6 +21,8 @@ party6relation:
 organization:
   - "[[The Black Sepulcher]]"
 location:
+  - "[[The Hollow Flame]]"
+  - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 condition: Healthy
 aliases:

@@ -3,19 +3,19 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/MinaCordaSmall.webp
 language:
   - Common
 location:
-  - "[[The Sunken Archive]]"
-  - "[[Mangagoy Isles]]"
+  - "[[The Velvet Lantern]]"
+  - "[[Gullsway]]"
+  - "[[Mangagoy]]"
 condition: Healthy
-aliases:
-  - The Drowned Scholar
-  - Araniss 'The Drowned Scholar' Velis
-organization:
-  - "[[The Sable Accord]]"
 ---
+
+
+
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -114,6 +114,7 @@ organization:
 > SORT file.name ASC
 
 ## Overview
+Mina Corda is a Velvet Lantern waitress known for her aloof, sharp gaze and no-nonsense demeanor. She serves drinks, not smiles — unless you tip well. Behind the scenes, she quietly coordinates seating for VIP guests under Syrelle’s watchful eye.
 
 
 
@@ -149,3 +150,8 @@ organization:
 
 
 ## Notes
+
+
+
+
+

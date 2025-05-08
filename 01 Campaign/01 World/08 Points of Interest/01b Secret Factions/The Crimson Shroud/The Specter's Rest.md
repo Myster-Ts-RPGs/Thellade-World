@@ -8,6 +8,7 @@ banner: off
 organization:
   - "[[The Crimson Shroud]]"
 location:
+  - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 ---
 

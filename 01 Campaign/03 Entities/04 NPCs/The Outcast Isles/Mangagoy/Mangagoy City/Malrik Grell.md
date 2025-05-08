@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[The Smoldering Roost]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
 condition: Healthy
 aliases:
   - The Hollow Mask

@@ -11,9 +11,9 @@ language:
 pronounced: KRAH-yuh FEL-droom
 condition: Healthy
 location:
+  - "[[Ashen Vanguard Watchpost]]"
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
-  - "[[Ashen Vanguard Watchpost]]"
 aliases:
   - The Iron Eye
   - Commander Kraya 'The Iron Eye' Feldrum

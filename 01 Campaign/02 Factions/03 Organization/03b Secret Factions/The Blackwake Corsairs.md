@@ -14,7 +14,7 @@ location:
   - "[[The Outcast Isles]]"
   - "[[Kanda Isles]]"
   - "[[Middle Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Smokey Shoals]]"
   - "[[Kanda]]"
   - "[[Boba]]"

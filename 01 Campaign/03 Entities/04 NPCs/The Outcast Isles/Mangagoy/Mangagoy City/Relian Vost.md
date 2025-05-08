@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/RelianVostSmall.webp
 language:
   - Common
 organization:
@@ -116,7 +116,10 @@ aliases:
 > WHERE econtains(holder, this.file.link) AND contains(tags, "Literature")
 > SORT file.name ASC
 
+
 ## Overview
+Shardmaster Relian Vost is a drow and the inscrutable leader of the Crystal Seekers Guild. Revered and feared in equal measure, his expertise in planar shards and Pre-Rising anomalies has made him an authority—and potential liability—among arcane circles.
+
 
 
 

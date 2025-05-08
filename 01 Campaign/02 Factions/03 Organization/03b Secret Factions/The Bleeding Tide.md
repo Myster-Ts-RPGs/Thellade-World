@@ -47,7 +47,7 @@ location:
   - "[[Lambaro]]"
   - "[[Crucible Hollow]]"
   - "[[Embercoil Trading Post]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[Crimson  Current Hall]]"

@@ -3,15 +3,15 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/OghrenSharpstone.webp
 language:
   - Common
-organization:
-  - "[[The Eternal Concord]]"
-aliases:
-  - Mediator Alaric Valene
+location:
+  - "[[Mangagoy]]"
 condition: Healthy
 ---
+
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -110,6 +110,7 @@ condition: Healthy
 > SORT file.name ASC
 
 ## Overview
+Oghren Sharpstone is a dwarven leatherworker known for crafting enchanted bracers and field-ready spell pouches. A pragmatic artisan, he trains younger crafters in durability-first philosophy and sells to several mercenary groups. He is respected among working-class dwarves and maintains neutral ground with local factions.
 
 
 
@@ -145,3 +146,8 @@ condition: Healthy
 
 
 ## Notes
+
+
+
+
+

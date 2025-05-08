@@ -22,7 +22,7 @@ location:
   - "[[Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Crucible Hollow]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[Middle Isles]]"
@@ -203,7 +203,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## History
 - 19 Frostfall 178 PR: Founded by expelled artificers from the [[University of Emberlight]].  
 - 181 PR: First confirmed sabotage of a Gilded Hammer manufacturing plant.  
-- 195 PR: Began trafficking Pre-Rising relics to black market buyers in [[Mangagoy Isles]].  
+- 195 PR: Began trafficking Pre-Rising relics to black market buyers in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].  
 - 202 PR: Infiltration of [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly|Phoenix Assembly]] tech expos leads to widespread disinformation campaign.  
 - 209 PR: Rumors surface of a captured Syndicate automaton containing encrypted blackmail on several nobles.
 

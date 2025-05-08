@@ -3,10 +3,12 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/Jundar.webp
 language:
   - Common
 location:
+  - "[[Smuggling Warehouse]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Hurt
 aliases:

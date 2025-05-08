@@ -25,7 +25,7 @@ aliases:
 location:
   - "[[The Outcast Isles]]"
   - "[[Kanda Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Jambito Isles]]"
   - "[[Middle Isles]]"
   - "[[Kanda]]"

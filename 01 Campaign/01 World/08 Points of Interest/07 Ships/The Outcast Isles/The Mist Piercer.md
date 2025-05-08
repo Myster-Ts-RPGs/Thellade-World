@@ -8,6 +8,7 @@ banner: on
 organization:
   - "[[The Blackwake Corsairs]]"
 location:
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 poitype:
   - Ship

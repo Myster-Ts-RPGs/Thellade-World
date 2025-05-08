@@ -21,7 +21,7 @@ founded: 11 Blossomveil -12 PR
 organizationtype:
   - Regulatory
 head:
-  - "[[Alaric Valene]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene]]"
 rivals:
   - "[[The Red Runners]]"
   - "[[The Bleeding Tide]]"
@@ -45,7 +45,7 @@ location:
   - "[[Lambaro]]"
   - "[[Middle Isles]]"
   - "[[Seaside Cape]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
@@ -228,7 +228,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Harboring members of criminal cults or terror cells.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Alaric Valene|Mediator Alaric Valene]] remains stationed primarily at the [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] in [[Boba]], organizing several upcoming peace summits aimed at stabilizing Kanda’s trade alliances&#8203.  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] remains stationed primarily at the [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] in [[Boba]], organizing several upcoming peace summits aimed at stabilizing Kanda’s trade alliances&#8203.  
 > - Ongoing low-intensity conflicts between [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|The Emberheart Traders]] and [[Golden Tides Trading Guild]] have prompted Concord envoys to propose a formal Trade Summit.  
 > - Minor sabotage efforts by [[The Bleeding Tide]] against supply lines in Mangagoy have escalated the need for Concord mediation support in that region.  
 > - Group 4's activities in [[Jambito]] have indirectly affected Concord interests, as minor noble houses seek diplomatic protection amid rising tensions.
@@ -239,7 +239,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > During the Rising, the Concord advocated for emergency truces across the Isles, attempting to unify responses against extraplanar threats. Though they suffered losses during cult uprisings and were sidelined by the formation of militant orders, their quiet perseverance ensured that some semblance of diplomacy remained alive even in Kanda’s darkest hours.
 
 ## Notes
-- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Alaric Valene|Mediator Alaric Valene]] – Human diplomat, Master Negotiator of the Concord, famed for drafting the Treaty of Evenlight that briefly unified Boba's guilds after the Red Runners’ insurgency.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] – Human diplomat, Master Negotiator of the Concord, famed for drafting the Treaty of Evenlight that briefly unified Boba's guilds after the Red Runners’ insurgency.  
 - [[Concord Library Annex]] – Located in [[Mangagoy]]'s [[Glowquarter]], contains records of all known arbitrated disputes since the Rising.  
 - [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] – Center of diplomatic gatherings and peace conferences, located in [[Boba]]'s [[01 Campaign/01 World/07 Districts/Boba/Ambassadors Row|Ambassadors Row]].  
 - Symbol: A silver circle bisected by a vertical white quill and a vertical black blade.  

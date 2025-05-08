@@ -3,12 +3,14 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/ZarethKorrath.webp
 language:
   - Common
 ancestry: Minotaur
 heritage: Minotaur - Ghost Bull
 location:
+  - "[[Sanctum of the Dawnsplit Crown]]"
+  - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 aliases:
   - Sunwarden Zareth Korrath
@@ -16,6 +18,7 @@ party3relation:
   - Mentor
 party3tie:
   - "[[Kothar]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 

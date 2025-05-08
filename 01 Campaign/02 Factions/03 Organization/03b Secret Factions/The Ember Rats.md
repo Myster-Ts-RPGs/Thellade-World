@@ -24,7 +24,7 @@ location:
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[The Outcast Isles]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[The Furnace Warren]]"
   - "[[The Ember Wharf]]"
   - "[[The Emberwell Den]]"

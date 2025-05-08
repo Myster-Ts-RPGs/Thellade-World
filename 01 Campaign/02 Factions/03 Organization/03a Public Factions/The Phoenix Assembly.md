@@ -46,7 +46,7 @@ location:
   - "[[Lambaro]]"
   - "[[Glowmire Terrace]]"
   - "[[The Eternal Hearth]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[Renaissance Bridge Office]]"

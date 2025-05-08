@@ -3,16 +3,18 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/YiraSmall.webp
 language:
   - Common
-aliases:
-  - Guildmaster Darion Flamewright
+  - Elven
 location:
-  - "[[Ashgate Market]]"
+  - "[[Glowglass Arcanum]]"
+  - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 condition: Healthy
 ---
+
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -111,6 +113,7 @@ condition: Healthy
 > SORT file.name ASC
 
 ## Overview
+Yira is a mute elven apprentice at Glowglass Arcanum, communicating through glowing sigils that shift with her emotions. She is serene and focused, her hands marked with runes that respond to leyline flux. Though she rarely speaks, her dedication to mastering non-verbal arcane control is unmatched. Her goal is to learn how to stabilize unstable magic without words—a challenge she tackles with grace and quiet tenacity.
 
 
 
@@ -146,3 +149,8 @@ condition: Healthy
 
 
 ## Notes
+
+
+
+
+

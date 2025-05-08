@@ -24,7 +24,7 @@ location:
   - "[[Kanda]]"
   - "[[Sunveil Hollow]]"
   - "[[Vault of Forgotten Hymns]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Vault of the Fifth Veil]]"
   - "[[The Deep Dark]]"
   - "[[The Veins of Night]]"
@@ -202,7 +202,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 - [[Kaige Maganti]] is confirmed alive and continues to lead from the [[Sanctum of the Unbound Eye]] beneath [[Jambito]].
 - The organization’s cell at the [[Vault of the Fifth Veil]] was compromised following the death of [[Jorvas Fellshade]] during a catastrophic encounter involving a released Lieutenant of [[Orcus]].
-- Recruitment among outcast scholars and defecting wardens is on the rise in [[Mangagoy Isles]] and [[Kanda]].
+- Recruitment among outcast scholars and defecting wardens is on the rise in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] and [[Kanda]].
 - An archive discovered in the [[Vault of Forgotten Hymns]] may contain ritual instructions used to suppress Abyssal entities.
 
 ## History
@@ -213,7 +213,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Campaign Events
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3|Campaign Group 3]]
-  - Discovered the [[Vault of the Fifth Veil]] on [[Mangagoy Isles]] during pursuit of cult activity.
+  - Discovered the [[Vault of the Fifth Veil]] on [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] during pursuit of cult activity.
   - Encountered [[Jorvas Fellshade]] and inadvertently triggered a cascading failure in a Pre-Rising binding seal, resulting in the release of a Lieutenant of [[Orcus]].
   - Jorvas was killed during the resulting collapse of the vault’s protective enchantments.
   - Partial ritual scrolls recovered describe a layered system of memory-anchored sigils used to maintain Abyssal seals.
@@ -237,7 +237,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Primary Hideouts
 - [[Sanctum of the Unbound Eye]] – Located in [[The Hidden City]], beneath [[Jambito]]. Headquarters and central archive.
 - [[Vault of the Forgotten Hymns]] – Archive site in [[Sunveil Hollow]], [[Kanda]].
-- [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[Mangagoy Isles]].
+- [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].
 - [[The Deepcrypt Arcanum]] – Located in [[Daggerfall Hollow]], within the [[Shadowthread Warrens]] of [[The Veins of Night]] in [[The Deep Dark]].
 
 ### Secondary Hideouts
@@ -261,4 +261,4 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Ritual blade used in the aborted binding of the Deepcrypt (retrieved by [[Campaign Group 3]]).
 - Blackened scroll fragments describing multi-sigil seals tied to celestial conjunctions.
 - Ancient encoded directive from an unknown Pre-Rising archmage, marked with the Circle’s sigil.
-- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[Mangagoy Isles]].
+- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].

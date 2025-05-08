@@ -3,13 +3,16 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/EldaBrightspark.jpg
 language:
   - Common
 organization:
   - "[[The Arcane Wardens]]"
 location:
+  - "[[Concord Library Annex]]"
+  - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -29,6 +29,8 @@ alignment: Chaotic Neutral
 organization:
   - "[[The Cursed Blades]]"
 location:
+  - "[[The Ironbind Floor]]"
+  - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 condition: Healthy
 ---

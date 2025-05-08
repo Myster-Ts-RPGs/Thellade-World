@@ -2,12 +2,36 @@ const city = dv.current().file.name.replace(/\.md$/, "");
 const cityAliases = [city, dv.current().file.name];
 // === HELPERS ===
 function normalizeLocationField(entry) {
-    if (!entry.location) return [];
-    let locs = Array.isArray(entry.location) ? entry.location : [entry.location];
-    return locs.map(l =>
-        String(l).replaceAll('"', '').replaceAll("[[", "").replaceAll("]]", "").trim()
-    );
-}
+    if (!entry || !entry.location) return [];
+  
+    // Normalize to array if not already
+    const raw = Array.isArray(entry.location)
+      ? entry.location
+      : [entry.location];
+  
+    return raw
+      .map(loc => {
+        if (!loc) return null;
+  
+        try {
+          // If object (Meta Bind sometimes stores internal link objects)
+          if (typeof loc === "object" && loc.path) {
+            return loc.path.split("/").pop().replace(".md", "").trim();
+          }
+  
+          return String(loc)
+            .replaceAll("[[", "")
+            .replaceAll("]]", "")
+            .replaceAll('"', "")
+            .trim();
+        } catch (e) {
+          //console.warn("normalizeLocationField error:", e, loc);
+          return null;
+        }
+      })
+      .filter(x => x);
+  }
+  
 function normalizeTags(entry) {
     if (!entry.tags) return [];
     let tags = Array.isArray(entry.tags) ? entry.tags : [entry.tags];
@@ -24,13 +48,26 @@ function normalizeLink(val) {
 }
 function matchesLocation(entry, targets) {
     const locs = normalizeLocationField(entry).filter(x => x);
-    const normTargets = targets.filter(x => x);
-    return locs.some(loc =>
-        normTargets.some(t =>
-            String(loc).toLowerCase().includes(String(t).toLowerCase())
-        )
-    );
-}
+    const normTargets = targets
+      .filter(x => x)
+      .map(t => String(t).trim().toLowerCase());
+  
+    //console.log("DEBUG: Entry File →", entry.file?.name || "Unknown");
+    //console.log("DEBUG: Raw Entry Locations →", entry.location);
+    //console.log("DEBUG: Normalized Locations →", locs);
+    //console.log("DEBUG: Normalized Targets →", normTargets);
+  
+    const result = locs.some(loc => {
+      const normalizedLoc = String(loc).trim().toLowerCase();
+      const match = normTargets.includes(normalizedLoc);
+      //console.log(`   ↳ Checking '${normalizedLoc}' against targets → ${match}`);
+      return match;
+    });
+  
+    //console.log("DEBUG: Result for Entry:", entry.file?.name || "Unknown", "→", result);
+    return result;
+  }
+  
 function isDistrict(entry) {
     return normalizeTags(entry).includes("#district");
 }

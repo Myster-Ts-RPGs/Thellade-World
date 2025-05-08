@@ -8,7 +8,7 @@ banner: off
 organization:
   - "[[The Sable Accord]]"
 location:
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
 ---
 
 ```meta-bind-js-view 

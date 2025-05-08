@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
+  - "[[The Emberwell Den]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Healthy
 aliases:

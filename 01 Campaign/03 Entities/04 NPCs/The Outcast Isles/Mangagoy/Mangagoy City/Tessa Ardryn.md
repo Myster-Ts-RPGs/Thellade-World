@@ -26,6 +26,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
 location:
   - "[[The Mist Piercer]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Healthy
 ---

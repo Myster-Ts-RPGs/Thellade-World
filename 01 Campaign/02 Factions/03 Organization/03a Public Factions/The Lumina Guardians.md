@@ -32,7 +32,7 @@ location:
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Guardian's Vigil Base]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[Radiant Sigil Station]]"

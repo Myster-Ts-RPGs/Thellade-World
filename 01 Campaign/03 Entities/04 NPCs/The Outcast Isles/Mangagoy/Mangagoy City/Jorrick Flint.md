@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/JorrickFlintSmall.webp
 language:
   - Common
 ancestry: Dwarf
@@ -113,6 +113,8 @@ condition: Healthy
 > SORT file.name ASC
 
 ## Overview
+Jorrick Flint, a dwarf of few words and many blueprints, handles logistics for the Crystal Seekers Guild. Known for his stubbornness and skill with arcane architecture, he ensures the Hall's infrastructure supports Zaetril's volatile projects.
+
 
 
 

@@ -51,7 +51,7 @@ location:
   - "[[Jambito]]"
   - "[[Deepwall Reach District]]"
   - "[[The Silent Bargain]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Infernal Migrant Den]]"
   - "[[The Hellfire Vault]]"

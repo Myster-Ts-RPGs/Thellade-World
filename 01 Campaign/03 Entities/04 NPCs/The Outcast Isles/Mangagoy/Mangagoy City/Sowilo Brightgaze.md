@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/Sowilo.png
 language:
   - Common
 organization:
@@ -12,6 +12,11 @@ party3tie:
   - "[[Kothar]]"
 party3relation:
   - Family
+location:
+  - "[[Sanctum of the Dawnsplit Crown]]"
+  - "[[Glowquarter]]"
+  - "[[Mangagoy]]"
+condition: Healthy
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -110,7 +115,10 @@ party3relation:
 > WHERE econtains(holder, this.file.link) AND contains(tags, "Literature")
 > SORT file.name ASC
 
+---
 ## Overview
+Sowilo Brightgaze is a dwarven cleric of Aurion and the adoptive mother of Kothar. A patient but fervent healer, she believes in redemption through trial and sunrise. She teaches young clerics to walk into danger with open eyes, and her strength of conviction shines through even when speaking softly.
+
 
 
 

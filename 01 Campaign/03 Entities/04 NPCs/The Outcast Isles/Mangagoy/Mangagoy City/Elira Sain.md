@@ -3,13 +3,19 @@ tags:
   - "#Character"
   - "#NPC"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/NPCs/EliraSainSmall.webp
 language:
   - Common
-aliases: []
-organization: []
-religion: []
+location:
+  - "[[Ashen Vanguard Watchpost]]"
+  - "[[The Ember Wharf]]"
+  - "[[Mangagoy]]"
+condition: Healthy
+organization:
+  - "[[The Ashen Vanguard]]"
 ---
+
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -108,6 +114,7 @@ religion: []
 > SORT file.name ASC
 
 ## Overview
+Watch-Mage Elira Sain is a half-elf geomancer assigned to arcane surveillance and ward tuning for the Ashen Vanguard. Known for her precision and quiet focus, she detects leyline fluxes and strengthens protective sigils across the docks.
 
 
 
