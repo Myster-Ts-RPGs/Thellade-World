@@ -12,6 +12,8 @@ owner:
 location:
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
+poitype:
+  - Hideout
 ---
 
 ```meta-bind-js-view 

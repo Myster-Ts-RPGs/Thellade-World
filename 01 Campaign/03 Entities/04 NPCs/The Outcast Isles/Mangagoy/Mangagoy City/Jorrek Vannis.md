@@ -25,12 +25,12 @@ aliases:
 organization:
   - "[[The Ember Rats]]"
 location:
-  - "[[The Furnace Warren]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]]"
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 condition: Healthy
 ownedlocation:
-  - "[[The Furnace Warren]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]]"
 ---
 
 > [!metadata|metadata]- Metadata 

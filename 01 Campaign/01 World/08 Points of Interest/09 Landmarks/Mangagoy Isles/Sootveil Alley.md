@@ -6,13 +6,12 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
+  - "[[The Gilded Daggers]]"
 location:
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
-pronounced: ""
-aliases: []
-owner: []
+poitype:
+  - Road
 ---
 
 ```meta-bind-js-view 
@@ -77,7 +76,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!recite]- Introduction
-> A script for the GM to read when the party arrive to this location for the first time.
+> A narrow, soot-caked alleyway flanked by collapsed workshops and scavenged furnace stones. This is where black-market forgework thrives—illegal enhancements, cursed prosthetics, and prototype glyph-inlays are sold under the ever-hanging smog canopy. Gilded Daggers use enchanted brass tokens to mark safe vendors.
 
 > [!metadata|map]- Map
 > ```leaflet

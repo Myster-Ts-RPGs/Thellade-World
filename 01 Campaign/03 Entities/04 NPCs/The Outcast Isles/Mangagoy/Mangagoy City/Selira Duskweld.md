@@ -22,9 +22,9 @@ condition: Healthy
 organization:
   - "[[The Iron Syndicate]]"
 ownedlocation:
-  - "[[Blackhook Salvage Yard]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]]"
 location:
-  - "[[Blackhook Salvage Yard]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]]"
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 ---

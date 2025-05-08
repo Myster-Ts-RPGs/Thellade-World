@@ -1,6 +1,8 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.1.2 | 2025-05-08 07:51 | Stubbed and classified all Ashgate Market POIs for Mangagoy with canonical types, subtypes, and folder assignments | [[Git Commit 2025-05-08 07-51]]
+1.1.1.1 | 2025-05-08 05:36 | Initial NPC stub creation for Mangagoy region with district/POI assignments and canonical Overviews | [[Git Commit 2025-05-08 05-36]]
 1.1.1.0 | 2025-05-07 13:30 | Initial Canonization of Boba | [[Git Commit 2025-05-07 13-30]]
 1.1.0.6 | 2025-05-06 13:22 | Finalize Boba – Current Events Section | [[Git Commit 2025-05-06 13-22]]
 1.1.0.5 | 2025-05-06 13:06 | Finalized District Type Tags for Boba Districts | [[Git Commit 2025-05-06 13-06]]

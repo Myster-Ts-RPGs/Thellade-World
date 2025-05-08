@@ -18,6 +18,7 @@ rivals:
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Eternal Concord]]"
+  - "[[Order of Silent Echos]]"
 aliases:
   - Black Sepulcher
   - The Cult of Orcus
@@ -25,7 +26,6 @@ aliases:
 location:
   - "[[The Outcast Isles]]"
   - "[[Kanda Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Jambito Isles]]"
   - "[[Middle Isles]]"
   - "[[Kanda]]"
@@ -40,6 +40,7 @@ location:
   - "[[Deepwall Reach District]]"
   - "[[Sunveil Hollow]]"
   - "[[The Ember Wharf]]"
+  - "[[Mangagoy Isles]]"
 head:
   - "[[Malakar Venmire]]"
 pronounced: BLAK SEP-ul-ker

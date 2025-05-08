@@ -5,11 +5,13 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-location:
-  - "[[Ashgate Market]]"
-  - "[[Mangagoy]]"
 organization:
-  - "[[The Emberborn League]]"
+  - "[[The Ashen Vanguard]]"
+location:
+  - "[[Highhold Rise]]"
+  - "[[Mangagoy]]"
+poitype:
+  - Barracks
 ---
 
 ```meta-bind-js-view 
@@ -129,4 +131,4 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Notes
-
+Kraya Feldrum’s personal quarters and primary barracks should be based here, though she’s actively stationed in the Ember Wharf.

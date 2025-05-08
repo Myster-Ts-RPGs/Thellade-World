@@ -14,6 +14,8 @@ location:
 condition: Healthy
 organization:
   - "[[Order of Silent Echoes]]"
+ownedlocation:
+  - "[[Glowglass Arcanum]]"
 ---
 
 

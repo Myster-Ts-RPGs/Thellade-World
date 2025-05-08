@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[The Furnace Warren]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]]"
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 condition: Healthy

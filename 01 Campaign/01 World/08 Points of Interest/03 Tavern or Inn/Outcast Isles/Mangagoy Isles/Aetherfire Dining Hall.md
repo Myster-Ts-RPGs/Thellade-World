@@ -11,6 +11,13 @@ banner: on
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+owner:
+  - "[[Halden Reeve]]"
+taverntype:
+  - Inn-Tavern
+lodgingtype:
+  - Private Room
+  - Luxury Suite
 ---
 
 ```meta-bind-js-view 
@@ -118,7 +125,11 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview 
-
+- Workers: 10 staff, 2 magically bound dish-washing golems
+- Services: Gourmet cuisine, catering noble events
+- Goods: Crystallized firefruit glaze, phoenix egg soup
+- Secrets: Ingredients are supplied by a fire elemental in a pact
+- Quest: Secure a rare elemental ingredient before a noble wedding
 
 
 ## Clientele

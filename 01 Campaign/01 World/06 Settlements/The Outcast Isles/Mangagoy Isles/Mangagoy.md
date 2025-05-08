@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[Mangagoy Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Large City
 population: 11,222
@@ -26,11 +26,9 @@ organization:
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Emberborn League]]"
   - "[[The Eternal Concord]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Phoenix Assembly]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
@@ -48,6 +46,12 @@ organization:
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Silver Chain]]"
+  - "[[The Gilded Hammer Union]]"
+  - "[[The Sunfire Heralds]]"
+leader:
+  - "[[Garron Draven]]"
+dominion:
+  - "[[The Kingdom of Kanda]]"
 ---
 
 

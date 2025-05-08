@@ -48,7 +48,7 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
-  - "[[The Mist Market]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Mist Market]]"
   - "[[Middle Isles]]"
   - "[[Sable Reef Anchorage]]"
   - "[[The Gilded Shadow]]"

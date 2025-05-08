@@ -223,7 +223,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]] – Assistant Scribe rescued by Group 5; victim of temporal warping and abyssal influence in the sealed archives.  
 - [[Sunfire Tower|The Sunfire Tower]] – Their shining headquarters in [[Sunfire Heights]], [[Boba]], symbol of hope and renewal.  
 - [[Hall of the Shining Dawn]] – Newly founded center in [[Glimmershade]], [[Kanda]], designed to host cultural summits and relic exhibitions.  
-- [[Lightbearer Embassy]] – Outreach office in [[Ashgate Market]], [[Mangagoy]], promoting cultural exchange and hope-building.  
+- [[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles/Mangagoy/Lightbearer Embassy]] – Outreach office in [[Ashgate Market]], [[Mangagoy]], promoting cultural exchange and hope-building.  
 - Symbol: A golden rising sun with open book wings, cradling a silver scroll at its heart.  
 - Uniforms: White and gold robes emblazoned with flame-wreathed quills; ceremonial heralds bear radiant staves.
 

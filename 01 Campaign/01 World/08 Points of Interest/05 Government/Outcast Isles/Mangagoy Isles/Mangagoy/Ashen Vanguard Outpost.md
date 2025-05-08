@@ -4,12 +4,14 @@ tags:
   - "#POI"
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
-banner: off
+banner: on
 organization:
-  - "[[The Crimson Shroud]]"
+  - "[[The Ashen Vanguard]]"
 location:
-  - "[[Ashgate Market]]"
+  - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+poitype:
+  - Guardhouse
 ---
 
 ```meta-bind-js-view 
@@ -129,4 +131,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Notes
-
+- Type: Military Post
+- Location: Emberborn Wharf
+- Description: A fortified ironwood pavilion raised atop basalt stilts at the far edge of the docks. Ember-forged sigils line its archways. Crimson-sashed vanguard officers oversee inspections, detain smugglers, and monitor leyline anomalies.
+- Commander: Commander Kraya Feldrum maintains operations here.
+- Function: Rapid deployment center, teleportation disruption monitoring, harbor security.

@@ -11,6 +11,8 @@ location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
 condition: Healthy
+ownedlocation:
+  - "[[Aetherfire Dining Hall]]"
 ---
 
 

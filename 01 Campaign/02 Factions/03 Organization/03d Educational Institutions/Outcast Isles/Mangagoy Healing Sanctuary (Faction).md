@@ -14,6 +14,8 @@ allies:
   - "[[The Arcane Wardens]]"
   - "[[The Eternal Concord]]"
   - "[[The Dawnbringers of Lunara]]"
+rivals:
+  - "[[Order of Silent Echos]]"
 ---
 
 ```meta-bind-js-view 

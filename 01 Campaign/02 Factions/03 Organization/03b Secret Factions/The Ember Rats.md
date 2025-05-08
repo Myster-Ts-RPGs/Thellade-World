@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[The Furnace Warren]]"
+hq: "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -25,11 +25,11 @@ location:
   - "[[Ashgate Market]]"
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[The Furnace Warren]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]]"
   - "[[The Ember Wharf]]"
   - "[[The Emberwell Den]]"
   - "[[Ashgate Market]]"
-  - "[[Charblack Alley]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Charblack Alley]]"
   - "[[The Hollow Flame]]"
 rivals:
   - "[[The Bleeding Tide]]"
@@ -217,10 +217,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - **Narcotics Matron:** [[Risa Vael]] – 'Mother Risa', spiritualist and potionmaster, her drugs bind through vision, pain, and addiction.
 
 ## Locations
-- **Headquarters:** [[The Furnace Warren]] (Mangagoy > Ashgate Market)  
+- **Headquarters:** [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]] (Mangagoy > Ashgate Market)  
 - **Known Fronts:**  
   - [[The Emberwell Den]] (underground pit arena)  
-  - [[Charblack Alley]] (drug refinery hub)  
+  - [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Charblack Alley]] (drug refinery hub)  
   - [[The Hollow Flame]] (ruined temple turned gang shrine)
 
 ## Notes

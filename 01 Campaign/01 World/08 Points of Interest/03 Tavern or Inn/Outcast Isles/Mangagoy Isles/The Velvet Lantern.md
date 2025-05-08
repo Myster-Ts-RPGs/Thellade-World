@@ -11,6 +11,13 @@ banner: on
 location:
   - "[[Gullsway]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Noble Lounge
+  - Brewpub
+lodgingtype:
+  - Luxury Suite
+  - Private Room
+  - Standard Room
 ---
 
 ```meta-bind-js-view 

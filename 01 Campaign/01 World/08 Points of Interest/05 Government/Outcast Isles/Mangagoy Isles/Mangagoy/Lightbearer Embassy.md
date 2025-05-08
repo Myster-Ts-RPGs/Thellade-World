@@ -6,10 +6,15 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 organization:
-  - "[[The Phoenix Assembly]]"
+  - "[[The Sunfire Heralds]]"
 location:
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
+pronounced: ""
+aliases: []
+owner: []
+poitype:
+  - Embassy
 ---
 
 ```meta-bind-js-view 

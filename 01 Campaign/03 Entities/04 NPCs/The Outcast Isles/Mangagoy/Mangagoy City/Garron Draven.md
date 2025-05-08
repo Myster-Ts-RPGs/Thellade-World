@@ -147,7 +147,9 @@ Garron Draven is the current Warden of Mangagoy, overseeing both civic logistics
 
 
 ## Notes
-
+- Personality: Blunt, duty-driven, often late-night patrols himself
+- Appearance: Weathered armor, eyepatch, white streaked beard
+- Faction/District: Commands from Highhold Rise
 
 
 

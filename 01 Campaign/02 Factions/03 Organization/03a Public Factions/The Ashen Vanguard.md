@@ -10,7 +10,6 @@ organizationscope:
 art: 90 Assets/Images/Organizations/AshenVanguard.png
 location:
   - "[[The Outcast Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
   - "[[Lambaro Isles]]"
@@ -27,10 +26,11 @@ location:
   - "[[Scholar's Ring]]"
   - "[[Ashen Vanguard Watchpost]]"
   - "[[Fort Redstone]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Kanda Isles/Boba/Ashen Guard Hall]]"
   - "[[Detached Command Wing]]"
   - "[[Coastal Watch Barracks]]"
   - "[[Vanguard Scout Liaison Post]]"
+  - "[[Ashen Guard Hall]]"
+  - "[[Mangagoy Isles]]"
 pronounced: A-shun VAN-guard
 aliases:
   - Ashen Vanguard
@@ -49,12 +49,13 @@ rivals:
   - "[[The Sable Accord]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
+  - "[[Order of Silent Echos]]"
 allies:
   - "[[The Emberborn League]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Rift Scholars Collective]]"
+  - "[[The Gilded Hammer Union]]"
 foundedshort: -1.01.12 PR
 ---
 

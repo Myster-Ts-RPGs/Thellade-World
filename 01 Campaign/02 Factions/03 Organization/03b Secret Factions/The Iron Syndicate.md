@@ -27,7 +27,7 @@ location:
   - "[[Ashgate Market]]"
   - "[[Middle Isles]]"
   - "[[Embercoil Forge]]"
-  - "[[Blackhook Salvage Yard]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]]"
   - "[[Smuggler's Dock]]"
 rivals:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
@@ -221,13 +221,13 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] – Elite saboteur and field operative known for stealth infiltration and arcane traps.
 - **Regional Contacts / Lieutenants:**
   - [[Varnick Greyhollow]] – Manages smuggling operations from [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]].
-  - [[Selira Duskweld]] – Allegedly coordinating relic transactions from [[Blackhook Salvage Yard]].
+  - [[Selira Duskweld]] – Allegedly coordinating relic transactions from [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]].
 
 ## Locations
 ### Primary Hideouts
 - [[Lambaro]] > [[Crucible Hollow]] > [[Embercoil Forge]] – Main engineering and design hub.
 ### Secondary Hideouts
-- [[Mangagoy]] > [[Ashgate Market]] > [[Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
+- [[Mangagoy]] > [[Ashgate Market]] > [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
 - [[Westport]] > [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]] – [[Middle Isles]] smuggling node, used for offloading stolen components and experimental parts.
 
 ## Notes

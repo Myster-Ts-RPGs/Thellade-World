@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[The Forgefall Warrens]]"
+hq: "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -29,12 +29,12 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
-  - "[[The Forgefall Warrens]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]]"
   - "[[Glowquarter]]"
-  - "[[Blackstring Vault]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Blackstring Vault]]"
   - "[[Ashgate Market]]"
-  - "[[Sootveil Alley]]"
-  - "[[Ember Coil]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Sootveil Alley]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Ember Coil]]"
 foundedshort: 102.04.12 PR
 ---
 
@@ -215,10 +215,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - **Saboteur Commander:** [[Ressa Thelis]] – 'Smokehand', alchemist-saboteur and master of combustion logistics. Leaves black-silver smoke signatures behind each operation.
 
 ## Locations
-- **Headquarters:** [[The Forgefall Warrens]] (Mangagoy > The Ember Wharf)  
+- **Headquarters:** [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]] (Mangagoy > The Ember Wharf)  
 - **Known Fronts:**  
   - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Blackstring Vault|Blackstring Vault]] (underground blueprint repository)  
-  - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Sootveil Alley|Sootveil Alley]] (black market forgeway)  
+  - [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Sootveil Alley|Sootveil Alley]] (black market forgeway)  
   - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/Ember Coil|Ember Coil]] (hidden smeltery for forbidden alloys)
 
 ## Notes

@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[The Mist Market]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Mist Market]]"
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 condition: Healthy
@@ -16,7 +16,7 @@ aliases:
 organization:
   - "[[The Silver Chain]]"
 ownedlocation:
-  - "[[The Mist Market]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Mist Market]]"
 ---
 
 > [!metadata|metadata]- Metadata 
