@@ -4,7 +4,8 @@ tags:
   - "#POI"
   - "#Canon"
 art: 90 Assets/Images/POIs/MistMarket.png
-poitype: Shop
+poitype:
+  - Shop
 shoptype:
   - Antiques and Relics
   - Apothecary
@@ -18,7 +19,6 @@ shoptype:
   - Potion Vendor
   - Spice Vendor
 location:
-  - "[[The Mist Market]]"
   - "[[Ashgate Market]]"
   - "[[Mangagoy]]"
 ---

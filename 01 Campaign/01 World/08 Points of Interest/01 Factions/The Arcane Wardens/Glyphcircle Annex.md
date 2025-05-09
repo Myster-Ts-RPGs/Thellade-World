@@ -8,8 +8,10 @@ banner: on
 organization:
   - "[[The Arcane Wardens]]"
 location:
-  - "[[Mangagoy]]"
   - "[[Glowquarter]]"
+  - "[[Mangagoy]]"
+poitype:
+  - Office
 ---
 
 ```meta-bind-js-view 

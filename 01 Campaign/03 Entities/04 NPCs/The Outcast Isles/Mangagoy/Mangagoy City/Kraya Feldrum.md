@@ -11,7 +11,7 @@ language:
 pronounced: KRAH-yuh FEL-droom
 condition: Healthy
 location:
-  - "[[Ashen Vanguard Watchpost]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 aliases:

@@ -5,8 +5,8 @@ tags:
 art: 90 Assets/Images/POIs/EmberheartTradeOffice.png
 banner: on
 location:
-  - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
+  - "[[Mangagoy]]"
 organization:
   - "[[The Emberheart Traders]]"
 owner:

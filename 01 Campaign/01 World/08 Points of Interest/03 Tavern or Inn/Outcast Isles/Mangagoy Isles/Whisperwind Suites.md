@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Noble Lounge
+lodgingtype:
+  - Luxury Suite
 ---
 
 ```meta-bind-js-view 

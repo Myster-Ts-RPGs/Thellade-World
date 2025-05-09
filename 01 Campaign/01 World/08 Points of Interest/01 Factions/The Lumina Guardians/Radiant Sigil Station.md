@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+poitype:
+  - Office
 ---
 
 ```meta-bind-js-view 
@@ -114,7 +116,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+- Bastion coordinating with local [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Dawnbringers of Lunara|Dawnbringers of Lunara]] against ritual corruption.
 
 ## Keyed Locations
 

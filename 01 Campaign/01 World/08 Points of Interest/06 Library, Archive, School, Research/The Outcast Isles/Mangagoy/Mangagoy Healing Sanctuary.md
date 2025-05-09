@@ -8,6 +8,8 @@ banner: on
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+poitype:
+  - Hospital
 ---
 
 ```meta-bind-js-view 

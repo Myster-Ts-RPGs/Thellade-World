@@ -7,7 +7,7 @@ art: 90 Assets/Images/NPCs/AlaricValeneSmall.webp
 language:
   - Common
 location:
-  - "[[Concord Library Annex]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Concord Library Annex]]"
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 condition: Healthy

@@ -116,7 +116,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+Drug refinery hub for the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Ember Rats|Ember Rats]]
 
 ## Keyed Locations
 

@@ -9,12 +9,12 @@ language:
 organization:
   - "[[The Ashen Vanguard]]"
 location:
-  - "[[Fort Redstone]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
   - "[[Arcspire District]]"
   - "[[Lambaro]]"
 condition: Healthy
 ownedlocation:
-  - "[[Fort Redstone]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -116,7 +116,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+**Focus:** _Portable ritual components, field spellcasting kits, and disposable magic tools_  
+**Description:**  
+A modular vendor stall with rotating inventory and collapsible counters, The Wandering Sigil supports spellcasters on the move. It specializes in chalked ritual circles, consecrated salts, ward stones, glyph-bond tags, and compact spellcasting kits for fieldwork. The owner is a paranoid hedge mage who believes the Arcane Wardens monitor them, and frequently shifts the location of the display tables. Excellent for adventuring mages and contract-based ritualists.
 
 ## Special Items
 

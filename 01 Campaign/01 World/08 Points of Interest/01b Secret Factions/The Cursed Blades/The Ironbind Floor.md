@@ -12,6 +12,8 @@ organization:
 location:
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+poitype:
+  - Arena
 ---
 
 ```meta-bind-js-view 

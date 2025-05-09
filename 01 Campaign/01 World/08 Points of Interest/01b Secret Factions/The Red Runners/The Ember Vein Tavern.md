@@ -10,6 +10,11 @@ organization:
 location:
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+poitype:
+  - Tavern
+taverntype:
+  - Dive Bar
+lodgingtype: []
 ---
 
 ```meta-bind-js-view 
@@ -42,6 +47,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Tavern Type** | `INPUT[TavernType][inlineListSuggester:taverntype]` |
+>> **Lodging Type** | `INPUT[LodgingType][inlineListSuggester:lodgingtype]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |

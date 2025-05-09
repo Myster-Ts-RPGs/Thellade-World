@@ -30,7 +30,7 @@ location:
   - "[[The Emberwell Den]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Charblack Alley]]"
-  - "[[The Hollow Flame]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Pactbound Flame/The Hollow Flame]]"
 rivals:
   - "[[The Bleeding Tide]]"
   - "[[The Gilded Daggers]]"
@@ -219,9 +219,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Locations
 - **Headquarters:** [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Furnace Warren]] (Mangagoy > Ashgate Market)  
 - **Known Fronts:**  
-  - [[The Emberwell Den]] (underground pit arena)  
-  - [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Charblack Alley]] (drug refinery hub)  
-  - [[The Hollow Flame]] (ruined temple turned gang shrine)
+  - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Emberwell Den|The Emberwell Den]] (underground pit arena)  
+  - [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles/Charblack Alley|Charblack Alley]] (drug refinery hub)  
+  - [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Pactbound Flame/The Hollow Flame]] (ruined temple turned gang shrine)
 
 ## Notes
 - **Threat Level:** Moderate to High — direct urban presence with growing alchemical reach.  

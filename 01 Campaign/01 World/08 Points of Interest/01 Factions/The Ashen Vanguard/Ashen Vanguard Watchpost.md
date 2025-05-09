@@ -8,8 +8,8 @@ banner: on
 organization:
   - "[[The Ashen Vanguard]]"
 location:
-  - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
+  - "[[Mangagoy]]"
 poitype:
   - Watchtower
   - Guardhouse

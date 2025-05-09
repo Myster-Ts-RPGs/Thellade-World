@@ -12,6 +12,8 @@ location:
   - "[[Mangagoy]]"
 owner:
   - "[[Telmira of the Echos]]"
+poitype:
+  - Relics Site
 ---
 
 ```meta-bind-js-view 

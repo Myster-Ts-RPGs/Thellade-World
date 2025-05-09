@@ -8,6 +8,8 @@ banner: on
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+poitype:
+  - Government-Other
 ---
 
 ```meta-bind-js-view 

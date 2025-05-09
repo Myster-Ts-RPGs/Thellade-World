@@ -21,7 +21,7 @@ party6relation:
 organization:
   - "[[The Black Sepulcher]]"
 location:
-  - "[[The Hollow Flame]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Pactbound Flame/The Hollow Flame]]"
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
 condition: Healthy

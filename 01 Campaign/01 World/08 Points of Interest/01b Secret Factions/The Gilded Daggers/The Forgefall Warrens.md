@@ -16,6 +16,8 @@ owner:
   - "[[Vaylen Durnis]]"
 assistant:
   - "[[Ressa Thelis]]"
+poitype:
+  - Workshop [General]
 ---
 
 ```meta-bind-js-view 

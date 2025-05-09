@@ -58,7 +58,7 @@ location:
   - "[[Peacebroker's Refuge]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]]"
   - "[[Neutral Accord Hall]]"
-  - "[[Concord Library Annex]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Concord Library Annex]]"
   - "[[Sanctuary of Evenlight]]"
   - "[[House of Accorded Voices]]"
 aliases:
@@ -240,7 +240,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] – Human diplomat, Master Negotiator of the Concord, famed for drafting the Treaty of Evenlight that briefly unified Boba's guilds after the Red Runners’ insurgency.  
-- [[Concord Library Annex]] – Located in [[Mangagoy]]'s [[Glowquarter]], contains records of all known arbitrated disputes since the Rising.  
+- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Concord Library Annex]] – Located in [[Mangagoy]]'s [[Glowquarter]], contains records of all known arbitrated disputes since the Rising.  
 - [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] – Center of diplomatic gatherings and peace conferences, located in [[Boba]]'s [[01 Campaign/01 World/07 Districts/Boba/Ambassadors Row|Ambassadors Row]].  
 - Symbol: A silver circle bisected by a vertical white quill and a vertical black blade.  
 - Uniforms: Slate-gray tabards bearing the quill and sword sigil; senior mediators often wear subtle silver chains signifying rank.

@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.1.4 | 2025-05-09 15:20 | Stubbed POIs for Gullsway, Highhold Rise, and The Ember Wharf including five new shops | [[Git Commit 2025-05-09 15-20]]
 1.1.1.3 | 2025-05-08 08:16 | Stubbed POIs for Binders' Lane district in Mangagoy | [[Git Commit 2025-05-08 08-16]]
 1.1.1.2 | 2025-05-08 07:51 | Stubbed and classified all Ashgate Market POIs for Mangagoy with canonical types, subtypes, and folder assignments | [[Git Commit 2025-05-08 07-51]]
 1.1.1.1 | 2025-05-08 05:36 | Initial NPC stub creation for Mangagoy region with district/POI assignments and canonical Overviews | [[Git Commit 2025-05-08 05-36]]

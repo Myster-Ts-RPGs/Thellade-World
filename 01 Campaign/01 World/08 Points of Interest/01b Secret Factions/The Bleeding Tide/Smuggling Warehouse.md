@@ -10,6 +10,8 @@ organization:
 location:
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+poitype:
+  - Warehouse
 ---
 
 ```meta-bind-js-view 

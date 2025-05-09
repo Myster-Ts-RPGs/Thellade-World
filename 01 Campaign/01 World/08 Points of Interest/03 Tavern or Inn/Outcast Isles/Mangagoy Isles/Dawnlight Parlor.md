@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Private Club
+lodgingtype:
+  - Private Room
 ---
 
 ```meta-bind-js-view 

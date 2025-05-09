@@ -5,13 +5,11 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
-location:
-  - "[[Binders' Lane]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
 poitype:
   - Warehouse
+location:
+  - "[[Gullsway]]"
+  - "[[Mangagoy]]"
 ---
 
 ```meta-bind-js-view 
@@ -116,7 +114,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+Tucked beside the docks, this low-slung wooden structure serves as a repair hub for fishing gear, nets, and small hull breaches. Coralguard veterans supervise apprentices in net-mending rituals learned from aquatic druids.
 
 ## Keyed Locations
 

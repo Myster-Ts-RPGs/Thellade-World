@@ -18,6 +18,10 @@ organization:
   - "[[The Ember Rats]]"
   - "[[The Gilded Daggers]]"
   - "[[The Infernal Covenant]]"
+districttype:
+  - Magical District
+  - Arcane
+  - Religious
 ---
 
 ```meta-bind-js-view 

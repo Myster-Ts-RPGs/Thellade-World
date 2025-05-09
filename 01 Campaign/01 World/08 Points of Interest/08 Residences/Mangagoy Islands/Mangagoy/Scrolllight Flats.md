@@ -5,10 +5,10 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
-organization:
-  - "[[The Ember Rats]]"
+poitype:
+  - Apartment
 location:
-  - "[[Glowquarter]]"
+  - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
 ---
 
@@ -74,7 +74,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!recite]- Introduction
-> Once a shrine to [[Aevaris]], the Arcane Flame, this sanctum was shattered in the chaos following the Rising. The Ember Rats have since corrupted it into their central sanctuary. Ritual fire pits, scorched sigil-tiles, and blackened obsidian shelves remain—repurposed into an altar of ash and aggression. Here, Mother Risa brews her cursed powders while initiates whisper oaths before a flame that no longer answers.
+> A script for the GM to read when the party arrive to this location for the first time.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -114,7 +114,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+A compact tower of stacked residences where senior scribes and junior guild mages reside. Glyph wards adorn each door, and an internal bulletin rune rotates notices of job postings, guild news, and magical leaks.
 
 ## Keyed Locations
 

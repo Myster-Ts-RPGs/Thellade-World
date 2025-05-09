@@ -122,6 +122,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Secrets: Zaetril is secretly collecting broken magic items to rebuild an arcane artifact
 - Quest: Retrieve a broken wand from a dangerous rift-ruin beneath the city
 
+**Focus:** _Utility spells, enchantment reagents, and minor artificing kits_  
+**Description:**  
+This refined, well-lit shop features ever-burning glass lanterns and meticulously labeled spellkits. Glowglass Arcanum serves the everyday mage and sanctioned researcher, offering stabilized wands, enchantment inks, arcane lenses, and focus rings. It maintains a delicate relationship with local authorities, often supplying licensed practitioners. It’s also known for its safe introductory cantrip scrolls and beginner's ritual kits.
 
 ## Special Items
 

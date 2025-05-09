@@ -10,6 +10,8 @@ organization:
 location:
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+poitype:
+  - Forge
 ---
 
 ```meta-bind-js-view 

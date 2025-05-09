@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Inn-Tavern
+lodgingtype:
+  - Standard Room
 ---
 
 ```meta-bind-js-view 

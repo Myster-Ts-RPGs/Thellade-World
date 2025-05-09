@@ -116,7 +116,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+**Focus:** _Illusion magic, light constructs, and sensory spellwork_  
+**Description:**  
+A riot of color and sound, Prism & Pulse resembles a boutique more than a shop. Crystal prisms dangle from woven ley-thread chandeliers, and enchanted music hums from nowhere. Specializing in illusion components, sensory enhancers, glamour infusions, and prismatic focus arrays, it serves illusionists, performers, and experimental arcanists seeking more expressive forms of arcana. Most products are keyed to color, mood, or emotional frequency.
 
 ## Special Items
 

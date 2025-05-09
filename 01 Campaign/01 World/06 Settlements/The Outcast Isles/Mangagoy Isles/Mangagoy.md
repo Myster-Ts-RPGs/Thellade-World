@@ -9,6 +9,7 @@ location:
   - "[[The Outcast Isles]]"
 settlementtype: Large City
 population: 11,222
+districtmatch: Shop
 import:
   - Magical Trinkets
   - Scrolls
@@ -207,11 +208,13 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-# Location NPC List
+
+### Location NPC List
 ```dataviewjs
 await dv.view("z_Templates/Scripts/view1");
 ```
-## Organization NPC List
+
+### Organization NPC List
 ```dataviewjs
 await dv.view("z_Templates/Scripts/view2");
 ```
@@ -229,7 +232,17 @@ await dv.view("z_Templates/Scripts/view2");
 >SORT file.name ASC
 >```
 
-
+## Partial Location List
+> [!metadata|characters]- Locations
+>```dataview
+>TABLE WITHOUT ID file.link AS "Name", 
+>       join((shoptype), ", ") AS "shoptype", 
+>       location[0] AS "District"
+>FROM "01 Campaign"
+>WHERE econtains(location, this.file.link) AND contains(tags, "#POI") AND contains(poitype, this.districtmatch)
+>SORT location[0] ASC, file.name ASC
+>```
+>
 >```dataview
 >TABLE WITHOUT ID file.link AS "Name", tags, 
 >       join(aliases, ", ") AS Aliases, 
@@ -246,10 +259,13 @@ await dv.view("z_Templates/Scripts/view2");
 
 > [!metadata|events]- Recent Events
 >```dataview 
-> table without id enddate as "Date", file.link as "Event"
+> table without id 
+>   startdate AS "Start Date",
+>   enddate as "End Date", 
+>   file.link as "Event"
 > from "01 Campaign"
 > where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Significant") and yearnumeric >= 212
-> sort enddateshort asc
+> sort enddateshort asc, startdateshort asc
 > ```
 
 ## History

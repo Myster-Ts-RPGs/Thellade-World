@@ -10,6 +10,8 @@ organization:
 location:
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+poitype:
+  - Watchtower
 ---
 
 ```meta-bind-js-view 

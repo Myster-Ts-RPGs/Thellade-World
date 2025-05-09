@@ -12,6 +12,8 @@ organization:
 location:
   - "[[Highhold Rise]]"
   - "[[Mangagoy]]"
+poitype:
+  - Guardhouse
 ---
 
 ```meta-bind-js-view 

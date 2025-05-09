@@ -7,7 +7,7 @@ art: 90 Assets/Images/NPCs/BrenDrathSmall.webp
 language:
   - Common
 location:
-  - "[[Ashen Vanguard Watchpost]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
 condition: Healthy

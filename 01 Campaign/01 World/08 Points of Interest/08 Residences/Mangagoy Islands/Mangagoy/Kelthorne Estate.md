@@ -12,6 +12,8 @@ location:
   - "[[Mangagoy]]"
 owner:
   - "[[Marik Kelthorne]]"
+poitype:
+  - Estate
 ---
 
 ```meta-bind-js-view 

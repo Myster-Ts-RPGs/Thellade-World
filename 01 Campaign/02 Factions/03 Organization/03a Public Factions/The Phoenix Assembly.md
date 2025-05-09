@@ -49,7 +49,7 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Renaissance Bridge Office]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Renaissance Bridge Office]]"
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"

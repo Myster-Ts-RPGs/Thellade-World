@@ -39,7 +39,7 @@ location:
   - "[[Crystalvaults]]"
   - "[[Expedition Staging Depot]]"
   - "[[The League Hall]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Relic Stabilization Hub]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Relic Stabilization Hub]]"
   - "[[Field Evaluation Camp]]"
   - "[[Ruin Escort Operation Office]]"
 head:

@@ -116,7 +116,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+**Focus:** _Fire-based spellcraft, combustion components, and scavenged alchemy_  
+**Description:**  
+A gritty, forge-adjacent stall run by a fire-scorched kobold clan. The shelves are scorched, the air is hot, and every item hums with unstable promise. Sootscale’s Spark specializes in combustive alchemy, firestarter gems, soot charms, and magically volatile scrap fuses. Known for selling reclaimed fire-magic components from past explosions, often with a grin and no guarantees. Popular with reckless inventors and pyromancer apprentices.
 
 ## Special Items
 

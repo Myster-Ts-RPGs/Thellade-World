@@ -6,6 +6,10 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Mangagoy]]"
+districttype:
+  - Dockyard
+  - Entertainment
+  - Slums
 ---
 
 ```meta-bind-js-view 

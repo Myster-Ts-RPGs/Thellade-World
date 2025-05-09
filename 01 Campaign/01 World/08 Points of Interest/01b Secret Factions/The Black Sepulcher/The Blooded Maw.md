@@ -10,6 +10,8 @@ organization:
 location:
   - "[[The Ember Wharf]]"
   - "[[Mangagoy]]"
+poitype:
+  - Shrine
 ---
 
 ```meta-bind-js-view 

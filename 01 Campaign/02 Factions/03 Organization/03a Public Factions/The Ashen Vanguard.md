@@ -2,7 +2,7 @@
 tags:
   - "#Organization"
   - "#Canon"
-hq: "[[Fort Redstone]]"
+hq: "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
 organizationstatus:
   - ✅ Active
 organizationscope:
@@ -24,11 +24,11 @@ location:
   - "[[Glowquarter]]"
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"
-  - "[[Ashen Vanguard Watchpost]]"
-  - "[[Fort Redstone]]"
-  - "[[Detached Command Wing]]"
-  - "[[Coastal Watch Barracks]]"
-  - "[[Vanguard Scout Liaison Post]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles/Mangagoy/Detached Command Wing]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Coastal Watch Barracks]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Vanguard Scout Liaison Post]]"
   - "[[Ashen Guard Hall]]"
   - "[[Mangagoy Isles]]"
 pronounced: A-shun VAN-guard

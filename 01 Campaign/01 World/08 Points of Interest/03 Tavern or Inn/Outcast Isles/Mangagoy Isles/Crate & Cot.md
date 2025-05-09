@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Gullsway]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Roadside Stop
+lodgingtype:
+  - Rough Cot
 ---
 
 ```meta-bind-js-view 

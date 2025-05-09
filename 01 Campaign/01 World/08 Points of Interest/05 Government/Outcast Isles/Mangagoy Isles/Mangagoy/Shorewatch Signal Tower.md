@@ -6,10 +6,10 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
-  - "[[Highhold Rise]]"
+  - "[[Gullsway]]"
   - "[[Mangagoy]]"
-organization:
-  - "[[The Bleeding Tide]]"
+poitype:
+  - Watchtower
 ---
 
 ```meta-bind-js-view 
@@ -114,7 +114,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+This signal tower overlooks the mist-laden bay, using enchanted lenses and alchemical beacons to signal weather shifts, ship arrivals, or arcane surges. It remains lightly staffed but vital to coastal coordination.
 
 ## Keyed Locations
 
@@ -130,11 +130,3 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 
-### 🏛️ Mausoleum of Lost Saints
-
-- **Location:** Beneath the Healing Sanctuary in Mangagoy, within the **Mangagoy Isles**
-- **Description:**  
-    A sealed Pre-Rising crypt safeguarding the _Ashes of the Faithful_, this mausoleum once played a central role in the Hollow Saints’ ancient funerary rites. Guarded by High Priestess Valara Mistveil prior to its desecration, the site was targeted by the **Bleeding Tide (Cult of Orcus)** in an attempt to unseal Zorvithrax.
-- **Faction Presence:** Bleeding Tide
-- **Campaign Note:**  
-    Desecrated in **Campaign Group 6, Session 3**, the site was revealed to be one of three critical ritual nodes required for the **Abyssal Teleportation Ritual** involving Zorvithrax.

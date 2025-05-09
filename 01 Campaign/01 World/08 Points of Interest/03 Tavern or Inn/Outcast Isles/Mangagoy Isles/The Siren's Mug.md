@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Gullsway]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Festhall
+lodgingtype:
+  - Private Room
 ---
 
 ```meta-bind-js-view 

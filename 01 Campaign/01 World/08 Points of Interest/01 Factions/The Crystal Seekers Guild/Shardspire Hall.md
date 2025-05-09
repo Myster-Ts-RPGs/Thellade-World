@@ -12,6 +12,8 @@ organization:
   - "[[The Crystal Seekers Guild]]"
 owner:
   - "[[Relian Vost]]"
+poitype:
+  - Guildhall
 ---
 
 ```meta-bind-js-view 

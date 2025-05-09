@@ -9,6 +9,12 @@ location:
 organization:
   - "[[The Order of the Ember Blades]]"
   - "[[The Bleeding Tide]]"
+districttype:
+  - Noble
+  - Government
+  - Military
+  - Educational
+  - Medical
 ---
 
 ```meta-bind-js-view 

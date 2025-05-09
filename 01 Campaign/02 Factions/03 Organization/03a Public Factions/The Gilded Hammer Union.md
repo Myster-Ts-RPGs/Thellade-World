@@ -37,7 +37,7 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Binders' Lane]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Union Freight & Forging Annex]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Union Freight & Forging Annex]]"
   - "[[Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[The Tideflats]]"
@@ -234,7 +234,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[Lambaro]]; houses master-forges, guild archive, and dispute court.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Forgewright's Circle|Forgewright's Circle]] – District forgehall in [[Kanda]]; custom commission site for Vanguard and Blazing Pledge arms.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]] – Merchant outpost in [[Boba]] dealing in refined gear and sigil-bound tools.  
-- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
+- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Hammerlight Port Forge]] – Coastal forge-and-dock fusion serving resource intake and barge armor repair in [[Mwingu]].  
 - Symbol: Twin hammers crossed over a circular anvil, rimmed in golden flame etchings.  
 - Uniforms: Heavy aprons, thick gloves, and rune-bound hammer pins. Formal delegates wear blackened steel mantles over trade robes.

@@ -11,6 +11,10 @@ banner: on
 location:
   - "[[Gullsway]]"
   - "[[Mangagoy]]"
+taverntype:
+  - Common Room
+lodgingtype:
+  - Standard Room
 ---
 
 ```meta-bind-js-view 

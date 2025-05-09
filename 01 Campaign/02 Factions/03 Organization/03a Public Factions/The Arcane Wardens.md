@@ -242,7 +242,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Internal dissent over the ethics of the pact is rumored among junior wardens.
 - [[Ghelp]] — Kobold investigator acting under Warden authority in Mangagoy.
 - [[Elda Brightspark]] — Cleric of [[Lunara]], arcane historian, consultant to the Wardens in Mangagoy.
-- The Arcane Wardens maintain active collaboration with the [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Mangagoy Healing Sanctuary]], especially through liaison [[Elda Brightspark]] on matters of arcane corruption and Pre-Rising healing techniques.
+- The Arcane Wardens maintain active collaboration with the [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Mangagoy Healing Sanctuary|Mangagoy Healing Sanctuary]], especially through liaison [[Elda Brightspark]] on matters of arcane corruption and Pre-Rising healing techniques.
 - Associated NPCs: Archmage Selvik Thorne, Ambassador Kaelen Duskbloom, Ghelp, Elda Brightspark
 - Symbol: A silver glyph-eye inscribed over an open book, flanked by warding runes.
 - Uniforms: Midnight blue robes with silver arcane threadwork. Regional wardens wear mantle glyphs unique to their isle.

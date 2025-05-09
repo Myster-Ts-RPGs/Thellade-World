@@ -10,6 +10,8 @@ organization:
 location:
   - "[[Glowquarter]]"
   - "[[Mangagoy]]"
+poitype:
+  - Hideout
 ---
 
 ```meta-bind-js-view 

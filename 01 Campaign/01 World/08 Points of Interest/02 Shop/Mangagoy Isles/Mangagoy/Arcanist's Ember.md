@@ -116,7 +116,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-
+**Focus:** _Elemental reagents & planar-infused materials_  
+**Description:**  
+A volatile storefront wrapped in glyph-choked iron shutters, Arcanist’s Ember caters to magi working with elemental and extraplanar energies. The air smells faintly of sulfur and ozone, and containment sigils hum quietly beneath display cases. Fire-infused salts, ice diamond slivers, pocket plane dust, and leyline-charged crystals are among its most coveted goods. Tethered elementals occasionally flicker into view behind security wards.
 
 ## Special Items
 
