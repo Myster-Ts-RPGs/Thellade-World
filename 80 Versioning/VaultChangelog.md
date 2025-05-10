@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.12.0 | 2025-05-10 08:51 | Canonized the deity Lunara | [[Git Commit 2025-05-10 08-51]]
 1.1.11.0 | 2025-05-10 08:30 | Canonized the deity Ivelios | [[Git Commit 2025-05-10 08-30]]
 1.1.10.0 | 2025-05-10 08:26 | Canonized the deity Isfyrra | [[Git Commit 2025-05-10 08-26]]
 1.1.9.0 | 2025-05-10 08:22 | Canonized the deity Faylen | [[Git Commit 2025-05-10 08-22]]

@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/LunaraTransparent.png
+sanctification:
+  - Must Choose Holy
 allies: []
 enemies: []
+pronounced: LOO-nah-rah
+aliases:
+  - The Shimmering Guide
+attributes:
+  - Charisma
+  - Wisdom
+skills:
+  - Occultism
+  - Diplomacy
+favored_weapon: Starknife, Sickle
+primarydomains:
+  - Moon
+  - Healing
+  - Repose
+  - Star
+secondarydomains:
+  - Dreams
+  - Introspection
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,47 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Lunara, the Shimmering Guide, is the moonlit whisper that calms restless hearts and the guardian of dreams beneath twilight skies. She is venerated as the goddess of hidden paths, quiet revelation, and hope unseen. Her presence is felt in moments of stillness—when moonlight filters through branches, when footsteps falter at a crossroads, and when a nightmare gives way to peace. She watches over those who journey far from home and those who walk between the worlds of waking and dream.
+
+Lunara is the eternal wanderer between the stars, her silver path shining above even the darkest nights. During the Rising, her Shards were instrumental in saving mortals across the Isles. She grants peace to the restless, light to the lost, and hope to those gripped by despair. Worship of Lunara flourishes among travelers, night guardians, dreamwalkers, and the faithful who remember the stars even when they cannot see them.
 
 ### Area of Concern
-- 
+- Moonlight, Hope, Safe Travel, Protection from Darkness
 
 ### Edicts
-- 
+- Guide the lost with patience and light
+- Defend against the encroachment of darkness
+- Inspire dreams and ease nightmares
+- Keep your word to those who journey with you
 
 ### Anathema
-- 
+- Abandoning travelers or the vulnerable in danger
+- Snuffing out sources of light in sacred places
+- Using deception to trap the innocent in fear
+- Embracing the void, shadow, or hopelessness
+- Desecrating lunar shrines or ignoring celestial cycles
 
 ### Religious Symbol
-- 
+- A radiant crescent moon cradling a seven-pointed star, trailed by starlight
 
 ### Sacred Animal
-- 
+- Owl
 
 ### Sacred Colors
-- 
+- Silver, indigo, soft blue
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Gentle Landing  
+- **2nd Level**: Calm  
+- **3rd Level**: Moonlight Ray  
+- **4th Level**: Peaceful Bubble
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, cast *light* or *moonlight ray* as an innate spell, even in magical darkness.
+- **Moderate**: Allies resting within 20 feet of you recover 1 extra HP per level and reduce their frightened value by 1 after a full rest.
+- **Major**: Once per week, you may call down a silver beam from the stars to banish magical darkness, suppress fear effects, and awaken sleeping allies in a 30-foot radius.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Your dreams twist. You are always fatigued after a night without magical protection or sacred lunar light.
+- **Moderate**: You become unnerved by silence. You suffer a –2 penalty to Perception in darkness or quiet settings.
+- **Major**: You lose your way in the dark. While outside in moonless or overcast nights, you are always considered flat-footed and cannot benefit from reactions.
