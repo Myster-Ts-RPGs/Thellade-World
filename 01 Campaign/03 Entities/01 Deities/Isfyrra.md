@@ -2,12 +2,33 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/IsfyrraTransparent.png
+sanctification:
+  - Must Choose Unholy
 allies: []
 enemies: []
+pronounced: ISS-fear-uh
+aliases:
+  - The Heart of the Avalanche
+attributes:
+  - Constitution
+  - Strength
+skills:
+  - Intimidation
+  - Survival
+favored_weapon: Greataxe, Pick
+primarydomains:
+  - Cold
+  - Pain
+  - Ambition
+  - Destruction
+secondarydomains:
+  - Might
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +99,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +149,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Isfyrra, the Heart of the Avalanche, is the unforgiving goddess of cold wrath, winter ruin, and survival through dominance. Once venerated by remote tribes and harsh bloodlines in the northern reaches of the Thellade, her chilling influence has been sealed from the Outcast Isles since the Rising. Yet whispers persist of her breath lingering in the Hágogulón Tundra, in cracking glaciers and bitter winds that speak her name.
+
+Her followers embrace merciless power, believing compassion weakens the soul. Temples to Isfyrra are built from black ice and bone, carved into mountain faces or hidden beneath permafrost. Her faithful prepare through pain, trial, and sacrifice—learning to endure, so they may rule.
 
 ### Area of Concern
-- 
+- Cold, Survival, Ruthlessness, Winter
 
 ### Edicts
-- 
+- Endure suffering without complaint or mercy
+- Crush weakness wherever it hides
+- Conquer others through might, cunning, or fear
+- Let no fire burn long in your presence
 
 ### Anathema
-- 
+- Showing pity to a defeated enemy
+- Warming the cold with no cost in return
+- Preserving beauty or comfort over strength
+- Allowing heat or compassion to rule your actions
 
 ### Religious Symbol
-- 
+- A cracked heart encased in a six-pointed snowflake of dark ice
 
 ### Sacred Animal
-- 
+- Winter wolf or frost vulture
 
 ### Sacred Colors
-- 
+- Pale blue, silver, black
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Breathe Ice  
+- **2nd Level**: Frigid Blast  
+- **3rd Level**: Show the Way  
+- **4th Level**: Ice Storm
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, become immune to environmental cold for 10 minutes and gain +2 to Survival checks in frigid terrain.
+- **Moderate**: When a creature you reduce to 0 HP dies, you regain 1d6 HP and gain a +1 status bonus to damage rolls until your next turn.
+- **Major**: Once per week, invoke an avalanche of divine fury. You can cast *cone of cold* and *fear* simultaneously as a single action (GM discretion on area).
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Your presence chills. Allies within 5 feet take a –1 penalty to saves against cold weather fatigue.
+- **Moderate**: Fire shuns you. You take double damage from magical fire and cannot benefit from the warmth of mundane sources.
+- **Major**: Your heart is frostbound. You become immune to emotion effects but cannot be the target of healing magic unless in freezing conditions.
