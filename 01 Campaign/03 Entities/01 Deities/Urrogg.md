@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/UrroggTransparent.png
+sanctification:
+  - Must Choose Unholy
 allies: []
 enemies: []
+pronounced: OOR-og
+aliases:
+  - The Howling Maw
+attributes:
+  - Constitution
+  - Strength
+skills:
+  - Intimidation
+  - Survival
+favored_weapon: Spiked Chain, Greataxe
+primarydomains:
+  - Destruction
+  - Pain
+  - Fire
+  - Earth
+secondarydomains:
+  - Ambition
+  - Might
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Urrogg, the Howling Maw, is the molten heartbeat of unending annihilation. He is the endless scream of a world breaking apart, the madness that sings in the silence before the quake. Once a being of boundless fury sealed in the deep by desperate gods, Urrogg dreams only of shattering every chain, crumbling every mountain, and watching all creation burn. His faithful hear his hunger in the crack of the earth and the roar of wildfire—each flame a promise that he is coming.
+
+Urrogg's followers embrace obliteration as divine will. They do not build, they do not heal—they consume. Cults to the Howling Maw form in volcanic chasms, crumbling ruins, or bloodstained caves. His rites are violent, chaotic, and raw, calling on the primal forces of fire, magma, and upheaval. His chosen bring ruin wherever they tread, seeking to unmake the ordered world with fury and flame.
 
 ### Area of Concern
-- 
+- Destruction, Chaos, Fury
 
 ### Edicts
-- 
+- Shatter civilization’s works and symbols of order  
+- Embrace primal rage and unfettered emotion  
+- Unleash devastation without regret  
+- Rejoice in collapse and ruin  
 
 ### Anathema
-- 
+- Preserving ancient structures or sacred places  
+- Submitting to chains of law or authority  
+- Forging peace where conflict may rise  
+- Showing mercy to those who stand against chaos  
 
 ### Religious Symbol
-- 
+- A gaping maw of stone, ringed with jagged teeth, spewing lava into a cracked world
 
 ### Sacred Animal
-- 
+- Hellhound or cave drake
 
 ### Sacred Colors
-- 
+- Charred black, blood red, magma orange
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Breathe Fire  
+- **2nd Level**: Exploding Earth  
+- **3rd Level**: Fireball  
+- **4th Level**: Grasping Earth
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day when you destroy an object or structure, gain temporary HP equal to your level.  
+- **Moderate**: You gain resistance 3 to fire and physical damage from collapsing terrain or explosive effects.  
+- **Major**: Once per week, when reduced to 0 HP, you explode in a blast of magma. All creatures in a 10-foot burst take 4d6 fire damage (basic Reflex, DC = your spell DC), and you rise at 1 HP at the start of your next turn.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Calm and order frustrate you. You take a –1 penalty to Will saves while in sanctified or lawful places.  
+- **Moderate**: Structures seem to fail near you. When using crafted tools or weapons not of your own creation, they gain the broken condition on a natural 1.  
+- **Major**: If you go a week without unleashing destruction, your body begins to crack and burn. You take persistent fire damage (1d6, escalating) until you destroy something significant or ritually appease Urrogg.
