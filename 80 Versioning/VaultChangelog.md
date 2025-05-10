@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.17.0 | 2025-05-10 16:22 | Canonized the deity Thyros | [[Git Commit 2025-05-10 16-22]]
 1.1.16.0 | 2025-05-10 09:43 | Canonized the deity Thalgrim | [[Git Commit 2025-05-10 09-43]]
 1.1.15.0 | 2025-05-10 09:24 | Canonized the deity Nimara | [[Git Commit 2025-05-10 09-24]]
 1.1.14.0 | 2025-05-10 09:14 | Canonized the deity Morvina | [[Git Commit 2025-05-10 09-14]]

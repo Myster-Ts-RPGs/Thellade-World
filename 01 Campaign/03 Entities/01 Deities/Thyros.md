@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/ThyrosTransparent.png
+sanctification:
+  - Must Choose Holy
 allies: []
 enemies: []
+pronounced: THAI-rohs
+aliases:
+  - The Shield of Dawn
+attributes:
+  - Charisma
+  - Strength
+skills:
+  - Diplomacy
+  - Athletics
+favored_weapon: Shield Boss, Longsword
+primarydomains:
+  - Vigil
+  - Duty
+  - Might
+  - Truth
+secondarydomains:
+  - Fire
+  - Confidence
+font:
+  - Heal or Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Thyros, the Shield of Dawn, is the unwavering light that stands guard between the innocent and the devouring dark. He is the patron of oathbound warriors, shining exemplars of justice, and the sacred flame of vigilance. His eye sees betrayal, his shield endures evil, and his blade strikes only to protect. Though stern, Thyros values mercy—but never at the cost of justice.
+
+Thyros was once called the “Blade Left Behind”—a forgotten force of divine justice bound to ancient oaths before the Rising. In the aftermath of betrayal and broken circles, he reemerged, rallying champions and bastions alike. His temples often serve as courts, training grounds, and sanctuaries, where every blow struck is a prayer and every defended soul a hymn to his purpose.
 
 ### Area of Concern
-- 
+- Justice, Vigilance, Fire, Devotion
 
 ### Edicts
-- 
+- Protect those who cannot protect themselves
+- Remain vigilant against evil, even in peace
+- Strike without hesitation when injustice rises
+- Let your word be as unyielding as your blade
 
 ### Anathema
-- 
+- Betraying an oath or sacred duty
+- Turning away from evil for fear of sacrifice
+- Using power for personal glory instead of righteous cause
+- Allowing injustice to go unchallenged in your presence
 
 ### Religious Symbol
-- 
+- A gleaming blue eye set in the center of a steel shield, surrounded by celestial runes and divine script
 
 ### Sacred Animal
-- 
+- Dire hound or celestial ram
 
 ### Sacred Colors
-- 
+- Azure, silver, white
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Command  
+- **2nd Level**: Restoration  
+- **3rd Level**: Heroism  
+- **4th Level**: Planar Tether
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, you can grant an adjacent ally a +1 status bonus to AC for 1 round when using the Raise a Shield action.
+- **Moderate**: You gain resistance 3 to mental and fire damage while actively upholding a sworn oath or protecting an innocent.
+- **Major**: Once per week, you may invoke the Shield of Dawn—summoning a radiant barrier for 1 minute that grants you and all adjacent allies +2 status bonus to saving throws against evil effects and magical compulsion.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Your convictions weigh heavily. You take a –1 penalty to initiative if you have not declared a cause you’re defending.
+- **Moderate**: Faltering in duty marks you. After breaking a promise or failing to act against evil, you are enfeebled 1 until you complete a redemption rite.
+- **Major**: You are judged by the dawn. If you knowingly allow injustice to stand unopposed, you become frightened 2 and drained 1 at sunrise until the injustice is addressed or atonement is made.
