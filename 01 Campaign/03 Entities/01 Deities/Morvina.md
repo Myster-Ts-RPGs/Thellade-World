@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/MorvinaTransparent.png
+sanctification:
+  - Can Choose Unholy
 allies: []
 enemies: []
+pronounced: MOR-vee-nah
+aliases:
+  - The Thorned Crown
+attributes:
+  - Charisma
+  - Constitution
+skills:
+  - Intimidation
+  - Occultism
+favored_weapon: Scythe, Thorn Whip
+primarydomains:
+  - Death
+  - Pain
+  - Ambition
+  - Sorrow
+secondarydomains:
+  - Secrecy
+  - Darkness
+font:
+  - Heal or Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Morvina, the Thorned Crown, is the goddess of misfortune, bitter endings, and inevitable demise. She is the cruel whisper at the end of hope, the laughter behind a tragic fall, and the slow rot of forgotten prayers. Her touch manifests in sudden disasters, flukes of chance, and painful irony—always delivering ruin where none was expected.
+
+Her faithful embrace despair as a sacred truth and see beauty in the finality of failure. Temples to Morvina are overgrown ruins, desecrated halls, or hidden crypts where the desperate bargain for survival—or vengeance. Her clergy offer no comfort, only acceptance that life ends in thorns. Those who deny her are blind; those who worship her are prepared.
 
 ### Area of Concern
-- 
+- Misfortune, Ruin, Spite, Catastrophe
 
 ### Edicts
-- 
+- Spread despair or inevitability of suffering
+- Encourage misfortune and reveal the futility of hope
+- Embrace decay, endings, and the beauty of failure
+- Punish those who tempt fate or boast of fortune
 
 ### Anathema
-- 
+- Offer false hope or deny the finality of death
+- Defend those who defy fate’s cruel hand
+- Sabotage the natural end of things for personal gain
+- Act with persistent optimism or joyful naivety
 
 ### Religious Symbol
-- 
+- A crimson rose dripping blood, encircled by a crown of jagged black thorns
 
 ### Sacred Animal
-- 
+- Vulture or Widow Spider
 
 ### Sacred Colors
-- 
+- Deep red, charcoal black, ashen gray
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Ill Omen  
+- **2nd Level**: Mirror Image  
+- **3rd Level**: Vampiric Feast  
+- **5th Level**: Wave of Despair
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day when a creature within 30 feet critically fails a save, you gain a +1 status bonus to your next damage roll or DC.
+- **Moderate**: The weight of endings surrounds you. You gain resistance 3 to positive damage and a +2 bonus to saves against emotion effects.
+- **Major**: Once per week, declare a “fall from grace.” One enemy that critically succeeds on an attack instead suffers a failure and is frightened 2.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Hope eludes you. You cannot benefit from circumstance bonuses granted by allies unless you are wounded.
+- **Moderate**: Joy is fleeting. Whenever you critically succeed at a saving throw, you become drained 1.
+- **Major**: Fate recoils at your denial. If you ever cast a spell with the emotion or good trait, you become doomed 2 and clumsy 1 for 1 hour.
