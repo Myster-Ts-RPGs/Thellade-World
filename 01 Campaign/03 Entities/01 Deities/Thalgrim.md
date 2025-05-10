@@ -2,12 +2,35 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/ThalgrimTransparent.png
+sanctification:
+  - Must Choose Holy
 allies: []
 enemies: []
+pronounced: THAHL-grim
+aliases:
+  - The Flame-Forged Sentinel
+attributes:
+  - Strength
+  - Wisdom
+skills:
+  - Crafting
+  - Religion
+favored_weapon: Warhammer, Pick
+primarydomains:
+  - Protection
+  - Duty
+  - Earth
+  - Might
+secondarydomains:
+  - Fire
+  - Earth
+  - Creation
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +101,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +151,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Thalgrim, the Flame-Forged Sentinel, is the unshakable god of stonecraft, defensive warfare, and enduring wisdom. He teaches that strength must be forged, not flaunted, and that every blow struck should carry the weight of purpose. His presence is invoked where steel is tempered with patience and walls are built to last beyond memory. To his faithful, honor is a metal best shaped in fire and trial. Revered by dwarves and deep-keepers, his presence is felt in every hammer’s strike and every stone’s steadfast hold.
+
+Thalgrim is one of the oldest deities in the Thellade pantheon, and his forge is said to predate the first civilizations. In myth, he worked beside Aevaris in shaping magical tools and protective wards during the Rising. His followers include dwarves, crafters, sentinels, and tacticians—those who believe strength and wisdom must be welded together with purpose. Many of the underground cities still lit today owe their survival to the traditions and teachings passed down through his faithful.
 
 ### Area of Concern
-- 
+- Craftsmanship, Defense, Honor, Tradition
 
 ### Edicts
-- 
+- Protect your community and its traditions
+- Work diligently and pass your craft to the next generation
+- Uphold your word as you would a forge-bound oath
+- Stand firm against chaos and destruction
 
 ### Anathema
-- 
+- Abandoning your kin in times of need
+- Destroying or desecrating sacred forges
+- Crafting shoddy or deceitful work
+- Breaking an oath sworn before flame or steel
 
 ### Religious Symbol
-- 
+- A black anvil surrounded by golden runes, flames rising from its center
 
 ### Sacred Animal
-- 
+- Ram or deepcave lizard
 
 ### Sacred Colors
-- 
+- Bronze, coal black, ember red
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Runic Weapon  
+- **2nd Level**: Heat Metal  
+- **4th Level**: Fire Shield  
+- **5th Level**: Wall of Stone
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, gain a +1 item bonus to Crafting checks and Fortitude saves after standing still for one round.
+- **Moderate**: Gain resistance 3 to fire and physical damage while wielding a shield or wearing medium/heavy armor.
+- **Major**: Once per week, when you fail a saving throw against a strike or hazard, reduce it to a success and become immune to knockback or forced movement for 1 minute.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: You become disoriented when rushed. You take a –1 penalty to Initiative if you move more than 10 feet before combat.
+- **Moderate**: Your resolve becomes brittle. Whenever you roll a natural 1 on a Fortitude save, you are stunned 1.
+- **Major**: Broken oaths haunt you. If you ever break a formal promise or violate a declared edict, you become clumsy 2 and drained 1 until you complete a ritual of penance at a forge blessed to Thalgrim.
