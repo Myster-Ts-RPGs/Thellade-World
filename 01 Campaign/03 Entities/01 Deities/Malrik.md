@@ -2,12 +2,33 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/MalrikTransparent.png
+sanctification:
+  - Must Choose Unholy
 allies: []
 enemies: []
+pronounced: MAL-rick
+aliases:
+  - The Iron Crown
+attributes:
+  - Charisma
+  - Strength
+skills:
+  - Intimidation
+  - Religion
+favored_weapon: Bastard Sword, Heavy Mace
+primarydomains:
+  - Might
+  - Tyranny
+  - Ambition
+secondarydomains:
+  - Pain
+  - Duty
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +99,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +149,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Malrik is the Iron Crown—the god of domination, conquest, and absolute authority. Where Valdros demands honor, Malrik demands loyalty and fear. He teaches that control is the foundation of civilization, and that only through the subjugation of the weak can true order be forged. Warlords, tyrants, enforcers, and cults of control bend the knee to Malrik’s name. During the Rising, Malrik’s doctrine of strength-at-any-cost led to the survival of several isolated factions, albeit through grim means.
+
+Malrik is said to have arisen from the first oath broken in battle and the first blood spilled to claim a crown. Though despised by many, his clergy thrives wherever strong rulers value fear over love. In Thellade, some militarized city-states and ancient cults of conquest still whisper prayers to Malrik before battle. His teachings are dangerous—but undeniably effective.
 
 ### Area of Concern
-- 
+- Conquest, Obedience, Strength, Fear
 
 ### Edicts
-- 
+- Rule through strength and unwavering command
+- Crush rebellion and defiance before it festers
+- Break lesser wills to serve a greater cause
+- Build order on the backs of the weak
 
 ### Anathema
-- 
+- Showing mercy to those who oppose your rule
+- Allowing subordinates to act with disloyalty
+- Undermining lawful power structures for chaos’ sake
+- Forging alliances without intent to control
 
 ### Religious Symbol
-- 
+- A black gauntleted fist gripping a spiked mace, framed in a blood-red oval with thorned laurels and a crown above—symbolizing power seized and enforced
 
 ### Sacred Animal
-- 
+- Dire wolf
 
 ### Sacred Colors
-- 
+- Black, crimson, iron
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Command  
+- **3rd Level**: Fireball  
+- **4th Level**: Phantasmal Killer  
+- **5th Level**: Wave of Despair
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, gain a +1 status bonus to Intimidation checks and saves against fear for 1 minute after issuing a successful Command.
+- **Moderate**: Your presence suppresses defiance. Creatures within 10 feet who are frightened or demoralized take a –1 penalty to Will saves.
+- **Major**: Once per week, you may issue a divine edict. All creatures within 30 feet must attempt a Will save or be affected by a mass *command* effect tailored to a single-word directive (GM's discretion applies).
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Allies hesitate in your shadow. The Aid reaction fails unless the aiding creature succeeds a DC 15 Will save.
+- **Moderate**: Loyalty becomes fear. You suffer a –2 penalty to Diplomacy checks and cannot form cooperative tactics without magical compulsion.
+- **Major**: Your rule must be absolute. If any ally succeeds a check you failed, you become doomed 1 until the next day.
