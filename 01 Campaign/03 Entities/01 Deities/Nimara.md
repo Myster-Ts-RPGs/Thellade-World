@@ -2,12 +2,35 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/NimaraTransparent.png
+sanctification:
+  - Must Choose Holy
 allies: []
 enemies: []
+pronounced: NIH-mah-rah
+aliases:
+  - The Still Moment
+attributes:
+  - Wisdom
+  - Charisma
+skills:
+  - Nature
+  - Medicine
+favored_weapon: Staff, Sickle
+primarydomains:
+  - Time
+  - Repose
+  - Moon
+  - Healing
+secondarydomains:
+  - Dreams
+  - Change
+  - Truth
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +101,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +151,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Nimara is the Still Moment—the goddess of tranquil rivers, moonlit nights, and the quiet between ticking seconds. She is the divine guardian of stillness, healing, and time’s patient flow. Often depicted resting beneath a willow by a silver stream under the full moon, Nimara is invoked by healers, midwives, monks, and seers. She holds that peace is not the absence of conflict, but the presence of balance.
+
+Nimara is the elder sister of storms and silence, a being said to exist both before time and beside it. During the Rising, she slowed time within groves and temples to preserve the wounded and grieving. Her followers believe the greatest revolutions begin in stillness. They are often found in hidden glades, lunar sanctuaries, or wandering as peaceful dreamwalkers and spiritual guides.
 
 ### Area of Concern
-- 
+- Tranquility, Time, Dreams, Healing
 
 ### Edicts
-- 
+- Guide others to inner peace and emotional clarity
+- Preserve the natural rhythm of life and time
+- Defuse conflict through wisdom, not force
+- Respect sacred stillness—moments of awe, mourning, and transformation
 
 ### Anathema
-- 
+- Causing violence in places of healing or rest
+- Mocking or desecrating the dead
+- Manipulating time for personal gain or cruelty
+- Disrupting dreams through fear or corruption
 
 ### Religious Symbol
-- 
+- A moon mirrored on still waters beneath a willow tree’s silhouette
 
 ### Sacred Animal
-- 
+- Swan or Owl
 
 ### Sacred Colors
-- 
+- Moonlight silver, twilight blue, willow green
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Gentle Landing  
+- **2nd Level**: Calm  
+- **3rd Level**: Heroism  
+- **4th Level**: Peaceful Bubble
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, you may delay a triggering effect (trap, hazard, reaction) by 1 round as if suspended in time.
+- **Moderate**: You emanate a 10-foot aura that grants a +1 status bonus to Will saves and reduces frightened conditions by 1 at the start of each turn.
+- **Major**: Once per week, you may enter a moment of perfect stillness. For 1 minute, you gain fast healing 5, immunity to fear, and allies within 30 feet gain the benefits of the *calm emotions* spell.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Time slows your reactions. You suffer a –1 penalty to initiative rolls.
+- **Moderate**: The world drags. Whenever you critically fail a save, you are slowed 1 for 1 round.
+- **Major**: You are bound to stillness. You lose your third action each round unless you begin your turn completely motionless.

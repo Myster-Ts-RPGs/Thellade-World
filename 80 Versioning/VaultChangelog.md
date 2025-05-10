@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.15.0 | 2025-05-10 09:24 | Canonized the deity Nimara | [[Git Commit 2025-05-10 09-24]]
 1.1.14.0 | 2025-05-10 09:14 | Canonized the deity Morvina | [[Git Commit 2025-05-10 09-14]]
 1.1.13.0 | 2025-05-10 09:02 | Canonized the deity Malrik | [[Git Commit 2025-05-10 09-02]]
 1.1.12.0 | 2025-05-10 08:51 | Canonized the deity Lunara | [[Git Commit 2025-05-10 08-51]]
