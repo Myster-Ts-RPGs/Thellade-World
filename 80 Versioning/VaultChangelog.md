@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.3.0 | 2025-05-09 23:05 | Canonized the deity Aevaris, including structured YAML, divine metadata, and full doctrinal overview. | [[Git Commit 2025-05-09 23-05]]
 1.1.2.0 | 2025-05-09 22:45 | null | [[Git Commit 2025-05-09 22-45]]
 1.1.1.4 | 2025-05-09 15:20 | Stubbed POIs for Gullsway, Highhold Rise, and The Ember Wharf including five new shops | [[Git Commit 2025-05-09 15-20]]
 1.1.1.3 | 2025-05-08 08:16 | Stubbed POIs for Binders' Lane district in Mangagoy | [[Git Commit 2025-05-08 08-16]]
