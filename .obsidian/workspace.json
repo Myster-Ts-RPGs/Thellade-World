@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/03 Entities/01 Deities/Elaris.md",
+                "file": "01 Campaign/03 Entities/01 Deities/Ivelios.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Elaris"
+              "title": "Ivelios"
             }
           },
           {
@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Commits/Git Commit 2025-05-10 08-26.md",
+                "file": "80 Versioning/Commits/Git Commit 2025-05-10 08-30.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Commit 2025-05-10 08-26"
+              "title": "Git Commit 2025-05-10 08-30"
             }
           }
         ],
@@ -268,9 +268,11 @@
   },
   "active": "d3be0171ebc5230e",
   "lastOpenFiles": [
-    "80 Versioning/Commits/Git Commit 2025-05-10 08-22.md",
     "80 Versioning/Commits/Git Commit 2025-05-10 08-26.md",
+    "80 Versioning/Commits/Git Commit 2025-05-10 08-30.md",
+    "01 Campaign/03 Entities/01 Deities/Ivelios.md",
     "01 Campaign/03 Entities/01 Deities/Elaris.md",
+    "80 Versioning/Commits/Git Commit 2025-05-10 08-22.md",
     "01 Campaign/03 Entities/01 Deities/Eldath.md",
     "01 Campaign/03 Entities/01 Deities/Faylen.md",
     "01 Campaign/03 Entities/01 Deities/Isfyrra.md",
@@ -295,7 +297,6 @@
     "90 Assets/Images/Deities/VeylaTransparent.png",
     "90 Assets/Images/Deities/ThyrosTransparent.png",
     "90 Assets/Images/Deities/NimaraTransparent.png",
-    "01 Campaign/03 Entities/01 Deities/Ivelios.md",
     "01 Campaign/03 Entities/01 Deities/Lunara.md",
     "80 Versioning/Commits/Git Commit 2025-05-09 22-45.md",
     "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
@@ -303,7 +304,6 @@
     "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
     "01 Campaign/04 Lore/02 Calendar/Events/The Gleamsunder Pact.md",
     "01 Campaign/04 Lore/02 Calendar/Events/The Crystalvein Collapse.md",
-    "01 Campaign/04 Lore/02 Calendar/Events/Emberflame Restoration Charter.md",
     "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy",
     "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Pactbound Flame",
     "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars",

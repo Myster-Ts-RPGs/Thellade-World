@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/IveliosTransparent.png
+sanctification:
+  - Can Choose Holy
 allies: []
 enemies: []
+pronounced: EE-veh-lee-ohs
+aliases:
+  - The Guiding Quill
+attributes:
+  - Intelligence
+  - Wisdom
+skills:
+  - Crafting
+  - Arcana
+favored_weapon: Light Hammer, Staff
+primarydomains:
+  - Knowledge
+  - Magic
+  - Creation
+  - Truth
+secondarydomains:
+  - Glyph
+  - Perfection
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Ivelios, the Guiding Quill, is the patient god of discovery, invention, and perfected craft. His temples are libraries, laboratories, and lecture halls—anywhere minds seek to record and refine the truths of the world. Worshipers of Ivelios value curiosity, cooperation, and the careful recording of knowledge so that it might uplift not just the brilliant, but all people.
+
+Ivelios is highly regarded by tinkerers, educators, historians, and scholars alike. His sacred places are often affiliated with centers of learning or civic advancement. The Lambaro Institute of Innovation, a renowned school of magical engineering and design, is proudly funded by his church and governed under principles of open experimentation and applied ethics.
 
 ### Area of Concern
-- 
+- Knowledge, Invention, Craft, Discovery
 
 ### Edicts
-- 
+- Record and share knowledge to better society
+- Teach those willing to learn, regardless of station
+- Create new tools, systems, and ideas through experimentation
+- Support communities that foster curiosity and invention
 
 ### Anathema
-- 
+- Hoarding vital knowledge for selfish gain
+- Destroying irreplaceable works of learning
+- Suppressing innovation through dogma or fear
+- Abandoning logic in favor of blind superstition
 
 ### Religious Symbol
-- 
+- An open book inscribed with arcane script, a golden quill standing upright in its center, framed by interlocking gears and rays of light
 
 ### Sacred Animal
-- 
+- Owl or Clockwork Spider
 
 ### Sacred Colors
-- 
+- Bronze, Cobalt Blue, Parchment White
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Summon Construct  
+- **2nd Level**: Translate  
+- **3rd Level**: Heroism  
+- **4th Level**: Sage’s Blessing
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, you may reroll a failed Crafting or Recall Knowledge check and take the better result.
+- **Moderate**: You emit an aura of clarity. Allies within 15 feet gain a +1 status bonus to Arcana and Crafting checks.
+- **Major**: You become an anchor of insight. Once per week, cast *true target* and *hypercognition* simultaneously as a single free action.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Insight eludes you. Take a –1 penalty to checks made to identify magical items.
+- **Moderate**: You lose your sense of progress. Crafting takes twice as long, and any formula you attempt to copy automatically fails once before succeeding.
+- **Major**: The Weave forgets your name. You can no longer benefit from Aid on any Intelligence-based skill check, and any magical creation you complete loses 1 property rune.
