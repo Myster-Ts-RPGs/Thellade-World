@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.8.0 | 2025-05-10 08:18 | Canonized the deity Eldath | [[Git Commit 2025-05-10 08-18]]
 1.1.7.0 | 2025-05-09 23:25 | Canonized the deity Elaris | [[Git Commit 2025-05-09 23-25]]
 1.1.6.0 | 2025-05-09 23:22 | Canonized the deity Aurion | [[Git Commit 2025-05-09 23-22]]
 1.1.5.0 | 2025-05-09 23:19 | Canonized the deity Asmodeus | [[Git Commit 2025-05-09 23-19]]
