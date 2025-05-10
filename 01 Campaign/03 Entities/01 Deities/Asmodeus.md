@@ -2,21 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/AsmodeusTransparent.png
+sanctification:
+  - Must Choose Unholy
 allies: []
 enemies: []
+pronounced: AZ-muh-dee-uhs
 aliases:
-  - The Lord of the Twelvefold Flame
-alignment: Lawful Evil
-ownedlocation:
-  - "[[Niraghal]]"
-location:
-  - "[[Niraghal]]"
-  - "[[Infernal Plane]]"
-condition: Healthy
+  - The Lord of Contracts
+attributes:
+  - Charisma
+  - Intelligence
+skills:
+  - Deception
+  - Religion
+favored_weapon: Whip, Bastard Sword
+primarydomains:
+  - Tyranny
+  - Trickery
+  - Ambition
+  - Fire
+secondarydomains:
+  - Duty
+  - Magic
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -87,7 +100,7 @@ condition: Healthy
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -137,58 +150,46 @@ condition: Healthy
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Asmodeus is the Lord of Contracts, the God of Infernal Law, and the Eternal Tyrant beneath the Pact. In the cosmology of Thellade, he is both a savior and a deceiver: the one who bound the demons of the Abyss beneath the Outcast Isles, sealing them with a divine contract that demanded blood, sacrifice, and silence. He wears the chains of Nessus with pride and considers suffering to be the price of eternal order.
+
+Worshipers of Asmodeus gather in cloistered sanctums behind ironbound doors, where every oath is blood-inked and every law carved into stone. His clergy are magistrates, inquisitors, and scholars of hellish doctrine—those who see freedom as a lie and obedience as salvation. Rituals to Asmodeus often involve binding circles, ritual lawkeeping, and the recitation of ancient contracts written in Infernal script. In his name, order is absolute—and mercy is weakness dressed in defiance.
 
 ### Area of Concern
-- 
+- Contracts, Power, Control, Binding
 
 ### Edicts
-- 
+- Honor all contracts, especially those signed in blood or soul
+- Use power and law to dominate chaos
+- Exploit loopholes when it strengthens your authority
+- Punish those who break their oaths
 
 ### Anathema
-- 
+- Breaking a contract without lawful cause
+- Freeing bound demons or abyssal creatures
+- Showing mercy without securing gain
+- Serving others without seeking personal elevation
 
 ### Religious Symbol
-- 
+- A ruby-topped black rod flanked by stylized infernal script
 
 ### Sacred Animal
-- 
+- Serpent
 
 ### Sacred Colors
-- 
+- Crimson, black, gold
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Command  
+- **2nd Level**: Mirror Image  
+- **3rd Level**: Fireball  
+- **4th Level**: Planar Tether
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Once per day, gain a +1 status bonus to Deception or Legal Lore checks when enforcing a contract or oath.
+- **Moderate**: Infernal law shields your bargains. Once per day, treat a failed Will save against compulsion as a success.
+- **Major**: You are a living contract. Once per week, you may invoke your name in Infernal to bind a creature to your terms for 1 day (as per *geas*).
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Your voice falters when you speak half-truths—take a –1 penalty to Deception checks when lying.
+- **Moderate**: Any agreement you break becomes magically evident to nearby creatures (GM’s discretion).
+- **Major**: You are cursed to suffer for disobedience. When you willingly break a sworn oath, take 6d6 mental damage and become stupefied 2 until the next day.
