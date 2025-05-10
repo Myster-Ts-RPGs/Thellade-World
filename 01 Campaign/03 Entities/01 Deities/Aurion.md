@@ -2,12 +2,33 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/AurionTransparent.png
+sanctification:
+  - Must Choose Holy
 allies: []
 enemies: []
+pronounced: OR-ee-on
+aliases:
+  - The Dawnbringer
+attributes:
+  - Charisma
+  - Wisdom
+skills:
+  - Medicine
+  - Diplomacy
+favored_weapon: Morningstar, Scimitar
+primarydomains:
+  - Sun
+  - Healing
+  - Truth
+  - Fire
+secondarydomains:
+  - Repose
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +99,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +149,48 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Aurion, the Dawnbringer, is the radiant god of light, redemption, and the promise of new beginnings. His presence is felt in the warmth of sunrise, the stillness before a hard truth is spoken, and the unwavering resolve to stand against the darkness. He is the sacred fire that purifies rather than consumes, the light that guides without blinding. To call upon Aurion is to seek clarity, justice, and the courage to forgive.
+
+Aurion’s flame was the first to pierce the Abyssal clouds during the Rising. Said to have spoken the name of every cleric who fell completing the circle, his voice has since been carried by the wind at sunrise. Worshipers of Aurion are often healers, redeemers, teachers, or champions of just fire. His temples are built to catch the morning sun and are often centers of spiritual renewal, confession, and rebirth.
 
 ### Area of Concern
-- 
+- Light, Healing, Redemption, Renewal
 
 ### Edicts
-- 
+- Aid those seeking a second chance
+- Let no shadow rule unchallenged
+- Act as a light in darkness—physically or morally
+- Heal the wounded, forgive the penitent
+- Destroy the Spawn of the Abyss
 
 ### Anathema
-- 
+- Refusing to offer redemption to those who earnestly seek it
+- Spreading despair or corruption through lies
+- Abusing divine healing for personal power
+- Destroying holy fire, beacons, or temples of light
+- Ignoring those suffering in darkness or silence
 
 ### Religious Symbol
-- 
+- A radiant sunburst rising behind a golden hand, fingers spread open in welcome
 
 ### Sacred Animal
-- 
+- Phoenix
 
 ### Sacred Colors
-- 
+- Gold, white, warm crimson
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Breathe Fire  
+- **2nd Level**: Restoration  
+- **3rd Level**: Fireball  
+- **4th Level**: Wall of Fire
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Your touch warms the soul. Once per day, remove the frightened or sickened condition from an ally with a single touch.
+- **Moderate**: You radiate an aura of clarity. Allies within 10 feet gain a +1 status bonus to saves against confusion, fear, and possession.
+- **Major**: You become a conduit of sacred flame. Once per week, summon a phoenix-shaped burst of healing light that restores all allies in a 30-foot radius for 3d10 HP and purges one curse or disease.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: Your healing hands falter. Any spell that restores HP heals 1d4 fewer HP.
+- **Moderate**: The light dims around you. You cannot benefit from the Aid reaction or flanking bonuses.
+- **Major**: You are cast from the light. While in magical darkness, you become enfeebled 2 and stupefied 2 and cannot cast healing spells.

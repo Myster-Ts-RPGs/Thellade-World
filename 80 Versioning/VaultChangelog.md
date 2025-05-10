@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.6.0 | 2025-05-09 23:22 | Canonized the deity Aurion | [[Git Commit 2025-05-09 23-22]]
 1.1.5.0 | 2025-05-09 23:19 | Canonized the deity Asmodeus | [[Git Commit 2025-05-09 23-19]]
 1.1.4.0 | 2025-05-09 23:14 | Canonized the deity Alariel | [[Git Commit 2025-05-09 23-14]]
 1.1.3.0 | 2025-05-09 23:05 | Canonized the deity Aevaris, including structured YAML, divine metadata, and full doctrinal overview. | [[Git Commit 2025-05-09 23-05]]
