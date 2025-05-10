@@ -2,12 +2,34 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/ElarisTransparent.png
+sanctification:
+  - Can Choose Holy
 allies: []
 enemies: []
+pronounced: EH-lah-riss
+aliases:
+  - The Song Without End
+attributes:
+  - Charisma
+  - Dexterity
+skills:
+  - Diplomacy
+  - Performance
+favored_weapon: Rapier, Whip
+primarydomains:
+  - Passion
+  - Protection
+  - Freedom
+  - Creation
+secondarydomains:
+  - Repose
+  - Confidence
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +100,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +150,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Elaris is the Song Without End—goddess of love, artistic creation, and the harmonious pursuit of beauty. She is said to have painted the first sunrise across Thellade’s sky and whispered the words of the first poem into mortal ears. Elaris inspires dancers, musicians, dreamers, and peaceweavers alike, and her temples are places where art and affection are offered in equal measure. Though some mistake her for soft, her love can stir hearts to courage, and her grace can end wars where blades could not.
+
+Elaris walks where the veil of pain thins—offering music in mourning and serenity amid chaos. Her shrines are common in theaters, gardens, and city rooftops, where artists sing her praise under open sky. Among elves, she is considered the sister of Aevar.
 
 ### Area of Concern
-- 
+- Beauty, Love, Creation, Artistry
 
 ### Edicts
-- 
+- Create beauty in your own way and share it freely
+- Protect the passions of others, especially the vulnerable and outcast
+- Love fiercely, without shame or cruelty
+- Use your gifts to mend wounds and inspire peace
 
 ### Anathema
-- 
+- Defacing or destroying a work of art in hatred or envy
+- Suppressing self-expression or genuine emotion
+- Using love as a tool of manipulation or control
+- Allowing cruelty to silence beauty
 
 ### Religious Symbol
-- 
+- A delicate pink rose unfurled with golden stems shaped into a heart, winged with soft feathers—representing grace, flight, and devotion
 
 ### Sacred Animal
-- 
+- Swan
 
 ### Sacred Colors
-- 
+- Rose pink, ivory, gold
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Charm  
+- **2nd Level**: Calm  
+- **3rd Level**: Heroism  
+- **4th Level**: Unfettered Movement
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Your presence soothes pain. Once per day, you may reduce an ally’s frightened, stupefied, or enfeebled condition by 1.
+- **Moderate**: Songs of grace surround you. Allies within 15 feet gain +1 to Performance checks and saving throws against emotional effects.
+- **Major**: You become a living hymn. Once per week, inspire an entire crowd or group to peace or awe as per *calm emotions* and *enthrall* simultaneously.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: You lose your harmony. Take a –1 penalty to Performance and Diplomacy checks while frightened or wounded.
+- **Moderate**: Beauty falters in your eyes. You are immune to emotion effects but also cannot benefit from morale bonuses.
+- **Major**: Your voice breaks and hands tremble. You can no longer cast spells with the emotion or healing traits, and cannot be the target of Inspire Courage.
