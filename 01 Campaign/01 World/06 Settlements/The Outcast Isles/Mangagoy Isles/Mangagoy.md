@@ -2,8 +2,8 @@
 tags:
   - "#Location"
   - "#Settlement"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - "#Canon"
+art: 90 Assets/Images/Settlements/Mangagoy.png
 location:
   - "[[Mangagoy Isles]]"
   - "[[The Outcast Isles]]"
@@ -53,6 +53,35 @@ leader:
   - "[[Garron Draven]]"
 dominion:
   - "[[The Kingdom of Kanda]]"
+levelgeneral: "6"
+levelmagic: "6"
+leveltech: "5"
+founded: 17 Stardrift -0285  PR
+foundedshort: -0285.08.17 PR
+defence: Strong
+militarypresence: Strong. Dual-layered enforcement from both the Ashen Vanguard and the city’s own watch, including arcane support units and rapid response infrastructure at the Ember Wharf.
+threats: |-
+  Black Sepulcher
+  Smuggling Rings
+  Leyline Instability
+  Dream-echo Anomalies
+  Political Pressure
+religions:
+  - Aurion
+  - Lunara
+  - The Mourning Stars
+  - The Pactbound Flame
+  - Asmodeus
+  - Xar’Zhul
+governmenttype:
+  - Stratocracy
+updated: 2025-05-09
+tradepartners:
+  - "[[Kanda]]"
+  - "[[Boba]]"
+  - "[[Seaside Cape]]"
+  - "[[Mwingu]]"
+pronounced: MAN-guh-goy
 ---
 
 
@@ -83,7 +112,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> #### Info
 >>  |
 >> ---|---|
->> **Pronounced** |  `INPUT[textArea:pronounced]`
+>> **Pronounced** |  `INPUT[textArea:pronounced]`|
+>> **Updated** | `INPUT[text:updated]` |
 >> **Founded** | `INPUT[text:founded]` |
 >> **Founded Short**| `INPUT[text:foundedshort]` |
 >> **Type** | `INPUT[SettlementType][:settlementtype]` |
@@ -147,15 +177,15 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Population** | `VIEW[{population}][text]` |
 > 
 > <span style="display:block; text-align:center; font-size:0.9em;"><strong>Racial Makeup</strong></span>
-> - <span style="font-size:0.8em;"><strong>Humans</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Elves</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Dwarves</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Halflings</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Gnomes</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Kobolds</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Orcs</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – ##% [~###] (...)</span>
-> - <span style="font-size:0.8em;"><strong>Other</strong> – ##% [~###] (...)</span>
+> - <span style="font-size:0.8em;"><strong>Humans</strong> – 76.6% [~8600] (Dominant merchant class, watch officers, scholars, and bureaucrats across all districts)</span>
+> - <span style="font-size:0.8em;"><strong>Elves</strong> – 1.2% [~135] (Crystal merchants, mage apprentices, and religious acolytes in the Glowquarter)</span>
+> - <span style="font-size:0.8em;"><strong>Dwarves</strong> – 1.0% [~115] (Engineers, alchemists, and hardened enforcers in Ashgate Market and Gullsway)</span>
+> - <span style="font-size:0.8em;"><strong>Halflings</strong> – 1.8% [~205] (Stewards, bookkeepers, and tavern staff employed by innkeeps and trade houses)</span>
+> - <span style="font-size:0.8em;"><strong>Gnomes</strong> – 0.3% [~35] (Inventors, prototype testers, and rogue scribes operating in Binders’ Lane)</span>
+> - <span style="font-size:0.8em;"><strong>Kobolds</strong> – 0.0% [~0] (No known permanent residents; some affiliated with Arcane Wardens remain hidden)</span>
+> - <span style="font-size:0.8em;"><strong>Orcs</strong> – 14.2% [~1595] (Laborers, guards-for-hire, and Beastmaster clans tied to The Ember Rats and outskirt warrens)</span>
+> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 1.3% [~145] (Crystal Seekers, potion brewers, and ritualists affiliated with The Infernal Covenant and rogue guilds)</span>
+> - <span style="font-size:0.8em;"><strong>Other</strong> – 3.6% [~410] (Changeling seers, planar half-bloods, deepfolk, and shadow-touched lineages from the undercity)</span>
 >
 > ###### Commerce
 >  |
@@ -180,7 +210,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 > [!recite]- Introduction
-> A script for the GM to read when the party arrive to this location for the first time.
+> The sea mists part as your vessel crests the final swell, revealing Mangagoy’s jagged skyline—stone towers tangled in iron glyphwork, rising like broken teeth from a bay of green firelight. The harbor churns with enchanted cargo lifts and warded barges, cranes shrieking over rune-carved docks. Above it all, the great Glowquarter glimmers with floating sigils and flickering arcane lanterns that never go out. Thunder cracks inland—not from a storm, but from a spell-forge deep in the cliffs. As your keel grinds toward the berth, a pair of masked guards branded with obsidian seals eyes your arrival. Behind them, Mangagoy waits, watching you back.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -207,7 +237,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 > [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
+> _“In Mangagoy, even the shadows have affiliations—and the lanterns never flicker without reason.”_  
+— Dean Veyra Windspire, Mangagoy Administrative Center
+
+Mangagoy is the second-largest city in the Outcast Isles and a crucible of arcane innovation, smuggled potential, and historical reverence. Founded long before the Rising, Mangagoy was a frontier settlement grown from coastal cliffs, later fortified by Kanda’s early warding elite to safeguard against infernal incursions and trade collapses. It now functions as a divided city—an uneasy blend of scholarly ambition, magical danger, and political tension.
+
+Built in concentric districts around its deep harbor and arcane leyline threads, Mangagoy is where fishmongers haggle beside rune-forged armor, and dream-visions echo across the cobbled streets. Many of the buildings still bear Pre-Rising carvings, and magic both sustains and threatens daily life.
 
 ### Location NPC List
 ```dataviewjs
@@ -219,43 +254,37 @@ await dv.view("z_Templates/Scripts/view1");
 await dv.view("z_Templates/Scripts/view2");
 ```
 
-## Complete NPC List
+### Complete NPC List
 > [!metadata|characters]- Characters
 >```dataview
 >TABLE WITHOUT ID file.link AS "Name", 
 >	   condition AS "Condition",
 >       join(aliases, ", ") AS Aliases, 
+>       join(location, ", ") AS "Location", 
 >       join(occupation, ", ") AS "Occupations", 
->       join(link(organization), ", ") AS "Organizations"
+>       join(organization, ", ") AS "Organizations"
 >FROM "01 Campaign"
->WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND contains(tags, "#TODO")
+>WHERE econtains(location, this.file.link) AND contains(tags, "Character")
 >SORT file.name ASC
 >```
 
-## Partial Location List
-> [!metadata|characters]- Locations
->```dataview
->TABLE WITHOUT ID file.link AS "Name", 
->       join((shoptype), ", ") AS "shoptype", 
->       location[0] AS "District"
->FROM "01 Campaign"
->WHERE econtains(location, this.file.link) AND contains(tags, "#POI") AND contains(poitype, this.districtmatch)
->SORT location[0] ASC, file.name ASC
->```
->
->```dataview
->TABLE WITHOUT ID file.link AS "Name", tags, 
->       join(aliases, ", ") AS Aliases, 
->       join(occupation, ", ") AS "Occupations", 
->       join(link(organization), ", ") AS "Organizations"
->FROM "01 Campaign"
->WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(tags, "#TODO")
->SORT file.name ASC
->```
-
-
+### Location List
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", 
+> 	join(poitype, ", ") AS Type,
+> 	join(link(location[0]), ", ") AS "Location", 
+> 	join(link(organization), ", ") AS "Organization(s)"
+> FROM "01 Campaign"
+> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> SORT file.name ASC
 
 ## Current Events
+- **Leyline Echo Contamination:** Dream-echoes manifest after the Embermoon Surge, spreading sleep-related madness. The Order of Silent Echoes is implicated.
+- **Artifact Sabotage Surge:** The Gilded Daggers continue a spree of destructive prototype thefts, targeting both the Crystal Seekers Guild and the Emberborn League.
+- **Smuggler Consolidation:** The Bleeding Tide appears to be absorbing smaller cells, strengthening its foothold in the Ember Wharf and Ashgate Market.
+- **Political Standoff:** Dean Windspire and Mediator Valane maintain a delicate balance of institutional power, strained by the shifting alliances of noble houses.
+- **Cultic Interference:** Multiple parties investigate signs of a weakening seal beneath the Sanctum of the Dawnsplit Crown, with known activity from the Black Sepulcher.
 
 > [!metadata|events]- Recent Events
 >```dataview 
@@ -264,26 +293,75 @@ await dv.view("z_Templates/Scripts/view2");
 >   enddate as "End Date", 
 >   file.link as "Event"
 > from "01 Campaign"
-> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Significant") and yearnumeric >= 212
+> where econtains(location, this.file.link) and contains(tags, "Event") and yearnumeric >= 212
 > sort enddateshort asc, startdateshort asc
 > ```
 
 ## History
+Originally a coastal trading post, Mangagoy flourished through Pre-Rising leyline engineering and relic recovery. Its proximity to natural crystal deposits and alchemical springs turned it into an arcane boomtown. After the Rising and Kanda’s isolation, Mangagoy preserved its magical identity through local ingenuity and a uniquely integrated system of military and civic governance.
+
+During the early years of the barrier's formation, Mangagoy became the refuge of surviving mages, scholars, and outcasts—especially those unable to return to Montakuma or the Sunscar Wastes. The city’s architecture reflects this duality—sun-bleached towers flanked by storm-warped docks and reforged shrine ruins.
+
+### **Founding**
+
+- Mangagoy was founded in **-285 PR** as a volcanic port colony by elven cartographers, dwarven miners, and human scholars.
+- Its growth was driven by **leyline convergence**, rich **crystal seams**, and **alchemical springs**, making it a hub for arcane dredging and Pre-Rising engineering.
+- The city’s name comes from an old Verdan word meaning “gleaming waters,” referencing the phosphorescent tide visible at night.
+- Mangagoy’s layered governance began early, integrating civic recordkeeping, arcane zoning, and contracted mercantile law.
+
+### **Rising-era Events**
+
+- As daemonic incursions escalated, the Mangagoy Crystal Consortium struck the **Gleamsunder Pact**, trading crystal access for protection from planar collapse.
+- This pact preserved much of the city’s infrastructure but seeded **unseen corruption** beneath the Shardspire.
+- During the Rising, surface access to the sealed chamber was lost—some believe it still pulses with extraplanar energy.
+- Mangagoy became a sanctuary for displaced mages and scholars unable to return to Montakuma or the Sunscar Wastes, shifting its population and purpose.
+
+### **Post-Rising Growth**
+
+- In **8 R**, the **Emberflame Restoration Charter** unified Mangagoy's leadership after a decade of decline and chaos.
+- Led by [[Archivist Senna Virellin]] (elf) and [[Marshal Davor Halbrecht]] (human), the charter restructured the city into a **resilient arcano-civic hybrid**, formalizing institutions like the [[Mangagoy Administrative Center]] and the [[Healing Sanctuary]].
+- Emphasis was placed on **healing**, **education**, and **leyline containment**, allowing the city to stabilize while other regions still faltered.
+- The shift from guild-dominated governance to integrated civic councils became a hallmark of Mangagoy’s unique identity.
+
+### **Recent Shifts (last decade)**
+
+- In **204 PR**, a **leyline rupture** caused the collapse of a major crystal vein beneath the [[Glowquarter]], leaving behind **abyss-tainted residue**.
+- This incident increased tensions between the [[Crystal Seekers Guild]] and the [[Eternal Concord]] regarding containment and research ethics.
+- Reports of **missing miners**, **unstable relics**, and **arcane drift sickness** have resurfaced, particularly near older sealed tunnels.
+- Factions such as the [[Bleeding Tide]] and sympathizers within corrupted trade halls are believed to be **sabotaging ward efforts**, possibly for cult purposes.
 
 > [!metadata|events]- Historical Events
 > ```dataview
-> TABLE startdate AS "Date", eventcategory AS "Category", eventtype AS "Type"
+> TABLE startdate AS "Date", 
+>       eventcategory AS "Category", 
+>       eventtype AS "Type"
 > FROM "01 Campaign"
 > WHERE contains(tags, "#Event")
 > AND contains(location, this.file.link)
 > AND contains(eventtype , "Significant")
-> AND yearnumeric <212
+> AND yearnumeric >= 0 AND yearnumeric <212
 > SORT startdateshort DESC
+> ```
+> ```dataview
+> TABLE startdate AS "Date", 
+>       eventcategory AS "Category", 
+>       eventtype AS "Type"
+> FROM "01 Campaign"
+> WHERE contains(tags, "#Event")
+> AND contains(location, this.file.link)
+> AND contains(eventtype , "Significant")
+> AND yearnumeric < 0
+> SORT startdateshort ASC
 > ```
 
 
-## Notes
 
+## Notes
+- The city’s emblem is a twin spiral rising from the sea, representing balance between roots and sky.
+- The Ember Wharf has the most volatile leyline activity and is closely monitored.
+- Mangagoy’s “[[Festival of the Lantern Tide]]” marks the onset of Stardrift and involves floating glass lanterns inscribed with hopes or regrets.
+- Binders’ Lane, once purely residential, is now a growing artisan enclave linked to many cross-isle contacts.
+- Whispered rumors persist of a pre-Rising vault beneath the administrative center—an origin point of arcane seals tied to the Binding War.
 ### Party Reputation
 | Party | Standing | Notes |
 |-------|----------|-------|
@@ -295,3 +373,8 @@ await dv.view("z_Templates/Scripts/view2");
 |[[Campaign Group 6]]| `VIEW[{party6reputation}]` | Note 1 |
 
 ## 🧾 GM Notes (Quest Hooks, Events, Plot Threads)
+- The Echoing Dreams arc can lead directly to a seal failure event on **09 Dawnmarch 212 PR**, giving Group 3 a limited timeframe to intervene.
+- Mangagoy’s current power balance is unstable: _The Dawnbringers_, _Order of Silent Echoes_, _The Gilded Daggers_, and _The Crystal Seekers_ all maintain power centers in opposing districts.
+- The Bleeding Tide has nested three levels deep, including noble proxies and potential Asmodeus-cult entanglements.
+- Use "dream riddle" sequences and passive madness effects during nights following **04–09 Dawnmarch** to hint at underlying leyline corruption.
+- Rivalries between the Administrative Center and Concord Library can be exploited via NPCs like Veyra Windspire and Alaric Valane.

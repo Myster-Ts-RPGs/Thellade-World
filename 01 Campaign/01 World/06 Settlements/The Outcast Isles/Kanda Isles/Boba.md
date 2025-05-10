@@ -330,19 +330,19 @@ In the last decade, [[Boba]] has simmered with tension. Merchant rivalries turne
 - [[Boba]] was originally founded as a Pre-Rising trade enclave, growing from a fortified harbor post into a vibrant merchant republic.  
 - Its rise was linked to control over Pre-Rising arcane relic trade routes and a nexus of elemental leyline currents that made it a natural hub for crystal-powered vessels.
 
-### 🔹 **Rising-era Events**
+###  **Rising-era Events**
 
 - Suffered catastrophic damage during the [[01 Campaign/04 Lore/02 Calendar/Eras/The Rising (R)|The Rising]], including volcanic quakes and the destruction of all libraries and arcane archives.
 - Noble Houses Valmerayne and Calvetra perished during the chaos; their estates remain in ruins.
 - Planar barrier formation caused an arcane feedback event that obliterated the city’s old teleportation ring.
 
-### 🔹 **Post-Rising Growth**
+###  **Post-Rising Growth**
 
 - The [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds|Sunfire Heralds]] helped rebuild and magically stabilize the city, forming the basis of a new civil structure.
 - Merchant guilds like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|Emberheart Traders]] and [[Golden Tides Trading Guild]] gained power as arcane authority waned.
 - The rise of The Gilded Cup as a cultural nexus marked the city's return to Pre-Rising levels of decadence and intrigue.
 
-### 🔹 **Recent Shifts (last decade)**
+### **Recent Shifts (last decade)**
 
 - Escalating conflict between merchant factions nearly caused civil war (see: “Blood and Coin” crisis).
 - Abyssal cult activity uncovered beneath a ruined chapel led to a confrontation with the Golden Bloom Horror.
@@ -351,13 +351,26 @@ In the last decade, [[Boba]] has simmered with tension. Merchant rivalries turne
 
 > [!metadata|events]- Historical Events
 > ```dataview
-> TABLE startdate AS "Date", eventcategory AS "Category", eventtype AS "Type"
+> TABLE startdate AS "Date", 
+>       eventcategory AS "Category", 
+>       eventtype AS "Type"
 > FROM "01 Campaign"
 > WHERE contains(tags, "#Event")
 > AND contains(location, this.file.link)
 > AND contains(eventtype , "Significant")
-> AND yearnumeric <212
+> AND yearnumeric >= 0 AND yearnumeric <212
 > SORT startdateshort DESC
+> ```
+> ```dataview
+> TABLE startdate AS "Date", 
+>       eventcategory AS "Category", 
+>       eventtype AS "Type"
+> FROM "01 Campaign"
+> WHERE contains(tags, "#Event")
+> AND contains(location, this.file.link)
+> AND contains(eventtype , "Significant")
+> AND yearnumeric < 0
+> SORT startdateshort ASC
 > ```
 
 
