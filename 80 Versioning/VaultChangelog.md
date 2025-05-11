@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.2.0.0 | 2025-05-10 18:42 | Canonized all major deities in the Thellade pantheon | [[Git Commit 2025-05-10 18-42]]
 1.1.22.0 | 2025-05-10 18:37 | Canonized the deity Za’ryss | [[Git Commit 2025-05-10 18-37]]
 1.1.21.0 | 2025-05-10 18:19 | Canonized the deities Veyla and Xar'Zhul | [[Git Commit 2025-05-10 18-19]]
 1.1.20.0 | 2025-05-10 17:38 | Canonized the deity Vexirra | [[Git Commit 2025-05-10 17-38]]
