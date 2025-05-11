@@ -194,3 +194,22 @@ Lunara is the eternal wanderer between the stars, her silver path shining above 
 - **Minor**: Your dreams twist. You are always fatigued after a night without magical protection or sacred lunar light.
 - **Moderate**: You become unnerved by silence. You suffer a –2 penalty to Perception in darkness or quiet settings.
 - **Major**: You lose your way in the dark. While outside in moonless or overcast nights, you are always considered flat-footed and cannot benefit from reactions.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

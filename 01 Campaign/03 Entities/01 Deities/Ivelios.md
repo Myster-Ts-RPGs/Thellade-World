@@ -193,3 +193,22 @@ Ivelios is highly regarded by tinkerers, educators, historians, and scholars ali
 - **Minor**: Insight eludes you. Take a –1 penalty to checks made to identify magical items.
 - **Moderate**: You lose your sense of progress. Crafting takes twice as long, and any formula you attempt to copy automatically fails once before succeeding.
 - **Major**: The Weave forgets your name. You can no longer benefit from Aid on any Intelligence-based skill check, and any magical creation you complete loses 1 property rune.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

@@ -193,3 +193,22 @@ Thyros was once called the “Blade Left Behind”—a forgotten force of divine
 - **Minor**: Your convictions weigh heavily. You take a –1 penalty to initiative if you have not declared a cause you’re defending.
 - **Moderate**: Faltering in duty marks you. After breaking a promise or failing to act against evil, you are enfeebled 1 until you complete a redemption rite.
 - **Major**: You are judged by the dawn. If you knowingly allow injustice to stand unopposed, you become frightened 2 and drained 1 at sunrise until the injustice is addressed or atonement is made.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

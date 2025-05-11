@@ -194,3 +194,22 @@ Aurion’s flame was the first to pierce the Abyssal clouds during the Rising. S
 - **Minor**: Your healing hands falter. Any spell that restores HP heals 1d4 fewer HP.
 - **Moderate**: The light dims around you. You cannot benefit from the Aid reaction or flanking bonuses.
 - **Major**: You are cast from the light. While in magical darkness, you become enfeebled 2 and stupefied 2 and cannot cast healing spells.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

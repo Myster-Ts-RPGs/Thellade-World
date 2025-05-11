@@ -196,3 +196,22 @@ Temples to Eldath are often located at key crossroads, city walls, or hidden wit
 - **Minor**: Your body stiffens with duty. You take a –1 penalty to Reflex saves while wearing medium or heavy armor.
 - **Moderate**: Your words ring hollow. You suffer a –2 penalty to Diplomacy checks when not defending someone else.
 - **Major**: Your post is cursed. You cannot willingly retreat from battle, and if you leave an ally behind, you gain the Doomed 1 condition until that ally is safe.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

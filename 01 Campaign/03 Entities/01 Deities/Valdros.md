@@ -193,3 +193,22 @@ Valdros is worshipped by judges, oathsingers, inquisitors, and knights who see j
 - **Minor**: You feel unease in the presence of unpunished injustice. You take a –1 circumstance penalty to Initiative in places where oaths have been violated.  
 - **Moderate**: You are physically pained by falsehood. When you knowingly allow a lie to persist, you take 1d4 persistent psychic damage until the lie is addressed.  
 - **Major**: If you ever break a sworn oath without divine absolution, your healing is halved and you can no longer cast spells with the [light] or [divine] trait until you perform a sacred trial or confession.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

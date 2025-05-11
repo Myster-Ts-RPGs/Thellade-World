@@ -193,3 +193,22 @@ Alariel’s temples double as public houses and sanctuaries, filled with laughte
 - **Minor**: Your steps falter—take a –1 penalty to Reflex saves when flat-footed.
 - **Moderate**: Misfortune follows. Once per day, the GM may force you to reroll a successful check.
 - **Major**: Fortune abandons you. You cannot benefit from circumstance bonuses, and your rerolls always take the lower result.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

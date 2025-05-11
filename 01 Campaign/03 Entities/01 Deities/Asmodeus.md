@@ -193,3 +193,22 @@ Worshipers of Asmodeus gather in cloistered sanctums behind ironbound doors, whe
 - **Minor**: Your voice falters when you speak half-truths—take a –1 penalty to Deception checks when lying.
 - **Moderate**: Any agreement you break becomes magically evident to nearby creatures (GM’s discretion).
 - **Major**: You are cursed to suffer for disobedience. When you willingly break a sworn oath, take 6d6 mental damage and become stupefied 2 until the next day.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

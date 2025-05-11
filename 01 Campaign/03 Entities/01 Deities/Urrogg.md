@@ -193,3 +193,22 @@ Urrogg's followers embrace obliteration as divine will. They do not build, they 
 - **Minor**: Calm and order frustrate you. You take a –1 penalty to Will saves while in sanctified or lawful places.  
 - **Moderate**: Structures seem to fail near you. When using crafted tools or weapons not of your own creation, they gain the broken condition on a natural 1.  
 - **Major**: If you go a week without unleashing destruction, your body begins to crack and burn. You take persistent fire damage (1d6, escalating) until you destroy something significant or ritually appease Urrogg.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

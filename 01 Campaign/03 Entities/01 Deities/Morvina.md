@@ -193,3 +193,22 @@ Her faithful embrace despair as a sacred truth and see beauty in the finality of
 - **Minor**: Hope eludes you. You cannot benefit from circumstance bonuses granted by allies unless you are wounded.
 - **Moderate**: Joy is fleeting. Whenever you critically succeed at a saving throw, you become drained 1.
 - **Major**: Fate recoils at your denial. If you ever cast a spell with the emotion or good trait, you become doomed 2 and clumsy 1 for 1 hour.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

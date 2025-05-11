@@ -191,3 +191,22 @@ Her followers walk forgotten paths and worship in catacombs, hidden sanctums, an
 - **Minor**: You are haunted by forgotten truths. You take a –1 status penalty to Recall Knowledge checks related to divine or historical subjects.  
 - **Moderate**: Truth burns your voice. Whenever you willingly reveal a secret or speak an unencrypted truth tied to a divine mystery, take 2d6 mental damage.  
 - **Major**: You become unable to heal others through divine magic. Any divine healing you provide instead causes 1d4 persistent shadow damage unless the target succeeds at a Will save (DC = your spell DC).
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

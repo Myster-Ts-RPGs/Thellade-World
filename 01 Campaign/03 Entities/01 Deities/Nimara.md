@@ -194,3 +194,22 @@ Nimara is the elder sister of storms and silence, a being said to exist both bef
 - **Minor**: Time slows your reactions. You suffer a –1 penalty to initiative rolls.
 - **Moderate**: The world drags. Whenever you critically fail a save, you are slowed 1 for 1 round.
 - **Major**: You are bound to stillness. You lose your third action each round unless you begin your turn completely motionless.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

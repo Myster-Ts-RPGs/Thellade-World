@@ -194,3 +194,22 @@ Tempraxis is said to have formed the barrier of the Smokey Shoals by slamming hi
 - **Minor**: The storm’s presence follows you. You suffer a –1 penalty to Stealth checks in natural terrain.
 - **Moderate**: Tempests rule your emotions. After taking a critical hit, you must succeed a DC 17 Will save or be confused for 1 round.
 - **Major**: You are ever in conflict. You cannot benefit from the Refocus activity unless it occurs in hazardous weather or near natural lightning.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

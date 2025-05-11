@@ -192,3 +192,22 @@ Her followers embrace merciless power, believing compassion weakens the soul. Te
 - **Minor**: Your presence chills. Allies within 5 feet take a –1 penalty to saves against cold weather fatigue.
 - **Moderate**: Fire shuns you. You take double damage from magical fire and cannot benefit from the warmth of mundane sources.
 - **Major**: Your heart is frostbound. You become immune to emotion effects but cannot be the target of healing magic unless in freezing conditions.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

@@ -193,3 +193,22 @@ Elaris walks where the veil of pain thins—offering music in mourning and seren
 - **Minor**: You lose your harmony. Take a –1 penalty to Performance and Diplomacy checks while frightened or wounded.
 - **Moderate**: Beauty falters in your eyes. You are immune to emotion effects but also cannot benefit from morale bonuses.
 - **Major**: Your voice breaks and hands tremble. You can no longer cast spells with the emotion or healing traits, and cannot be the target of Inspire Courage.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

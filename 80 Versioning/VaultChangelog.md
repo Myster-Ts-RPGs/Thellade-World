@@ -1,6 +1,7 @@
 # Changelog
  Version | Timestamp | Summary | Commit File |
   --- | --- | --- | --- |
+1.1.21.0 | 2025-05-10 18:19 | Canonized the deities Veyla and Xar'Zhul | [[Git Commit 2025-05-10 18-19]]
 1.1.20.0 | 2025-05-10 17:38 | Canonized the deity Vexirra | [[Git Commit 2025-05-10 17-38]]
 1.1.19.0 | 2025-05-10 17:04 | Canonized the deity Valdros | [[Git Commit 2025-05-10 17-04]]
 1.1.18.0 | 2025-05-10 16:47 | Canonized the deity Urrogg | [[Git Commit 2025-05-10 16-47]]

@@ -191,3 +191,22 @@ Velessa dances where desire meets destiny. Some say she was born from the first 
 - **Minor**: You lose the ability to blush or cry. Attempts to form romantic or artistic bonds take a –1 status penalty.  
 - **Moderate**: If you suppress your passions or refuse to express yourself truthfully, you become stupefied 1 until the next dawn.  
 - **Major**: When you spurn love or beauty out of fear or shame, your body begins to wither. You cannot benefit from healing spells or effects for 24 hours, and your Charisma-based checks suffer a –2 penalty until absolved by confession or artistic rebirth.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

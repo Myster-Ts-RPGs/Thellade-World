@@ -193,3 +193,22 @@ Faylen values self-sufficiency, mutual respect, and quiet strength. His worship 
 - **Minor**: Nature recoils. Animals instinctively avoid or fear you.
 - **Moderate**: Your voice withers in sacred spaces. You suffer a –2 penalty to Nature and Religion checks in forests or temples.
 - **Major**: The land denies your touch. You cannot benefit from healing spells with the vitality or healing trait while standing on natural ground.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

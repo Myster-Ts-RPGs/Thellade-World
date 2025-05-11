@@ -192,3 +192,22 @@ Malrik is said to have arisen from the first oath broken in battle and the first
 - **Minor**: Allies hesitate in your shadow. The Aid reaction fails unless the aiding creature succeeds a DC 15 Will save.
 - **Moderate**: Loyalty becomes fear. You suffer a –2 penalty to Diplomacy checks and cannot form cooperative tactics without magical compulsion.
 - **Major**: Your rule must be absolute. If any ally succeeds a check you failed, you become doomed 1 until the next day.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes

@@ -194,3 +194,22 @@ Thalgrim is one of the oldest deities in the Thellade pantheon, and his forge is
 - **Minor**: You become disoriented when rushed. You take a –1 penalty to Initiative if you move more than 10 feet before combat.
 - **Moderate**: Your resolve becomes brittle. Whenever you roll a natural 1 on a Fortitude save, you are stunned 1.
 - **Major**: Broken oaths haunt you. If you ever break a formal promise or violate a declared edict, you become clumsy 2 and drained 1 until you complete a ritual of penance at a forge blessed to Thalgrim.
+
+
+## Goals
+
+
+
+## Relations 
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes
