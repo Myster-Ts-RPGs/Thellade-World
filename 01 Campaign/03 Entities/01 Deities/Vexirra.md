@@ -2,12 +2,32 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
-allies: []
-enemies: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/VexirraTransparent.png
+sanctification:
+  - Must Choose Unholy
+pronounced: VEK-sirr-uh
+aliases:
+  - The Whispering Shadow
+attributes:
+  - Intelligence
+  - Charisma
+skills:
+  - Occultism
+  - Deception
+favored_weapon: Kukri, Whip
+primarydomains:
+  - Darkness
+  - Secrecy
+  - Ambition
+  - Fate
+secondarydomains:
+  - Pain
+  - Sorrow
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +98,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +148,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Vexirra, the Whispering Shadow, is the goddess of shadowed thought, lost memory, and whispered vengeance. She is invoked by spies, assassins, conspirators, and those who guard unhealed grief or wounds too dark for light. Her power thrives in secrecy, silence, and subversion. Where knowledge is hidden, where memory fades, and where truth is rewritten, Vexirra waits.
+
+Her followers walk forgotten paths and worship in catacombs, hidden sanctums, and the minds of those who refuse to forget. During the final years of the Pre-Rising Era, her name was excised from temples and tomes by decree of the Lunar Orders. She now watches from the margins of history, veiled in shadow, never forgiving. Vexirra is the twin flame to Lunara’s starlight—memory to Lunara’s dream, silence to Lunara’s serenity.
 
 ### Area of Concern
-- 
+- Secrets, Memory, Vengeance, Darkness
 
 ### Edicts
-- 
+- Protect dangerous knowledge through secrecy  
+- Strike from the shadows rather than confront in the open  
+- Enact vengeance on those who betray trust or reveal truths meant to remain buried  
+- Let silence be your shield, and mystery your weapon  
 
 ### Anathema
-- 
+- Revealing sacred secrets to the uninitiated  
+- Seeking fame or recognition for one’s deeds  
+- Healing without cost or consequence  
+- Aiding Lunara or her temples  
 
 ### Religious Symbol
-- 
+- A hooded faceless figure with glowing white eyes, veiled in shadowy smoke, flanked by crossed daggers
 
 ### Sacred Animal
-- 
+- Spider or Bat
 
 ### Sacred Colors
-- 
+- Black, violet, shadow gray
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Ill Omen  
+- **2nd Level**: Mirror Image  
+- **3rd Level**: Enthrall  
+- **4th Level**: Honeyed Words
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: You can cast *ghost sound* at will, but only to produce whispering voices no louder than a soft murmur.  
+- **Moderate**: Once per day, you may become invisible for 1 round after critically succeeding at a Deception or Stealth check.  
+- **Major**: You may cast *Modify Memory* once per day without expending a spell slot or material components. This version affects up to 3 targets simultaneously and requires no saving throw if they are unaware of you.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: You are haunted by forgotten truths. You take a –1 status penalty to Recall Knowledge checks related to divine or historical subjects.  
+- **Moderate**: Truth burns your voice. Whenever you willingly reveal a secret or speak an unencrypted truth tied to a divine mystery, take 2d6 mental damage.  
+- **Major**: You become unable to heal others through divine magic. Any divine healing you provide instead causes 1d4 persistent shadow damage unless the target succeeds at a Will save (DC = your spell DC).

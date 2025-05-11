@@ -2,12 +2,32 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/VelessaTransparent.png
+sanctification:
+  - Can Choose Holy or Unholy
 allies: []
 enemies: []
+pronounced: VEH-less-uh
+attributes:
+  - Charisma
+  - Dexterity
+skills:
+  - Deception
+  - Performance
+favored_weapon: Whip, Rapier
+primarydomains:
+  - Passion
+  - Confidence
+  - Trickery
+  - Creation
+secondarydomains:
+  - Fate
+  - Ambition
+font:
+  - Heal
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +98,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,58 +148,46 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Velessa, the Crimson Muse, is the radiant goddess of desire, beauty, cunning, and vengeance. She is the spark behind every sonnet, every seduction, and every perfectly plotted downfall. Her devotees understand that love and retribution are both forms of art—and no artist should hold back. Though radiant and indulgent, she is never harmless; wrong her, and the roses will grow from your grave.
+
+Velessa dances where desire meets destiny. Some say she was born from the first shared glance between two mortals—and that she will sing the last love song before the stars die. Her temples are equal parts gallery, garden, and stage, places where confession and seduction are sacraments. Her priesthood includes spies, courtesans, playwrights, and assassins, all of whom know: beauty can bless or burn.
 
 ### Area of Concern
-- 
+- Love, Passion, Beauty, Revenge
 
 ### Edicts
-- 
+- Delight in pleasure, artistry, and aesthetic expression  
+- Right personal slights with clever, poetic vengeance  
+- Weave truth and falsehood like silk in conversation  
+- Kindle desire in yourself and others without shame  
 
 ### Anathema
-- 
+- Suppressing beauty, love, or authentic self-expression  
+- Taking crude vengeance without subtlety or flair  
+- Defacing works of art out of jealousy or disdain  
+- Forcing love or loyalty through cruelty  
 
 ### Religious Symbol
-- 
+- A golden lyre entwined with thorned roses, its strings glowing like sunset embers
 
 ### Sacred Animal
-- 
+- Fox or Hummingbird
 
 ### Sacred Colors
-- 
+- Crimson, gold, blush pink
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Charm  
+- **2nd Level**: Mirror Image  
+- **3rd Level**: Enthrall  
+- **4th Level**: Honeyed Words
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Gain a +1 status bonus to Deception or Diplomacy checks when engaging in flirtation, persuasion, or poetic performance.  
+- **Moderate**: Once per day when wronged or insulted, you may cast *Suggestion* without expending a spell slot.  
+- **Major**: Your presence enraptures. Enemies who attempt to harm you must succeed at a Will save or become *fascinated* for 1 round. Allies affected by your performance or charm spells gain temporary hit points equal to half your level.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
-
-
-## Goals
-
-
-
-## Relations 
-
-
-
-## Current Events
-
-
-
-## History
-
-
-
-## Notes
-
+- **Minor**: You lose the ability to blush or cry. Attempts to form romantic or artistic bonds take a –1 status penalty.  
+- **Moderate**: If you suppress your passions or refuse to express yourself truthfully, you become stupefied 1 until the next dawn.  
+- **Major**: When you spurn love or beauty out of fear or shame, your body begins to wither. You cannot benefit from healing spells or effects for 24 hours, and your Charisma-based checks suffer a –2 penalty until absolved by confession or artistic rebirth.
