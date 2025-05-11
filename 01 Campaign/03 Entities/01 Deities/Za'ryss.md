@@ -2,12 +2,33 @@
 tags:
   - "#Character"
   - "#Deity"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
-sanctification: []
-allies: []
-enemies: []
+  - "#Canon"
+art: 90 Assets/Images/Deities/ZaryssTransparent.png
+sanctification:
+  - Must Choose Unholy
+pronounced: ZAH-riss
+aliases:
+  - The Whispering Web
+attributes:
+  - Charisma
+  - Intelligence
+skills:
+  - Deception
+  - Occultism
+favored_weapon: Dagger, Blowgun
+primarydomains:
+  - Ambition
+  - Trickery
+  - Secrecy
+  - Nightmares
+secondarydomains:
+  - Knowledge
+  - Darkness
+  - Pain
+font:
+  - Harm
 ---
+
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -78,7 +99,7 @@ enemies: []
 > ---|---|
 >  **Primary Domains** | `VIEW[{primarydomains}][text]` |
 >  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
->  **Divine Font** | `VIEW[{Font}][text]` |
+>  **Divine Font** | `VIEW[{font}][text]` |
 >  
 > ###### Info
 >  |
@@ -128,41 +149,50 @@ enemies: []
 
 ## Overview
 
-> [!summary]- Overview  
-> Use this section to summarize the deity's beliefs, doctrine, and divine influence.
+Za’ryss, the Whispering Web, is the goddess of secrets, nightmares, and the cruel clarity of ambition. Her words twist through dreams, coiling around hearts and minds, whispering truths no one dares admit aloud. She is the poison in the chalice, the truth buried under pleasantries, and the shadow behind every throne.
+
+Za’ryss weaves her power through forgotten tunnels, forbidden texts, and corrupted faiths. Her faithful dwell in hidden sanctuaries, manipulating nobles, unraveling trust, and preying on the weak-minded. Cultists and spies pray to her for protection in shadows and favor in treachery. Though feared and reviled, she is never ignored—Za’ryss teaches that fear is a tool, lies are currency, and ambition is divine birthright.
 
 ### Area of Concern
-- 
+- Secrets, Nightmares, Cruelty, Ambition
 
 ### Edicts
-- 
+- Exploit secrets and hidden knowledge for personal power  
+- Sow mistrust, fear, and betrayal among the powerful  
+- Whisper truth clothed in lies to manipulate others  
+- Embrace ambition without moral restraint  
 
 ### Anathema
-- 
+- Reveal your true motives without advantage  
+- Allow weakness to flourish unchecked  
+- Show mercy where fear is more effective  
+- Expose sacred secrets of Za’ryss to non-believers  
 
 ### Religious Symbol
-- 
+- A spider of blackened silver perched atop a web of shadow, with a bleeding eye at its center
 
 ### Sacred Animal
-- 
+- Widow spider or night serpent
 
 ### Sacred Colors
-- 
+- Black, violet, silver
 
 ### Cleric Spells
-- **1st Level**:  
-- **2nd Level**:  
-- **3rd Level**:  
+- **1st Level**: Spider Sting  
+- **2nd Level**: Animal Form  
+- **3rd Level**: Enthrall  
+- **4th Level**: Phantasmal Killer  
 
 ### Boons
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: Gain a +1 status bonus to Deception checks when concealing your identity or motives.  
+- **Moderate**: Once per day, when a target critically fails a Will save against your Illusion or Emotion spell, they become Frightened 2 and Flat-Footed for 1 round.  
+- **Major**: When you reduce a creature to 0 HP with a fear or illusion effect active on them, you immediately become invisible for 1 minute (as per *Invisibility*) without expending a spell slot.
 
 ### Curses
-- **Minor**:  
-- **Moderate**:  
-- **Major**:  
+- **Minor**: You find it difficult to be honest; you must succeed at a DC 5 flat check to speak direct truth about yourself.  
+- **Moderate**: Whenever you attempt to aid someone openly and without deception, you become Sickened 1 and Flat-Footed until your next turn.  
+- **Major**: You can no longer benefit from the *Inspire Courage* or *Inspire Defense* effects of allies; any attempt to bolster your morale or protection fails unless it comes through fear, coercion, or secrecy.
+
 
 
 ## Goals
