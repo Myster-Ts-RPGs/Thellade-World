@@ -17,16 +17,16 @@ founded: 09 Frostfall 74 PR
 organizationtype:
   - Cult
 location:
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Sunveil Hollow]]"
   - "[[The Weeping Shrine]]"
   - "[[Binders' Lane]]"
   - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars/The Shattered Abbey]]"
   - "[[The Deep Dark]]"
-  - "[[The Veins of Night]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]]"
   - "[[Shadowthread Warrens]]"
   - "[[Daggerfall Hollow]]"
   - "[[The Forgotten Vault]]"

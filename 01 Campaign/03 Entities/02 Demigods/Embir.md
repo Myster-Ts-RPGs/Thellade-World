@@ -6,6 +6,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
+aliases:
+  - The Ember-Eyed
+concerns: Night watch, storm defense, steadfast reaction
+primarydomains:
+  - Vigil
+secondarydomains:
+  - Lightning
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -30,7 +37,14 @@ enemies: []
 >> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
 >> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Areas of Concern**|`INPUT[textArea:concerns]` |
 >
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
@@ -60,7 +74,12 @@ enemies: []
 > **Attributes** | `VIEW[{attributes}][text]` |
 > **Skills** | `VIEW[{skills}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
->
+> **Concerns**|`VIEW[{concerns}][text]` |
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
 > ###### Info
 >  |
 > ---|---|
@@ -108,6 +127,9 @@ enemies: []
 
 
 ## Overview
+
+Embir’s faithful keep vigil in towers, striking first when darkness dares to stir.
+
 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.

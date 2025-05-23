@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Small City
 population: 5,708
@@ -17,6 +17,8 @@ export:
   - Dried Fish
   - Ale
   - Wool
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

@@ -7,8 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
   - "[[The Outcast Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
 poitype:
   - Ship
 ---

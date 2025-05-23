@@ -14,12 +14,12 @@ organizationtype:
   - Regulatory
 location:
   - "[[The Outcast Isles]]"
-  - "[[Mwingu Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Kanda]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
@@ -57,7 +57,7 @@ rivals:
   - "[[The Emberborn Exiles]]"
   - "[[The Midnight Covenant]]"
   - "[[The Sable Accord]]"
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 aliases:
   - Wardens of the Glyph
   - Arcane Wardens
@@ -232,7 +232,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - The weakening of leylines and magical interference suggests Warden-sealed wards are under strain.
 
 ## History
-> The Arcane Wardens were born in the waning decades of the Pre-Rising Age, a response to the first demonic incursion that ravaged the mainland. When the invasion reached the Isles, they struck a desperate accord with [[The Infernal Covenant]] (Asmodeus), sealing the invading lieutenants of Orcus with infernal assistance. In return, the Isles were enveloped by the Rising—an arcane shield that reshaped travel and spellcasting across the region.
+> The Arcane Wardens were born in the waning decades of the Pre-Rising Age, a response to the first demonic incursion that ravaged the mainland. When the invasion reached the Isles, they struck a desperate accord with [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]] (Asmodeus), sealing the invading lieutenants of Orcus with infernal assistance. In return, the Isles were enveloped by the Rising—an arcane shield that reshaped travel and spellcasting across the region.
 >
 > The cost was high: diminished arcane potency, forbidden histories, and the silencing of those involved. [[The Whispering Hand]], Asmodeus’s appointed witness, ensured no record of the pact could escape glyphbinding. The Wardens have since walked a line between public servant and secret keeper.
 

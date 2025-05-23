@@ -85,7 +85,7 @@ SORT file.name ASC
 
 > Growing tensions between [[the Emberheart Traders]] and multiple independent merchant interests in [[Boba]] have sparked rumors of an impending economic conflict. Following a series of sabotaged shipments, backroom trades, and aggressive price manipulations during the early days of Dawnmarch 212 PR, the city’s markets are strained and the [[Gilded Strand]] simmers with unrest. Governor [[Elara Virelan]] has attempted mediation, but her neutrality is questioned due to past dealings with the Emberhearts.
 
-> The escalating strife has drawn attention from other factions, including [[the Silver Chain]], who are rumored to be stoking tensions for their own gain. Meanwhile, local artisans, small guilds, and out-of-town investors face increasing pressure to pick sides or risk losing trade routes entirely. The outcome may reshape who controls access to arcane goods, Pre-Rising relics, and rare commodities across the [[Kanda Isles]].
+> The escalating strife has drawn attention from other factions, including [[the Silver Chain]], who are rumored to be stoking tensions for their own gain. Meanwhile, local artisans, small guilds, and out-of-town investors face increasing pressure to pick sides or risk losing trade routes entirely. The outcome may reshape who controls access to arcane goods, Pre-Rising relics, and rare commodities across the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]].
 
 > This event marks a pivotal shift in the city’s balance of power, and parties traveling through Boba may find themselves pulled into merchant rivalries or hired to protect vulnerable shipments—or sabotage them.
 

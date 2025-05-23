@@ -8,6 +8,8 @@ organizationstatus:
 organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
+organizationtype:
+  - Government
 ---
 
 ```meta-bind-js-view 
@@ -84,40 +86,46 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-> [!metadata|geography]- Region
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
-> FROM "01 Campaign"
-> WHERE contains(tags, "Region") AND econtains(organization, this.file.link)
-> SORT dominion ASC, file.name ASC
+> [!metadata|geography]- Region  
+> ```dataview  
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"  
+> FROM "01 Campaign"  
+> WHERE contains(tags, "Region") AND econtains(dominion, this.file.link)  
+> SORT dominion ASC, file.name ASC  
+> ```
 
-> [!metadata|county]- Subregion
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
-> FROM "01 Campaign"
-> WHERE contains(tags, "Subregion") AND econtains(organization, this.file.link)
-> SORT dominion ASC, file.name ASC
+> [!metadata|county]- Subregion  
+> ```dataview  
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"  
+> FROM "01 Campaign"  
+> WHERE contains(tags, "Subregion") AND econtains(dominion, this.file.link)  
+> SORT dominion ASC, file.name ASC  
+> ```
 
-> [!metadata|settlements]- Settlements
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
-> FROM "01 Campaign"
-> WHERE contains(tags, "Settlement") AND econtains(organization, this.file.link)
-> SORT dominion ASC, file.name ASC
+> [!metadata|settlements]- Settlements  
+> ```dataview  
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"  
+> FROM "01 Campaign"  
+> WHERE contains(tags, "Settlement") AND econtains(dominion, this.file.link)  
+> SORT dominion ASC, file.name ASC  
+> ```
 
-> [!metadata|district]- Districts
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE contains(tags, "District") AND econtains(organization, this.file.link)
-> SORT districttype ASC, file.name ASC
+> [!metadata|district]- Districts  
+> ```dataview  
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type  
+> FROM "01 Campaign"  
+> WHERE contains(tags, "District") AND econtains(dominion, this.file.link)  
+> SORT districttype ASC, file.name ASC  
+> ```
 
-> [!metadata|location]- Specific Locations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location"
-> FROM "01 Campaign"
-> WHERE contains(tags, "POI") AND econtains(organization, this.file.link)
-> SORT poitype ASC, file.name ASC
+> [!metadata|location]- Specific Locations  
+> ```dataview  
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location"  
+> FROM "01 Campaign"  
+> WHERE contains(tags, "POI") AND econtains(dominion, this.file.link)  
+> SORT poitype ASC, file.name ASC  
+> ```
+
 
 > [!metadata|organizations]- Child Organizations
 > ```dataview

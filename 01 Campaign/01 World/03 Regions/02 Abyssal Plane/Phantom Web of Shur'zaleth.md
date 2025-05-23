@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A network of dark silk tunnels suspended in infinite void.
 
+A network of dark silk tunnels suspended in infinite void.
+A void-strung web of spinning lies and binding fates.
 
 ## Geography
 

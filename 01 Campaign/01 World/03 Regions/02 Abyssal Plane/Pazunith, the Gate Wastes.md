@@ -121,8 +121,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A barren expanse riddled with portals to deeper layers of the Abyss.
 
+A barren expanse riddled with portals to deeper layers of the Abyss.
+Flat plains riddled with infinite gateways to deeper chaos.
+Layer 1
 
 ## Geography
 

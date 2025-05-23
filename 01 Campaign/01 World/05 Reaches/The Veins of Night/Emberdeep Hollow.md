@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Veins of Night]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]]"
 terrain:
   - Lava Flats
   - Slag Field

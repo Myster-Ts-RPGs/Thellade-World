@@ -6,6 +6,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
+aliases:
+  - The Glass Flame
+concerns: Inner radiance, ideal forms, self-discipline
+primarydomains:
+  - Confidence
+secondarydomains:
+  - Perfection
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -30,7 +37,14 @@ enemies: []
 >> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
 >> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Areas of Concern**|`INPUT[textArea:concerns]` |
 >
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
@@ -60,7 +74,12 @@ enemies: []
 > **Attributes** | `VIEW[{attributes}][text]` |
 > **Skills** | `VIEW[{skills}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
->
+> **Concerns**|`VIEW[{concerns}][text]` |
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
 > ###### Info
 >  |
 > ---|---|
@@ -108,6 +127,10 @@ enemies: []
 
 
 ## Overview
+- **Primary Domain**: Confidence
+- **Secondary Domain**: Perfection
+- **Areas of Concern**: Inner radiance, ideal forms, self-discipline
+- **Description**: Thyrixa is the embodiment of personal refinement through hardship. Her faithful strive for internal purity and brilliance, seeing the soul as a flame to be polished. Her form is luminous, and her temples double as sanctuaries and meditation chambers lined with mirrors.
 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.

@@ -6,6 +6,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
+aliases:
+  - The Timeless Gaze
+concerns: Forgotten prophecy, unraveling cycles, eternal moments
+primarydomains:
+  - Time
+secondarydomains:
+  - Truth
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -30,7 +37,14 @@ enemies: []
 >> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
 >> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Areas of Concern**|`INPUT[textArea:concerns]` |
 >
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
@@ -60,7 +74,12 @@ enemies: []
 > **Attributes** | `VIEW[{attributes}][text]` |
 > **Skills** | `VIEW[{skills}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
->
+> **Concerns**|`VIEW[{concerns}][text]` |
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
 > ###### Info
 >  |
 > ---|---|
@@ -108,6 +127,11 @@ enemies: []
 
 
 ## Overview
+- **Primary Domain**: Time
+- **Secondary Domain**: Truth
+- **Areas of Concern**: Forgotten prophecy, unraveling cycles, eternal moments
+- **Description**: Yllandra watches events as strands in a grand tapestry. Her faithful are archivists and seers who observe rather than interfere. Her face is never fully seen, always half-lost in the veil of ages.
+   
 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.

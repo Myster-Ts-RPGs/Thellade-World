@@ -6,6 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
+  - "[[Tallowgate]]"
   - "[[Kanda]]"
 ---
 

@@ -161,7 +161,7 @@ A stocky and imposing dwarf with iron-grey hair braided into a tight helm braid.
 - Identify and neutralize cultic sympathizers embedded in Mangagoy’s civic structure.
 
 ## Acquaintances
-- [[Marrek Tindall]] – Maintains a wary respect; disputes arise over customs jurisdiction.
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marrek Tindall]] – Maintains a wary respect; disputes arise over customs jurisdiction.
 - Elder Sunwarden [[Zareth Korrath]] – Religious counterpart; worked together during the Embermoon Surge Riots.
 - Sergeant [[Ulen Varr]] – Longtime field deputy and trusted frontline officer.
 - Dean [[Veyra Windspire]] – Rarely intersects, but has cooperated on law-mage coordination drills.

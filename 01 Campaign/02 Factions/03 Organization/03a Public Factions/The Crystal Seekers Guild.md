@@ -10,12 +10,12 @@ organizationscope:
 art: 90 Assets/Images/Organizations/CrystalSeekersGuild.png
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[Shardspire Hall]]"

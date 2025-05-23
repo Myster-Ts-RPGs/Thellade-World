@@ -15,7 +15,7 @@ aliases:
   - The Whispered Scribe
   - Kaige 'The Whispered Scribe' Maganti
 organization:
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 ownedlocation:
   - "[[Sanctum of the Unbound Eye]]"
 ---

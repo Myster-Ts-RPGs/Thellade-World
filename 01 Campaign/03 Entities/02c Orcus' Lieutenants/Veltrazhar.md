@@ -12,7 +12,7 @@ aliases:
   - The Chain-Breaker
 location:
   - "[[Abyssal Plane]]"
-condition: Hurt
+condition: Released Abyss
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -142,7 +142,7 @@ condition: Hurt
 
 ## Notes
 
-Group 4 01-02-212PR 09:51  Bindings destroyed released back to Abyss[[01 Campaign/01 World/04 Subregions/01 Thellade/Jambito Isles]]
+Group 4 01-02-212PR 09:51  Bindings destroyed released back to Abyss[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]
     He Who Scorns the Seal
 
 

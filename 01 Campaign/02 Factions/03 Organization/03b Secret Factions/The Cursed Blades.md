@@ -14,13 +14,13 @@ aliases:
   - Underground Duelists
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Boba]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Brimstone Docks]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/The Hollow Arena]]"

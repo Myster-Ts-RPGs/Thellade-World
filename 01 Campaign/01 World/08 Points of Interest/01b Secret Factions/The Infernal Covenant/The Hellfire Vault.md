@@ -6,9 +6,9 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: off
 organization:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 location:
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
 ---
 
 ```meta-bind-js-view 

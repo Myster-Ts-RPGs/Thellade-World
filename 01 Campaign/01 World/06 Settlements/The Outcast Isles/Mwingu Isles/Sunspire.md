@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Village
 population: "306"
@@ -17,6 +17,8 @@ export:
   - Coral
   - Grain
   - Mushrooms
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

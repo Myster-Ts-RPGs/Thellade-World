@@ -122,7 +122,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
-
+Black-pressure abyss of sunken ruins, leviathans, and drowned memories.
 
 ## Geography
 

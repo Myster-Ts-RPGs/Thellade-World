@@ -6,6 +6,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
+aliases:
+  - The Petal Veil
+primarydomains:
+  - Indulgence
+secondarydomains:
+  - Healing
+concerns: Rest, pleasure, recovery, comforting illusions
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -30,7 +37,14 @@ enemies: []
 >> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
 >> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Areas of Concern**|`INPUT[textArea:concerns]` |
 >
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
@@ -60,7 +74,12 @@ enemies: []
 > **Attributes** | `VIEW[{attributes}][text]` |
 > **Skills** | `VIEW[{skills}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
->
+> **Concerns**|`VIEW[{concerns}][text]` |
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
 > ###### Info
 >  |
 > ---|---|
@@ -108,7 +127,11 @@ enemies: []
 
 
 ## Overview
-
+- **Primary Domain**: Indulgence
+- **Secondary Domain**: Healing
+- **Areas of Concern**: Rest, pleasure, recovery, comforting illusions
+- **Description**: Aeshwyn’s clergy provide relief to the weary, whether through pleasure, song, or soothing lies. She is often worshipped in spas, theaters, and pleasure gardens. Her symbol is a blooming lotus with a droplet of wine.
+- 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.
 

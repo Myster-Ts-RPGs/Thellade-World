@@ -21,14 +21,23 @@ characters: []
 >> WHERE contains(tags, "Party")
 >> SORT file.name asc
 >> ```
+## Canon 
+
+> [!metadata|organization]- Religions
+> ```dataview
+> TABLE without id file.link AS "Name", join(worship, ", ") AS "Dieties"
+> FROM "01 Campaign"
+> WHERE contains(tags, "Religion") 
+> SORT file.name ASC
+
 
 ## Websites
 
-> [!metadata|calendar]- [Calendar](https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d)
+> [!metadata|calendar]- [Calendar](https://app.fantasy-calendar.com/calendars/005887cad9d1247de41d1e873570e7cf)
 > <iframe
 > height = "650"
 > width =  "100%"
-> src = "https://app.fantasy-calendar.com/calendars/eef4bc8ce5816a8ef752d35b7e4cfd4d?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+> src = "https://app.fantasy-calendar.com/calendars/005887cad9d1247de41d1e873570e7cf?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
 > </iframe>
 
 > [!metadata|items]- [Encounter Builder](https://maxiride.github.io/pf2e-encounters/#/)
@@ -81,37 +90,37 @@ characters: []
 > [!metadata|items]- Items
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Items"
+> FROM "03 Ideas/Items"
 > SORT file.name ASC
 
 > [!metadata|monster]- Monsters
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Monsters"
+> FROM "03 Ideas/Monsters"
 > SORT file.name ASC
 
 > [!metadata|jokes]- Jokes
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Jokes"
+> FROM "03 Ideas/Jokes"
 > SORT file.name ASC
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Locations"
+> FROM "03 Ideas/Locations"
 > SORT file.name ASC
 
 > [!metadata|quests]- Quests / Adventures
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Quests"
+> FROM "03 Ideas/Quests"
 > SORT file.name ASC
 
 > [!metadata|misc]- Misc
 > ```dataview
 > TABLE without id file.link AS "Name"
-> FROM "Ideas/Misc"
+> FROM "03 Ideas/Misc"
 > SORT file.name ASC
 
 ## Random Notes
@@ -119,7 +128,7 @@ characters: []
 > [!metadata|misc]- No Location Set
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
-> FROM "Campaign/NPCs" OR "Campaign/Organizations" OR "Campaign/Points of Interest" OR "Campaign/Districts" OR "Campaign/Settlements" OR "Campaign/County" OR "Campaign/Geography" OR "Campaign/Planets" OR "Campaign/Parties/Characters" AND !"Campaign/Organizations/Hierarchies"
+> FROM "01 Campaign/03 Entities/04 NPCs" OR "01 Campaign/02 Factions" OR "01 Campaign/01 World/08 Points of Interest" OR "01 Campaign/01 World/07 Districts" OR "01 Campaign/01 World/06 Settlements" OR "01 Campaign/01 World/04 Subregion" OR "01 Campaign/01 World/03 Region" OR "01 Campaign/01 World/02 Planets" OR "01 Campaign/05 Parties/01 Characters" AND !"Campaign/Organizations/Hierarchies"
 > WHERE econtains(location, nothing) AND !contains(condition, "Dead") 
 > SORT tags DESC, file.name ASC
 
@@ -128,9 +137,10 @@ characters: []
 > TABLE WITHOUT ID
 > "<span style='display: block; text-align: center; margin-bottom: 2px;'>" + link(file.link, Aliases) + "</span>" AS Aliases,
 > embed(link(art)) AS "Art"
-> FROM "Campaign"
+> FROM "01 Campaign"
 > FLATTEN [ [(seed) => (seed * 1103515245 + 12345) % 2147483648]] AS random
 > FLATTEN [number(dateformat(date("now"), "x"))] AS seed
 > SORT random[0](seed + file.size)
 > LIMIT 14
 
+[[01 Campaign/01 World/08 Points of Interest/08 Residences/Mangagoy Islands/Mangagoy/Ambervale Estate|Ambervale Estate]]

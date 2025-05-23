@@ -10,7 +10,7 @@ location:
 organization:
   - "[[The Emberheart Traders]]"
 owner:
-  - "[[Marrek Tindall]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marrek Tindall]]"
 poitype:
   - Office
   - Headquarters
@@ -127,7 +127,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 -Description: A slate-roofed building near the central customs pier, its windows warded against prying eyes and sea salt. Inside, copper-tube message relays and driftmetal vaults store shipment manifests, contract scrolls, and arcane-stamped tariffs.
--Function: This is [[Marrek Tindall]]'s operational base, where faction agents coordinate trade flow, bribe portmasters, and maintain dominance over merchant lanes.
+-Function: This is [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marrek Tindall]]'s operational base, where faction agents coordinate trade flow, bribe portmasters, and maintain dominance over merchant lanes.
 
 ## Current Events
 Shipment Interference: Several crates bound for the College of Lunar Rites were intercepted and vanished mid-route—Emberheart agents suspect sabotage from Kelthorne-aligned smugglers.

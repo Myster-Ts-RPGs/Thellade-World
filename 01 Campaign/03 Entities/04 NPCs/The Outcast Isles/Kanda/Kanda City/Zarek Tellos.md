@@ -19,9 +19,9 @@ party5relation:
 party6relation:
   - Unmet
 ownedlocation:
-  - "[[The Mooring Flagon]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Kanda/The Mooring Flagon]]"
 location:
-  - "[[The Mooring Flagon]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Kanda/The Mooring Flagon]]"
   - "[[Stonebrace Docks]]"
   - "[[Kanda]]"
 condition: Healthy

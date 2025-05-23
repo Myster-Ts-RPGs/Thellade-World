@@ -20,12 +20,12 @@ allies:
   - "[[The Ashen Vanguard]]"
 rivals:
   - "[[The Sable Accord]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 head:
   - "[[Elenora Mistveil]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Wardspire District]]"
   - "[[The Riftspire Archives]]"

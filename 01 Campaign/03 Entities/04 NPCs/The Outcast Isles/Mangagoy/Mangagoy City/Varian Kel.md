@@ -22,7 +22,7 @@ aliases:
   - Cipher Varian Kel
   - Architect of Deception
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]]"
+  - "[[Whispervault Archive]]"
   - "[[Binders' Lane]]"
   - "[[Mangagoy]]"
 organization:

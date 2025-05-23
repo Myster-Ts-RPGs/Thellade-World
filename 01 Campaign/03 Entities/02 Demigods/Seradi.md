@@ -6,6 +6,13 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []
+aliases:
+  - The Turning Leaf
+concerns: Seasons, life cycles, transformation through growth
+secondarydomains:
+  - Nature
+primarydomains:
+  - Change
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -30,7 +37,14 @@ enemies: []
 >> **Attributes** | `INPUT[Attributes][inlineListSuggester:attributes]` |
 >> **Skills** | `INPUT[Skills][inlineListSuggester:skills]` |
 >> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Areas of Concern**|`INPUT[textArea:concerns]` |
 >
+>> [!metadata|metadataoption]- Spellcasting
+>> #### Spellcasting Info
+>>  |
+>>---|---|
+>> **Primary Domains** | `INPUT[Domains][inlineListSuggester:primarydomains]` |
+>> **Secondary Domains** | `INPUT[Domains][inlineListSuggester:secondarydomains]` |
 >
 >> [!metadata|metadataoption]- Deity Info
 >> #### Deity Info
@@ -60,7 +74,12 @@ enemies: []
 > **Attributes** | `VIEW[{attributes}][text]` |
 > **Skills** | `VIEW[{skills}][text]` |
 > **Alignment** | `VIEW[{alignment}]` |
->
+> **Concerns**|`VIEW[{concerns}][text]` |
+> ###### Spellcasting
+>  |
+> ---|---|
+>  **Primary Domains** | `VIEW[{primarydomains}][text]` |
+>  **Secondary Domains** | `VIEW[{secondarydomains}][text]` |
 > ###### Info
 >  |
 > ---|---|
@@ -108,7 +127,11 @@ enemies: []
 
 
 ## Overview
-
+- **Primary Domain**: Change
+- **Secondary Domain**: Nature
+- **Areas of Concern**: Seasons, life cycles, transformation through growth
+- **Description**: Seradi is the autumn breeze that welcomes change, and the spring bud that follows decay. Farmers, druids, and those in transition invoke her name in times of upheaval. Her symbol is a half-golden, half-decayed leaf.
+ 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.
 

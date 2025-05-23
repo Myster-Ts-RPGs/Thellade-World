@@ -12,7 +12,7 @@ organization:
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Red Runners]]"
   - "[[The Crimson Shroud]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

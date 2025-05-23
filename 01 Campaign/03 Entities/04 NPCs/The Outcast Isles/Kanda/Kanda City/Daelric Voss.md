@@ -15,7 +15,7 @@ aliases:
   - Lord Inquisitor
   - Lord Inquisitor Voss
 organization:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 ownedlocation:
   - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Infernal Covenant/The Crimson Lexicon]]"
 ---

@@ -8,7 +8,7 @@ banner: off
 organization:
   - "[[The Mistwalkers]]"
 location:
-  - "[[The Sundering Deep]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep]]"
 ---
 
 ```meta-bind-js-view 

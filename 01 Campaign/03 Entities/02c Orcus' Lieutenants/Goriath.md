@@ -9,6 +9,9 @@ language:
 aliases:
   - Goriath the Soul Drinker
   - The Soul Drinker
+condition: Bound Material Plane
+location:
+  - "[[Middle Isles]]"
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -137,7 +140,7 @@ aliases:
 
 
 ## Notes
-- Sealed in Dwarven Library at Excavation Site in [[01 Campaign/01 World/04 Subregions/01 Thellade/Middle Isles]]
+- Sealed in Dwarven Library at Excavation Site in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]
     The Maw Beneath the Veil
 
 

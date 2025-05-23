@@ -8,7 +8,7 @@ banner: on
 organization:
   - "[[The Hollow Saints]]"
 location:
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
 owner:
   - "[[Irlos Vale]]"
 pronounced: ""

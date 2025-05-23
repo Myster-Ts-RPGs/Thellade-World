@@ -8,7 +8,7 @@ banner: on
 organization:
   - "[[The Red Runners]]"
 location:
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
 ---
 
 ```meta-bind-js-view 

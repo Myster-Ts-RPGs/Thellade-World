@@ -11,6 +11,9 @@ ownedlocation:
 location:
   - "[[Averazhul's Spires]]"
   - "[[Abyssal Plane]]"
+aliases:
+  - Corruptor of Hope
+  - Prince of the Lower Aerial Kingdoms
 ---
 
 > [!metadata|metadata]- Metadata 
@@ -108,6 +111,10 @@ location:
 
 
 ## Overview
+
+|   |   |
+|---|---|
+|Prince of the Lower Aerial Kingdoms|Abyssal sky-lord, corrupter of hope|
 
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.

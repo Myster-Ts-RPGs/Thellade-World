@@ -14,7 +14,7 @@ monthofoccurrence:
 location:
   - "[[Thellade]]"
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Boba]]"
 yearofoccurrence:
   - "[[212]]"
@@ -84,4 +84,4 @@ SORT file.name ASC
 [[Sunfire Tower]] experiences leyline flux and deep vault vibrations. These disturbances are among the first signs of Pre-Rising protections beginning to fray.
 
 ## Notes
-Late 3rd week of Sunreach. Considered an early warning indicator of widespread arcane instability across [[Kanda Isles]].
+Late 3rd week of Sunreach. Considered an early warning indicator of widespread arcane instability across [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]].

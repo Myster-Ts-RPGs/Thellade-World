@@ -29,7 +29,7 @@ ownedlocation:
   - "[[The Hollow Reliquary]]"
 location:
   - "[[The Hollow Reliquary]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
 condition: Healthy
 ---
 

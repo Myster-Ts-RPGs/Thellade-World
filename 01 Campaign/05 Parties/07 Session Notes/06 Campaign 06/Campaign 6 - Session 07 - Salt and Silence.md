@@ -1,3 +1,17 @@
+---
+tags:
+  - "#SessionNote"
+  - "#TODO"
+whichparty:
+  - "[[Campaign Group 6]]"
+---
+> [!metadata|metadata]- Metadata 
+>> [!metadata|metadataoption]- System
+>> #### System
+>>  |
+>> ---|---|
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+
 # Campaign 6 Session 7 - Salt and Silence
 
 ## Date

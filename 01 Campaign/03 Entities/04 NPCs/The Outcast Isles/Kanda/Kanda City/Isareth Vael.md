@@ -15,7 +15,7 @@ aliases:
   - Cleric Isareth 'The Chainsworn' Vael
   - Isarath 'The Chainsworn' Vael
 organization:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 ---
 
 > [!metadata|metadata]- Metadata 

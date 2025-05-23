@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Watchpost
 population: "203"
@@ -17,6 +17,8 @@ export:
   - Sea Charts
   - Coral
   - Whale Oil
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

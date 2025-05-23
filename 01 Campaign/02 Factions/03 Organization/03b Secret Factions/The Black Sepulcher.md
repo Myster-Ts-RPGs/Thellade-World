@@ -25,9 +25,9 @@ aliases:
   - Cult of Orcus
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Kanda]]"
   - "[[Mangagoy]]"
   - "[[Jambito]]"
@@ -40,7 +40,7 @@ location:
   - "[[Deepwall Reach District]]"
   - "[[Sunveil Hollow]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
 head:
   - "[[Malakar Venmire]]"
 pronounced: BLAK SEP-ul-ker

@@ -20,30 +20,30 @@ allies:
   - "[[The Ashen Vanguard]]"
 rivals:
   - "[[The Black Sepulcher]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
   - "[[Blademage Weighstation]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Ashfire Bastion District]]"
   - "[[Swordflame Encampment]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Emberblade Training Yard]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Highhold Rise]]"
   - "[[The Citadel of Flame]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Seaside Cape]]"
   - "[[Driftwarf Docks]]"
   - "[[Flamewatcher Outpost]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Sanctuary of Evenlight]]"
   - "[[Crimson Rift Forward Post]]"
@@ -219,7 +219,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Taryn Fiero|Master Blademage Taryn Fiero]] coordinates the training of mobile strike teams at [[The Citadel of Flame]], prepared to respond to possible breaches following leyline disruptions.  
 > - New trials have been initiated across all Isles to recruit future Blademages—especially in response to growing signs of cultist reactivation.  
 > - A covert Emberblade team is investigating missing relics from a ruined temple north of [[Seaside Cape]], possibly tied to [[The Black Sepulcher]].  
-> - Rumors persist that [[The Infernal Covenant]] is seeking to infiltrate arcane training grounds, prompting stricter initiation vetting.
+> - Rumors persist that [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]] is seeking to infiltrate arcane training grounds, prompting stricter initiation vetting.
 
 ## History
 > Formed on 18 Stormwake -11 PR, in the years leading to the Rising, the Order was founded by Master-Arcanist Veloria Flamebrand after a failed attempt to repel a minor abyssal breach. Recognizing that neither pure magic nor pure might could defend the Isles alone, she forged a new doctrine—a union of blade and spell in one soul.  

@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Gilded Shadow]]"
   - "[[Sable Reef Anchorage]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
 condition: Healthy
 aliases:
   - The Ghost

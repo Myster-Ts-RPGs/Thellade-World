@@ -6,11 +6,12 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Shadowthread Warrens]]"
-  - "[[The Veins of Night]]"
   - "[[The Deep Dark]]"
+  - "[[The Veins of Night]]"
 organization:
   - "[[The Hollow Saints]]"
   - "[[The Veilbound Circle]]"
+  - "[[The Rootcoil Smugglers]]"
 ---
 
 ```meta-bind-js-view 

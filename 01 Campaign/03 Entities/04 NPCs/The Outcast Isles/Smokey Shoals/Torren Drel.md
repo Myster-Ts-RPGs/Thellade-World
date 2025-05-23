@@ -24,7 +24,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge]]"
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
 ---
 
 > [!metadata|metadata]- Metadata 

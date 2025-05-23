@@ -10,22 +10,22 @@ organizationscope:
 art: 90 Assets/Images/Organizations/EmberheartTraders.png
 location:
   - "[[The Outcast Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
   - "[[Emberheart Trade Office]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Silverspire Terrace]]"
   - "[[Ember Trade Consortium Post]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Amberveil Market]]"
-  - "[[The Glowing Exchange]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Kanda Isles/Kanda/The Glowing Exchange]]"
   - "[[Boba]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Ashen Ledger Hall]]"
   - "[[Brimstone Docks]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Market Row]]"
   - "[[Ember's Crossroads Agency]]"
@@ -34,7 +34,7 @@ location:
   - "[[Emberflare Port Office]]"
 pronounced: EM-ber-hart TRAY-ders
 head:
-  - "[[Marrek Tindall]]"
+  - "[[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marrek Tindall]]"
 aliases:
   - Ember Traders
   - Emberheart Traders

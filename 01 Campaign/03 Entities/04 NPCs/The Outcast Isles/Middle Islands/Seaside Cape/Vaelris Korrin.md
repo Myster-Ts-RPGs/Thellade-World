@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[The Twilight Nexus]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
 condition: Healthy
 aliases:
   - Vaelris 'The Stormbound' Korrin

@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A frozen wasteland teeming with unliving legions and necrotic storms.
 
+A frozen wasteland teeming with unliving legions and necrotic storms.
+Frozen wastes teeming with unlife and necrotic blizzards.
 
 ## Geography
 

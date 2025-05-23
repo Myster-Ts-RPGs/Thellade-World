@@ -9,7 +9,7 @@ organization:
   - "[[The Mistwalkers]]"
 location:
   - "[[Mistspire Anchorage]]"
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
 ---
 
 ```meta-bind-js-view 

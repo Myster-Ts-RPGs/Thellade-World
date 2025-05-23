@@ -20,27 +20,27 @@ head:
   - "[[Astra Valara]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Riverbend Hollow]]"
   - "[[Shrinewatch Patrol Hold]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Tallowgate]]"
   - "[[The Radiant Keep]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Guardian's Vigil Base]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[Radiant Sigil Station]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Seaside Cape]]"
   - "[[Hollowshore]]"
   - "[[Moonwall Fortification Post]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Watcher's Hollow]]"
   - "[[Guardian Field Hospice]]"
@@ -49,7 +49,7 @@ allies:
   - "[[The Ashen Vanguard]]"
 rivals:
   - "[[The Black Sepulcher]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Hollow Saints]]"
 foundedshort: -9.04.07 PR
 ---
@@ -217,7 +217,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Astra Valara|Guardian Astra Valara]] is currently coordinating efforts from [[The Radiant Keep]] in [[Kanda]], preparing strategic contingencies for possible planar breaches tied to the weakening of the outer barrier&#8203;:contentReference[oaicite:0]{index=0}.  
-> - The Guardians are on alert after sensing residual corruption in the ruins beneath Kanda’s catacombs, believed linked to [[The Infernal Covenant]].  
+> - The Guardians are on alert after sensing residual corruption in the ruins beneath Kanda’s catacombs, believed linked to [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]].  
 > - [[The Dawnbringers of Lunara]] have proposed a joint cleansing rite in the Crystal Sanctum of Jambito, pending escort support from the Guardians.  
 > - Rising undead sightings in eastern Mwingu have prompted deployment of an armored detachment to [[01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow|Watcher's Hollow]].
 

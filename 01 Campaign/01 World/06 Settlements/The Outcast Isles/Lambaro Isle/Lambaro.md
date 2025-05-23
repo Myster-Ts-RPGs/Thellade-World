@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Large City
 population: 12,000
@@ -37,13 +37,15 @@ organization:
   - "[[The Cursed Blades]]"
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
   - "[[The Silver Chain]]"
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

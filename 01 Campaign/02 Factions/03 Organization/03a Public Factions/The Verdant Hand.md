@@ -26,9 +26,9 @@ rivals:
   - "[[The Bleeding Tide]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
 foundedshort: -9.03.17 PR
 ---
 

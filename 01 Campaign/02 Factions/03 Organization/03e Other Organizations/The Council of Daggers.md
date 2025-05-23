@@ -20,12 +20,12 @@ organizationtype:
   - Council
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Mwingu Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Kanda]]"
   - "[[Boba]]"
   - "[[Mwingu]]"

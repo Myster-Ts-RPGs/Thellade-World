@@ -15,7 +15,7 @@ aliases:
   - Hellnight Commander Drakos
   - Toran 'The Unyielding' Drakos
 organization:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 ---
 
 > [!metadata|metadata]- Metadata 

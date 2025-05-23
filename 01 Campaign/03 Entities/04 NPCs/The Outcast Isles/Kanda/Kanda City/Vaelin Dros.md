@@ -28,7 +28,7 @@ location:
   - "[[Sunveil Hollow]]"
   - "[[Kanda]]"
 organization:
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 condition: Healthy
 ---
 

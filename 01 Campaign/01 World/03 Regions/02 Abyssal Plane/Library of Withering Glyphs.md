@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A library-city housing forbidden lore and unspoken truths.
 
+A library-city housing forbidden lore and unspoken truths.
+A repository of forbidden incantations and ever-rewriting knowledge.
 
 ## Geography
 

@@ -11,7 +11,7 @@ owner:
   - "[[Ralvos Dern]]"
 location:
   - "[[Brimstone Docks]]"
-  - "[[Kanda]]"
+  - "[[Boba]]"
 poitype:
   - Ship
 ---

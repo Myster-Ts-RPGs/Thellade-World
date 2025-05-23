@@ -12,13 +12,13 @@ location:
   - "[[The Outcast Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Boba]]"
   - "[[Ambassadors Row]]"
   - "[[Glowquarter]]"
@@ -30,7 +30,7 @@ location:
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Coastal Watch Barracks]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Vanguard Scout Liaison Post]]"
   - "[[Ashen Guard Hall]]"
-  - "[[Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
 pronounced: A-shun VAN-guard
 aliases:
   - Ashen Vanguard
@@ -42,7 +42,7 @@ head:
 rivals:
   - "[[The Black Sepulcher]]"
   - "[[The Red Ash Mauraders]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Crimson Shroud]]"
   - "[[The Cursed Blades]]"
   - "[[The Red Ash Mauraders]]"
@@ -194,7 +194,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Ashen Vanguard]] is a disciplined kingdom-wide military order formed in the immediate aftermath of the Rising. Tasked with protecting [[The Kingdom of Kanda]] from extraplanar threats, rogue mages, and destabilizing factions, they operate both visibly as peacekeepers and covertly as anti-cult operatives. Known for their austere methods and valor, their soldiers are often seen reinforcing planar seal sites, escorting magical transports, or rooting out infernal corruption.
+> [[The Ashen Vanguard]] is a disciplined kingdom-wide military order formed in the immediate aftermath of the Rising. Tasked with protecting [[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]] from extraplanar threats, rogue mages, and destabilizing factions, they operate both visibly as peacekeepers and covertly as anti-cult operatives. Known for their austere methods and valor, their soldiers are often seen reinforcing planar seal sites, escorting magical transports, or rooting out infernal corruption.
 
 ### Oaths
 > "Steel for the shield, fire for the breach. We guard the ash, so others may live."
@@ -234,7 +234,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]] — Official headquarters and fortress of The Ashen Vanguard.  
 - [[Garrik]] — Member of Campaign Group 6; his martial training is directly tied to Vanguard doctrine.  
 - “[[Scars in the Earth]]” (Field Memoir by [[Devrik Thorne]]) — Firsthand account of Rising-era conflicts involving Vanguard soldiers.  
-- Internal tensions may exist regarding the infernal pact signed by the Arcane Orders — some senior members have long suspected [[The Infernal Covenant]] compromised Kanda’s autonomy.  
+- Internal tensions may exist regarding the infernal pact signed by the Arcane Orders — some senior members have long suspected [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]] compromised Kanda’s autonomy.  
 - Symbol: A silver gauntlet gripping a blackened shield etched with flame runes.  
 - Uniforms: Slate-gray armor with crimson sashes and insignias marked by hammer-and-shield iconography.
 

@@ -5,7 +5,7 @@ tags:
   - "#Canon"
 art: 90 Assets/Images/Settlements/Boba.png
 location:
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Large City
 population: 13,500
@@ -58,7 +58,7 @@ defence: Average
 leader:
   - "[[Elara Virelan]]"
 dominion:
-  - "[[The Kingdom of Kanda]]"
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 levelgeneral: "5"
 levelmagic: "5"
 leveltech: "4"
@@ -192,7 +192,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - <span style="font-size:0.8em;"><strong>Gnomes</strong> – 1.2% [~160] (Rare inventors and eccentric cartographers in [[Sunfire Heights]])</span>
 > - <span style="font-size:0.8em;"><strong>Kobolds</strong> – 0.5% [~65]  (Once present, but driven underground during the [[Rising]])</span>
 > - <span style="font-size:0.8em;"><strong>Orcs</strong> – 1.5% [~200] (Sailhands and shipbuilders, many tied to [[The Emberwake]])</span>
-> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 1.2% [~160] (Scholars and smugglers, linked to [[The Infernal Covenant]])</span>
+> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 1.2% [~160] (Scholars and smugglers, linked to [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]])</span>
 > - <span style="font-size:0.8em;"><strong>Other</strong> – 4.9% [~660] (Includes planar refugees, changelings, and other lineages)</span>
 >
 > ###### Commerce
@@ -228,7 +228,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >Whether you're a trader seeking fortune, a fugitive seeking shadows, or a hero chasing echoes of the Rising, **Boba** offers all things—at a price.
 
 ## Overview
-Boba is a large port city on the [[Kanda Isles]] within [[the Outcast Isles]], boasting a population of approximately **13,500**. Known as the "**Gateway to the Kanda Isles**," it serves as a critical nexus for **diplomatic envoys**, **mercenary guilds**, **smuggling networks**, and **noble factions** vying for influence. From the gleaming spires of [[Sunfire Heights]] to the treacherous gutters of [[Lowmire Gutter]], Boba embodies the convergence of power and peril.
+Boba is a large port city on the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]] within [[the Outcast Isles]], boasting a population of approximately **13,500**. Known as the "**Gateway to the Kanda Isles**," it serves as a critical nexus for **diplomatic envoys**, **mercenary guilds**, **smuggling networks**, and **noble factions** vying for influence. From the gleaming spires of [[Sunfire Heights]] to the treacherous gutters of [[Lowmire Gutter]], Boba embodies the convergence of power and peril.
 
 Founded before the Rising, the city rose to prominence as a haven for those seeking profit amid chaos—merchants, pirates, scholars, and warlords alike. **Merchant ships** from across the [[the Outcast Isles]] dock in [[Brimstone Docks]], bearing exotic wares, secret pacts, and silent cargoes. Within the heart of the city, arcane scrolls change hands as quickly as silver daggers, and whispers carry more weight than royal decrees.
 

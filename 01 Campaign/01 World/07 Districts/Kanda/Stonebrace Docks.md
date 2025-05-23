@@ -3,13 +3,19 @@ tags:
   - "#Location"
   - "#District"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Districts/StonebraceDocks.png
 location:
   - "[[Kanda]]"
 organization:
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Blackwake Corsairs]]"
+districttype:
+  - Dockyard
+  - Harbor
+  - Industrial
+  - Magical District
+pronounced: STOHN-brace DOKS
 ---
 
 ```meta-bind-js-view 
@@ -57,8 +63,14 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-> [!recite]- Introduction
-> A script for the GM to read when the party arrive to this location for the first time.
+> [!recite]- Introduction  
+> The creak of iron-bound rigging and the thrum of shipboard runes greet you before you even set foot on the stone. **[[Stonebrace Docks]]** is no mere harbor—it’s a fusion of military precision, arcane logistics, and smuggler subtlety. Massive spell-reinforced chains hang over dry moorings where warships and deep-haul relic transports rest like sleeping titans.  
+>  
+> The docks sprawl across tiered seawalls, each layer more restricted than the last. Smells of brine, lacquered wood, and hot brass fill the air. Runes flare faintly beneath cargo pylons while warded cranes creak under the weight of sealed vault crates.  
+>  
+> Every passerby has a badge or a reason. Every ship has something to hide.  
+>  
+> This is where things arrive in Thellade—and where secrets are shipped out again in silence.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -97,22 +109,34 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview 
-> [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
 
 Military and merchant harbor district; movement of goods, warships, and relic transports
 
-## Keyed Locations
-
-
+---
 
 ## Current Events
 
+- A new blockade inspection order from inland has slowed shipment processing, causing tension between Kanda officials and Corsair-linked contractors.  
+- The arrival of a half-dissolved barge with no crew and void-stained hulls triggered an immediate containment lockdown on Docklane Seven.  
+- Rivalry between [[The Voidscourge Hunters]] and [[The Blackwake Corsairs]] has escalated over relic seizure jurisdiction. At least two altercations have occurred in the last eight days.  
+- A new smuggling route beneath [[The Chain-Locker Market]] is rumored to be active, but no operatives have confirmed its origin point.
 
+---
 
 ## History
 
+- Established in 117 PR as part of Kanda’s post-isolation maritime expansion strategy.  
+- Officially converted to a dual-use dockyard in 143 PR to allow for magical ordinance loading and Voidwatch outfitting.  
+- Saw major upgrades during the **Leviathan Breach Crisis**, including vault crane enhancements and glyph grid reinforcements.  
+- The original dockstone, known as the **First Brace**, still stands embedded near the Saltspire Fountain, marked with the names of the first post-Rising shipping crews.
 
+---
 
 ## Notes
+
+- Stonebrace is the only district in Kanda where all three of the following factions maintain simultaneous operational presence: [[The Voidscourge Hunters]], [[The Wardens of the Deep Dark]], and [[The Blackwake Corsairs]].  
+- Several upper-tier dock cranes have embedded ley siphons, though only one is known to still function without wild arc discharge.  
+- Locals avoid Docklane Four after sunset—not because of ghosts, but because something sings from beneath the grating.  
+- There are *no* fishmongers here, despite being a dock district—a ban instituted after the Deep Dark Reclamation of 162 PR.
+
 

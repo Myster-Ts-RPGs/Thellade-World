@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Hamlet
 population: "132"
@@ -19,6 +19,8 @@ export:
   - Cactus Fruit
 organization:
   - "[[The Black Sepulcher]]"
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

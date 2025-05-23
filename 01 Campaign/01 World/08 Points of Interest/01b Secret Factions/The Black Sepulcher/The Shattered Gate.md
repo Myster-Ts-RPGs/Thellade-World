@@ -6,7 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
 organization:
   - "[[The Black Sepulcher]]"
 ---

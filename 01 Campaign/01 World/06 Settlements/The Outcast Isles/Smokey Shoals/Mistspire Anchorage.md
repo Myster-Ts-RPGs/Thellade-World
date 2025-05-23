@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 organization:
   - "[[The Mistwalkers]]"
 location:
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
 ---
 
 ```meta-bind-js-view 

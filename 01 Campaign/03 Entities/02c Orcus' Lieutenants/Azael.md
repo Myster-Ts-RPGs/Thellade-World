@@ -9,6 +9,9 @@ language:
 aliases:
   - Azael the Bleeing Crown
   - The Bleeding Crown
+condition: Released Abyss
+location:
+  - "[[Abyssal Plane]]"
 ---
 
 > [!metadata|metadata]- Metadata 

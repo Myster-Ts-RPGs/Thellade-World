@@ -21,7 +21,7 @@ party6relation:
 occupation:
   - Waiter-Waitress
 location:
-  - "[[The Gilded Cup]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Gilded Cup]]"
   - "[[Gilded Strand]]"
   - "[[Boba]]"
 condition: Healthy

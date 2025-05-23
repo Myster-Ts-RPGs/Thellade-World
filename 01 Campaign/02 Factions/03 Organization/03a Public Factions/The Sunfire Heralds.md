@@ -25,16 +25,16 @@ allies:
   - "[[The Eternal Concord]]"
 rivals:
   - "[[The Bleeding Tide]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Glimmershade]]"
   - "[[Boba]]"
   - "[[Sunfire Heights]]"
   - "[[Sunfire Tower]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
 pronounced: SUN-fire HER-alds

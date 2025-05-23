@@ -19,7 +19,7 @@ head:
   - "[[Ralvos Dern]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Boba]]"
   - "[[Brimstone Docks]]"
   - "[[The Silverwake]]"
@@ -190,10 +190,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > • No direct conflict with established naval powers without orders
 
 ## Current Events
-- [[Ralvos Dern]] is consolidating power aboard the [[The Silverwake]] by drawing skilled defectors from disbanded pirate crews across the [[Kanda Isles]].
+- [[Ralvos Dern]] is consolidating power aboard the [[The Silverwake]] by drawing skilled defectors from disbanded pirate crews across the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]].
 - [[Dorne Vesk]] has been expanding the faction’s influence in [[Brimstone Docks]] through quiet payoffs and controlled leaks to the lower dockmaster guild.
 - A cache of enchanted stormglass was recently fenced via [[The Barnacled Ledger]], stirring interest from both the [[Emberheart Traders]] and the [[Crimson Shroud]].
-- Rumors suggest [[The Sea Vultures]] may be brokering safe passage for rogue spellcasters trying to leave the [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] unnoticed.
+- Rumors suggest [[The Sea Vultures]] may be brokering safe passage for rogue spellcasters trying to leave the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] unnoticed.
 
 ## History
 - 17 Emberwane 208 PR (Generated): [[Ralvos Dern]] establishes the group after a failed mutiny aboard the [[Nightjaw]], an independent privateer vessel.

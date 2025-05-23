@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 banner: on
 location:
   - "[[Brimstone Docks]]"
-  - "[[Kanda]]"
+  - "[[Boba]]"
 organization:
   - "[[The Sea Vultures]]"
 owner:

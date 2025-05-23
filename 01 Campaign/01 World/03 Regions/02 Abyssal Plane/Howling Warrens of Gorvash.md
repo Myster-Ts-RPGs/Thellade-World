@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-Blood-soaked savannahs and hunting grounds where no prey survives.
 
+Blood-soaked savannahs and hunting grounds where no prey survives.
+Blood-hunting grounds haunted by gnoll warhorns and hunger spirits.
 
 ## Geography
 

@@ -23,12 +23,12 @@ head:
   - "[[Rask Thandek]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[The Ember Hold]]"
   - "[[Sunveil Hollow]]"
   - "[[Boba]]"
@@ -206,7 +206,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 - [[Rask Thandek]] has consolidated leadership under a harsher doctrine, reinforcing [[The Ember Hold]] with siege traps and new survivalist trials.  
-- [[Farman Raulf]] has fortified [[The Embermoor Spire]] and begun raiding leyline scouting vessels in the [[Middle Isles]].  
+- [[Farman Raulf]] has fortified [[The Embermoor Spire]] and begun raiding leyline scouting vessels in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].  
 - [[Torik Drennel]] has been implicated in a noble blackmail ring involving multiple holdings in [[Kanda]] and [[Lambaro]].  
 - [[Karis Valen]] was spotted overseeing a high-risk smuggling run through [[The Rusted Wake]] near [[Boba]], prompting increased naval patrols.  
 - [[Campaign Group 1]] and [[Campaign Group 2]] have reported disrupted trade routes, indirectly traced back to Marauder ambush zones.
@@ -239,25 +239,25 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 - **Regional Contacts / Lieutenants:**  
   - [[Sylva Merix]] – 'The Silent Blade'; infiltrator and noble thief operating from [[The Cinder Refuge]] ([[Lambaro]])  
-  - [[Jorak Relis]] – 'The Stormbrand'; mountain raider coordinating from [[The Ember Hold]] ([[Mwingu Isles]])  
-  - [[Harren Velka]] – 'The Shadow Wolf'; noble patron shielding operations from [[The Bloodied Hollow]] ([[Kanda Isles]])  
+  - [[Jorak Relis]] – 'The Stormbrand'; mountain raider coordinating from [[The Ember Hold]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]])  
+  - [[Harren Velka]] – 'The Shadow Wolf'; noble patron shielding operations from [[The Bloodied Hollow]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]])  
   - [[Karis Valen]] – 'The Black Tide'; smuggler queen of [[The Rusted Wake]] ([[Boba]])  
-  - [[Malrik Grell]] – 'The Hollow Mask'; kidnapper and burglar tied to [[The Smoldering Roost]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]])  
-  - [[Zorath Renvar]] – 'The Bloodied Hand'; arms dealer and recruiter at [[The Red Dagger Hold]] ([[Jambito Isles]])  
-  - [[Farman Raulf]] – 'The Crimson Watcher'; scoutmaster and fugitive hunter from [[The Embermoor Spire]] ([[Middle Isles]])
+  - [[Malrik Grell]] – 'The Hollow Mask'; kidnapper and burglar tied to [[The Smoldering Roost]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]])  
+  - [[Zorath Renvar]] – 'The Bloodied Hand'; arms dealer and recruiter at [[The Red Dagger Hold]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]])  
+  - [[Farman Raulf]] – 'The Crimson Watcher'; scoutmaster and fugitive hunter from [[The Embermoor Spire]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]])
 
 ## Locations
 ### Primary Hideouts
-- [[The Ember Hold]] – Fortified mountain base and seat of [[The Ember Circle]] within the [[Mwingu Isles]]
+- [[The Ember Hold]] – Fortified mountain base and seat of [[The Ember Circle]] within the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]
 
 ### Secondary Hideouts
-- [[The Bloodied Hollow]] – Raiding camp rebuilt repeatedly across the [[Kanda Isles]]  
+- [[The Bloodied Hollow]] – Raiding camp rebuilt repeatedly across the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]  
 - [[The Rusted Wake]] – Dockside smuggler’s den in [[Brimstone Docks]], [[Boba]]  
 - [[The Cinder Refuge]] – Hidden cavern depot in [[Glowmire Terrace]], [[Lambaro]]  
-- [[The Smoldering Roost]] – Outpost on a reef-ringed isle in the [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]  
-- [[The Red Dagger Hold]] – Ruined stronghold used for weapons caching and recruitment in [[Jambito Isles]]  
-- [[The Embermoor Spire]] – Cliffside watchtower and ambush coordination point in the [[Middle Isles]]  
-- [[The Shadow Break]] – Jungle fallback shelter for fugitives and wounded raiders in the [[Middle Isles]]
+- [[The Smoldering Roost]] – Outpost on a reef-ringed isle in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]  
+- [[The Red Dagger Hold]] – Ruined stronghold used for weapons caching and recruitment in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]  
+- [[The Embermoor Spire]] – Cliffside watchtower and ambush coordination point in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]  
+- [[The Shadow Break]] – Jungle fallback shelter for fugitives and wounded raiders in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]
 
 ## Notes
 - **Threat Level:** Extreme  

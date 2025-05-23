@@ -1,0 +1,1 @@
+A sleek, eyeless predator stitched from forgotten echoes and erased truths. Its churning form pulses with distorted memories, and its presence causes nearby minds to fray as if hearing voices that were never spoken. The Memory Hound does not track scent or sound—it hunts thoughts already had.

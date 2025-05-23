@@ -23,7 +23,7 @@ ownedlocation:
   - "[[01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles]]"
 condition: Healthy
 organization:
-  - "[[01 Campaign/02 Factions/01 Government/The Kingdom of Kanda]]"
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 > [!metadata|metadata]- Metadata 

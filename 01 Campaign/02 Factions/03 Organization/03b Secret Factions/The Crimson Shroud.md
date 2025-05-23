@@ -20,30 +20,30 @@ steward:
   - "[[Valtheris Voss]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Tallowgate]]"
   - "[[The Red Veil]]"
   - "[[Boba]]"
   - "[[Brimstone Docks]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/The Hollow Chamber]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Boba/The Hollow Chamber]]"
   - "[[Mangagoy]]"
   - "[[Glowquarter]]"
   - "[[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Xal'Zul/The Specter's Rest]]"
-  - "[[Lambaro Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Lambaro]]"
   - "[[Crucible Hollow]]"
   - "[[The Umbral Vault]]"
   - "[[Mwingu]]"
   - "[[The Tideflats]]"
   - "[[The Silent Sanctum]]"
-  - "[[Jambito Isles]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Jambito]]"
   - "[[Deepwall Reach District]]"
   - "[[The Forgotten Archive]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[The Wraith's Wake]]"
 head:
   - "[[Eldrik Vail]]"
@@ -252,7 +252,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Locations
 ### Major Operational Bases
 - [[The Red Veil]] (Kanda > Tallowgate)  
-- [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/The Hollow Chamber]] (Boba > Brimstone Docks)  
+- [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Boba/The Hollow Chamber]] (Boba > Brimstone Docks)  
 - [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Xal'Zul/The Specter's Rest|The Specter's Rest]] (Mangagoy > Glowquarter)  
 - [[The Umbral Vault]] (Lambaro > Crucible Hollow)  
 - [[The Silent Sanctum]] (Mwingu > The Tideflats)  

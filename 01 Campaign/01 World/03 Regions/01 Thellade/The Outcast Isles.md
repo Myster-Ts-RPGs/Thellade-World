@@ -6,7 +6,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Thellade]]"
 organization:
-  - "[[The Kingdom of Kanda]]"
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
   - "[[The Arcane Wardens]]"
   - "[[The Emberheart Traders]]"
   - "[[The Crystal Seekers Guild]]"
@@ -36,16 +36,18 @@ organization:
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Mask]]"
   - "[[The Hollow Saints]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sea Vultures]]"
   - "[[The Silver Chain]]"
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 aliases:
   - Outcast Isles
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 ```meta-bind-js-view 

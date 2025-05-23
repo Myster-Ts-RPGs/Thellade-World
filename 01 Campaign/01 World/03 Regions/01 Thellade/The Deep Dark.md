@@ -9,6 +9,7 @@ location:
 organization:
   - "[[The Hollow Saints]]"
   - "[[The Veilbound Circle]]"
+  - "[[The Rootcoil Smugglers]]"
 ---
 
 ```meta-bind-js-view 

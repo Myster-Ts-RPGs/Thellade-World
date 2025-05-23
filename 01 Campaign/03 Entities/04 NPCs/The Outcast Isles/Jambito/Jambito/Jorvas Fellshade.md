@@ -8,10 +8,10 @@ language:
   - Common
 location:
   - "[[Vault of the Fifth Veil]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
 condition: Dead
 organization:
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 ---
 
 > [!metadata|metadata]- Metadata 

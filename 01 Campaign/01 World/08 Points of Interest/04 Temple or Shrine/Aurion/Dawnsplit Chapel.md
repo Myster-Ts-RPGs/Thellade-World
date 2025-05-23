@@ -114,7 +114,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview 
 
-This radiant temple gleams with golden glass mosaics and morninglight wards. Priests of [[Aurion]] offer healing, purification, and sun-lit rites that protect against abyssal corruption.
+This radiant temple gleams with golden glass mosaics and morninglight wards. Priests of [[01 Campaign/03 Entities/01 Deities/Aurion]] offer healing, purification, and sun-lit rites that protect against abyssal corruption.
 
 ## Keyed Locations
 

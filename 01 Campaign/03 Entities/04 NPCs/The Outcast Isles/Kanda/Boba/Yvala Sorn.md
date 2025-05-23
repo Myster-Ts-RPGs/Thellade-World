@@ -26,9 +26,9 @@ aliases:
 organization:
   - "[[The Crimson Gauge]]"
 ownedlocation:
-  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Splintered Keel]]"
 location:
-  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Splintered Keel]]"
   - "[[Brimstone]]"
   - "[[Boba]]"
 condition: Healthy

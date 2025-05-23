@@ -10,7 +10,7 @@ organization:
 owner:
   - "[[Soraya Greenthorn]]"
 location:
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
 ---
 
 ```meta-bind-js-view 

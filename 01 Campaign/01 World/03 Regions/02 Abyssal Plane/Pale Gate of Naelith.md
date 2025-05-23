@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A swirling veil of mist and shadows that births the earliest horrors.
 
+A swirling veil of mist and shadows that births the earliest horrors.
+Mist-choked halls of origin, memory, and horror where nothing was first born.
 
 ## Geography
 

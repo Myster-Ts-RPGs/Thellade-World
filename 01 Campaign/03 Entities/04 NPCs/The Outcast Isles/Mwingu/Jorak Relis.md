@@ -22,7 +22,7 @@ organization:
   - "[[The Red Ash Mauraders]]"
 location:
   - "[[The Ember Hold]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
 condition: Healthy
 aliases:
   - The Stormbrand

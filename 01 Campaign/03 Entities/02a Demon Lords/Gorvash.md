@@ -111,6 +111,10 @@ aliases:
 
 ## Overview
 
+|   |   |
+|---|---|
+|Beast of Butchery|Gnoll-patron, wild abyssal hunger|
+
 > [!summary]- Overview  
 > Use this section to summarize the deity's beliefs, doctrine, and divine influence.
 

@@ -19,13 +19,13 @@ head:
   - "[[Halden Voss]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Crucible Hollow]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Embercoil Forge]]"
   - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]]"
   - "[[Smuggler's Dock]]"
@@ -197,13 +197,13 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] has ordered a series of thefts targeting prototype weapon cores from a Gilded Hammer vault.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] was last seen near [[Lambaro]]’s industrial quarter during an interrupted tech demonstration.  
-- A new cache has been established at [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]], linking the Syndicate to relic smugglers in the [[Middle Isles]].  
+- A new cache has been established at [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]], linking the Syndicate to relic smugglers in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].  
 - Surveillance indicates Syndicate infiltrators may be operating under false identities at [[01 Campaign/02 Factions/03 Organization/03d Educational Institutions/Outcast Isles/Lambaro Education Hall (Faction)|Lambaro Education Hall]] and the [[Lambaro Institute of Innovation]].
 
 ## History
 - 19 Frostfall 178 PR: Founded by expelled artificers from the [[University of Emberlight]].  
 - 181 PR: First confirmed sabotage of a Gilded Hammer manufacturing plant.  
-- 195 PR: Began trafficking Pre-Rising relics to black market buyers in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].  
+- 195 PR: Began trafficking Pre-Rising relics to black market buyers in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].  
 - 202 PR: Infiltration of [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly|Phoenix Assembly]] tech expos leads to widespread disinformation campaign.  
 - 209 PR: Rumors surface of a captured Syndicate automaton containing encrypted blackmail on several nobles.
 
@@ -213,7 +213,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - Rumors of a disguised agent working through [[Lambaro Institute of Innovation]] circulate following the destruction of a test automaton.
 
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 5|Campaign Group 5]]  
-  - During an investigation into smuggling routes in the [[Middle Isles]], a Syndicate symbol was recovered from a wrecked crate near [[Westport]]’s shore.
+  - During an investigation into smuggling routes in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]], a Syndicate symbol was recovered from a wrecked crate near [[Westport]]’s shore.
 
 ## Hierarchy
 - **Syndicate Head:** [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] – Master forger and senior strategist, based in [[Embercoil Forge]]
@@ -228,7 +228,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Lambaro]] > [[Crucible Hollow]] > [[Embercoil Forge]] – Main engineering and design hub.
 ### Secondary Hideouts
 - [[Mangagoy]] > [[Ashgate Market]] > [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
-- [[Westport]] > [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]] – [[Middle Isles]] smuggling node, used for offloading stolen components and experimental parts.
+- [[Westport]] > [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]] – [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]] smuggling node, used for offloading stolen components and experimental parts.
 
 ## Notes
 - **Threat Level:** High

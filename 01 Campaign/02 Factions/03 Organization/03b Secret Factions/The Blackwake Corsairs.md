@@ -12,10 +12,10 @@ aliases:
   - Blackwake Corsairs
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Middle Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
   - "[[Kanda]]"
   - "[[Boba]]"
   - "[[Seaside Cape]]"
@@ -26,8 +26,8 @@ location:
   - "[[Brimstone Docks]]"
   - "[[Stonebrace Docks]]"
   - "[[Binders' Lane]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]]"
-  - "[[The Mooring Flagon]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Splintered Keel]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Kanda/The Mooring Flagon]]"
   - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]]"
   - "[[Mistcatcher Shack]]"
   - "[[Hollowbone Trading Post]]"
@@ -43,7 +43,7 @@ organizationtype:
   - Trade
 allies:
   - "[[The Silver Chain]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 rivals:
   - "[[The Eternal Concord]]"
   - "[[The Ashen Vanguard]]"
@@ -252,8 +252,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge|Veilcutter's Refuge]] (Smokey Shoals)
 
 ### Key Operational Points
-- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Splintered Keel]] (Boba > Brimstone Docks)
-- [[The Mooring Flagon]] (Kanda > Stonebrace Docks)
+- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Splintered Keel]] (Boba > Brimstone Docks)
+- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Kanda/The Mooring Flagon]] (Kanda > Stonebrace Docks)
 - [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]] (Mangagoy > Binders’ Lane)
 - [[Mistcatcher Shack]] (Seabreeze Haven)
 - [[Hollowbone Trading Post]] (Innerwatch)

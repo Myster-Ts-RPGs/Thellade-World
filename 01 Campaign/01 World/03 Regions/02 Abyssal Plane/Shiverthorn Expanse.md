@@ -122,6 +122,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
 
+Glacial ravines and frost-warped mountains that echo with giant laments.
 
 
 ## Geography

@@ -121,6 +121,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
+
 Jagged canyons dripping with ichor, echoing with cries of betrayal.
 
 

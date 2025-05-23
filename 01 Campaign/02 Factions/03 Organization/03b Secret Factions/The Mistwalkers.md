@@ -13,13 +13,13 @@ aliases:
   - The Veiled Watch
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
-  - "[[Middle Isles]]"
-  - "[[The Sundering Deep]]"
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
   - "[[Jambito]]"
   - "[[Kanda]]"
   - "[[Lambaro]]"
@@ -218,7 +218,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Campaign Group 6]] has encountered indirect guidance from Mistwalker operatives during their leyline-crossing voyage.
 
 ## History
-- 04 Umbralcrown 91 PR: [[Vaelin Thorne]] unites rogue navigators and planar scholars under the symbol of the Fog Eye, establishing [[The Veil Sanctum]] deep within the [[Smokey Shoals]].  
+- 04 Umbralcrown 91 PR: [[Vaelin Thorne]] unites rogue navigators and planar scholars under the symbol of the Fog Eye, establishing [[The Veil Sanctum]] deep within the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]].  
 - 103 PR: [[The Drowned Watchtower]] constructed from ruins of a Pre-Rising fortification to monitor growing planar bleed.  
 - 121 PR: [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Smokey Shoals/Alren Lirian|Cipher Alren Lirian]] uncovers the Sable Codex, a treatise linking Shoals anomalies to infernal sabotage.  
 - 136 PR: [[The Whispering Isle]] vanishes from maps for three months, reappearing after a failed incursion by the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Blackwake Corsairs|Blackwake Corsairs]].  
@@ -227,7 +227,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Campaign Events
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]]  
-  - Received indirect navigation guidance through unnatural fog currents while traversing the [[The Sundering Deep|Sundering Deep]].  
+  - Received indirect navigation guidance through unnatural fog currents while traversing the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep|Sundering Deep]].  
   - Mysterious whispers directed them away from a potential rift storm hours before detection.  
   - One encoded message left in their ship’s chartroom bore the sigil of [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Smokey Shoals/Alren Lirian|Cipher Alren]].
 
@@ -257,8 +257,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Phantom Tradehouse]] – Safehouse in [[Mangagoy]] for black-market intelligence gathering and neutral barter  
 - [[The Eyes Beneath]] – Submerged enclave beneath [[Jambito]]’s coastal cliffs, used for sabotage prep and ship surveillance  
 - [[The Silent Reef]] – Naval staging ground near [[Westport]], hosts fog-warded vessels and the ghost fleet  
-- [[The Whispering Isle]] – Isolated island in [[The Sundering Deep]], sacred to the Veiled Watch and used for arcane rituals  
-- [[The Drowned Watchtower]] – Observation post deep in the [[Smokey Shoals]], staffed by planar seers and watchers
+- [[The Whispering Isle]] – Isolated island in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep]], sacred to the Veiled Watch and used for arcane rituals  
+- [[The Drowned Watchtower]] – Observation post deep in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]], staffed by planar seers and watchers
 
 ## Notes
 - **Threat Level:** High  

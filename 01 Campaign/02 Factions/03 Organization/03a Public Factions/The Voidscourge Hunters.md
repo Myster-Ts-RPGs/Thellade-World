@@ -22,7 +22,7 @@ allies:
   - "[[The Arcane Wardens]]"
 rivals:
   - "[[The Black Sepulcher]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
 foundedshort: -7.08.08 PR
@@ -30,15 +30,15 @@ head:
   - "[[Garrick Stonefist]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Watcher's Hollow]]"
   - "[[Hollowfield Waystation]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Stonebrace Docks]]"
   - "[[Hunter's Spur Outpost]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Eastwatch District]]"
   - "[[The Voidwatch Bastion]]"

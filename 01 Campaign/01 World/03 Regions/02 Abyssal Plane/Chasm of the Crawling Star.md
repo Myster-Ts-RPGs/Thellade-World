@@ -121,6 +121,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
+
 Deep chasms constantly split by tectonic swarms of locusts and infestations.
 
 

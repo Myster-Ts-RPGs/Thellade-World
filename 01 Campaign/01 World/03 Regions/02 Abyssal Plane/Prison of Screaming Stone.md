@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A prison of chaotic madness where an ancient god is bound in agony.
 
+A prison of chaotic madness where an ancient god is bound in agony.
+An oubliette of madness housing a bound ancient being.
 
 ## Geography
 

@@ -13,7 +13,7 @@
   "ITS@@mini": false,
   "ITS@@notion": false,
   "ITS@@its-d": false,
-  "ITS@@file-line-width": 1300,
+  "ITS@@file-line-width": 1600,
   "ITS@@default-callout-quote": false,
   "ITS@@radius-s": 6,
   "ITS@@h1-color@@dark": "#3D314D",
@@ -92,5 +92,7 @@
   "ITS@@h3-size": 22,
   "ITS@@h2-size": 24,
   "ITS@@h1-size": 26,
-  "ITS@@hide-status-bar": true
+  "ITS@@hide-status-bar": true,
+  "ITS@@dataview-table-auto": true,
+  "ITS@@dataview-regular-table": true
 }

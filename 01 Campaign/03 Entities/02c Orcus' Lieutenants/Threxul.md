@@ -9,6 +9,9 @@ language:
 aliases:
   - Threxul, Prince of Hollow Eyes
   - Prince of Hollow Eyes
+condition: Released Abyss
+location:
+  - "[[Abyssal Plane]]"
 ---
 
 > [!metadata|metadata]- Metadata 

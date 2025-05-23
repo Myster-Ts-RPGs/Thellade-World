@@ -16,18 +16,18 @@ head:
   - "[[Kaige Maganti]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[The Hidden City]]"
   - "[[Sanctum of the Unbound Eye]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Sunveil Hollow]]"
   - "[[Vault of Forgotten Hymns]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Vault of the Fifth Veil]]"
   - "[[The Deep Dark]]"
-  - "[[The Veins of Night]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]]"
   - "[[Shadowthread Warrens]]"
   - "[[Daggerfall Hollow]]"
   - "[[The Deepcrypt Arcanum]]"
@@ -176,7 +176,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Veilbound Circle]] is a secretive cabal of scholars, warlocks, and archivists who safeguard forbidden texts, Pre-Rising magical theories, and suppressed histories. Operating from concealed sanctums scattered across the [[Outcast Isles]] and [[The Deep Dark]], the Circle is committed to preserving arcane truth—even at the cost of defying modern dogma. Members engage in clandestine rituals and magical conservation, resisting suppression by institutions like the [[Arcane Wardens]] and [[Eternal Concord]].
+> [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]] is a secretive cabal of scholars, warlocks, and archivists who safeguard forbidden texts, Pre-Rising magical theories, and suppressed histories. Operating from concealed sanctums scattered across the [[Outcast Isles]] and [[The Deep Dark]], the Circle is committed to preserving arcane truth—even at the cost of defying modern dogma. Members engage in clandestine rituals and magical conservation, resisting suppression by institutions like the [[Arcane Wardens]] and [[Eternal Concord]].
 
 ### Oaths
 > "Let no veil obscure the truth eternal."
@@ -202,7 +202,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 - [[Kaige Maganti]] is confirmed alive and continues to lead from the [[Sanctum of the Unbound Eye]] beneath [[Jambito]].
 - The organization’s cell at the [[Vault of the Fifth Veil]] was compromised following the death of [[Jorvas Fellshade]] during a catastrophic encounter involving a released Lieutenant of [[Orcus]].
-- Recruitment among outcast scholars and defecting wardens is on the rise in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] and [[Kanda]].
+- Recruitment among outcast scholars and defecting wardens is on the rise in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] and [[Kanda]].
 - An archive discovered in the [[Vault of Forgotten Hymns]] may contain ritual instructions used to suppress Abyssal entities.
 
 ## History
@@ -213,13 +213,13 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Campaign Events
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3|Campaign Group 3]]
-  - Discovered the [[Vault of the Fifth Veil]] on [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] during pursuit of cult activity.
+  - Discovered the [[Vault of the Fifth Veil]] on [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] during pursuit of cult activity.
   - Encountered [[Jorvas Fellshade]] and inadvertently triggered a cascading failure in a Pre-Rising binding seal, resulting in the release of a Lieutenant of [[Orcus]].
   - Jorvas was killed during the resulting collapse of the vault’s protective enchantments.
   - Partial ritual scrolls recovered describe a layered system of memory-anchored sigils used to maintain Abyssal seals.
 
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 1|Campaign Group 1]]
-  - Currently exploring the [[Deep Dark]] via the [[Mwingu Isles]] descent, unknowingly on a path toward [[The Deepcrypt Arcanum]].
+  - Currently exploring the [[Deep Dark]] via the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]] descent, unknowingly on a path toward [[The Deepcrypt Arcanum]].
   - Minor arcane disturbances and psychic echoes have been reported near [[Daggerfall Hollow]], suggesting latent warding runes may still be active.
   - The group may encounter remnants of failed Circle experiments, including shadowbind glyphs and deteriorated archival fragments referencing “Veil Protocols.”
 
@@ -237,8 +237,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Primary Hideouts
 - [[Sanctum of the Unbound Eye]] – Located in [[The Hidden City]], beneath [[Jambito]]. Headquarters and central archive.
 - [[Vault of the Forgotten Hymns]] – Archive site in [[Sunveil Hollow]], [[Kanda]].
-- [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].
-- [[The Deepcrypt Arcanum]] – Located in [[Daggerfall Hollow]], within the [[Shadowthread Warrens]] of [[The Veins of Night]] in [[The Deep Dark]].
+- [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].
+- [[The Deepcrypt Arcanum]] – Located in [[Daggerfall Hollow]], within the [[Shadowthread Warrens]] of [[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]] in [[The Deep Dark]].
 
 ### Secondary Hideouts
 - Rumored ritual sanctum beneath [[Old Silverbend Bridge]] (Unconfirmed).
@@ -261,4 +261,4 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Ritual blade used in the aborted binding of the Deepcrypt (retrieved by [[Campaign Group 3]]).
 - Blackened scroll fragments describing multi-sigil seals tied to celestial conjunctions.
 - Ancient encoded directive from an unknown Pre-Rising archmage, marked with the Circle’s sigil.
-- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]].
+- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].

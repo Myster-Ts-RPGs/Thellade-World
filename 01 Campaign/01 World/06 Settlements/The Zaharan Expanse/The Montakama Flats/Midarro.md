@@ -5,8 +5,10 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[The Montakama Flats]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Zaharan Expanse/The Montakama Flats]]"
   - "[[The Zaharan Expanse]]"
+dominion:
+  - "[[Montak Empire]]"
 ---
 
 ```meta-bind-js-view 

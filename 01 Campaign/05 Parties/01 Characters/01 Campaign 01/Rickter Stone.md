@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#Player"
   - "#Group1"
-art: z_Assets/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Players/ricktertoken.webp
 aliases:
   - Rickter
 whichparty:

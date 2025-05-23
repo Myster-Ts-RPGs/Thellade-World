@@ -25,32 +25,32 @@ allies:
   - "[[The Arcane Wardens]]"
 rivals:
   - "[[The Bleeding Tide]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
   - "[[The Red Ash Mauraders]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Riverbend Hollow]]"
   - "[[Civic Rebirth Annex]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Glimmershade]]"
   - "[[Phoenix Forum Hall]]"
   - "[[Boba]]"
   - "[[Ironveil Commons]]"
   - "[[The  Emberlight Assembly Wing]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Glowmire Terrace]]"
   - "[[The Eternal Hearth]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Renaissance Bridge Office]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"
   - "[[Hall of Social Illumination]]"
@@ -222,7 +222,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Thalia Ashglow|Speaker Thalia Ashglow]] continues to coordinate innovation drives from [[The Eternal Hearth]] while building Assembly enclaves in [[Boba]] and [[Kanda]].  
 > - Assembly leaders are investigating corrupt officials blocking education reforms in [[01 Campaign/01 World/07 Districts/Jambito/Riverbend Hollow|Riverbend Hollow]], with help from Eternal Concord liaisons.  
 > - Talks with the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens|Arcane Wardens]] are underway regarding shared magical research protocols.  
-> - A sabotage attempt on the Emberlight Assembly Wing in [[Boba]] is suspected to involve sympathizers of [[The Infernal Covenant]].  
+> - A sabotage attempt on the Emberlight Assembly Wing in [[Boba]] is suspected to involve sympathizers of [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]].  
 > - The group has dispatched moderators to attend the Kingdom-Wide Peace Summit hosted by [[The Eternal Concord]].
 
 ## History

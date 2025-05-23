@@ -22,7 +22,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
 location:
   - "[[The Cursed Storm]]"
-  - "[[Smokey Shoals]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
 condition: Healthy
 aliases:
   - Sergeant Lirrek Morn

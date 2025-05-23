@@ -16,6 +16,8 @@ terrain:
   - Crystal Forest
   - Rainforest
   - Mosslands
+dominion:
+  - "[[Montak Empire]]"
 ---
 
 ```meta-bind-js-view 

@@ -11,7 +11,7 @@ organization:
   - "[[The Mistwalkers]]"
   - "[[The Red Ash Mauraders]]"
   - "[[The Sable Accord]]"
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 ---
 
 ```meta-bind-js-view 

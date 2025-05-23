@@ -6,7 +6,7 @@ tags:
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Shadowthread Warrens]]"
-  - "[[The Veins of Night]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]]"
   - "[[The Deep Dark]]"
 ---
 

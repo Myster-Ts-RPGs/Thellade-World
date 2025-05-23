@@ -26,7 +26,7 @@ steward:
   - "[[Ressa Thelis]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]]"

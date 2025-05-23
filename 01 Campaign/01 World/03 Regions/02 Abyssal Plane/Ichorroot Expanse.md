@@ -121,6 +121,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
+
+Swamp-fungus mire choking with rot, decay, and oozing life.
 A realm of endless rot, oozes, and fungal overgrowth.
 
 

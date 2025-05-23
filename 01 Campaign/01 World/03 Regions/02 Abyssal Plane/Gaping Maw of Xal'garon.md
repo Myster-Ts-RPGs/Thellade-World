@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A vast ocean dotted with islands and twisted coral towers.
 
+A vast ocean dotted with islands and twisted coral towers.
+A vast ocean with island temples rising from a madness-filled abyss.
 
 ## Geography
 

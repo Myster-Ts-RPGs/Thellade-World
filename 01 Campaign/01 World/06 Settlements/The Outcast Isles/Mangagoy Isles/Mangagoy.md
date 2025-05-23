@@ -42,13 +42,13 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Gilded Daggers]]"
   - "[[The Hollow Saints]]"
-  - "[[The Infernal Covenant]]"
   - "[[The Iron Syndicate]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Silver Chain]]"
   - "[[The Gilded Hammer Union]]"
   - "[[The Sunfire Heralds]]"
+  - "[[The Infernal Covenant]]"
 leader:
   - "[[Garron Draven]]"
 dominion:
@@ -208,7 +208,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span><span style="float: right; font-size: medium"><em>Updated: </em>`VIEW[{updated}]`</span>
 
-
+## `=this.file.name` VS `=this.file.link`
 > [!recite]- Introduction
 > The sea mists part as your vessel crests the final swell, revealing Mangagoy’s jagged skyline—stone towers tangled in iron glyphwork, rising like broken teeth from a bay of green firelight. The harbor churns with enchanted cargo lifts and warded barges, cranes shrieking over rune-carved docks. Above it all, the great Glowquarter glimmers with floating sigils and flickering arcane lanterns that never go out. Thunder cracks inland—not from a storm, but from a spell-forge deep in the cliffs. As your keel grinds toward the berth, a pair of masked guards branded with obsidian seals eyes your arrival. Behind them, Mangagoy waits, watching you back.
 
@@ -254,30 +254,33 @@ await dv.view("z_Templates/Scripts/view1");
 await dv.view("z_Templates/Scripts/view2");
 ```
 
-### Complete NPC List
-> [!metadata|characters]- Characters
->```dataview
->TABLE WITHOUT ID file.link AS "Name", 
->	   condition AS "Condition",
->       join(aliases, ", ") AS Aliases, 
->       join(location, ", ") AS "Location", 
->       join(occupation, ", ") AS "Occupations", 
->       join(organization, ", ") AS "Organizations"
->FROM "01 Campaign"
->WHERE econtains(location, this.file.link) AND contains(tags, "Character")
->SORT file.name ASC
->```
+## Complete NPC List
 
-### Location List
+> [!metadata|characters]- Characters
+> ```dataview
+> TABLE without id file.link AS "Name",
+>   join(aliases, ", ") AS Aliases,
+>   join(occupation, ", ") AS "Occupations",
+>   join(link(organization), ", ") AS "Organizations"
+> FROM "01 Campaign"
+> WHERE contains(string(location), this.file.name) AND contains(tags, "#Character")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Districts
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type,  join(link(organization), ", ") AS "Organization(s)"
+> FROM "01 Campaign"
+> WHERE contains(string(location), this.file.name)  AND contains(tags, "District")
+> SORT tags DESC, poitype ASC, file.name ASC
+
+
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", 
-> 	join(poitype, ", ") AS Type,
-> 	join(link(location[0]), ", ") AS "Location", 
-> 	join(link(organization), ", ") AS "Organization(s)"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location[0]), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
-> SORT file.name ASC
+> WHERE contains(string(location), this.file.name)  AND contains(tags, "POI")
+> SORT tags DESC, poitype ASC, file.name ASC
 
 ## Current Events
 - **Leyline Echo Contamination:** Dream-echoes manifest after the Embermoon Surge, spreading sleep-related madness. The Order of Silent Echoes is implicated.

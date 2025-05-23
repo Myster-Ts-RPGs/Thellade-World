@@ -119,6 +119,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
+
 Floating spires, howling winds, and open sky twisted by corruption.
 
 

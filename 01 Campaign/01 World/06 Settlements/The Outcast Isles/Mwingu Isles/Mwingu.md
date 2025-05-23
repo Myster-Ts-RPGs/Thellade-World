@@ -5,7 +5,7 @@ tags:
   - "#TODO"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[The Outcast Isles]]"
 settlementtype: Small City
 population: 8,750
@@ -33,9 +33,11 @@ organization:
   - "[[The Bleeding Tide]]"
   - "[[The Red Runners]]"
   - "[[The Crimson Shroud]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
   - "[[The Sable Accord]]"
+dominion:
+  - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
 ---
 
 

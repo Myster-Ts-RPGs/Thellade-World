@@ -3,7 +3,7 @@ tags:
   - "#Character"
   - "#Deity"
   - "#Canon"
-art: 90 Assets/Images/Deities/EldathTransparent.png
+art: 90 Assets/Images/Deities/DeityEldathTransparent.png
 sanctification:
   - Must Choose Holy
 allies: []

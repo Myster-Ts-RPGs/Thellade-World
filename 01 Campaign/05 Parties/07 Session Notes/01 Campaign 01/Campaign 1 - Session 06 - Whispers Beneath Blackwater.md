@@ -1,3 +1,17 @@
+---
+tags:
+  - "#SessionNote"
+  - "#TODO"
+whichparty:
+  - "[[Campaign Group 1]]"
+---
+> [!metadata|metadata]- Metadata 
+>> [!metadata|metadataoption]- System
+>> #### System
+>>  |
+>> ---|---|
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+
 # 📜 Campaign Group 1 – Session 6: *Whispers Beneath Blackwater*
 **Date:** Dawn 06–07, 212 PR  
 **Start Time:** 19:37  
@@ -11,9 +25,9 @@
 
 The party continued their stay in Blackwater Crossing, unraveling the eerie mysteries tied to the recent demonic activity and whispered remnants of the deep. They learned that a strange map—left behind in a returned satchel—seemed to react to the leyline-seeped ground around the ruined chapel and a building by the lake.
 
-After a tense negotiation with Scraps and Relic, local couriers, the party agreed to complete their next delivery in exchange for the map. This led to a strange encounter with a woman named **Knight-Archivist Tem Solven** and a dwarven paladin named **Commander Yagra Brambleward**, who bore the sigil of the Silent Shield.
+After a tense negotiation with Scraps and Relic, local couriers, the party agreed to complete their next delivery in exchange for the map. This led to a strange encounter with a woman named [[01 Campaign/03 Entities/04 NPCs/Shadowthread Warrens/Blackwater Crossing/Tem Solven|Knight-Archivist]] and a dwarven paladin named [[Commander Ygra Brambleward]], who bore the sigil of the Silent Shield.
 
-Upon delivering the key, the party learned that this map might not just be a delivery record, but a carrier of psionic memory—linking two binding sites for a fragment of **Xal’Zul**, a demonic entity bound during the Rising. Tem and Yagra confirmed that both the chapel and the lakefront building marked on the map are tied to a seal holding back one of the seven "Mouths" of Xal’Zul.
+Upon delivering the key, the party learned that this map might not just be a delivery record, but a carrier of psionic memory—linking two binding sites for a fragment of **Xal’Zul**, a demonic entity bound during the Rising. Tem and Yagra confirmed that both the chapel and the lakefront building marked on the map are tied to a seal holding back one of the seven "Mouths" of [[01 Campaign/03 Entities/02c Orcus' Lieutenants/Xal'Zul|Xal’Zul the Choir of Worms]].
 
 Faced with rising dread, the party chose to aid the two guardians in reinforcing the seal near the lake through a harmonic resonance ritual. The ritual initially succeeded, but faltered in its final moments—**Rickter** involuntarily spoke a verse from the unsealing litany, suggesting a partial failure. The seal did not break, but the mouth remembers them.
 

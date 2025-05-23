@@ -15,19 +15,19 @@ head:
   - "[[Mira Valion]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Ashfire Bastion District]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Ironspan Gate District]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[The Ember Wharf]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Seaside Cape]]"
   - "[[Mossgate Market]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Watcher's Hollow]]"
   - "[[Detachment Staging Depot]]"
@@ -39,7 +39,7 @@ location:
 rivals:
   - "[[The Red Ash Mauraders]]"
   - "[[The Bleeding Tide]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 pronounced: BLAY-zing PLEDGE
 aliases:
   - Blazing Pledge
@@ -181,7 +181,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Blazing Pledge]] is a disciplined and fiercely loyal legion tasked with safeguarding [[The Kingdom of Kanda]]’s borders and suppressing emerging threats both foreign and extraplanar. Known for their swift action, decisive strikes, and uncompromising loyalty, the Pledge formed in the wake of the Rising to reinforce the new era of isolation with sharp steel and sharper vigilance.
+> [[The Blazing Pledge]] is a disciplined and fiercely loyal legion tasked with safeguarding [[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]’s borders and suppressing emerging threats both foreign and extraplanar. Known for their swift action, decisive strikes, and uncompromising loyalty, the Pledge formed in the wake of the Rising to reinforce the new era of isolation with sharp steel and sharper vigilance.
 
 ### Oaths
 > "Kanda First. Flame Unyielding. Threats Extinguished."
@@ -220,9 +220,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Notes
 - [[Captain Mira Valion]] — Commanding officer; fierce defender of national sovereignty. Known for eliminating threats with ruthless efficiency.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Blazing Pledge/The Flamehold]] — Headquarters and training grounds in Kanda’s [[Ashfire Bastion District]] (Generated).  
-- Patrolling areas include [[Smokey Shoals]] coastline and minor fortifications on outlying isles.  
+- Patrolling areas include [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]] coastline and minor fortifications on outlying isles.  
 - Often mistaken for [[The Ashen Vanguard]] due to overlapping duties, though the Pledge's methods are far more aggressive and nationally focused.  
-- Suppressed historical tension with [[The Infernal Covenant]], following unauthorized operations near leyline anomalies that the Pledge was ordered to abandon.  
+- Suppressed historical tension with [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]], following unauthorized operations near leyline anomalies that the Pledge was ordered to abandon.  
 - Symbol: A crimson flame coiled around a steel spearhead, rising through a black circle of ash.  
 - Uniforms: Charcoal-gray breastplates, red sashes, and crested helms marked with a three-pronged flame sigil.
 

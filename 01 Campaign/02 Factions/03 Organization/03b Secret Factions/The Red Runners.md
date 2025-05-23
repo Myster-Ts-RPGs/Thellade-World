@@ -26,12 +26,12 @@ head:
 founded: 17 Emberwake 43 PR
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Mwingu Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Jambito]]"
   - "[[Kanda]]"
   - "[[Lambaro]]"
@@ -220,7 +220,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Current Events
-- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|The Red Runners]] have expanded operations into [[Kanda]], [[Mangagoy]], [[Lambaro]], and the [[Middle Isles]].
+- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|The Red Runners]] have expanded operations into [[Kanda]], [[Mangagoy]], [[Lambaro]], and the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].
 - Under [[Kaelos Vark]]'s directive, assassinations against key [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord|Eternal Concord]] figures have increased.
 - The organization has supplied agents and logistics to both the [[Infernal Covenant]] and the [[Black Sepulcher]] in exchange for relics, contracts, and political leverage.
 - Rumors suggest internal schisms brewing as [[Vashara Morgan|Vashara 'The Pale' Morgan]] secretly questions infernal allegiances.

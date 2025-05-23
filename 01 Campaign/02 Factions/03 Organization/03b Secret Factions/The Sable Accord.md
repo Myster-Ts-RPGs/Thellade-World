@@ -24,22 +24,22 @@ location:
   - "[[The Starlost Reach]]"
   - "[[The Veil of Midnight]]"
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Sunveil Hollow]]"
   - "[[The Umbral Vault]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Glowmire Terrace]]"
   - "[[The Hollow Spire]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[The Sunken Archive]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[The Twilight Nexus]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[The Black Aetherium]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[Jambito]]"
   - "[[Silverspire Terrace]]"
   - "[[The Obsidian Hall]]"
@@ -246,11 +246,11 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - **Regional Contacts / Lieutenants:**  
   - [[Andric Vaylen]] – 'The Black Veil Councilor'; noble patron operating from [[Kanda]] – [[Sunveil Hollow]] – [[The Umbral Vault]]  
   - [[Elyssara Vornis]] – 'The Silent Archivist'; relic keeper in [[Lambaro]] – [[Glowmire Terrace]] – [[The Hollow Spire]]  
-  - [[Maelis Durn]] – 'The Hollow Hand'; alchemical researcher in [[Kanda Isles]] – [[The Silent Observatory]]  
-  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Araniss Velis]] – 'The Drowned Scholar'; archivist of [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]] – [[The Sunken Archive]]  
+  - [[Maelis Durn]] – 'The Hollow Hand'; alchemical researcher in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]] – [[The Silent Observatory]]  
+  - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Araniss Velis]] – 'The Drowned Scholar'; archivist of [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] – [[The Sunken Archive]]  
   - [[Tyren Zorath]] – 'The Forgotten'; lorebroker in [[Jambito]] – [[Silverspire Terrace]] – [[The Obsidian Hall]]  
   - [[Varethis Thaldris]] – 'The Echo'; rift scholar in [[Mwingu]] – [[Scholar's Ring]] – [[The Black Aetherium]]  
-  - [[Vaelris Korrin]] – 'The Stormbound'; artifact retriever in [[Middle Isles]] – [[The Twilight Nexus]]
+  - [[Vaelris Korrin]] – 'The Stormbound'; artifact retriever in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]] – [[The Twilight Nexus]]
 
 ## Locations
 ### Primary Hideouts
@@ -260,10 +260,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Hollow Spire]] – Ruined alchemical forge repurposed as a lab in [[Lambaro]]  
 - [[The Black Aetherium]] – Rift experiment site in [[Mwingu]]  
 - [[The Umbral Vault]] – Forbidden knowledge archive in [[Kanda]] – [[Sunveil Hollow]]  
-- [[The Silent Observatory]] – Remote arcane observatory in [[Kanda Isles]]  
-- [[The Sunken Archive]] – Submerged relic containment site in [[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]  
+- [[The Silent Observatory]] – Remote arcane observatory in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]  
+- [[The Sunken Archive]] – Submerged relic containment site in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]  
 - [[The Obsidian Hall]] – Noble-linked broker site in [[Jambito]]  
-- [[The Twilight Nexus]] – Free-floating arcane structure near a planar rift in [[Middle Isles]]
+- [[The Twilight Nexus]] – Free-floating arcane structure near a planar rift in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]
 
 ## Notes
 - **Threat Level:** Extreme  

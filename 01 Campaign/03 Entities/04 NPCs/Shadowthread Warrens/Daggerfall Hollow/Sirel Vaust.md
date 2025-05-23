@@ -25,11 +25,11 @@ location:
   - "[[The Deepcrypt Arcanum]]"
   - "[[Daggerfall Hollow]]"
   - "[[Shadowthread Warrens]]"
-  - "[[The Veins of Night]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]]"
   - "[[The Deep Dark]]"
 condition: Healthy
 organization:
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
 ---
 
 > [!metadata|metadata]- Metadata 

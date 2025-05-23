@@ -7,6 +7,8 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[The Montakama Flats]]"
   - "[[The Zaharan Expanse]]"
+dominion:
+  - "[[Montak Empire]]"
 ---
 
 ```meta-bind-js-view 

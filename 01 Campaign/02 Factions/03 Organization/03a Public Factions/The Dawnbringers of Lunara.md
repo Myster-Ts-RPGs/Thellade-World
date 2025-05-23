@@ -27,17 +27,17 @@ allies:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Verdant Hand]]"
 rivals:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Black Sepulcher]]"
   - "[[The Hollow Saints]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
-  - "[[Mwingu Isles]]"
-  - "[[Middle Isles]]"
-  - "[[Lambaro Isles]]"
-  - "[[Jambito Isles]]"
-  - "[[Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Kanda]]"
   - "[[Tallowgate]]"
   - "[[The Radiant Temple]]"
@@ -217,7 +217,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Prohibitions
 > - Desecration of any Moonwell, regardless of affiliation.  
-> - Collaboration with [[The Infernal Covenant]] or its agents.  
+> - Collaboration with [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]] or its agents.  
 > - Corruption or manipulation of dreams through demonic rites.  
 > - Withholding prophetic insight when innocents are imperiled.
 
@@ -225,7 +225,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - [[Vaelis Duskwhisper]] led the Dreambinding Ritual for [[Kaelor Thornhide]] in [[Mangagoy]], assisted by [[Zareth Korrath]] and [[Sowilo Brightgaze]].  
 > - Group 6 encountered [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Seaside Cape/Nymeriel|Sister Nymeriel]] at the [[Moonwell of Lunara]] in [[Seaside Cape]], where [[01 Campaign/05 Parties/01 Characters/06 Campaign 06/Kibo Shi|Kibo]] plucked a Lunabloom flower named **Silvielle**, gaining divine insight.  
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Seralyne Vireth|High Oracle Seralyne Vireth]] has ordered reinforcements and spiritual seals at shrines compromised by Abyssal leyline bleed.  
-> - The sanctum in Mangagoy was attacked by cultists of [[The Infernal Covenant]]; a weakened seal of [[Xal'Zul]] remains unstable beneath the site.
+> - The sanctum in Mangagoy was attacked by cultists of [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]; a weakened seal of [[Xal'Zul]] remains unstable beneath the site.
 
 ## History
 > Founded in 4 Springdawn -83 PR, the Dawnbringers arose from a fractured coven of moon-healers who survived the loss of the Last Dreamwarden Temple. Their first miracle, recorded in the Journals of the Lune-Veil, was a psychic healing of a family cursed to relive the same nightmare.  

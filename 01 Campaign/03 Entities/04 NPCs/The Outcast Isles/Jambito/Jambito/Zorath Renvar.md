@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[The Red Dagger Hold]]"
-  - "[[Jambito Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
 condition: Healthy
 aliases:
   - The Bloodied Hand

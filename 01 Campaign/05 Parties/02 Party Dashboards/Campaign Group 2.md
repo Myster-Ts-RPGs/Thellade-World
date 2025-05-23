@@ -60,7 +60,7 @@ if (context.bound.art !== "z_Assets/Misc/PlaceholderImage.png" && context.bound.
 TABLE WITHOUT ID
 >>     "<span style='display: block; border-bottom: 2px solid var(--accent); text-align: center; margin-bottom: 5px;'>" + link(file.link, Title) + "</span>" AS Title,
 >>     "<span style='display: block; border-bottom: 2px solid var(--accent); text-align: center; margin-bottom: 5px;'>" + sessiondate + "</span>" AS SessionDate
->> FROM "Campaign"
+>> FROM "01 Campaign"
 >> WHERE econtains(whichparty, this.file.link) AND contains(tags, "SessionNote")
 >>SORT sessiondate DESC LIMIT 9
 >>```
@@ -70,7 +70,7 @@ TABLE WITHOUT ID
 >>```dataview
 TABLE WITHOUT ID
 >>     "<span style='display: block; border-bottom: 2px solid var(--accent); text-align: center; margin-bottom: 5px;'>" + link(file.link, Title) + "</span>" AS Title
->> FROM "Campaign"
+>> FROM "01 Campaign"
 >> WHERE econtains(whichparty, this.file.link) AND contains(tags, "Adventure") AND !contains(status, "✅") AND !contains(status, "❌")
 >>SORT file.name asc
 >>```
@@ -145,20 +145,20 @@ TABLE WITHOUT ID
 >> [!metadata|faction] Faction
 >> ```dataview
 >> TABLE without id file.link AS "Faction", party2reputation AS "Reputation"
->> FROM "Campaign"
+>> FROM "01 Campaign"
 >> WHERE contains(tags, "#Faction") AND party2reputation
 >> SORT file.name ASC
 >
 >> [!metadata|faction] Location
 >> ```dataview
 >> TABLE without id file.link AS "POI", party2reputation AS "Reputation"
->> FROM "Campaign"
+>> FROM "01 Campaign"
 >> WHERE contains(tags, "#POI") AND party2reputation
 >> SORT file.name ASC
 >
 >> [!metadata|faction] Government
 >> ```dataview
 >> TABLE without id file.link AS "Government", party2reputation AS "Reputation"
->> FROM "Campaign"
+>> FROM "01 Campaign"
 >> WHERE contains(tags, "#Government") AND party2reputation
 >> SORT file.name ASC

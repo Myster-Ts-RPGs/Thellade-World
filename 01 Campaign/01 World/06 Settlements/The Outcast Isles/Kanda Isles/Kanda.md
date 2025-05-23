@@ -3,7 +3,7 @@ tags:
   - "#Location"
   - "#Settlement"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/Settlements/KandaBkgd.png
 location:
   - "[[Kanda Isles]]"
   - "[[The Outcast Isles]]"
@@ -22,12 +22,10 @@ organization:
   - "[[The Blazing Pledge]]"
   - "[[The Dawnbringers of Lunara]]"
   - "[[The Emberborn League]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
   - "[[The Lumina Guardians]]"
   - "[[The Order of the Ember Blades]]"
   - "[[The Phoenix Assembly]]"
   - "[[The Rift Scholars Collective]]"
-  - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Sunfire Heralds]]"
   - "[[The Voidscourge Hunters]]"
   - "[[The Wardens of the Deep Dark]]"
   - "[[The Bleeding Tide]]"
@@ -39,13 +37,17 @@ organization:
   - "[[The Emberborn Exiles]]"
   - "[[The Hollow Mask]]"
   - "[[The Hollow Saints]]"
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
   - "[[The Midnight Covenant]]"
   - "[[The Mistwalkers]]"
   - "[[The Sable Accord]]"
   - "[[The Silver Chain]]"
-  - "[[The Veilbound Circle]]"
-  - "[[The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Veilbound Circle]]"
+  - "[[The Gilded Hammer Union]]"
+  - "[[The Sunfire Heralds]]"
+dominion:
+  - "[[The Kingdom of Kanda]]"
 ---
 
 
@@ -101,7 +103,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Imports** | `INPUT[Goods][inlineListSuggester:import]` |
 >> **Exports** | `INPUT[Goods][inlineListSuggester:export]` |
 
-> [!infobox]+
+> [!infobox|wsmall]+
 > # `=this.file.name`
 > `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ###### Info
@@ -161,12 +163,40 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
-> [!metadata|district]- Districts
+
+## Overview
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
+
+## Location NPC List
+```dataviewjs
+await dv.view("z_Templates/Scripts/view1");
+```
+## Organization NPC List
+```dataviewjs
+await dv.view("z_Templates/Scripts/view2");
+```
+
+## Complete NPC List
+> [!metadata|characters]- Characters
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
+> TABLE without id file.link AS "Name",
+>   join(aliases, ", ") AS Aliases,
+>   join(occupation, ", ") AS "Occupations",
+>   join(link(organization), ", ") AS "Organizations"
+> FROM "01 Campaign"
+> WHERE contains(string(location), this.file.name) AND contains(tags, "#Character")
+> SORT file.name ASC
+> ```
+
+
+> [!metadata|location]- Districts
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type,  join(link(organization), ", ") AS "Organization(s)"
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "District")
-> SORT districttype ASC, file.name ASC
+> SORT tags DESC, poitype ASC, file.name ASC
+
 
 > [!metadata|location]- Locations
 > ```dataview
@@ -174,26 +204,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "POI")
 > SORT tags DESC, poitype ASC, file.name ASC
-
-> [!metadata|organizations]- Organizations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
-> SORT tags DESC, file.name ASC
-
-> [!metadata|characters]- Characters
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
-> SORT tags DESC, file.name ASC
-
-## Overview
-> [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
-
-
 
 ## Current Events
 

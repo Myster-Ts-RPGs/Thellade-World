@@ -11,9 +11,11 @@ owner:
   - "[[Seralyne Vireth]]"
 organization:
   - "[[The Dawnbringers of Lunara]]"
+  - "[[The Moonwake Path]]"
 location:
   - "[[Tallowgate]]"
   - "[[Kanda]]"
+pronounced: RAY-dee-ent TEM-pul
 ---
 
 ```meta-bind-js-view 
@@ -52,7 +54,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
 >> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
 
-> [!infobox]+
+> [!infobox|wsmall]+
 > # `=this.file.name`
 > `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 > ###### Info
@@ -77,8 +79,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-> [!recite]- Introduction
-> A script for the GM to read when the party arrive to this location for the first time.
+> [!recite]- Introduction  
+> The wind calms as you step into the temple’s outer ring—no ward, no rune, just the silence of reverence. **The Radiant Temple** is not built to impress—it is built to reflect. Pale crescent arches rise over quiet prayer paths, and moonlight filters through translucent stone etched with ancient glyphs of Lunara.  
+>  
+> Incense drifts like mist over shallow pools. An open oculus reveals both moons in their fullness when the time is right. Devotees chant in soft harmonics, not for spectacle, but for alignment.  
+>  
+> Somewhere deep beneath the central dome, prophecy waits. Not in words—but in echoes. And above it all, the High Oracle listens.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -116,21 +122,42 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
-## Overview 
 
 
 
-## Keyed Locations
+## Overview
 
+**The Radiant Temple** is the central sanctum of Lunaran worship in [[Kanda City]], located within the [[Tallowgate]] district. It serves both as the ceremonial and administrative hub of the [[Dawnbringers of Lunara]] and as a prophetic locus for the interpretation of the Moonwake Path. Though its beauty is understated, it is saturated with meaning: every corridor aligns with celestial angles, every pool reflects not just light, but intention.
 
+Its current High Oracle, [[Seralyne Vireth]], rarely appears outside its innermost sanctum, and her silence is as potent as her visions. The temple is one of the few places in Kanda that does not fall under High Chancellor Thalor’s direct authority, though that balance grows tenuous.
+
+---
 
 ## Current Events
 
+- The inner sanctum has been placed under a silent ward—no spellcasting allowed inside unless sanctioned by the Oracle herself.  
+- Ritual harmonics during the last dual-moon convergence were disrupted by unknown echo interference—possibly related to the relic aboard the *Emberwake*.  
+- Several junior oracles report dreams of **a false moon shedding salt instead of light**—the same symbol described in Malira Fenj’s trance episodes.  
+- The temple has refused to release location sigils to the Chancellor’s Hall despite increasing civic pressure for registry compliance.
 
+---
 
 ## History
 
+- Built atop a pre-Rising lunar observatory used by the Pale Order, The Radiant Temple was re-consecrated in 162 PR as part of Kanda’s spiritual reconstruction.  
+- Served as a neutral ground for early post-isolation negotiations between Lunaran, Aurionic, and Emberborn scholars.  
+- The Temple’s sub-vaults house fragments of glyphwork believed to predate the current Moonwake Path doctrine.  
+- High Oracle Seralyne Vireth was instated after the collapse of the previous Oracle’s mind—an event known internally as *The Ninth Echo*.
 
+---
 
 ## Notes
+
+- The oculus in the upper dome is enchanted to remain clear even during storms—symbolizing the clarity of true vision  
+- One chamber is sealed in absolute silence, used to test potential oracles’ attunement to prophecy  
+- Though the temple has no formal guards, all acolytes are trained in harmonic disruption and binding wards  
+- The Dawnbringers maintain a restricted library of “echo-touched texts” that may only be read on nights of eclipse
+
+
+
 

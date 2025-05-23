@@ -9,7 +9,7 @@ location:
   - "[[Wardspire District]]"
   - "[[Kanda]]"
 organization:
-  - "[[The Infernal Covenant]]"
+  - "[[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]"
 ---
 
 ```meta-bind-js-view 

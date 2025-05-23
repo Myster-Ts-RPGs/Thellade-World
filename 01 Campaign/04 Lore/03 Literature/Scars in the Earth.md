@@ -25,7 +25,7 @@ tags:
 
 _“Scars in the Earth”_ is a first-person field memoir chronicling the final year leading up to the Rising. [[Devrik Thorne]], a wounded soldier and scribe of [[the Ashen Vanguard]], bore witness to numerous campaigns against demonic incursion, cult activity, and infernal pacts. His account is unique for its unfiltered tone — emotionally raw, politically charged, and interwoven with battlefield sketches and unsent letters.
 
-The book stands apart for revealing key early signs of  [[the Infernal Covenant]]’s involvement in reinforcing the barrier, as well as subtle criticisms of how the Vanguard was ordered to cover it up.
+The book stands apart for revealing key early signs of  [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]’s involvement in reinforcing the barrier, as well as subtle criticisms of how the Vanguard was ordered to cover it up.
 ## Contents
 ### **Prologue: Burnt Leaves in Spring**
 

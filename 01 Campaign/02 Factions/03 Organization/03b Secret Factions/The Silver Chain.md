@@ -26,13 +26,13 @@ head:
   - "[[Alvinar Merrowyn]]"
 location:
   - "[[The Outcast Isles]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Glimmershade]]"
   - "[[The Ashen Vault]]"
   - "[[Boba]]"
   - "[[Brimstone Docks]]"
-  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]]"
+  - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]]"
   - "[[Sunfire Heights]]"
   - "[[The Embercoils]]"
   - "[[Ambassadors Row]]"
@@ -41,15 +41,15 @@ location:
   - "[[Verannis Estate]]"
   - "[[Lowmire Gutter]]"
   - "[[Broken Bell Safehose]]"
-  - "[[Lambaro Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Lambaro]]"
   - "[[Arcspire District]]"
   - "[[Reskar's Inkfold]]"
-  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/Mangagoy Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[Mangagoy]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Mist Market]]"
-  - "[[Middle Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Sable Reef Anchorage]]"
   - "[[The Gilded Shadow]]"
 foundedshort: 187.04.03 PR
@@ -190,7 +190,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Silver Chain]] is a clandestine smuggling syndicate specializing in the movement of rare magical contraband, stolen artifacts, and forbidden knowledge across the Outcast Isles. Its influence is strongest in the major cities of [[Kanda Isles]], where it leverages noble ties and black-market networks to maintain control. The organization values subtlety, loyalty, and the strategic use of leverage. Many of its operations are conducted beneath the cover of legitimate businesses and noble estates.
+> [[The Silver Chain]] is a clandestine smuggling syndicate specializing in the movement of rare magical contraband, stolen artifacts, and forbidden knowledge across the Outcast Isles. Its influence is strongest in the major cities of [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]], where it leverages noble ties and black-market networks to maintain control. The organization values subtlety, loyalty, and the strategic use of leverage. Many of its operations are conducted beneath the cover of legitimate businesses and noble estates.
 
 ### Oaths
 > “Every link forged is a vow unbroken.”
@@ -222,14 +222,14 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Selaya Dornis]] continues to expand influence in [[Mangagoy]]’s underground through the [[Mist Market]].
 - Expansion efforts have begun in [[Lambaro]] via [[Olin Reskar]] and the establishment of [[Reskar’s Inkfold]].
 - Increased pressure from the [[Ashen Vanguard]] has led to the fortification of several safehouses in [[Boba]].
-- [[Darius Fellis]] maintains long-distance communication from the [[Middle Isles]], operating aboard the [[Gilded Shadow]].
+- [[Darius Fellis]] maintains long-distance communication from the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]], operating aboard the [[Gilded Shadow]].
 
 ## History
 - 03 Emberwake 187 PR: Founded by rogue merchants and dissident nobles following the collapse of a Kandan banking house.
 - 192 PR: Secured long-term political immunity for the Merrowyn family via covert contracts.
 - 198 PR: Opened the first arcane ledger hub at [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]] in [[Ironveil Commons]].
 - 203 PR: Failed assassination attempt on a rival smuggling lord led to splinter faction formation in [[Lowmire Gutter]].
-- 208 PR: [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[Boba]] and [[Kanda]] respectively.
+- 208 PR: [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[Boba]] and [[Kanda]] respectively.
 - 211 PR: Initiated discreet smuggling through the [[Mist Market]] during leyline flux disturbances.
 
 ### Campaign Events
@@ -243,7 +243,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Lysara Verannis]] – 'The Silk'; controls high-society infiltrations.
   - [[Selaya Dornis]] – 'The Whisper'; liaison to arcane suppliers.
 - **Regional Contacts / Lieutenants:**
-  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] in [[Boba]].
+  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] in [[Boba]].
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]] – 'The Smoke'; handles low-visibility logistics from [[The Embercoils]].
   - [[Olin Reskar]] – 'The Quill'; Lambaro-based scribe and document forger.
   - [[Verrik Myrros]] – 'The Blade'; executes enforcements and silencing operations in [[Boba]].
@@ -254,7 +254,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Ashen Vault]] (Kanda – Glimmershade) – Secure storage and internal tribunal hall.
 
 ### Secondary Hideouts
-- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/The Hollow Fang]] (Boba – Brimstone Docks) – Coastal receiving center for stolen goods.
+- [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] (Boba – Brimstone Docks) – Coastal receiving center for stolen goods.
 - [[The Embercoils]] (Boba – Sunfire Heights) – Smuggler hideaway masked as a glassworks furnace.
 - [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]] (Boba – Ironveil Commons) – Falsified trade office for laundering gold.
 - [[Broken Bell Safehouse]] (Boba – Lowmire Gutter) – Emergency fallback for compromised agents.

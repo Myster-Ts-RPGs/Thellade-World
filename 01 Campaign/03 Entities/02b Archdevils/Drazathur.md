@@ -1,8 +1,8 @@
 ---
 tags:
   - "#Character"
-  - "#DemonLord"
   - "#TODO"
+  - "#ArchDevil"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 allies: []
 enemies: []

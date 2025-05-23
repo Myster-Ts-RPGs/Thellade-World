@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-A chain of floating isles bathed in eternal night and seduction.
 
+A chain of floating isles bathed in eternal night and seduction.
+Isles of eternal night veiled in intoxicating beauty and infernal temptation.
 
 ## Geography
 

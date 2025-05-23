@@ -3,13 +3,17 @@ tags:
   - "#Location"
   - "#POI"
   - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+art: 90 Assets/Images/POIs/SwordflameEncampment.png
 banner: on
 organization:
   - "[[The Order of the Ember Blades]]"
 location:
   - "[[Ashfire Bastion District]]"
   - "[[Kanda]]"
+poitype:
+  - Camp
+owner:
+  - "[[Cindros Thorne]]"
 ---
 
 ```meta-bind-js-view 
@@ -76,6 +80,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > [!recite]- Introduction
 > A script for the GM to read when the party arrive to this location for the first time.
 
+
+
+
 > [!metadata|map]- Map
 > ```leaflet
 > id: TBD
@@ -113,20 +120,23 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > SORT tags DESC, file.name ASC
 
 ## Overview 
-
-
+A heavily reinforced field encampment constructed on leyline-sensitive ground within the Ashfire Bastion District. Swordflame Encampment is the base of operations for the Order of the Ember Blades—arcane-infused warriors charged with defending the city from planar threats. Burn-scarred banners ripple above obsidian-staked tents, each warded with geomantic runes. Training rings pulse with heat, and spellsteel pikes line the entry walk.
 
 ## Keyed Locations
-
-
+- Embersteel Proving Ring
+- Command Tent of [[Marshal Cindros Thorne]]
+- Armory Warded Vaults
+- Flamecaller Training Circle
+- Aetheric Barrier Generator Node
 
 ## Current Events
-
-
+- Members of the Ember Blades prepare for a sweep of recent leyline turbulence in [[Frostlock Commons]]
+- A new Emberblade candidate arrived bearing an unauthorized relic from a sealed ruin
+- Internal conflict over shifting orders from Emberwake command
 
 ## History
-
-
+Originally founded as a mobile post near the [[Crystal Gulf]], the Swordflame Encampment was relocated during the [[Ashfire Beacon Crisis ]]to protect Kanda’s inner arcane arteries. It has since become a permanent fixture in Ashfire Bastion.
 
 ## Notes
+Used as a recruitment and testing site for Emberblade initiates. Members who survive three Emberwatch campaigns earn their mark here. Rumors suggest an emergency planar seal is stored beneath the central forge platform.
 

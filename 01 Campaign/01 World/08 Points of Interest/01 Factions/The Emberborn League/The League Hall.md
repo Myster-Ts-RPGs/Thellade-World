@@ -2,8 +2,8 @@
 tags:
   - "#Location"
   - "#POI"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - "#Canon"
+art: 90 Assets/Images/POIs/TheLeagueHall.png
 banner: on
 owner:
   - "[[Tharos Emberbane]]"
@@ -12,6 +12,9 @@ organization:
 location:
   - "[[Amberveil Market]]"
   - "[[Kanda]]"
+poitype:
+  - Guildhall
+  - Headquarters
 ---
 
 ```meta-bind-js-view 
@@ -73,10 +76,36 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Party 5 Reputation** | `INPUT[text:party5reputation]` |
 > **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
-# `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+# The League Hall
+> [!abstract]
+> Headquarters of the [[Emberborn League]], this fortified compound once served as a military warehouse before its conversion into a central hub for expeditions, training, and logistical coordination.
 
-> [!recite]- Introduction
-> A script for the GM to read when the party arrive to this location for the first time.
+## Overview
+The League Hall stands as the heart of the Emberborn League's operations in [[Kanda]]. Built from reinforced stone and accented with brass piping and geomantic inscriptions, the structure is a blend of military precision and arcane utility. The entry hall bears the League’s insignia—an ember rising from a split anvil—and the walls display maps, mission boards, and expedition artifacts. It includes a tactical war room, barracks, training grounds, and teleportation relay pads linked to known ruins and outposts. While primarily functional, its presence in [[Amberveil Market]] allows trade and resupply between missions.
+
+## Function
+This location serves as the command and deployment center for the Emberborn League. It issues assignments, offers tactical training, manages transportation logistics, and stores relics and findings between shipments.
+
+## Security & Law
+The facility is heavily warded and guarded by League enforcers and magical surveillance nodes. Unauthorized access is met with swift detainment. League Captain [[Tharos Emberbane]] oversees all security protocols personally.
+
+## Services Offered
+- Assignment board for licensed ruin explorers  
+- Arcane messenger service to distant outposts  
+- Equipment requisition for League operatives  
+- Field research submission vaults
+
+## Other Locations
+- Tactical Planning Chamber  
+- Emberbound Relay Room  
+- Artifact Storage Vaults  
+- League Operatives’ Quarters  
+- Public Briefing Hall
+
+## Notable NPCs
+- [[Tharos Emberbane]] – League Captain
+- [[Riva Talorin]] – Head Cartographer
+- [[Bolric Keenhammer]] – Expeditionary Smith
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -113,13 +142,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > FROM "01 Campaign"
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
-
-## Overview 
-
-
-
-## Keyed Locations
-
 
 
 ## Current Events

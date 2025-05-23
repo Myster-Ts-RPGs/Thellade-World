@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
@@ -25,22 +25,67 @@
             }
           },
           {
-            "id": "2235a7df4c355cfb",
+            "id": "1e30d7fe87b3f6aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 Versioning/Releases/Git Release V1.2.0.0 2025-05-10 18-42.md",
+                "file": "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Orcus' Lieutenants Released"
+            }
+          },
+          {
+            "id": "b76412bc0da91722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Ideas/YAML Organization Ideas.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git Release V1.2.0.0 2025-05-10 18-42"
+              "title": "YAML Organization Ideas"
+            }
+          },
+          {
+            "id": "52dcde642c57c814",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Harren Velka.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Harren Velka"
+            }
+          },
+          {
+            "id": "2ec263dda89d14ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/01 World/07 Districts/Kanda/Amberveil Market.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Amberveil Market"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nissa",
+                "query": "verses",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -248,57 +293,58 @@
       "custom-sort:Toggle custom sorting": false,
       "obsidian-tts:Text to Speech": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "2235a7df4c355cfb",
+  "active": "8e6a600393459893",
   "lastOpenFiles": [
-    "80 Versioning/Commits/Git Commit 2025-05-10 18-42.md",
-    "80 Versioning/Releases/Git Release V1.2.0.0 2025-05-10 18-42.md",
-    "80 Versioning/Commits/Git Commit 2025-05-10 18-37.md",
-    "01 Campaign/03 Entities/01 Deities/Za'ryss.md",
-    "01 Campaign/03 Entities/01 Deities/Xar'Zhul.md",
-    "80 Versioning/Commits/Git Commit 2025-05-10 18-19.md",
-    "01 Campaign/03 Entities/01 Deities/Veyla.md",
-    "01 Campaign/04 Lore/02 Calendar/Current Date and Time.md",
-    "01 Campaign/03 Entities/01 Deities/Asmodeus.md",
-    "01 Campaign/03 Entities/01 Deities/Alariel.md",
-    "01 Campaign/03 Entities/01 Deities/Aevaris.md",
-    "01 Campaign/03 Entities/01 Deities/Aurion.md",
-    "01 Campaign/03 Entities/01 Deities/Elaris.md",
-    "01 Campaign/03 Entities/01 Deities/Eldath.md",
-    "01 Campaign/03 Entities/01 Deities/Faylen.md",
-    "01 Campaign/03 Entities/01 Deities/Isfyrra.md",
-    "01 Campaign/03 Entities/01 Deities/Ivelios.md",
-    "01 Campaign/03 Entities/01 Deities/Lunara.md",
-    "01 Campaign/03 Entities/01 Deities/Malrik.md",
-    "01 Campaign/03 Entities/01 Deities/Morvina.md",
-    "01 Campaign/03 Entities/01 Deities/Nimara.md",
-    "01 Campaign/03 Entities/01 Deities/Tempraxis.md",
-    "01 Campaign/03 Entities/01 Deities/Thalgrim.md",
-    "01 Campaign/03 Entities/01 Deities/Thyros.md",
-    "01 Campaign/03 Entities/01 Deities/Urrogg.md",
-    "01 Campaign/03 Entities/01 Deities/Valdros.md",
-    "90 Assets/Images/Deities/VexirraTransparent.png",
-    "90 Assets/Images/Deities/UrroggTransparent.png",
-    "90 Assets/Images/Deities/LunaraTransparent.png",
-    "90 Assets/Images/Deities/ThalgrimTransparent.png",
-    "90 Assets/Images/Deities/AurionTransparent.png",
-    "90 Assets/Images/Deities/ValdrosTransparent.png",
-    "90 Assets/Images/Deities/MalrikTransparent.png",
-    "90 Assets/Images/Deities/ElarisTransparent.png",
-    "90 Assets/Images/Deities/TempraxisTransparent.png",
-    "90 Assets/Images/Deities/VeylaTransparent.png",
-    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy",
-    "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Pactbound Flame",
-    "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/The Morning Stars",
-    "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Xal'Zul",
-    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles",
-    "01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mangagoy Isles",
-    "01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles/Mangagoy",
-    "01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles",
-    "01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy",
-    "01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles",
+    "New Text Document.txt",
+    "80 Versioning/Commits/Git Commit 2025-05-23 12-13.md",
+    "03 Ideas/YAML Organization Ideas.md",
+    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Harren Velka.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda.md",
+    "01 Campaign/01 World/07 Districts/Kanda/Amberveil Market.md",
+    "Vault Hub.md",
+    "In Session.md",
+    "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
+    "01 Campaign/05 Parties/07 Session Notes/03 Campaign 03/Campaign 3 - Session 10 - Glyph's, Chains, and Shadows.md",
+    "01 Campaign/05 Parties/08 Encounters/Group 3/Tracing the Sigil Echo - Maelthaz.md",
+    "01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
+    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Dawnlight Parlor.md",
+    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Aetherfire Dining Hall.md",
+    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Whisperwind Suites.md",
+    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 07 - The Light that Remains.md",
+    "01 Campaign/05 Parties/08 Encounters/Group 4/The Histories.md",
+    "01 Campaign/05 Parties/08 Encounters/Group 4/The Herald's Judgement.md",
+    "01 Campaign/05 Parties/08 Encounters/Group 2/The Herald's Judgement.md",
+    "01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 2.md",
+    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 08 - When Memory Burns Bright.md",
+    "01 Campaign/05 Parties/08 Encounters/Group 3/Debrief and Rubble Search.md",
+    "01 Campaign/01 World/07 Districts/Mangagoy/Binders' Lane.md",
+    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord.md",
+    "01 Campaign/01 World/08 Points of Interest/08 Residences/Mangagoy Islands/Mangagoy/Ambervale Estate.md",
+    "90 Assets/Images/Backgrounds/Hex14.jpg",
+    "90 Assets/Images/Backgrounds/Hex15.webp",
+    "90 Assets/Images/Backgrounds/Hex16.webp",
+    "90 Assets/Images/Misc/BrokenChaliceSeal.png",
+    "90 Assets/Images/Districts/Tallowgate.jpg",
+    "90 Assets/Images/POIs/SkywardReliquary.webp",
+    "90 Assets/Images/NPCs/AurethisSolonar.webp",
+    "90 Assets/Images/Creatures/XarKairosSmall.webp",
+    "90 Assets/Images/Creatures",
+    "90 Assets/Images/POIs/WhispervaultArchive.jpg",
+    "90 Assets/Images/NPCs/YonnicBradeSmall.webp",
+    "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night/Shadowthread Warrens/Blackwater Crossing",
+    "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night/Shadowthread Warrens",
+    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night/Shadowthread Warrens/Blackwater Crossing",
+    "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night",
+    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night/Shadowthread Warrens",
+    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night",
+    "01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Kanda",
+    "01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Boba",
+    "01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Kanda Isles/Kanda",
     "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Untitled.canvas",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",

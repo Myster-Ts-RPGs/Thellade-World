@@ -121,8 +121,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 > [!quote]+ Regional Theme
 > *“Where sand meets stone, and roots grasp the sky.”*
-Nightmare realm of monstrous creation and primal distortion.
 
+Nightmare realm of monstrous creation and primal distortion.
+Towering tumors and pulsing jungle temples worshipped by beastborn horrors.
 
 ## Geography
 

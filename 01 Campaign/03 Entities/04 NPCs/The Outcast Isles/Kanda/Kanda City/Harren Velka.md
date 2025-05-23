@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[The Bloodied Hollow]]"
-  - "[[Kanda Isles]]"
+  - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
 condition: Healthy
 aliases:
   - The Shadow Wolf
