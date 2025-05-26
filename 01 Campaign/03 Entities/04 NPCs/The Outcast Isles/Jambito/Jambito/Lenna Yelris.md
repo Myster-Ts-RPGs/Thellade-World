@@ -21,7 +21,7 @@ party6relation:
 organization:
   - "[[The Cursed Blades]]"
 location:
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 aliases:
   - The Crimson Duelist
   - Lenna 'The Crimson Duelist' Yelris

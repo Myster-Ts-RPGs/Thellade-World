@@ -1,9 +1,9 @@
 ---
 tags:
   - "#Location"
-  - "#POI"
-  - "#TODO"
-art: 90 Assets/Images/POIs/TheMooringFlagon.png
+  - "#Location/POI"
+  - "#Status/Blank"
+art: 90 Assets/Images/Placeholders/PlaceholderPointOfInterest.png
 banner: on
 organization:
   - "[[The Blackwake Corsairs]]"
@@ -52,19 +52,23 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
->> **Tavern Type** | `INPUT[TavernType][inlineListSuggester:taverntype]` |
->> **Lodging Type** | `INPUT[LodgingType][inlineListSuggester:lodgingtype]` |
+>> **Shop Type** | `INPUT[TavernType][inlineListSuggester:taverntype]` |
+>> **Shop Type** | `INPUT[LodgingType][inlineListSuggester:lodgingtype]` |
 >> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
 >> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
->> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
->> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
->> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
->> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
->> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
->> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+>> **Parent Subregion** | `INPUT[inlineListSuggester(optionQuery(#Location/Subregion AND !"z_Templates"), useLinks(partial)):parentsubregion]` |
+>> **Parent Reach** | `INPUT[inlineListSuggester(optionQuery(#Location/Reach AND !"z_Templates"), useLinks(partial)):parentreach]` |
+>> **Parent Settlement** | `INPUT[inlineListSuggester(optionQuery(#Location/Settlement AND !"z_Templates"), useLinks(partial)):parentsettlement]` |
+>> **Parent District** | `INPUT[inlineListSuggester(optionQuery(#Location/District AND !"z_Templates"), useLinks(partial)):parentdistrict]` |
+>> **Parent POI** | `INPUT[inlineListSuggester(optionQuery(#Location/POI AND !"z_Templates"), useLinks(partial)):parentpoi]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -73,36 +77,36 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Shop Type** | `VIEW[{shoptype}][text]` |
-> **Tavern Type** | `VIEW[{taverntype}][text]` |
-> **Lodging Type** | `VIEW[{lodgingtype}][text]` |
+> **Shop Type** | `VIEW[{taverntype}][text]` |
+> **Lodging Type**| `VIEW[{lodgingtype}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Owners** | `VIEW[{owner}][link]` |
 > **Assistant** | `VIEW[{assistant}][link]` |
 > **Organization** | `VIEW[{organization}][link]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Location (Parent POI)** | `VIEW[{parentpoi}][link]` |
+> **District** | `VIEW[{parentdistrict}][link]` |
+> **Settlement** | `VIEW[{parentsettlement}][link]` |
+> **Reach** | `VIEW[{parentreach}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 > ###### Party
 >  |
 > ---|---|
-> **Party 1 Reputation** | `VIEW[{party1reputation}][text]`|
-> **Party 2 Reputation** | `VIEW[{party2reputation}][text]`|
-> **Party 3 Reputation** | `VIEW[{party3reputation}][text]`|
-> **Party 4 Reputation** | `VIEW[{party4reputation}][text]`|
-> **Party 5 Reputation** | `VIEW[{party5reputation}][text]`|
-> **Party 6 Reputation** | `VIEW[{party6reputation}][text]` |
-
+> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-> [!recite]- Introduction  
-> Sea-brine stings your nose as the door to **The Mooring Flagon** swings open—not from wind, but from the shove of someone who clearly doesn’t care if it closes. Inside, the air is thick with salt, pipe smoke, and the scent of fermented kelp. Lanterns swing low and gutter, illuminating stained rafters and warped floorboards crowded with mismatched chairs.  
->  
-> The barkeep doesn't look up. The regulars don’t look at all. In one corner, dice roll across a crate-turned-table. In another, someone tunes a stringless lute. You can just make out one of the walls—plated in rusted hull metal, etched faintly with smuggler's glyphs.  
->  
-> And above it all, the creaking of mooring lines and the clink of bottles echo beneath the floorboards—beneath the inn. Because this isn’t just a tavern.  
-> It’s a front.  
-> And somewhere under the ale and rust, **The Blackwake Corsairs** are listening.
-
+> [!recite]- Introduction
+> A script for the GM to read when the party arrive to this location for the first time.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -126,13 +130,34 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
-> [!metadata|characters]- Characters
+# Dataviews for POIs
+
+> [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
-> SORT tags DESC, file.name ASC
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
 ## Overview 
+
 
 Tucked beneath a rusting gantry at the edge of [[Stonebrace Docks]], **The Mooring Flagon** is part tavern, part safehouse, and all smuggler grit. Officially, it serves as a waystop for sea-worn sailors and late-shift dockhands. Unofficially, it’s a Blackwake Corsairs front: a place where encrypted contracts change hands, contacts are vetted, and the unspoken business of the docks thrives. No signage marks the door. The flagon hanging over the entrance is green-glass, salt-fogged, and unlit.
 

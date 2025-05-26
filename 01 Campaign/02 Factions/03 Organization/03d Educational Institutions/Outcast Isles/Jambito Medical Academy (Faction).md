@@ -9,7 +9,7 @@ organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 ---
 
 ```meta-bind-js-view 

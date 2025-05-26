@@ -22,7 +22,7 @@ condition: Healthy
 occupation:
   - Stable Master
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 aliases:
   - Stable Master Brim
 ---

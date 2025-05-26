@@ -33,7 +33,7 @@ The book stands apart for revealing key early signs of  [[01 Campaign/02 Faction
 
 ### **Chapter 1: The Black Sky Hungered**
 
-> Chronicles a 48-hour siege against infernal warbeasts in a coastal village outside [[Lambaro]]. Includes first mention of the sigil-split — a glyph malfunction tied to a Pre-Rising leyline breach.
+> Chronicles a 48-hour siege against infernal warbeasts in a coastal village outside [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]. Includes first mention of the sigil-split — a glyph malfunction tied to a Pre-Rising leyline breach.
 
 ### **Chapter 2: Orders from Shadows**
 

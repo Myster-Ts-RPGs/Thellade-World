@@ -27,7 +27,7 @@ condition: Healthy
 location:
   - "[[The Gloamspire]]"
   - "[[Glowmire Terrace]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

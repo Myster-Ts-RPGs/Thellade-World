@@ -27,7 +27,7 @@ organization:
   - "[[The Blackwake Corsairs]]"
 location:
   - "[[The Drowned Siren]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 occupation:
   - Quartermaster

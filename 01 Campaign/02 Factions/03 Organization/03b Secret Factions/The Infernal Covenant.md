@@ -38,7 +38,7 @@ location:
   - "[[Glimmershade]]"
   - "[[The Crimson Lexicon]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Arcspire District]]"
   - "[[The Ember Pact]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
@@ -48,11 +48,11 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[The Ashen Forge]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Deepwall Reach District]]"
   - "[[The Silent Bargain]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Infernal Migrant Den]]"
   - "[[The Hellfire Vault]]"
 foundedshort: 1.03.02 PR
@@ -226,8 +226,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 - [[Daelric Voss|Lord Inquisitor Voss]] has issued a Crimson Writ authorizing retaliatory actions against [[Campaign Group 4]] for disrupting a Kanda cell.
 - [[Heksekonge]], a member of [[Campaign Group 5]], has received an infernal communion from [[Isareth Vael]], suggesting an ascension rite is imminent.
-- The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant|Infernal Covenant]] has secretly assisted in suppressing Orcus cultist activity beneath [[Lambaro]], likely as part of an infernal transaction.
-- Cult cells across [[Mangagoy]], [[Mwingu]], and [[Jambito]] are executing economic destabilization rituals via cursed contracts and soul-bank fraud.
+- The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant|Infernal Covenant]] has secretly assisted in suppressing Orcus cultist activity beneath [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]], likely as part of an infernal transaction.
+- Cult cells across [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], [[Mwingu]], and [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] are executing economic destabilization rituals via cursed contracts and soul-bank fraud.
 - A dispute within the [[Ninefold Court]] over loyalty to the Last Prophet’s original pact has caused tension between the old guard and reformists.
 
 ---
@@ -237,7 +237,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Founded on **02 Sunreach 1 PR** during the early years of the [[Rising]], immediately following the Prophet of [[01 Campaign/03 Entities/01 Deities/Aurion]]’s betrayal and self-sacrifice to [[Asmodeus]] to empower the seal.
 - The cult was formed by disciples of the Last Prophet who deemed law and infernal authority the only viable defense against the Deep Spiral.
 - Forged the Crimson Compact—a planar accord that legitimized infernal law across major city-states.
-- Directly opposed the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|Black Sepulcher]] during the Maw Awakening attempts beneath [[Lambaro]] and [[Jambito]].
+- Directly opposed the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher|Black Sepulcher]] during the Maw Awakening attempts beneath [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]].
 - Established the [[01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Asmodeus/The Crimson Lexicon|Crimson Lexicon]] beneath [[Kanda]], using it as a public archive front and secret ritual sanctuary.
 
 ---
@@ -254,7 +254,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 5|Campaign Group 5]]
 - [[Heksekonge]] received infernal visions and guidance during communion rites.
-- Interfered with operations at [[The Ember Pact]] in [[Lambaro]] and unearthed financial links to House [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Kelthorne]].
+- Interfered with operations at [[The Ember Pact]] in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and unearthed financial links to House [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Kelthorne]].
 
 ---
 
@@ -314,6 +314,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 - Infernal Soul Chains engraved with the [[Ninefold Edicts]].
 - Black scrolls signed in soul-blood of nobles.
-- Pact Sigils found in [[Lambaro]] financial ledgers.
+- Pact Sigils found in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] financial ledgers.
 - Sealed testimonies of corrupted judges in [[Mwingu]].
 - “Crimson Testament” – a tome bound in oath-marked hide, recovered beneath the [[Crimson Lexicon]].

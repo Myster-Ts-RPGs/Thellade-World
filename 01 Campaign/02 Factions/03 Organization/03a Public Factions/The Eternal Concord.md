@@ -38,15 +38,15 @@ rivals:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Seaside Cape]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Silverspire Terrace]]"
@@ -228,10 +228,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Harboring members of criminal cults or terror cells.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] remains stationed primarily at the [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] in [[Boba]], organizing several upcoming peace summits aimed at stabilizing Kanda’s trade alliances&#8203.  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] remains stationed primarily at the [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], organizing several upcoming peace summits aimed at stabilizing Kanda’s trade alliances&#8203.  
 > - Ongoing low-intensity conflicts between [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|The Emberheart Traders]] and [[Golden Tides Trading Guild]] have prompted Concord envoys to propose a formal Trade Summit.  
 > - Minor sabotage efforts by [[The Bleeding Tide]] against supply lines in Mangagoy have escalated the need for Concord mediation support in that region.  
-> - Group 4's activities in [[Jambito]] have indirectly affected Concord interests, as minor noble houses seek diplomatic protection amid rising tensions.
+> - Group 4's activities in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] have indirectly affected Concord interests, as minor noble houses seek diplomatic protection amid rising tensions.
 
 ## History
 > Founded in 11 Springdawn -12 PR following the Sundering of the Noble Houses, [[The Eternal Concord]] arose as a philosophical movement turned pragmatic necessity. With Kanda fractured by succession disputes and resource scarcity, a cohort of scholars, healers, and retired knights established a neutral council to prevent further bloodshed.  
@@ -240,7 +240,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Alaric Valene|Mediator Alaric Valene]] – Human diplomat, Master Negotiator of the Concord, famed for drafting the Treaty of Evenlight that briefly unified Boba's guilds after the Red Runners’ insurgency.  
-- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Concord Library Annex]] – Located in [[Mangagoy]]'s [[Glowquarter]], contains records of all known arbitrated disputes since the Rising.  
-- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] – Center of diplomatic gatherings and peace conferences, located in [[Boba]]'s [[01 Campaign/01 World/07 Districts/Boba/Ambassadors Row|Ambassadors Row]].  
+- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Concord Library Annex]] – Located in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]'s [[Glowquarter]], contains records of all known arbitrated disputes since the Rising.  
+- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Hall of Unity]] – Center of diplomatic gatherings and peace conferences, located in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]'s [[01 Campaign/01 World/07 Districts/Boba/Ambassadors Row|Ambassadors Row]].  
 - Symbol: A silver circle bisected by a vertical white quill and a vertical black blade.  
 - Uniforms: Slate-gray tabards bearing the quill and sword sigil; senior mediators often wear subtle silver chains signifying rank.

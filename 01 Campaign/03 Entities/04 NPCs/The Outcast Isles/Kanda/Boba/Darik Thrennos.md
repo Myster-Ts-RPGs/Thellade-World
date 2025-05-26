@@ -13,7 +13,7 @@ organization:
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]]"
   - "[[Ironveil Commons]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]]"

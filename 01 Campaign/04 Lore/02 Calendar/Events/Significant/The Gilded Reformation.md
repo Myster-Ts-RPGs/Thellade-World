@@ -12,7 +12,7 @@ enddateshort: 0013.01.03 PR
 monthofoccurrence:
   - "[[01 - Dawnmarch]]"
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[The Verdant Accord Forum]]"
 yearofoccurrence:
   - "[[13]]"
@@ -81,7 +81,7 @@ SORT file.name ASC
 
 ## Overview
 
-Brokered by [[the Eternal Concord]], rival guilds and noble houses agreed to end violent street wars and codify merchant law. Negotiations held at [[the Verdant Accord Forum]] cemented the city’s new merchant codes and judicial practices. This catalyzed the formation of modern [[Boba]]’s trade governance.. The Accord catalyzed Boba's rise as a structured trade capital.
+Brokered by [[the Eternal Concord]], rival guilds and noble houses agreed to end violent street wars and codify merchant law. Negotiations held at [[the Verdant Accord Forum]] cemented the city’s new merchant codes and judicial practices. This catalyzed the formation of modern [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]’s trade governance.. The Accord catalyzed Boba's rise as a structured trade capital.
 
 
 

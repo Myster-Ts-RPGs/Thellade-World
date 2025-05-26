@@ -20,7 +20,7 @@ party6relation:
   - Unmet
 condition: Healthy
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 aliases:
   - Dornis 'Redline' Marrik
 organization:

@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Cinder Refuge]]"
   - "[[Glowmire Terrace]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 aliases:
   - Silva 'The Silent Blade' Merix

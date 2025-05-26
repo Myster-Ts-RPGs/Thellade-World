@@ -22,7 +22,7 @@ aliases:
   - The Silent Judge
   - Savant 'The Silent Judge' Stone
 location:
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 organization:
   - "[[The Crimson Shroud]]"

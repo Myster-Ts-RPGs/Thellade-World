@@ -21,7 +21,7 @@ party6relation:
 aliases:
   - Brother Gale
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 occupation:
   - Priest
 condition: Healthy

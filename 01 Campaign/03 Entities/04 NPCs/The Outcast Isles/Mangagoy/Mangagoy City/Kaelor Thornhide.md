@@ -9,7 +9,7 @@ language:
 organization:
   - "[[The Dawnbringers of Lunara]]"
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

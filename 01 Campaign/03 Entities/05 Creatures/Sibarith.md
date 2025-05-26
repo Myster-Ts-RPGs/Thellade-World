@@ -187,7 +187,7 @@ The Sihar’ra believe that *The Dark One*’s plan would obliterate identity, t
 
 While most known Sihar’ra live in deep secrecy, a few operatives have emerged in Thellade:
 
-- **“Whisperbound Erelis”** — a bonded elf-archivist operating beneath [[Boba]], secretly preventing arcane breaches tied to the Beacon Fracture.
+- **“Whisperbound Erelis”** — a bonded elf-archivist operating beneath [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], secretly preventing arcane breaches tied to the Beacon Fracture.
 - **“Kaithil and Mareth”** — a human warrior-mage and their Sihar’ra partner, former agents of the Dawnwardens, now lost somewhere in the Valegloom.
 - **“One Who Remembers the Dawn”** — a Sihar’ra alone, without host, posing as a sentient dream construct within the Tower of Shattered Echoes.
 

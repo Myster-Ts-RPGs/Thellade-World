@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 organization:
   - "[[The Arcane Wardens]]"
   - "[[The Sunfire Heralds]]"

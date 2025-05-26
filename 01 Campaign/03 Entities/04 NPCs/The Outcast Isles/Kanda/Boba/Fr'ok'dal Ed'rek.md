@@ -23,7 +23,7 @@ aliases:
 occupation:
   - Merchant
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ---
 

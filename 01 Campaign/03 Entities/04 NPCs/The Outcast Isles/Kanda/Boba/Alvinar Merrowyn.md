@@ -23,7 +23,7 @@ organization:
 location:
   - "[[Merrowyn Estate]]"
   - "[[Ambassadors Row]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[The Ashen Vault]]"

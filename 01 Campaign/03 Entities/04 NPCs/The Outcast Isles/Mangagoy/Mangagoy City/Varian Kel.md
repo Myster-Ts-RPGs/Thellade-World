@@ -24,7 +24,7 @@ aliases:
 location:
   - "[[Whispervault Archive]]"
   - "[[Binders' Lane]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 organization:
   - "[[The Midnight Covenant]]"
 condition: Healthy

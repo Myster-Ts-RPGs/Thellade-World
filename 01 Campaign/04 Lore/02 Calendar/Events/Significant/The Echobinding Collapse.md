@@ -17,7 +17,7 @@ yearnumeric: 212
 location:
   - "[[Sanctum of the Dawnsplit Crown]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

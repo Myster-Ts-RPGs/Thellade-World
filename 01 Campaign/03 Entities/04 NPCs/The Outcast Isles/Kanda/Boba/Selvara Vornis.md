@@ -28,7 +28,7 @@ ownedlocation:
   - "[[The Drowned Siren]]"
 location:
   - "[[The Drowned Siren]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ---
 

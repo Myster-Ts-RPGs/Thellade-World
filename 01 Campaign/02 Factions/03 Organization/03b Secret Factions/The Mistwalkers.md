@@ -20,10 +20,10 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Kanda]]"
-  - "[[Lambaro]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Westport]]"
   - "[[Mistspire Anchorage]]"
   - "[[The Veil Sanctum]]"
@@ -244,8 +244,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 **Regional Contacts / Lieutenants**  While the Mistwalkers operate in secrecy, they have regional agents embedded within the Outcast Isles. These contacts do not claim allegiance but serve as eyes and ears for the organization.
 - [[Therian Valmont]] – Noble informant in [[The Ghost Lantern]] ([[Kanda]])  
 - [[Saris Orwyn]] – Merchant guide and scout at [[The Ghost Lantern]]  
-- [[Ren Mareth]] – Black-market liaison at [[The Phantom Tradehouse]] ([[Mangagoy]])  
-- [[Veyna Desmire]] – Port sabotage expert stationed at [[The Eyes Beneath]] ([[Jambito]])  
+- [[Ren Mareth]] – Black-market liaison at [[The Phantom Tradehouse]] ([[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]])  
+- [[Veyna Desmire]] – Port sabotage expert stationed at [[The Eyes Beneath]] ([[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]])  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Westport/Torrin Vask|Captain Torrin Vask]] – Naval commander of [[The Pale Horizon]], headquartered at [[The Silent Reef]]
 
 ## Locations
@@ -254,8 +254,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Secondary Hideouts
 - [[The Ghost Lantern]] – Floating outpost off [[Kanda]], used for political observation and merchant guidance  
-- [[The Phantom Tradehouse]] – Safehouse in [[Mangagoy]] for black-market intelligence gathering and neutral barter  
-- [[The Eyes Beneath]] – Submerged enclave beneath [[Jambito]]’s coastal cliffs, used for sabotage prep and ship surveillance  
+- [[The Phantom Tradehouse]] – Safehouse in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] for black-market intelligence gathering and neutral barter  
+- [[The Eyes Beneath]] – Submerged enclave beneath [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]’s coastal cliffs, used for sabotage prep and ship surveillance  
 - [[The Silent Reef]] – Naval staging ground near [[Westport]], hosts fog-warded vessels and the ghost fleet  
 - [[The Whispering Isle]] – Isolated island in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/The Sundering Deep]], sacred to the Veiled Watch and used for arcane rituals  
 - [[The Drowned Watchtower]] – Observation post deep in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Smokey Shoals]], staffed by planar seers and watchers
@@ -275,7 +275,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Artifacts and Evidence Found
 - Cracked whisperstone embedded with planar residue, recovered near [[The Silent Reef]]  
-- A veiled dossier listing noble clients from [[Kanda]] and [[Lambaro]] held within [[The Phantom Tradehouse]]  
+- A veiled dossier listing noble clients from [[Kanda]] and [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] held within [[The Phantom Tradehouse]]  
 - Compass rose etched with a Pre-Rising map of the Smokey Shoals, recovered by [[Campaign Group 6]]  
 - Shards of the Sable Codex intercepted in a sealed container within [[The Ghost Lantern]]  
 - Vision-crystals found at [[The Drowned Watchtower]], showing distorted glimpses of abyssal tides

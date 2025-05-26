@@ -9,7 +9,7 @@ language:
 location:
   - "[[Thimble & Thread]]"
   - "[[Ashgate Market]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 aliases:
   - Thimble

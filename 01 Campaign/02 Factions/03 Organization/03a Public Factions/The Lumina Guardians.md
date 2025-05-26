@@ -21,7 +21,7 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Riverbend Hollow]]"
   - "[[Shrinewatch Patrol Hold]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
@@ -29,11 +29,11 @@ location:
   - "[[Tallowgate]]"
   - "[[The Radiant Keep]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Arcspire District]]"
   - "[[Guardian's Vigil Base]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Glowquarter]]"
   - "[[Radiant Sigil Station]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
@@ -229,8 +229,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Astra Valara|Guardian Astra Valara]] – Current leader; commanding presence, known for righteous fury and tactical brilliance.  
 - [[The Radiant Keep]] – Their command fortress in [[Tallowgate]], reinforced with Pre-Rising moonstone wards and Lunar glyphs.  
-- [[Shrinewatch Patrol Hold]] – A fortified outpost near the riverbanks of [[Jambito]], safeguarding shrines from cultist defilement.  
-- [[Radiant Sigil Station]] – [[Mangagoy]] bastion coordinating with local [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Dawnbringers of Lunara|Dawnbringers of Lunara]] against ritual corruption.  
+- [[Shrinewatch Patrol Hold]] – A fortified outpost near the riverbanks of [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]], safeguarding shrines from cultist defilement.  
+- [[Radiant Sigil Station]] – [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] bastion coordinating with local [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Dawnbringers of Lunara|Dawnbringers of Lunara]] against ritual corruption.  
 - [[Moonwall Fortification Post]] – Cliffside overlook in [[Seaside Cape]] used to repel undead or abyssal sea incursions.  
 - Symbol: A silver sunburst halo behind a moon-wreathed longsword, tip down, flanked by crescent wings.  
 - Uniforms: Polished lunarplate armor with gold-blue tabards, radiance-sewn cloaks, and a single rune of Lunara over the heart.

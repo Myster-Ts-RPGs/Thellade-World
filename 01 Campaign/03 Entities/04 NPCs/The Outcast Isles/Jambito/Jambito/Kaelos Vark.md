@@ -12,7 +12,7 @@ aliases:
 organization:
   - "[[The Red Runners]]"
 location:
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 ---
 

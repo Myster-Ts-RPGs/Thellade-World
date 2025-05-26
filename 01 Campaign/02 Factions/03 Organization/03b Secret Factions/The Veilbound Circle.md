@@ -17,7 +17,7 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[The Hidden City]]"
   - "[[Sanctum of the Unbound Eye]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
@@ -200,7 +200,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Aligning with divine churches or the [[Eternal Concord]].
 
 ## Current Events
-- [[Kaige Maganti]] is confirmed alive and continues to lead from the [[Sanctum of the Unbound Eye]] beneath [[Jambito]].
+- [[Kaige Maganti]] is confirmed alive and continues to lead from the [[Sanctum of the Unbound Eye]] beneath [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]].
 - The organization’s cell at the [[Vault of the Fifth Veil]] was compromised following the death of [[Jorvas Fellshade]] during a catastrophic encounter involving a released Lieutenant of [[Orcus]].
 - Recruitment among outcast scholars and defecting wardens is on the rise in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] and [[Kanda]].
 - An archive discovered in the [[Vault of Forgotten Hymns]] may contain ritual instructions used to suppress Abyssal entities.
@@ -235,7 +235,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Locations
 ### Primary Hideouts
-- [[Sanctum of the Unbound Eye]] – Located in [[The Hidden City]], beneath [[Jambito]]. Headquarters and central archive.
+- [[Sanctum of the Unbound Eye]] – Located in [[The Hidden City]], beneath [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]. Headquarters and central archive.
 - [[Vault of the Forgotten Hymns]] – Archive site in [[Sunveil Hollow]], [[Kanda]].
 - [[Vault of the Fifth Veil]] – Remote Pre-Rising vault on the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].
 - [[The Deepcrypt Arcanum]] – Located in [[Daggerfall Hollow]], within the [[Shadowthread Warrens]] of [[01 Campaign/01 World/04 Subregions/01 Thellade/The Deep Dark/The Veins of Night]] in [[The Deep Dark]].
@@ -255,10 +255,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Investigating the true nature of Pre-Rising magical suppression campaigns.
 - Seeking the original instructions for the sealing rituals used on [[Orcus]]’ Lieutenants.
 - Locating the missing Fifth Vault key, rumored to be held by [[Kaige Maganti]] or his predecessor.
-- Ongoing secret war of knowledge with the [[Arcane Wardens]] in cities like [[Boba]] and [[Lambaro]].
+- Ongoing secret war of knowledge with the [[Arcane Wardens]] in cities like [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].
 
 ### Artifacts and Evidence Found
 - Ritual blade used in the aborted binding of the Deepcrypt (retrieved by [[Campaign Group 3]]).
 - Blackened scroll fragments describing multi-sigil seals tied to celestial conjunctions.
 - Ancient encoded directive from an unknown Pre-Rising archmage, marked with the Circle’s sigil.
-- Ghost-inked contract ledger detailing warded item trades in [[Jambito]] and [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].
+- Ghost-inked contract ledger detailing warded item trades in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] and [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]].

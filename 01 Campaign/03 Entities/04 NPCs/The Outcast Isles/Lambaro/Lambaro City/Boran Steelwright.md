@@ -11,7 +11,7 @@ heritage: Dwarf - Anvil
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]]"
   - "[[Crucible Hollow]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 organization:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 aliases:

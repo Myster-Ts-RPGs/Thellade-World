@@ -13,7 +13,7 @@ organization:
 location:
   - "[[Kelthorne Estate]]"
   - "[[Highhold Rise]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 ownedlocation:
   - "[[Kelthorne Estate]]"
   - "[[Crimson  Current Hall]]"

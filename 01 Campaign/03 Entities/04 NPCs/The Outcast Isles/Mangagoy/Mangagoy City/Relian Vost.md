@@ -13,7 +13,7 @@ ownedlocation:
 location:
   - "[[Shardspire Hall]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 aliases:
   - Shardmaster Relian Vost

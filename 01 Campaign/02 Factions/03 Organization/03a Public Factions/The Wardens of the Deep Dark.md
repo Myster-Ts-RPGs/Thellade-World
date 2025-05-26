@@ -21,11 +21,11 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[Mwingu]]"
   - "[[Deepwall Reach District]]"
@@ -204,9 +204,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mount Crystalspire Excavation/Dren Hollowstone|Vaultkeeper Dren Hollowstone]] oversees expeditions across multiple Isles from [[The Black Vault]] but is personally embedded at the Mount Crystalspire dig site&#8203;:contentReference[oaicite:0]{index=0}.  
-> - [[Blackroot Outpost]] in [[Jambito]] monitors subsurface collapses linked to leyline shifts, suspected to have ties to ancient crypt wards.  
+> - [[Blackroot Outpost]] in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] monitors subsurface collapses linked to leyline shifts, suspected to have ties to ancient crypt wards.  
 > - [[Sunken Reliquary Wing]] in [[Kanda]]'s [[Stonebrace Docks]] specializes in relic containment recovered from flooded Deep Dark passages.  
-> - [[Underdeep Annex]] near [[Ravensath Woods]] in [[Lambaro]] assists in isolating Pre-Rising ruins that recent mining uncovered.  
+> - [[Underdeep Annex]] near [[Ravensath Woods]] in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] assists in isolating Pre-Rising ruins that recent mining uncovered.  
 > - Cooperative work with [[Crystal Seekers Guild]] teams near Lambaro has yielded unstable but salvageable relic caches.  
 > - Warnings of Cult of Orcus agents operating in former Deep Dark junctions have placed all active Wardens on alert.
 
@@ -218,8 +218,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mount Crystalspire Excavation/Dren Hollowstone|Vaultkeeper Dren Hollowstone]] – Gruff, pragmatic, and unyielding; his life’s work is preventing the mistakes of the Pre-Rising era from repeating.  
 - [[The Black Vault]] – Vast underground archive beneath [[Mwingu]]'s [[01 Campaign/01 World/07 Districts/Mwingu/Scholar's Ring|Scholar's Ring]], repository of Pre-Rising relics and forbidden artifacts.  
-- [[Blackroot Outpost]] – Monitoring and emergency response base near [[Deepwall Reach District]], [[Jambito]].  
+- [[Blackroot Outpost]] – Monitoring and emergency response base near [[Deepwall Reach District]], [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]].  
 - [[Sunken Reliquary Wing]] – Relic recovery and flood management site in [[Stonebrace Docks]], [[Kanda]].  
-- [[Underdeep Annex]] – Expedition support and relic quarantine zone at [[Ironspan Gate District]], [[Lambaro]].  
+- [[Underdeep Annex]] – Expedition support and relic quarantine zone at [[Ironspan Gate District]], [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].  
 - Symbol: A downward-pointing black key over a gray abyssal spiral, bound with four silver chains.  
 - Uniforms: Deep gray field cloaks reinforced with rune-inscribed leather armor; insignia stitched in void-black and muted silver thread.

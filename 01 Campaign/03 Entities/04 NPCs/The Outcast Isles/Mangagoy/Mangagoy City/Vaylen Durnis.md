@@ -9,7 +9,7 @@ language:
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 aliases:
   - Vaylen 'Gearbane' Durnis

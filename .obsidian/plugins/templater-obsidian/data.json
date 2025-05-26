@@ -185,6 +185,18 @@
     {
       "folder": "01 Campaign/04 Lore/02 Calendar/Years",
       "template": "z_Templates/GM Templates/04 Lore/Calendar/Template - Year.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/01b Star Systems",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Star System.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/01a Galaxies",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Galaxy.md"
+    },
+    {
+      "folder": "01 Campaign/01 World/02a Continents",
+      "template": "z_Templates/GM Templates/01 Locations/Template - Continent.md"
     }
   ],
   "enable_file_templates": false,

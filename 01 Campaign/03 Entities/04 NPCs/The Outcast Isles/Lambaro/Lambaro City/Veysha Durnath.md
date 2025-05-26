@@ -7,7 +7,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 language:
   - Common
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 aliases:
   - Lady Veysha Durnath

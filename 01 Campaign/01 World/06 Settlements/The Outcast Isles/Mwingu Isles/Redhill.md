@@ -1,9 +1,9 @@
 ---
 tags:
+  - "#Status/Blank"
   - "#Location"
-  - "#Settlement"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - "#Location/Settlement"
+art: 90 Assets/Images/Placeholders/PlaceholderSettlement.png
 location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[The Outcast Isles]]"
@@ -19,6 +19,20 @@ export:
   - Furs
 dominion:
   - "[[01 Campaign/02 Factions/01 Government/Regional/The Kingdom of Kanda]]"
+parentsubregion:
+  - "[[Mwingu Isles]]"
+parentregion:
+  - "[[The Outcast Isles]]"
+parentcontinent:
+  - "[[Montakaldran]]"
+parentplanet:
+  - "[[Thellade]]"
+parentstarsystem:
+  - "[[Solurean System]]"
+parentgalaxy:
+  - "[[Exyxian Veil]]"
+parentplane:
+  - "[[Material Plane]]"
 ---
 
 
@@ -50,22 +64,38 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >>  |
 >> ---|---|
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
->> **Aliases** | `INPUT[list:aliases]` |
+>> **Founded** | `INPUT[text:founded]` |
+>> **Founded Short**| `INPUT[text:foundedshort]` |
 >> **Type** | `INPUT[SettlementType][:settlementtype]` |
->> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
->> **Defences** | `INPUT[Defence][:defence]`
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#Region AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
->
->> [!metadata|metadataoption]- Demographics
->> #### Demographics
+>> **Defenses** | `INPUT[Defence][:defence]`
+> 
+>> [!metadata|metadataoption]- Location Information
+>> #### Location Information
 >>  |
 >> ---|---|
->> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+>> **Parent Subregion** | `INPUT[inlineListSuggester(optionQuery(#Location/Subregion AND !"z_Templates"), useLinks(partial)):parentsubregion]` |
+>> **Parent Reach** | `INPUT[inlineListSuggester(optionQuery(#Location/Reach AND !"z_Templates"), useLinks(partial)):parentreach]` |
+>
+>> [!metadata|metadataoption]- Demographics
+>> #### Civic Overview
+>>  |
+>> ---|---|
 >> **Rulers** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):ruler]` |
 >> **Leaders** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):leader]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
 >> **Government Type** | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` |
+>> **Military Presence** |`INPUT[textArea:militarypresence]`
+>> **Threats** |`INPUT[textArea:threats]`
+>> **Religions** | `INPUT[Religion][inlineListSuggester:religions]` |
 >> **Population** |  `INPUT[textArea:population]`
+>> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
 >
 >> [!metadata|metadataoption]- Commerce
 >> #### Commerce
@@ -73,6 +103,22 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> ---|---|
 >> **Imports** | `INPUT[Goods][inlineListSuggester:import]` |
 >> **Exports** | `INPUT[Goods][inlineListSuggester:export]` |
+>> **Trade Partners**|`INPUT[inlineListSuggester(optionQuery(#Settlement AND !"z_Templates"), useLinks(partial)):tradepartners]` |
+>> **General Level** | `INPUT[text:levelgeneral]` |
+>> **Magic Level** | `INPUT[text:levelmagic]` |
+>> **Tech Level** | `INPUT[text:leveltech]` |
+> 
+>> ###### Party
+>>  |
+>> ---|---|
+>> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
+>> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
+>> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
+>> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
+>> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
+>> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
+
+
 
 > [!infobox]+
 > # `=this.file.name`
@@ -80,11 +126,19 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ###### Info
 >  |
 > ---|---|
-> **Aliases** | `VIEW[{aliases}][text]` |
+> **Updated**| `VIEW[{updated}][text]` |
+> **Founded** | `VIEW[{founded}][text]` |
 > **Type** | `VIEW[{settlementtype}][text]` |
+> **Defenses** | `VIEW[{defence}]` |
+> **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
-> **Defences** | `VIEW[{defence}]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Reach** | `VIEW[{parentreach}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 > ###### Demographics
 >  |
 > ---|---|
@@ -92,25 +146,53 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Leaders** | `VIEW[{leader}][link]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
 > **Government Type** | `VIEW[{governmenttype}][text]` |
+> **Military Presence** | `VIEW[{militarypresence}][text]` |
+> **Threats** | `VIEW[{threats}][text]` |
+> **Religions** | `VIEW[{religions}][link]` |
 > **Population** | `VIEW[{population}][text]` |
+> 
+> <span style="display:block; text-align:center; font-size:0.9em;"><strong>Racial Makeup</strong></span>
+> - <span style="font-size:0.8em;"><strong>Humans</strong> – 45% (Kandan Natives, Merchant Class)</span>
+> - <span style="font-size:0.8em;"><strong>Elves</strong> – 20% (Moonshade Diaspora, Diplomatic Caste)</span>
+> - <span style="font-size:0.8em;"><strong>Dwarves</strong> – 15% (Blackrock Lineage, Smiths)</span>
+> - <span style="font-size:0.8em;"><strong>Halflings</strong> – 10% (Dockworkers, Trade Guilds)</span>
+> - <span style="font-size:0.8em;"><strong>Tieflings</strong> – 5%</span>
+> - <span style="font-size:0.8em;"><strong>Other</strong> – 5% (Gnomes, Kobolds, Rare Lineages)</span>
+>
 > ###### Commerce
 >  |
 > ---|---|
 > **Imports** | `VIEW[{import}][text]` |
 > **Exports** | `VIEW[{export}][text]` |
+> **Trade Partners** | `VIEW[{tradepartners}][link]` |
+> **General Level** | `VIEW[{levelgeneral}][text]` |
+> **Magic Level** | `VIEW[{levelmagic}][text]` |
+> **Tech Level** | `VIEW[{leveltech}][text]` |
 > ###### Party
 >  |
 > ---|---|
-> **Party 1 Reputation** | `INPUT[text:party1reputation]` |
-> **Party 2 Reputation** | `INPUT[text:party2reputation]` |
-> **Party 3 Reputation** | `INPUT[text:party3reputation]` |
-> **Party 4 Reputation** | `INPUT[text:party4reputation]` |
-> **Party 5 Reputation** | `INPUT[text:party5reputation]` |
-> **Party 6 Reputation** | `INPUT[text:party6reputation]` |
+> **Party 1 Reputation** | `VIEW[{party1reputation}][text]` |
+> **Party 2 Reputation** | `VIEW[{party2reputation}][text]` |
+> **Party 3 Reputation** | `VIEW[{party3reputation}][text]` |
+> **Party 4 Reputation** | `VIEW[{party4reputation}][text]` |
+> **Party 5 Reputation** | `VIEW[{party5reputation}][text]` |
+> **Party 6 Reputation** | `VIEW[{party6reputation}][text]` |
 
-# **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
+# **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span><span style="float: right; font-size: medium"><em>Updated: </em>`VIEW[{updated}]`</span>
+
+
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
+
 > [!recite]- Introduction
 > A script for the GM to read when the party arrive to this location for the first time.
+
+## Overview
+- Function in region (trade, military, arcane, pilgrimage, etc.)
+- Notable features (e.g., volcano beneath, leyline rift, bridge city)
+- Political or faction alignment summary
+- Relation to current campaign events (if any)
+- Notable Laws or Customs
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -133,28 +215,16 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > scale: 1
 > darkMode: false
 > ```
+## Location NPC List
+```dataviewjs
+await dv.view("z_Templates/Scripts/view1");
+```
+## Organization NPC List
+```dataviewjs
+await dv.view("z_Templates/Scripts/view2");
+```
 
-> [!metadata|district]- Districts
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(districttype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "District")
-> SORT districttype ASC, file.name ASC
-
-> [!metadata|location]- Locations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(location), ", ") AS "Location", join(link(organization), ", ") AS "Organization(s)"
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
-> SORT tags DESC, poitype ASC, file.name ASC
-
-> [!metadata|organizations]- Organizations
-> ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
-> FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Organization")
-> SORT tags DESC, file.name ASC
-
+## Complete NPC List
 > [!metadata|characters]- Characters
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
@@ -162,19 +232,88 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
 > SORT tags DESC, file.name ASC
 
-## Overview
-> [!quote]+ Theme
-> *“Where sand meets stone, and roots grasp the sky.”*
-
-
-
 ## Current Events
+- Faction tension
+- Market or leyline instability
+- Rumors or crime
+- Local Holidays and Festivals
 
+> [!metadata|events]- Recent Events
+>```dataview 
+> table without id enddate as "Date", file.link as "Event"
+> from "01 Campaign"
+> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Significant")
+> sort enddateshort desc
+> ```
 
 
 ## History
+- **Founding**
+- **Rising-era Events**
+- **Post-Rising Growth**
+- **Recent Shifts (last decade)**
 
+> [!metadata|events]- Historical Events
+>```dataview 
+> table without id enddate as "Date", file.link as "Event"
+> from "01 Campaign"
+> where econtains(location, this.file.link) and contains(tags, "Event") and contains(eventtype, "Historical")
+> sort enddateshort asc
+> ```
 
 
 ## Notes
 
+### Party Reputation
+| Party | Standing | Notes |
+|-------|----------|-------|
+|[[Campaign Group 1]]| `VIEW[{party1reputation}]` | Note 1 |
+|[[Campaign Group 2]]| `VIEW[{party2reputation}]` | Note 1 |
+|[[Campaign Group 3]]| `VIEW[{party3reputation}]` | Note 1 |
+|[[Campaign Group 4]]| `VIEW[{party4reputation}]` | Note 1 |
+|[[Campaign Group 5]]| `VIEW[{party5reputation}]` | Note 1 |
+|[[Campaign Group 6]]| `VIEW[{party6reputation}]` | Note 1 |
+### Campaign Notes
+>[!metadata|notes]- Linked Campaign Notes
+>```dataview 
+>table WITHOUT ID file.link as "Session Note"
+>from "01 Campaign/05 Parties/07 Session Notes"
+>where contains(file.outlinks, this.file.link)
+>sort file.name asc
+>```
+## GM Notes (Collapsible)
+For secrets, planned events, etc.
+
+## New Dataview
+
+> [!metadata|districts]- Districts
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Location/District")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```

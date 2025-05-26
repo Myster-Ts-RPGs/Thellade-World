@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[The Mist Piercer]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[The Ember Wharf]]"
 condition: Healthy
 aliases:

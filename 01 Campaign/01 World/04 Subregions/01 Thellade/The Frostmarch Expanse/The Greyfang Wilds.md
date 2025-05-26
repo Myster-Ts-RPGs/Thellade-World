@@ -1,13 +1,25 @@
 ---
 tags:
   - "#Location"
-  - "#Subregion"
-  - "#TODO"
+  - Location/Subregion
+  - Status/Blank
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[The Frostmarch Expanse]]"
 dominion:
   - "[[The Pale Crown]]"
+parentcontinent:
+  - "[[Northland]]"
+parentplanet:
+  - "[[Thellade]]"
+parentstarsystem:
+  - "[[Solurean System]]"
+parentgalaxy:
+  - "[[Exyxian Veil]]"
+parentplane:
+  - "[[Material Plane]]"
+parentregion:
+  - "[[The Frostmarch Expanse]]"
 ---
 
 ```meta-bind-js-view 
@@ -53,7 +65,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Region** | `VIEW[{location}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 

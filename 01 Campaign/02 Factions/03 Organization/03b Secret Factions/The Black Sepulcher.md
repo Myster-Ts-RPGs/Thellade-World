@@ -29,8 +29,8 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Kanda]]"
-  - "[[Mangagoy]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[The Blooded Maw]]"
   - "[[The Crypt of the Eclipsed Sun]]"
   - "[[The Ossuary of Whispers]]"
@@ -219,7 +219,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Malakar Venmire]]’s quest for lichdom nears completion; signs point to a ritual underway beneath the Red Dunes.
 - [[Sarla Vask]], recently resurrected by necromantic rites, has resumed her role as the 'Voice of Orcus.'
 - The cult continues to destabilize the seal at the [[the Shattered Gate|Shattered Gate]], aiming to open a rift into the Abyss.
-- Cult activity in [[Mangagoy]] and [[Jambito]] has escalated, including public sacrifices and the corruption of local clergy.
+- Cult activity in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] has escalated, including public sacrifices and the corruption of local clergy.
 
 ## History
 - Formed after the Rising by necromancers who survived the first sealing of Orcus.

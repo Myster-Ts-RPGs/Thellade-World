@@ -13,7 +13,7 @@ condition: Healthy
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Ashen Vanguard Watchpost]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 aliases:
   - The Iron Eye
   - Commander Kraya 'The Iron Eye' Feldrum

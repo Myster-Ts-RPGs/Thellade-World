@@ -32,10 +32,10 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Kanda]]"
-  - "[[Lambaro]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Seaside Cape]]"
   - "[[The Tideflats]]"
   - "[[The Walled Den]]"
@@ -191,7 +191,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Overview
 
 ### Description
-> The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|Red Runners]] originated in [[Jambito]] as a collection of freelance thieves, assassins, and smugglers, but have evolved into a sprawling, militarized syndicate. Their operations encompass illicit trade, political blackmail, and cult collaboration, with a focus on destabilizing legitimate governance while strengthening infernal and abyssal footholds across the [[01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles|Outcast Isles]]. They mask their movements through black-market networks and corrupted noble houses, thriving in shadows cast by both mortal law and divine neglect.
+> The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|Red Runners]] originated in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] as a collection of freelance thieves, assassins, and smugglers, but have evolved into a sprawling, militarized syndicate. Their operations encompass illicit trade, political blackmail, and cult collaboration, with a focus on destabilizing legitimate governance while strengthening infernal and abyssal footholds across the [[01 Campaign/01 World/03 Regions/01 Thellade/The Outcast Isles|Outcast Isles]]. They mask their movements through black-market networks and corrupted noble houses, thriving in shadows cast by both mortal law and divine neglect.
 
 ### Oaths
 > "Blood spills in silence. Secrets are sold in whispers. The dagger precedes the crown."
@@ -220,7 +220,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 
 ## Current Events
-- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|The Red Runners]] have expanded operations into [[Kanda]], [[Mangagoy]], [[Lambaro]], and the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].
+- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|The Red Runners]] have expanded operations into [[Kanda]], [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]], and the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].
 - Under [[Kaelos Vark]]'s directive, assassinations against key [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord|Eternal Concord]] figures have increased.
 - The organization has supplied agents and logistics to both the [[Infernal Covenant]] and the [[Black Sepulcher]] in exchange for relics, contracts, and political leverage.
 - Rumors suggest internal schisms brewing as [[Vashara Morgan|Vashara 'The Pale' Morgan]] secretly questions infernal allegiances.
@@ -228,7 +228,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## History
 - Founded circa 43 PR,  [[the Red Runners]] began as scattered mercenary bands during the collapse of trade following the [[Rising]].
-- Consolidated by [[Kaelos Vark]] after the massacre of the Shadethorn Cartel in [[Jambito]].
+- Consolidated by [[Kaelos Vark]] after the massacre of the Shadethorn Cartel in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]].
 - Transitioned from street gangs to organized smuggling and assassination rings by 100 PR.
 - Formed early alliances with the nascent [[the Silver Chain|Silver Chain]] and factions sympathetic to Asmodean doctrine.
 - Survived multiple purges by the [[the Ashen Vanguard|Ashen Vanguard]] during the Ember Scouring of 178 PR.

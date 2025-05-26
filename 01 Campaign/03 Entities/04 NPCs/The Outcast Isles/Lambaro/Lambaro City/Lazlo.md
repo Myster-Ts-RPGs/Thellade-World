@@ -8,7 +8,7 @@ language:
   - Common
 ancestry: Human
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 organization:
   - "[[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union]]"
 ---

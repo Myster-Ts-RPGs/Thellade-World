@@ -10,7 +10,7 @@ organization:
   - "[[The Verdant Hand]]"
 location:
   - "[[Greenheart Grove]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 aliases:
   - Archdruid Soraya Greenthorn
 condition: Healthy

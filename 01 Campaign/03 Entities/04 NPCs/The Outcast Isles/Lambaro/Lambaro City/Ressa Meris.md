@@ -9,7 +9,7 @@ language:
 location:
   - "[[Embercoil Forge]]"
   - "[[Crucible Hollow]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 aliases:
   - Ressa 'The Phantom Tinkerer' Meris

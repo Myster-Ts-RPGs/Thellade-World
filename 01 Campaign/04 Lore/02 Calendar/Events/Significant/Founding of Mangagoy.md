@@ -15,7 +15,7 @@ yearofoccurrence:
   - "[[-285]]"
 yearnumeric: -285
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

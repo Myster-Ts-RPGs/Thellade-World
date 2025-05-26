@@ -9,7 +9,7 @@ language:
 location:
   - "[[Scroll & Sand]]"
   - "[[Binders' Lane]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

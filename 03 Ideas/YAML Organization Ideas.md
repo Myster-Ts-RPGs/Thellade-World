@@ -1,3 +1,583 @@
+---
+tags:
+  - "#Status/Blank"
+---
+
+
+# Master MetaData Inputs:
+
+> [!metadata|metadata]- Metadata 
+>> [!metadata|metadataoption]- System
+>> #### System
+>>  |
+>> ---|---|
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Pronounced** |  `INPUT[textArea:pronounced]` |
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
+>
+>> [!metadata|metadataoption]- NPC/Character Information
+>> #### NPC/Character Info
+>>  |
+>> ---|---|
+>> **Ancestry** | `INPUT[Ancestry][suggester:ancestry]` |
+>> **Heritage** | `INPUT[Heritage][suggester:heritage]` |
+>> **Gender** | `INPUT[Gender][:gender]` |
+>> **Age** | `INPUT[Age][:age]` |
+>> **Alignment** | `INPUT[Alignment][:alignment]` |
+>> **Ideals** | `INPUT[textArea:ideals]` |
+>> **Flaws** | `INPUT[textArea:flaws]` |
+>> **Fears** |  `INPUT[textArea:fears]` |
+>> **Mannerisms** |  `INPUT[textArea:mannerisms]` |
+>
+>> [!metadata|metadataoption]- Party Info
+>> #### Party Info
+>>  |
+>> ---|---|
+>> **Party 1 Relation**|`INPUT[PartyRelation][inlineListSuggester:party1relation]`|
+>> **Party 1 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group1), useLinks(partial)):party1tie]` |
+>> **Party 2 Relation**|`INPUT[PartyRelation][inlineListSuggester:party2relation]`|
+>> **Party 2 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group2), useLinks(partial)):party2tie]` |
+>> **Party 3 Relation**|`INPUT[PartyRelation][inlineListSuggester:party3relation]`|
+>> **Party 3 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group3), useLinks(partial)):party3tie]` |
+>> **Party 4 Relation**|`INPUT[PartyRelation][inlineListSuggester:party4relation]`|
+>> **Party 4 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group4), useLinks(partial)):party4tie]` |
+>> **Party 5 Relation**|`INPUT[PartyRelation][inlineListSuggester:party5relation]`|
+>> **Party 5 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group5), useLinks(partial)):party5tie]` |
+>> **Party 6 Relation**|`INPUT[PartyRelation][inlineListSuggester:party6relation]`|
+>> **Party 6 Tie**|`INPUT[inlineListSuggester(optionQuery(#Player AND #Group6), useLinks(partial)):party6tie]` |
+>> **Traveling With** | `INPUT[inlineListSuggester(optionQuery(#Party AND !"z_Templates"), useLinks(partial)):whichparty]` |
+>
+>> [!metadata|metadataoption]- Location Information
+>> #### Location Information
+>>  |
+>> ---|---|
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+>> **Parent Subregion** | `INPUT[inlineListSuggester(optionQuery(#Location/Subregion AND !"z_Templates"), useLinks(partial)):parentsubregion]` |
+>> **Parent Reach** | `INPUT[inlineListSuggester(optionQuery(#Location/Reach AND !"z_Templates"), useLinks(partial)):parentreach]` |
+>> **Parent Settlement** | `INPUT[inlineListSuggester(optionQuery(#Location/Settlement AND !"z_Templates"), useLinks(partial)):parentsettlement]` |
+>> **Parent District** | `INPUT[inlineListSuggester(optionQuery(#Location/District AND !"z_Templates"), useLinks(partial)):parentdistrict]` |
+>> **Parent POI** | `INPUT[inlineListSuggester(optionQuery(#Location/POI AND !"z_Templates"), useLinks(partial)):parentpoi]` |
+>
+>> [!metadata|metadataoption]- Location Types
+>> #### Location Types
+>>  |
+>> ---|---|
+>> **Settlement Type** | `INPUT[SettlementType][inlineListSuggester:settlementtype]` |
+>> **District Type** | `INPUT[DistrictType][inlineListSuggester:districttype]` |
+>> **POI Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
+>> **Tavern Type** | `INPUT[TavernType][inlineListSuggester:taverntype]` |
+>> **Lodging Type** | `INPUT[LodgingType][inlineListSuggester:lodgingtype]` |
+>> **Shop Type** | `INPUT[ShopType][inlineListSuggester:shoptype]` |
+
+# Dataview For Planes
+
+> [!metadata|galaxies]- Galaxies
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Galaxy")
+> SORT file.name ASC
+> ```
+
+> [!metadata|starsystems]- StarSystems
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/StarSystem")
+> SORT file.name ASC
+> ```
+
+> [!metadata|planet]- Planets
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Planet")
+> SORT file.name ASC
+> ```
+
+> [!metadata|geography]- Regions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Region")
+> SORT file.name ASC
+> ```
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Galaxies
+
+> [!metadata|starsystems]- StarSystems
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/StarSystem")
+> SORT file.name ASC
+> ```
+
+> [!metadata|planet]- Planets
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/Planet")
+> SORT file.name ASC
+> ```
+
+> [!metadata|geography]- Regions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/Region")
+> SORT file.name ASC
+> ```
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentgalaxy, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Star Systems
+
+> [!metadata|planet]- Planets
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/Planet")
+> SORT file.name ASC
+> ```
+
+> [!metadata|geography]- Regions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/Region")
+> SORT file.name ASC
+> ```
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentstarsystem, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+
+# Dataview for Planets
+
+> [!metadata|geography]- Regions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Location/Region")
+> SORT file.name ASC
+> ```
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentcontinent, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+
+# Dataview for Regions
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentregion, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Subregions
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Reaches
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Settlements
+
+> [!metadata|districts]- Districts
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Location/District")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentsettlement, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataview for Districts
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentdistrict, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentdistrict, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentdistrict, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+# Dataviews for POIs
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+
+
+
+
+
+
+
+
 # MetaBind  YAML Structure and Definitions
 ## `tags`
 
@@ -249,5 +829,6 @@ INPUT[inlineSelect(
   option(Notes/SessionNote),
   option(Notes/Idea)
 )]
-
 ```
+
+

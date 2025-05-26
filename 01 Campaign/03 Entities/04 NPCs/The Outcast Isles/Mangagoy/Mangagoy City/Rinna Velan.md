@@ -25,7 +25,7 @@ ownedlocation:
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Ashgild Exchange]]"
   - "[[Binders' Lane]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 organization:
   - "[[The Blackwake Corsairs]]"

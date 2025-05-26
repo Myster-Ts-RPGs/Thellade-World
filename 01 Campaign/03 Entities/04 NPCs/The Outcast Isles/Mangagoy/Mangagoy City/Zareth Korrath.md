@@ -11,7 +11,7 @@ heritage: Minotaur - Ghost Bull
 location:
   - "[[Sanctum of the Dawnsplit Crown]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 aliases:
   - Sunwarden Zareth Korrath
 party3relation:

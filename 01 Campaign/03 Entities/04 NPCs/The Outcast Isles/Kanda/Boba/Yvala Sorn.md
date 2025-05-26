@@ -30,7 +30,7 @@ ownedlocation:
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Splintered Keel]]"
   - "[[Brimstone]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 occupation:
   - Captain

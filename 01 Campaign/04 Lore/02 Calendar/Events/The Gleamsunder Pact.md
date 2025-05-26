@@ -11,7 +11,7 @@ startdateshort: -0031.03.16 PR
 enddateshort: -0031.03.16 PR
 monthofoccurrence: "[[03 - Sunreach]]"
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 yearofoccurrence:
   - "[[-31]]"
 yearnumeric: -31

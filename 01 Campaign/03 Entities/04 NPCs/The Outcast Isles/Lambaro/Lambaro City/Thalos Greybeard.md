@@ -11,7 +11,7 @@ organization:
 location:
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"
   - "[[Arcspire District]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Ashen Vanguard/Fort Redstone]]"

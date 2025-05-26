@@ -31,7 +31,7 @@ organization:
 location:
   - "[[The Ironbind Floor]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

@@ -9,7 +9,7 @@ language:
 location:
   - "[[Sanctum of the Unbound Eye]]"
   - "[[The Hidden City]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 aliases:
   - The Whispered Scribe

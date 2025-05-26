@@ -194,9 +194,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Weaponizing natural magic against commonfolk.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Soraya Greenthorn|Archdruid Soraya Greenthorn]] continues to oversee widespread rewilding campaigns from [[Greenheart Grove]] on [[Jambito]].  
-> - A new outpost, [[Ashenbloom Refuge]], has been established at the base of Fireplume Mountain near [[Mangagoy]], aimed at containing volcanic pollutant flows.  
-> - A secondary sanctuary, [[Whisperwood Hollow]], now flourishes at the edge of [[Ravensath Woods]] near [[Lambaro]], monitoring aggressive logging operations and assisting nearby communities.  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Soraya Greenthorn|Archdruid Soraya Greenthorn]] continues to oversee widespread rewilding campaigns from [[Greenheart Grove]] on [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]].  
+> - A new outpost, [[Ashenbloom Refuge]], has been established at the base of Fireplume Mountain near [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], aimed at containing volcanic pollutant flows.  
+> - A secondary sanctuary, [[Whisperwood Hollow]], now flourishes at the edge of [[Ravensath Woods]] near [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]], monitoring aggressive logging operations and assisting nearby communities.  
 > - Members are coordinating discreetly with [[the Dawnbringers of Lunara]] to purify leyline scars linked to the decaying Pre-Rising barrier.  
 > - Tensions are escalating with factions such as [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union|the Guilded Hammer Union]] over expansionist mining projects, particularly around Lambaro’s highlands.
 
@@ -207,8 +207,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Soraya Greenthorn|Archdruid Soraya Greenthorn]] – Revered founder and living heart of the Hand; said to have merged her bloodline with Kanda’s oldest groves.  
-- [[Greenheart Grove]] – The spiritual and logistical hub near [[Jambito]], where the Great Tree still whispers secrets of the land.  
-- [[Ashenbloom Refuge]] – Verdant stronghold near [[Mangagoy]]; specializes in healing scorched earth near volcanic flow zones.  
-- [[Whisperwood Hollow]] – Woodland sanctuary near [[Lambaro]]; protects against deforestation and rune-iron mining disturbances.  
+- [[Greenheart Grove]] – The spiritual and logistical hub near [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]], where the Great Tree still whispers secrets of the land.  
+- [[Ashenbloom Refuge]] – Verdant stronghold near [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]; specializes in healing scorched earth near volcanic flow zones.  
+- [[Whisperwood Hollow]] – Woodland sanctuary near [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]; protects against deforestation and rune-iron mining disturbances.  
 - Symbol: A green handprint blooming with intertwining roots and a spiral of new leaves at the palm’s center.  
 - Uniforms: Forest-toned robes adorned with living mosswork and vine embroidery; ceremonial regalia include seedstone pendants attuned to Kanda’s elemental spirits.

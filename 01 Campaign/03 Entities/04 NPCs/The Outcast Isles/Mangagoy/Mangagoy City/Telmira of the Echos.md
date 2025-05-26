@@ -10,7 +10,7 @@ language:
 location:
   - "[[Vault of Muffled Truths]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 gender: Female
 pronouns: She/They

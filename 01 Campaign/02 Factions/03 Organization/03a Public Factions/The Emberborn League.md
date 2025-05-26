@@ -25,13 +25,13 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Deepwall Reach District]]"
   - "[[Kanda]]"
   - "[[Amberveil Market]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Crucible Hollow]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Ashgate Market]]"
   - "[[Seaside Cape]]"
   - "[[Mossgate Market]]"
@@ -215,9 +215,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mwingu/Mwingu/Orrek Flintbraid|Captain Orrek Flintbraid]] maintains excavation site security near [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]], supporting Group 1’s efforts in Mwingu.  
-> - [[Barnabas]], a high-ranking cleric of [[01 Campaign/03 Entities/01 Deities/Aurion]] and leader of the League’s southern wing, contracted Group 4 in [[Jambito]] to infiltrate a Red Runner hideout tied to infernal cults&#8203;:contentReference[oaicite:1]{index=1}.  
+> - [[Barnabas]], a high-ranking cleric of [[01 Campaign/03 Entities/01 Deities/Aurion]] and leader of the League’s southern wing, contracted Group 4 in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] to infiltrate a Red Runner hideout tied to infernal cults&#8203;:contentReference[oaicite:1]{index=1}.  
 > - A cooperation pact with the [[Crystal Seekers Guild]] remains in place for joint dig coordination and magical site triage.  
-> - League scouts have reported attempted artifact interference by [[The Bleeding Tide]] in the [[Mangagoy]] region, prompting relic convoy escorts.  
+> - League scouts have reported attempted artifact interference by [[The Bleeding Tide]] in the [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] region, prompting relic convoy escorts.  
 > - The League has quietly warned the Arcane Wardens of a possible cult reactivation near the Smokey Shoals.
 
 ## History

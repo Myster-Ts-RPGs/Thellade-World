@@ -16,7 +16,7 @@ organization:
 location:
   - "[[The Silverwake]]"
   - "[[Brimstone Docks]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[The Silverwake]]"

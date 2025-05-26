@@ -11,7 +11,7 @@ startdateshort: 0204.05.11
 enddateshort: 0204.05.11
 monthofoccurrence: "[[05 - Harvestshade]]"
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 yearofoccurrence:
   - "[[204]]"
 yearnumeric: 204

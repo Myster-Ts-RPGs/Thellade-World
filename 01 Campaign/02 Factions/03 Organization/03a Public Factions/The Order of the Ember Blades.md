@@ -24,7 +24,7 @@ rivals:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Eastwatch District]]"
   - "[[Blademage Weighstation]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
@@ -32,11 +32,11 @@ location:
   - "[[Ashfire Bastion District]]"
   - "[[Swordflame Encampment]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Arcspire District]]"
   - "[[Emberblade Training Yard]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Highhold Rise]]"
   - "[[The Citadel of Flame]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
@@ -189,7 +189,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Order of the Ember Blades|The Order of the Ember Blades]] is an elite martial-arcane order dedicated to safeguarding Kanda from planar incursions, abyssal corruption, and internal cultic threats. Forged from the recognition that steel alone could not face the dangers beyond the barrier, their knights blend sword mastery with tightly honed battle-magic. Their home fortress, [[The Citadel of Flame]] in [[Mangagoy]], trains warriors whose blades can cut spirit and spell alike.
+> [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Order of the Ember Blades|The Order of the Ember Blades]] is an elite martial-arcane order dedicated to safeguarding Kanda from planar incursions, abyssal corruption, and internal cultic threats. Forged from the recognition that steel alone could not face the dangers beyond the barrier, their knights blend sword mastery with tightly honed battle-magic. Their home fortress, [[The Citadel of Flame]] in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], trains warriors whose blades can cut spirit and spell alike.
 
 ### Oaths
 > "When steel falters, flame endures. When barriers fall, we rise."
@@ -228,8 +228,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Taryn Fiero|Master Blademage Taryn Fiero]] – Human of uncertain age, duel-wielder of flamebound blades; master of hybrid battle-magic techniques.  
-- [[The Citadel of Flame]] – Main headquarters located in [[Mangagoy]]'s [[Highhold Rise]], both a fortress and arcane training bastion.  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Order of the Ember Blade/Blademage Weighstation|Blademage Weighstation]] – River-hold near [[Eastwatch District]], [[Jambito]], serving as a regional training and logistics node.  
+- [[The Citadel of Flame]] – Main headquarters located in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]'s [[Highhold Rise]], both a fortress and arcane training bastion.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Order of the Ember Blade/Blademage Weighstation|Blademage Weighstation]] – River-hold near [[Eastwatch District]], [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]], serving as a regional training and logistics node.  
 - [[Swordflame Encampment]] – Base in [[Kanda]]'s [[Ashfire Bastion District]] near key barrier nodes.  
 - [[Flamewatcher Outpost]] – A cliffguard post protecting leyline fractures outside [[Seaside Cape]].  
 - Symbol: A downward flaming sword crossed with a half-moon shield, wreathed in crimson and gold arcs.  

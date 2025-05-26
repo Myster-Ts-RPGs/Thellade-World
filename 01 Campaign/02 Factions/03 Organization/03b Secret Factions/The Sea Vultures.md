@@ -20,7 +20,7 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Brimstone Docks]]"
   - "[[The Silverwake]]"
   - "[[The Barnacled Ledger]]"
@@ -166,7 +166,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Sea Vultures]] are a nimble, loosely structured smuggling outfit operating primarily from [[Boba]]’s waterfront. Formed in 208 PR, they have quickly become known for scavenging naval wreckage, selling illicit salvage, and playing rival factions against each other in the docks of [[Brimstone Docks]]. Led by the ambitious [[Ralvos Dern]] and coordinated on land by the meticulous [[Dorne Vesk]], they thrive on risk, whispers, and fast departures.
+> [[The Sea Vultures]] are a nimble, loosely structured smuggling outfit operating primarily from [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]’s waterfront. Formed in 208 PR, they have quickly become known for scavenging naval wreckage, selling illicit salvage, and playing rival factions against each other in the docks of [[Brimstone Docks]]. Led by the ambitious [[Ralvos Dern]] and coordinated on land by the meticulous [[Dorne Vesk]], they thrive on risk, whispers, and fast departures.
 
 ### Oaths
 > “We take what others sink.”
@@ -200,7 +200,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - 209 PR: [[The Silverwake]] is commissioned—refitted from a captured customs cutter—and becomes the faction's only permanent sea-based base.
 - 210 PR: [[Jessa Dorne]] purchases the derelict site now known as [[The Barnacled Ledger]] to establish land-based coordination.
 - 211 PR: An attempted infiltration by the [[Ashen Vanguard]] is narrowly avoided due to forged manifests and dock bribes.
-- 212 PR: The group begins expanding into minor delivery operations masking contraband exchanges near [[Jambito]] and [[Mangagoy]].
+- 212 PR: The group begins expanding into minor delivery operations masking contraband exchanges near [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].
 
 ### Campaign Events
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 5|Campaign Group 5]]
@@ -209,7 +209,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Hierarchy
 - **Supreme Leader:** [[Ralvos Dern]] – ‘The Black Wake’ – Captain of the [[The Silverwake]] and founder of the faction.
-- **Dockside Coordinator:** [[Jessa Dorne]] – ‘Quickhands’ – Oversees all shore operations from [[Boba]] > [[Brimstone Docks]] > [[The Barnacled Ledger]].
+- **Dockside Coordinator:** [[Jessa Dorne]] – ‘Quickhands’ – Oversees all shore operations from [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] > [[Brimstone Docks]] > [[The Barnacled Ledger]].
 - **No Known Council-Level Members** – All decision-making is currently centralized to Dern and Dorne.
 
 ## Locations

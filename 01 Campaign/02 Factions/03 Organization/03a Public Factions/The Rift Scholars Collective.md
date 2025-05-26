@@ -195,7 +195,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Collaboration with factions seeking to exploit rifts.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Elenora Mistveil|Head Scholar Elenora Mistveil]] continues to manage Rift activity mapping and coordinate with the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard|Ashen Vanguard]] on anomalous planar readings near [[Lambaro]] and [[Mangagoy]]&#8203;:contentReference[oaicite:0]{index=0}.  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Elenora Mistveil|Head Scholar Elenora Mistveil]] continues to manage Rift activity mapping and coordinate with the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Ashen Vanguard|Ashen Vanguard]] on anomalous planar readings near [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]&#8203;:contentReference[oaicite:0]{index=0}.  
 > - The Collective is tracing ripple effects across barrier weakening signatures believed to correlate with ancient Pre-Rising rift stabilizer decay.  
 > - Requests for expeditionary support are pending for potential rift events near the volcanic region east of [[Seaside Cape]].  
 > - Informal tensions have arisen with the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Phoenix Assembly|The Phoenix Assembly]] over whether certain stabilizers should be archived or made publicly accessible.

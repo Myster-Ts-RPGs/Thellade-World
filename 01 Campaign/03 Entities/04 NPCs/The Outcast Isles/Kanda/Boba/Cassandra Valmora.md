@@ -24,7 +24,7 @@ aliases:
 location:
   - "[[Valmora Estate]]"
   - "[[Sunfire Heights]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 occupation:
   - Noble
 condition: Healthy

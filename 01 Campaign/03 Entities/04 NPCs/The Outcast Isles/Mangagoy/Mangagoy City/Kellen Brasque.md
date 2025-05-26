@@ -22,7 +22,7 @@ condition: Healthy
 location:
   - "[[Evercrate Exports]]"
   - "[[Ashgate Market]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 ownedlocation:
   - "[[Evercrate Exports]]"
 pronounced: KELL-ehn BRASK

@@ -1,44 +1,35 @@
 ---
 tags:
   - "#Location"
-  - "#Subregion"
-  - "#TODO"
+  - "#Location/Subregion"
+  - "#Status/Blank"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 ---
 
-```meta-bind-js-view 
-{art} as art {banner} as banner
---- 
-if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
-    const str = ` ![[${context.bound.art}|banner-fade]]` ;
-    return engine.markdown.create(str); 
-} else { return ""; }
-```
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
 >> #### System
 >>  |
 >> ---|---|
-> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Pronounced** |  `INPUT[textArea:pronounced]` |
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
 >
->> [!metadata|metadataoption]- Art
->> #### Art
+>> [!metadata|metadataoption]- Location Information
+>> #### Location Information
 >>  |
 >> ---|---|
-> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
-> **Banner** | `INPUT[toggle(onValue(on), offValue(off)):banner]` |
->
->> [!metadata|metadataoption]- Info
->> #### Info
->>  |
->> ---|---|
-> **Pronounced** |  `INPUT[textArea:pronounced]`
-> **Aliases** | `INPUT[list:aliases]` |
-> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
-> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
-> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Region AND !"z_Templates"), useLinks(partial)):location]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+
+
 
 > [!infobox]+
 > # `=this.file.name`
@@ -49,13 +40,17 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Region** | `VIEW[{location}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
 > [!metadata|map]- Map
 > ```leaflet
-> ### Video Tutorial: https://www.youtube.com/watch?v=8MI5JyiH-Wo
 > id: TBD
 > image: [[PlaceholderImage.png]]
 > lock: true
@@ -75,6 +70,63 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > scale: 1
 > darkMode: false
 > ```
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
+
+> [!metadata|settlements]- Settlements
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
+
+> [!metadata|location]- Locations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Location/POI")
+> SORT tags DESC, poitype ASC, file.name ASC
+> ```
+
+> [!metadata|organizations]- Organizations
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentsubregion, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
+## Overview 
+> [!quote]+ Theme
+> *“Where sand meets stone, and roots grasp the sky.”*
+
+
+
+## Current Events
+
+
+
+## History
+
+
+
+## Notes
+
+
 
 > [!metadata|reaches]- Reaches
 > ```dataview

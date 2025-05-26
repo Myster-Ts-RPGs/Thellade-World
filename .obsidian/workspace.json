@@ -55,37 +55,52 @@
             }
           },
           {
-            "id": "52dcde642c57c814",
+            "id": "a190fa4a9608406a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Harren Velka.md",
-                "mode": "source",
+                "file": "03 Ideas/POI Helper.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Harren Velka"
+              "title": "POI Helper"
             }
           },
           {
-            "id": "2ec263dda89d14ac",
+            "id": "0c32c7a4e643d9b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Campaign/01 World/07 Districts/Kanda/Amberveil Market.md",
+                "file": "01 Campaign/01 World/04 Subregions/01 Thellade/The Elarian Fold/Greenrush Vale.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Amberveil Market"
+              "title": "Greenrush Vale"
+            }
+          },
+          {
+            "id": "d10add8a41f2c46b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Hollow Saints.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Hollow Saints"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -297,54 +312,54 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "8e6a600393459893",
+  "active": "0c32c7a4e643d9b3",
   "lastOpenFiles": [
-    "New Text Document.txt",
-    "80 Versioning/Commits/Git Commit 2025-05-23 12-13.md",
+    "01 Campaign/01 World/06 Settlements/The Obsidian Crestlands/The Rimshade Edge/Dolgoroth.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Hollow Saints/The Hollow Reliquary.md",
     "03 Ideas/YAML Organization Ideas.md",
-    "01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Harren Velka.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Kanda Isles/Kanda.md",
-    "01 Campaign/01 World/07 Districts/Kanda/Amberveil Market.md",
-    "Vault Hub.md",
-    "In Session.md",
-    "01 Campaign/04 Lore/02 Calendar/Orcus' Lieutenants Released.md",
-    "01 Campaign/05 Parties/07 Session Notes/03 Campaign 03/Campaign 3 - Session 10 - Glyph's, Chains, and Shadows.md",
-    "01 Campaign/05 Parties/08 Encounters/Group 3/Tracing the Sigil Echo - Maelthaz.md",
-    "01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 3.md",
-    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy.md",
-    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Dawnlight Parlor.md",
-    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Aetherfire Dining Hall.md",
-    "01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Mangagoy Isles/Whisperwind Suites.md",
-    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 07 - The Light that Remains.md",
-    "01 Campaign/05 Parties/08 Encounters/Group 4/The Histories.md",
-    "01 Campaign/05 Parties/08 Encounters/Group 4/The Herald's Judgement.md",
-    "01 Campaign/05 Parties/08 Encounters/Group 2/The Herald's Judgement.md",
-    "01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 2.md",
-    "01 Campaign/05 Parties/07 Session Notes/02 Campaign 02/Campaign 2 - Session 08 - When Memory Burns Bright.md",
-    "01 Campaign/05 Parties/08 Encounters/Group 3/Debrief and Rubble Search.md",
-    "01 Campaign/01 World/07 Districts/Mangagoy/Binders' Lane.md",
-    "01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord.md",
-    "01 Campaign/01 World/08 Points of Interest/08 Residences/Mangagoy Islands/Mangagoy/Ambervale Estate.md",
-    "90 Assets/Images/Backgrounds/Hex14.jpg",
-    "90 Assets/Images/Backgrounds/Hex15.webp",
-    "90 Assets/Images/Backgrounds/Hex16.webp",
-    "90 Assets/Images/Misc/BrokenChaliceSeal.png",
-    "90 Assets/Images/Districts/Tallowgate.jpg",
-    "90 Assets/Images/POIs/SkywardReliquary.webp",
-    "90 Assets/Images/NPCs/AurethisSolonar.webp",
-    "90 Assets/Images/Creatures/XarKairosSmall.webp",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Hollow Saints.md",
+    "03 Ideas/POI Helper.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Veilcutter's Refuge.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Blackwake Corsairs.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Seabreeze Haven.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Mistcatcher Shack.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Shroud.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Umbral Vault.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Innerwatch.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Blackwake Corsairs/Hollowbone Trading Post.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Black Sepulcher/The Shattered Gate.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Black Sepulcher.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Black Sepulcher/The Crypt of the Eclipsed Sun.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Midnight Covenant/The Sunken Veil.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Midnight Covenant.md",
+    "01 Campaign/01 World/06 Settlements/The Outcast Isles/Middle Isles/Westport.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Forgotten Archive.md",
+    "01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Mistwalkers.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Mistwalkers/The Drowned Watchtower.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Crimson Shroud/The Silent Sanctum.md",
+    "01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Ember Rats/The Emberwell Den.md",
+    "OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes.md",
+    "OneNote/Crossroads2025/Project 1 Archive/BobaNotes.md",
+    "90 Assets/Images/Placeholders/PlaceholderPlane.png",
+    "90 Assets/Images/Placeholders/PlaceholderReach.png",
+    "90 Assets/Images/Placeholders/PlaceholderGeography.png",
+    "90 Assets/Images/Placeholders/PlaceholderOcean.png",
+    "90 Assets/Images/Placeholders/PlaceholderPlanet.png",
+    "90 Assets/Images/Placeholders/PlaceholderCounty.png",
+    "90 Assets/Images/Placeholders/PlaceholderArea.png",
+    "90 Assets/Images/Placeholders/PlaceholderSettlement.png",
+    "90 Assets/Images/Placeholders/PlaceholderPointOfInterest.png",
+    "90 Assets/Images/Placeholders/PlaceholderDistrict.png",
+    "90 Assets/Images/Placeholders",
+    "01 Campaign/01 World/02a Continents/Thellade",
+    "01 Campaign/01 World/02a Continents",
+    "01 Campaign/01 World/01b Star Systems",
+    "01 Campaign/01 World/01a Galaxies",
+    "New Text Document.txt",
     "90 Assets/Images/Creatures",
-    "90 Assets/Images/POIs/WhispervaultArchive.jpg",
-    "90 Assets/Images/NPCs/YonnicBradeSmall.webp",
     "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night/Shadowthread Warrens/Blackwater Crossing",
     "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night/Shadowthread Warrens",
     "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night/Shadowthread Warrens/Blackwater Crossing",
-    "01 Campaign/01 World/08 Points of Interest/05 Government/The Veins of Night",
-    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night/Shadowthread Warrens",
-    "01 Campaign/01 World/08 Points of Interest/10 Infrastructure/The Veins of Night",
-    "01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Kanda",
-    "01 Campaign/01 World/08 Points of Interest/09 Landmarks/Kanda Isles/Boba",
-    "01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Kanda Isles/Kanda",
     "01 Campaign/01 World/08 Points of Interest/04 Temple or Shrine/Untitled.canvas",
     "z_Canvas/Feldon Planning.canvas",
     "Untitled.canvas",

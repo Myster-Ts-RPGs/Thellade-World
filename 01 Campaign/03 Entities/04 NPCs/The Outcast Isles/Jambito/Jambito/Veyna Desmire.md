@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Eyes Beneath]]"
   - "[[Silverspire Terrace]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 aliases:
   - The Murmuring Wave

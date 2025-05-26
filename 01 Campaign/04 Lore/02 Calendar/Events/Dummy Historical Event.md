@@ -10,7 +10,7 @@ startdate: 15 Dawnmarch -312 PR
 startdateshort: -312.01.15 PR
 enddateshort: -312.01.15 PR
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

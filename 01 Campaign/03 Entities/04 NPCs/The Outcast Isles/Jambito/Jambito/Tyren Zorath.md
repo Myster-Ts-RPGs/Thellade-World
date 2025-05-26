@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Obsidian Hall]]"
   - "[[Silverspire Terrace]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 aliases:
   - The Forgotten

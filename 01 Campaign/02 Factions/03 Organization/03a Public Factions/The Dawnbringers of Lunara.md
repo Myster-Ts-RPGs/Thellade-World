@@ -41,12 +41,12 @@ location:
   - "[[Kanda]]"
   - "[[Tallowgate]]"
   - "[[The Radiant Temple]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Silverspire Terrace]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Glowmire Terrace]]"
   - "[[Chamber of Celestial Binding]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Glowquarter]]"
   - "[[Sanctum of the Dawnsplit Crown]]"
   - "[[Seaside Cape]]"
@@ -222,7 +222,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Withholding prophetic insight when innocents are imperiled.
 
 ## Current Events
-> - [[Vaelis Duskwhisper]] led the Dreambinding Ritual for [[Kaelor Thornhide]] in [[Mangagoy]], assisted by [[Zareth Korrath]] and [[Sowilo Brightgaze]].  
+> - [[Vaelis Duskwhisper]] led the Dreambinding Ritual for [[Kaelor Thornhide]] in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], assisted by [[Zareth Korrath]] and [[Sowilo Brightgaze]].  
 > - Group 6 encountered [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Middle Islands/Seaside Cape/Nymeriel|Sister Nymeriel]] at the [[Moonwell of Lunara]] in [[Seaside Cape]], where [[01 Campaign/05 Parties/01 Characters/06 Campaign 06/Kibo Shi|Kibo]] plucked a Lunabloom flower named **Silvielle**, gaining divine insight.  
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Kanda City/Seralyne Vireth|High Oracle Seralyne Vireth]] has ordered reinforcements and spiritual seals at shrines compromised by Abyssal leyline bleed.  
 > - The sanctum in Mangagoy was attacked by cultists of [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]]; a weakened seal of [[Xal'Zul]] remains unstable beneath the site.

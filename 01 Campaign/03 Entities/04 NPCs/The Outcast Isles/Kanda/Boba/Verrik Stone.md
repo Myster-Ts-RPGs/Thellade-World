@@ -11,7 +11,7 @@ aliases:
   - The Vulture
   - Captain Stone
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 organization:
   - "[[The Red Runners]]"
 condition: Healthy

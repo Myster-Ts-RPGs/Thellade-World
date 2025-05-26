@@ -24,7 +24,7 @@ aliases:
 condition: Healthy
 location:
   - "[[Sunfire Heights]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 organization:
   - "[[The Sunfire Heralds]]"
 ---

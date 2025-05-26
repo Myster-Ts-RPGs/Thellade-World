@@ -1,9 +1,9 @@
 ---
 tags:
   - "#Location"
-  - "#POI"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - "#Location/POI"
+  - "#Status/Blank"
+art: 90 Assets/Images/Placeholders/PlaceholderPointOfInterest.png
 banner: on
 location:
   - "[[Tallowgate]]"
@@ -44,11 +44,21 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> **Pronounced** |  `INPUT[textArea:pronounced]`
 >> **Aliases** | `INPUT[list:aliases]` |
 >> **Type** | `INPUT[POIType][inlineListSuggester:poitype]` |
->> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
+>> **Deity** | `INPUT[Religion][inlineListSuggester:religion]` | 
 >> **Owners** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):owner]` |
 >> **Assistant** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"z_Templates"), useLinks(partial)):assistant]` |
->> **Organization** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
->> **Location** | `INPUT[inlineListSuggester(optionQuery(#District AND !"z_Templates"), optionQuery(#Settlement AND !"z_Templates"), optionQuery(#Subregion AND !"z_Templates"), optionQuery(#Reach AND !"z_Templates"), useLinks(partial)):location]` |
+>> **Religion(Organization)** | `INPUT[inlineListSuggester(optionQuery(#Organization/Religion AND !"z_Templates"), useLinks(partial)):organization]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+>> **Parent Subregion** | `INPUT[inlineListSuggester(optionQuery(#Location/Subregion AND !"z_Templates"), useLinks(partial)):parentsubregion]` |
+>> **Parent Reach** | `INPUT[inlineListSuggester(optionQuery(#Location/Reach AND !"z_Templates"), useLinks(partial)):parentreach]` |
+>> **Parent Settlement** | `INPUT[inlineListSuggester(optionQuery(#Location/Settlement AND !"z_Templates"), useLinks(partial)):parentsettlement]` |
+>> **Parent District** | `INPUT[inlineListSuggester(optionQuery(#Location/District AND !"z_Templates"), useLinks(partial)):parentdistrict]` |
+>> **Parent POI** | `INPUT[inlineListSuggester(optionQuery(#Location/POI AND !"z_Templates"), useLinks(partial)):parentpoi]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -58,11 +68,20 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Type** | `VIEW[{poitype}][text]` |
-> **Dominion** | `VIEW[{dominion}][link]` |
 > **Owners** | `VIEW[{owner}][link]` |
 > **Assistant** | `VIEW[{assistant}][link]` |
-> **Organization** | `VIEW[{organization}][link]` |
-> **Location** | `VIEW[{location}][link]` |
+> **Deity** | `VIEW[{Religion}][link]` |
+> **Religion** | `VIEW[{organization}][link]` |
+> **Location (Parent POI)** | `VIEW[{parentpoi}][link]` |
+> **District** | `VIEW[{parentdistrict}][link]` |
+> **Settlement** | `VIEW[{parentsettlement}][link]` |
+> **Reach** | `VIEW[{parentreach}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 > ###### Party
 >  |
 > ---|---|
@@ -75,39 +94,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 # `=this.file.name` <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
-## 🕊️ The Skyward Reliquary (Temple of Aurion – Kanda)
-
-> *“Built not to dazzle, but to rise—each stone a prayer, each beam a fragment of dawn.”*
-
-The **Skyward Reliquary** does not glitter. It *glows*. Perched at the highest edge of Tallowgate, its architecture spirals heavenward in layers of alabaster arches and translucent goldstone that catch the first rays of each morning. Every sunrise spills across its vast, open atrium like a blessing—unfiltered, uninterrupted, divine.
-
-The reliquary’s spires are hollow and tuned. When wind passes through them, it produces a haunting chorus of low harmonic tones—a song believed to be the voice of Aurion himself. Pilgrims describe it not as sound, but as resonance in the soul.
-
-Within, the central chamber is open to the sky. A circular oculus, rimmed with silver-leafed invocations, frames the celestial cycle. On days of dual moonrise or solar eclipse, the temple fills with refracted halos of sacred light—events treated as holy convocations.
-
-At the reliquary’s heart stands **The Ember Prism**, a single suspended shard of Pre-Rising aetherglass, gifted by Aurion’s first Dawnwardens. It glows faintly—dimmed since the end of the Rising—but still pulses when touched by honest prayer.
-
-The reliquary is also a **lighthouse for souls**—serving not only as temple but as hospice, place of confession, and final passage for those seeking redemption. A narrow stair spirals beneath the main chamber into **The Embercrypt**, where the names of fallen clerics are etched in radiant thread along the walls. It is whispered that one name was unthreaded long ago… never replaced.
-
----
-
-### 📍 Overview (for GM Notes / Obsidian)
-
-- **POIType:** Temple  
-- **District:** [[Tallowgate]]  
-- **Deity:** [[Aurion]]  
-- **Key Features:**
-  - Sky-facing atrium with open oculus
-  - Wind-harmonic spires
-  - Suspended Ember Prism (ancient aetherglass relic)
-  - The Embercrypt (memorial catacombs and hidden vault)
-  - Bell Harmonium that tolls only at dawn or death
-- **Associated Mysteries:**
-  - One name removed from the crypt (Solivar Maeron?)
-  - Access to the original radiant scripts of the Dawnwardens
-  - Possible ritual gateway to the Emberward Beacon (locked)
-
-
+> [!recite]- Introduction
+> A script for the GM to read when the party arrive to this location for the first time.
 
 > [!metadata|map]- Map
 > ```leaflet
@@ -131,19 +119,31 @@ The reliquary is also a **lighthouse for souls**—serving not only as temple bu
 > darkMode: false
 > ```
 
+# Dataviews for POIs
+
 > [!metadata|location]- Locations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Location")
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Location/POI")
 > SORT tags DESC, poitype ASC, file.name ASC
+> ```
 
-> [!metadata|characters]- Characters
+> [!metadata|organizations]- Organizations
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
-> SORT tags DESC, file.name ASC
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Organization")
+> SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentpoi, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
 
 ## Overview 
 

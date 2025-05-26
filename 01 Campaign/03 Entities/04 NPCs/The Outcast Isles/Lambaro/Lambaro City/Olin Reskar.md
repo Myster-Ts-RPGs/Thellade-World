@@ -9,7 +9,7 @@ language:
 location:
   - "[[Reskar's Inkfold]]"
   - "[[Arcspire District]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 aliases:
   - The Quill

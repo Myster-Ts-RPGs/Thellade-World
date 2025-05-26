@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Bilge & Bauble]]"
   - "[[Gullsway]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

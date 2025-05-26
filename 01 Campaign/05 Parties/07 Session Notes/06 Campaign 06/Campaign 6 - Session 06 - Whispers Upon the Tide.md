@@ -19,7 +19,7 @@ whichparty:
 **Party Members:** Spike, Kibo, Varis, Boud-Celsus, Garrik, Euril Breachmane  
 **Allies Present:** Dame Alenwyn Duskforge, Zakka (kobold cult escapee)  
 **Location:** [[Seaside Cape]] → [[The Emberwake]] (aboard ship)
-Test: [[Boba]]
+Test: [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]
 
 ---
 

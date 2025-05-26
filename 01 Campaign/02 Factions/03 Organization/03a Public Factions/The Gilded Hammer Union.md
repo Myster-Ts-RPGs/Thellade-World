@@ -20,22 +20,22 @@ rivals:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Eastwatch District]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Union Smelthouse Cooperative]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Frostlock Commons]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Forgewright's Circle]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Crucible Hollow]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]]"
   - "[[Thundertread Ward]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Binders' Lane]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Union Freight & Forging Annex]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
@@ -220,7 +220,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - [[Lazlo]] is assisting the [[Lambaro Institute of Innovation]] with experiments to stabilize rune-conductive alloys.  
 > - [[Batrok]] of Group 3 retains honorary Union membership and may return to assist in the testing of hammer-tech relics.  
 > - [[Mwingu]]’s forgeport has reported several encounters with black-market agents bearing modified Union sigils—an investigation is underway.  
-> - Tensions rise in [[Mangagoy]] between the Union and local shipping guilds regarding control of reinforced relic packaging methods.
+> - Tensions rise in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] between the Union and local shipping guilds regarding control of reinforced relic packaging methods.
 
 ## History
 > Born from the ashes of southern forge-cults and independent masters during the prelude to the Rising, [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Gilded Hammer Union|The Gilded Hammer Union]] was founded on 28 Stonewake -6 PR. Their first act: the codification of an ethical relicsmithing code. Over time, they became the standard by which all post-Rising craft guilds were measured.  
@@ -231,10 +231,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Boran Steelwright|Foreman Boran Steelwright]] – Stoic and pragmatic founder; believes in tradition with purpose.  
 - [[Lazlo]] – Dwarven smith and rune-crafter; deeply involved with modern alloy stabilization research.  
 - [[Talgar Anvilmarr]], [[Hodden Anvilmarr]] – Master forge-duo operating in Lambaro under Union charter.  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[Lambaro]]; houses master-forges, guild archive, and dispute court.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/The Anvilworks]] – Central HQ in [[Crucible Hollow]], [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]; houses master-forges, guild archive, and dispute court.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Forgewright's Circle|Forgewright's Circle]] – District forgehall in [[Kanda]]; custom commission site for Vanguard and Blazing Pledge arms.  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]] – Merchant outpost in [[Boba]] dealing in refined gear and sigil-bound tools.  
-- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Union Freight & Forging Annex]] – Distribution point in [[Mangagoy]] overseeing relic containment systems.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Ironhall Trade Pavilion]] – Merchant outpost in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] dealing in refined gear and sigil-bound tools.  
+- [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Union Freight & Forging Annex]] – Distribution point in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] overseeing relic containment systems.  
 - [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Gilded Hammer Union/Hammerlight Port Forge]] – Coastal forge-and-dock fusion serving resource intake and barge armor repair in [[Mwingu]].  
 - Symbol: Twin hammers crossed over a circular anvil, rimmed in golden flame etchings.  
 - Uniforms: Heavy aprons, thick gloves, and rune-bound hammer pins. Formal delegates wear blackened steel mantles over trade robes.

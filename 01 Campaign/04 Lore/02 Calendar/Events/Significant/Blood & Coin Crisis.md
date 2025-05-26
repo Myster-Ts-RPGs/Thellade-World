@@ -11,7 +11,7 @@ startdateshort: 0210.10.03 PR
 enddateshort: 0210.10.12 PR
 monthofoccurrence: "[[10 - Sunfall]]"
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 yearofoccurrence:
   - "[[210]]"
 yearnumeric: 210
@@ -79,7 +79,7 @@ SORT file.name ASC
 
 ## Overview  
 
-A violent clash between the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Golden Tides Trading Guild|Golden Tides Trading Guild]] and the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|Emberheart Traders]] erupted across [[Boba]]’s dockside warehouses and merchant quarters. False-flag attacks orchestrated by the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|Red Runners]] smuggling syndicate stoked tensions between the guilds, prompting street fights, arson, and economic blockades. Intervention by an adventuring party exposed the scheme, unveiling forged shipping manifests and a cache of stolen ledgers that directly implicated [[Captain Verrik the Vulture]]. Order was restored after a public arbitration mediated at the [[The Verdant Accord Forum]].
+A violent clash between the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Golden Tides Trading Guild|Golden Tides Trading Guild]] and the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Emberheart Traders|Emberheart Traders]] erupted across [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]’s dockside warehouses and merchant quarters. False-flag attacks orchestrated by the [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Red Runners|Red Runners]] smuggling syndicate stoked tensions between the guilds, prompting street fights, arson, and economic blockades. Intervention by an adventuring party exposed the scheme, unveiling forged shipping manifests and a cache of stolen ledgers that directly implicated [[Captain Verrik the Vulture]]. Order was restored after a public arbitration mediated at the [[The Verdant Accord Forum]].
 
 ## Notes
 

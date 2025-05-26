@@ -24,7 +24,7 @@ aliases:
 organization:
   - "[[The Crimson Gauge]]"
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 condition: Healthy
 ---
 

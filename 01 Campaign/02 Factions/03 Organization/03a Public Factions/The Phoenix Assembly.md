@@ -32,22 +32,22 @@ rivals:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Riverbend Hollow]]"
   - "[[Civic Rebirth Annex]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Glimmershade]]"
   - "[[Phoenix Forum Hall]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Ironveil Commons]]"
   - "[[The  Emberlight Assembly Wing]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Glowmire Terrace]]"
   - "[[The Eternal Hearth]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Mangagoy Isles/Mangagoy/Renaissance Bridge Office]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
@@ -219,10 +219,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Suppressing cultural memory or rewriting history for control.
 
 ## Current Events
-> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Thalia Ashglow|Speaker Thalia Ashglow]] continues to coordinate innovation drives from [[The Eternal Hearth]] while building Assembly enclaves in [[Boba]] and [[Kanda]].  
+> - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Thalia Ashglow|Speaker Thalia Ashglow]] continues to coordinate innovation drives from [[The Eternal Hearth]] while building Assembly enclaves in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] and [[Kanda]].  
 > - Assembly leaders are investigating corrupt officials blocking education reforms in [[01 Campaign/01 World/07 Districts/Jambito/Riverbend Hollow|Riverbend Hollow]], with help from Eternal Concord liaisons.  
 > - Talks with the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Arcane Wardens|Arcane Wardens]] are underway regarding shared magical research protocols.  
-> - A sabotage attempt on the Emberlight Assembly Wing in [[Boba]] is suspected to involve sympathizers of [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]].  
+> - A sabotage attempt on the Emberlight Assembly Wing in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] is suspected to involve sympathizers of [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Infernal Covenant]].  
 > - The group has dispatched moderators to attend the Kingdom-Wide Peace Summit hosted by [[The Eternal Concord]].
 
 ## History
@@ -232,9 +232,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Thalia Ashglow|Speaker Thalia Ashglow]] – Gifted orator, half-elf of mixed heritage, and architect of the Assembly’s cultural revival.  
-- [[The Eternal Hearth]] – Central philosophical hub in [[Lambaro]]; both an archive and forum for civic planning.  
+- [[The Eternal Hearth]] – Central philosophical hub in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]; both an archive and forum for civic planning.  
 - [[Phoenix Forum Hall]] – Policy roundtable and magical innovation site in [[Kanda]]’s [[Glimmershade]].  
-- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Phoenix Assembly/The  Emberlight Assembly Wing|Emberlight Assembly Wing]] – Cultural outreach and education zone in [[Boba]]’s [[Ironveil Commons]].  
-- [[Civic Rebirth Annex]] – Small community center in [[Jambito]] offering lectures and healing services.  
+- [[01 Campaign/01 World/08 Points of Interest/01 Factions/The Phoenix Assembly/The  Emberlight Assembly Wing|Emberlight Assembly Wing]] – Cultural outreach and education zone in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]’s [[Ironveil Commons]].  
+- [[Civic Rebirth Annex]] – Small community center in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] offering lectures and healing services.  
 - Symbol: A golden phoenix rising from a silver quill and broken chain, flanked by arcs of red fire.  
 - Uniforms: Stylized robes with crimson flame-thread motifs, sunburst medallions, and arching feather sigils.

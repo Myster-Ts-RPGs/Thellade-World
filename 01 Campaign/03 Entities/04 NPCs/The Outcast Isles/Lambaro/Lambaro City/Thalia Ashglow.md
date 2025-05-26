@@ -9,7 +9,7 @@ language:
 organization:
   - "[[The Phoenix Assembly]]"
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[The Eternal Hearth]]"
   - "[[Glowmire Terrace]]"
 ---

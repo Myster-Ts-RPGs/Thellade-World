@@ -9,7 +9,7 @@ language:
 location:
   - "[[Glowglass Arcanum]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 organization:
   - "[[Order of Silent Echoes]]"

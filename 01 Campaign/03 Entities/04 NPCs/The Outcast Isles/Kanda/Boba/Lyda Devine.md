@@ -20,7 +20,7 @@ party6relation:
   - Unmet
 condition: Healthy
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 ---
 
 > [!metadata|metadata]- Metadata 

@@ -31,12 +31,12 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
   - "[[The Ember Hold]]"
   - "[[Sunveil Hollow]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Brimstone Docks]]"
   - "[[The Rusted Wake]]"
   - "[[Binders' Lane]]"
   - "[[The Smoldering Roost]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Glowmire Terrace]]"
   - "[[The Cinder Refuge]]"
   - "[[The Red Dagger Hold]]"
@@ -207,14 +207,14 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 - [[Rask Thandek]] has consolidated leadership under a harsher doctrine, reinforcing [[The Ember Hold]] with siege traps and new survivalist trials.  
 - [[Farman Raulf]] has fortified [[The Embermoor Spire]] and begun raiding leyline scouting vessels in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].  
-- [[Torik Drennel]] has been implicated in a noble blackmail ring involving multiple holdings in [[Kanda]] and [[Lambaro]].  
-- [[Karis Valen]] was spotted overseeing a high-risk smuggling run through [[The Rusted Wake]] near [[Boba]], prompting increased naval patrols.  
+- [[Torik Drennel]] has been implicated in a noble blackmail ring involving multiple holdings in [[Kanda]] and [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].  
+- [[Karis Valen]] was spotted overseeing a high-risk smuggling run through [[The Rusted Wake]] near [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], prompting increased naval patrols.  
 - [[Campaign Group 1]] and [[Campaign Group 2]] have reported disrupted trade routes, indirectly traced back to Marauder ambush zones.
 
 ## History
 - 18 Ashfall 122 PR (Generated): [[Rask Thandek]] unites a series of exile warbands and deserter groups after the failed Ashen Accord treaty collapse.  
 - 131 PR: [[The Ember Circle]] formalized as the ruling council, seated at [[The Ember Hold]].  
-- 143 PR: First assassination of a crown-funded supply minister traced to [[Sylva Merix]] in [[Lambaro]].  
+- 143 PR: First assassination of a crown-funded supply minister traced to [[Sylva Merix]] in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].  
 - 156 PR: [[The Bloodied Hollow]] purged by Ashen Vanguard; rebuilt 8 days later in a new location.  
 - 167 PR: [[The Rusted Wake]] seized by Marauder-aligned pirates, creating the Blackwater Smuggler Route.  
 - 208 PR: Multiple nobles across [[Kanda]] linked to bribes routed through [[Torik Drennel]] and forged trade decrees.
@@ -227,7 +227,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - Evidence of stolen relic transport discovered near [[The Cinder Refuge]]. A coded message included the Ember Circle’s symbol.
   
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 4|Campaign Group 4]]  
-  - Urban encounter in [[Jambito]] revealed traces of forged weapon permits linked to [[Zorath Renvar]]’s network.
+  - Urban encounter in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] revealed traces of forged weapon permits linked to [[Zorath Renvar]]’s network.
 
 ## Hierarchy
 - **Supreme Leader:** [[Rask Thandek]] – 'The Red Warlord'; founder of the Ember Circle and master of wilderness warfare.  
@@ -238,10 +238,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Vorn Draskar]] – 'The Burned Wolf'; internal enforcer and Marauder disciplinarian
 
 - **Regional Contacts / Lieutenants:**  
-  - [[Sylva Merix]] – 'The Silent Blade'; infiltrator and noble thief operating from [[The Cinder Refuge]] ([[Lambaro]])  
+  - [[Sylva Merix]] – 'The Silent Blade'; infiltrator and noble thief operating from [[The Cinder Refuge]] ([[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]])  
   - [[Jorak Relis]] – 'The Stormbrand'; mountain raider coordinating from [[The Ember Hold]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]])  
   - [[Harren Velka]] – 'The Shadow Wolf'; noble patron shielding operations from [[The Bloodied Hollow]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]])  
-  - [[Karis Valen]] – 'The Black Tide'; smuggler queen of [[The Rusted Wake]] ([[Boba]])  
+  - [[Karis Valen]] – 'The Black Tide'; smuggler queen of [[The Rusted Wake]] ([[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]])  
   - [[Malrik Grell]] – 'The Hollow Mask'; kidnapper and burglar tied to [[The Smoldering Roost]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]])  
   - [[Zorath Renvar]] – 'The Bloodied Hand'; arms dealer and recruiter at [[The Red Dagger Hold]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]])  
   - [[Farman Raulf]] – 'The Crimson Watcher'; scoutmaster and fugitive hunter from [[The Embermoor Spire]] ([[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]])
@@ -252,8 +252,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Secondary Hideouts
 - [[The Bloodied Hollow]] – Raiding camp rebuilt repeatedly across the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]  
-- [[The Rusted Wake]] – Dockside smuggler’s den in [[Brimstone Docks]], [[Boba]]  
-- [[The Cinder Refuge]] – Hidden cavern depot in [[Glowmire Terrace]], [[Lambaro]]  
+- [[The Rusted Wake]] – Dockside smuggler’s den in [[Brimstone Docks]], [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]  
+- [[The Cinder Refuge]] – Hidden cavern depot in [[Glowmire Terrace]], [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]  
 - [[The Smoldering Roost]] – Outpost on a reef-ringed isle in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]  
 - [[The Red Dagger Hold]] – Ruined stronghold used for weapons caching and recruitment in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]  
 - [[The Embermoor Spire]] – Cliffside watchtower and ambush coordination point in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]  
@@ -269,8 +269,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Torik Drennel]] is using bribery to influence the outcome of a disputed [[Kanda]] military tribunal.  
 - [[Farman Raulf]] may be coordinating leyline interception operations without informing [[The Ember Circle]].  
 - [[Neralis Vaskyr]] is blackmailing a royal archivist who uncovered proof of noble involvement in early Marauder funding.  
-- [[Sylva Merix]] has begun staging high-value thefts in [[Lambaro]] under the guise of noble feuds.  
-- [[The Shadow Break]] may be used to shelter a fugitive involved in the failed [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord|Eternal Concord]] operation in [[Mangagoy]].
+- [[Sylva Merix]] has begun staging high-value thefts in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] under the guise of noble feuds.  
+- [[The Shadow Break]] may be used to shelter a fugitive involved in the failed [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Eternal Concord|Eternal Concord]] operation in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].
 
 ### Artifacts and Evidence Found
 - Branded mask of a dead Marauder lieutenant recovered near [[The Bloodied Hollow]]  

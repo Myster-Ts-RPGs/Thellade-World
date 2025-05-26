@@ -14,7 +14,7 @@ ownedlocation:
 location:
   - "[[Emberheart Trade Office]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 pronounced: MAH-rek TIN-dul
 condition: Healthy
 ancestry: Human

@@ -1,43 +1,21 @@
 ---
-art: 90 Assets/Images/Misc/PlaceholderImage.png
 tags:
+  - "#Status/Blank"
   - "#Location"
-  - "#Plane"
-  - "#TODO"
+  - "#Location/Plane"
+art: 90 Assets/Images/Placeholders/PlaceholderPlane.png
 ---
-
-```meta-bind-js-view 
-{art} as art {banner} as banner
---- 
-if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
-    const str = ` ![[${context.bound.art}|banner-fade]]` ;
-    return engine.markdown.create(str); 
-} else { return ""; }
-```
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
 >> #### System
 >>  |
 >> ---|---|
-> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Pronounced** |  `INPUT[textArea:pronounced]` |
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
 >
->> [!metadata|metadataoption]- Art
->> #### Art
->>  |
->> ---|---|
-> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
->
->> [!metadata|metadataoption]- Info
->> #### Info
->>  |
->> ---|---|
-> **Pronounced** |  `INPUT[textArea:pronounced]`
-> **Aliases** | `INPUT[list:aliases]` |
-> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
-> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Location AND !"z_Templates"), useLinks(partial)):location]` |
 
 > [!infobox]+
 > # `=this.file.name`
@@ -46,9 +24,6 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >  |
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
-> **Terrain** | `VIEW[{terrain}][text]` |
-> **Dominion** | `VIEW[{dominion}][link]` |
-> **Location** | `VIEW[{location}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
@@ -74,40 +49,87 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
+
+> [!metadata|galaxies]- Galaxies
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Galaxy")
+> SORT file.name ASC
+> ```
+
+> [!metadata|starsystems]- StarSystems
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/StarSystem")
+> SORT file.name ASC
+> ```
+
+> [!metadata|planet]- Planets
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Planet")
+> SORT file.name ASC
+> ```
+
 > [!metadata|geography]- Regions
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Region")
-> SORT nation ASC, file.name ASC
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Region")
+> SORT file.name ASC
+> ```
+
+> [!metadata|county]- Subregions
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Subregion")
+> SORT file.name ASC
+> ```
+
+> [!metadata|reaches]- Reaches
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(terrain, ", ") AS Terrain, join(link(dominion), ", ") AS "Dominion"
+> FROM "01 Campaign"
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Reach")
+> SORT file.name ASC
+> ```
 
 > [!metadata|settlements]- Settlements
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
-> SORT nation ASC, file.name ASC
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Location/POI")
 > SORT tags DESC, poitype ASC, file.name ASC
+> ```
 
 > [!metadata|organizations]- Organizations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
 > FROM "01 Campaign"
-> WHERE contains(location, this.file.link) AND contains(tags, "Organization")
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Organization")
 > SORT organizationtype ASC, file.name ASC
+> ```
 
-> [!metadata|characters]- Characters
+> [!metadata|entities]- Entities
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(occupation, ", ") AS "Occupations", join(link(organization), ", ") AS "Organizations"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Character") AND !contains(condition, "Dead")
-> SORT tags DESC, file.name ASC
+> WHERE contains(parentplane, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
 
 ## Overview 
 

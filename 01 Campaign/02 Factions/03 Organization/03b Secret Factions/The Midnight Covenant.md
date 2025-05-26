@@ -24,12 +24,12 @@ location:
   - "[[Kanda]]"
   - "[[Tallowgate]]"
   - "[[The Twilight Cell]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
   - "[[Glowmire Terrace]]"
   - "[[The Gloamspire]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Binders' Lane]]"
   - "[[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
@@ -249,9 +249,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Primary Hideouts
 - [[The Shadowed Hall]] – Main headquarters beneath [[Mwingu]], accessible only by illusion-concealed passageways.
 ### Secondary Hideouts
-- [[The Gloamspire]] – Black-market library of arcane contraband in [[Lambaro]].  
+- [[The Gloamspire]] – Black-market library of arcane contraband in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].  
 - [[The Twilight Cell]] – Secret noble estate chamber used for political infiltration in [[Kanda]].  
-- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]] – Hidden record-forgery site and arcane intelligence cell in [[Mangagoy]].  
+- [[01 Campaign/01 World/08 Points of Interest/06 Library, Archive, School, Research/The Outcast Isles/Mangagoy/Whispervault Archive]] – Hidden record-forgery site and arcane intelligence cell in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].  
 - [[The Sunken Veil]] – Remote training fortress and naval hub near [[Westport]].  
 - [[The Daggerhall Cloisters]] – Elite assassination training compound in [[Mwingu]].
 
@@ -271,7 +271,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Artifacts and Evidence Found
 - Shard of a memory crystal from a Covenant interrogation ritual, corrupted with temporal static.  
 - Forged copies of noble contracts linking [[Kanda]]’s regents to false benefactors.  
-- Blade etched with untranslatable runes recovered from ruins in [[Mangagoy]].  
+- Blade etched with untranslatable runes recovered from ruins in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].  
 - A journal encoded in illusory script from [[The Gloamspire]], recovered by [[Campaign Group 3]].  
 - Ashes from an incomplete summoning circle in 'The Shadowed Hall', radiating abyssal feedback.
 

@@ -27,7 +27,7 @@ steward:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[The Ember Wharf]]"
   - "[[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Gilded Daggers/The Forgefall Warrens]]"
   - "[[Glowquarter]]"

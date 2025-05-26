@@ -30,7 +30,7 @@ location:
   - "[[Kanda]]"
   - "[[Glimmershade]]"
   - "[[The Ashen Vault]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Brimstone Docks]]"
   - "[[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]]"
   - "[[Sunfire Heights]]"
@@ -42,11 +42,11 @@ location:
   - "[[Lowmire Gutter]]"
   - "[[Broken Bell Safehose]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Arcspire District]]"
   - "[[Reskar's Inkfold]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/The Mist Market]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
@@ -218,10 +218,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - Operating independently in contested cities without Chain approval.
 
 ## Current Events
-- [[Alvinar Merrowyn]] has solidified the faction's noble cover through operations based in the [[Merrowyn Estate]] in [[Boba]].
-- [[Selaya Dornis]] continues to expand influence in [[Mangagoy]]’s underground through the [[Mist Market]].
-- Expansion efforts have begun in [[Lambaro]] via [[Olin Reskar]] and the establishment of [[Reskar’s Inkfold]].
-- Increased pressure from the [[Ashen Vanguard]] has led to the fortification of several safehouses in [[Boba]].
+- [[Alvinar Merrowyn]] has solidified the faction's noble cover through operations based in the [[Merrowyn Estate]] in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]].
+- [[Selaya Dornis]] continues to expand influence in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]’s underground through the [[Mist Market]].
+- Expansion efforts have begun in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] via [[Olin Reskar]] and the establishment of [[Reskar’s Inkfold]].
+- Increased pressure from the [[Ashen Vanguard]] has led to the fortification of several safehouses in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]].
 - [[Darius Fellis]] maintains long-distance communication from the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]], operating aboard the [[Gilded Shadow]].
 
 ## History
@@ -229,7 +229,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - 192 PR: Secured long-term political immunity for the Merrowyn family via covert contracts.
 - 198 PR: Opened the first arcane ledger hub at [[01 Campaign/01 World/08 Points of Interest/10 Infrastructure/Outcast Isles/Kanda Isles/Boba/Thrennos Exchange]] in [[Ironveil Commons]].
 - 203 PR: Failed assassination attempt on a rival smuggling lord led to splinter faction formation in [[Lowmire Gutter]].
-- 208 PR: [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[Boba]] and [[Kanda]] respectively.
+- 208 PR: [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] and [[Ashen Vault]] added as safehouses in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] and [[Kanda]] respectively.
 - 211 PR: Initiated discreet smuggling through the [[Mist Market]] during leyline flux disturbances.
 
 ### Campaign Events
@@ -243,10 +243,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
   - [[Lysara Verannis]] – 'The Silk'; controls high-society infiltrations.
   - [[Selaya Dornis]] – 'The Whisper'; liaison to arcane suppliers.
 - **Regional Contacts / Lieutenants:**
-  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] in [[Boba]].
+  - [[Jorren Vexlar]] – 'The Tallyman'; controls shipping data via [[01 Campaign/01 World/08 Points of Interest/03 Tavern or Inn/Outcast Isles/Kanda Isles/Boba/The Hollow Fang]] in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]].
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Korrin Valros]] – 'The Smoke'; handles low-visibility logistics from [[The Embercoils]].
   - [[Olin Reskar]] – 'The Quill'; Lambaro-based scribe and document forger.
-  - [[Verrik Myrros]] – 'The Blade'; executes enforcements and silencing operations in [[Boba]].
+  - [[Verrik Myrros]] – 'The Blade'; executes enforcements and silencing operations in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]].
 
 ## Locations
 ### Primary Hideouts
@@ -270,7 +270,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - **Uniforms:** No formal garb. High-ranking members may wear chain-shaped pendants denoting position, typically enchanted to self-destruct if tampered with.
 
 ### Key Plot Threads
-- Growing tension with the [[Ashen Vanguard]] over increased enforcement in [[Boba]].
+- Growing tension with the [[Ashen Vanguard]] over increased enforcement in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]].
 - Unknown benefactor funding [[The Gilded Shadow]] and [[The Whisper]]'s cross-isle arcane operations.
 - [[The Quill]] possibly fabricating false relic documents affecting player access to real Pre-Rising artifacts.
 

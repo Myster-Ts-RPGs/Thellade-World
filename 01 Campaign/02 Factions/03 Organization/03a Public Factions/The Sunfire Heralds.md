@@ -31,11 +31,11 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[Glimmershade]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Sunfire Heights]]"
   - "[[Sunfire Tower]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Ashgate Market]]"
 pronounced: SUN-fire HER-alds
 foundedshort: -5.02.12 PR
@@ -176,7 +176,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [The Sunfire Heralds]] are an order dedicated to preserving Pre-Rising lore, rekindling Kanda’s cultural pride, and uplifting the kingdom’s morale through knowledge and celebration. They work tirelessly to recover lost chronicles, sponsor festivals, support educational reforms, and commission inspirational works of literature and art. Their headquarters, [[Sunfire Tower|The Sunfire Tower]] in [[Boba]], gleams as a beacon of enlightenment and hope.
+> [The Sunfire Heralds]] are an order dedicated to preserving Pre-Rising lore, rekindling Kanda’s cultural pride, and uplifting the kingdom’s morale through knowledge and celebration. They work tirelessly to recover lost chronicles, sponsor festivals, support educational reforms, and commission inspirational works of literature and art. Their headquarters, [[Sunfire Tower|The Sunfire Tower]] in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], gleams as a beacon of enlightenment and hope.
 
 ### Oaths
 > "Light forgotten is light lost. We are the dawn reborn."
@@ -204,7 +204,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[Lysara Dawnstar|High Herald Lysara Dawnstar]] is directing expansion initiatives from [[Sunfire Tower|The Sunfire Tower]], coordinating a new cycle of public exhibits on Pre-Rising heroism.  
-> - [[Dorian Grey|High Herald Dorian Grey]] is spearheading funding drives and envoy missions to [[Mangagoy]], opening the Lightbearer Embassy.  
+> - [[Dorian Grey|High Herald Dorian Grey]] is spearheading funding drives and envoy missions to [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], opening the Lightbearer Embassy.  
 > - Campaign Group 5 successfully descended into a sealed Pre-Rising vault beneath [[Sunfire Tower|The Sunfire Tower]], rescuing [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]]—an archivist trapped by time anomalies—and defeating abyssal-born horrors threatening the site.  
 > - The threats faced included a Rift-Stalker Horror, two Riftborn Wraiths, and nearly activating a hostile Vault Guardian.  
 > - Recovery of forbidden texts and a broken Seal Stone tied to barrier decay has greatly elevated the Sunfire Heralds' urgency in preserving and protecting Pre-Rising knowledge.  
@@ -221,9 +221,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Dorian Grey|High Herald Dorian Grey]] – Flamboyant diplomat and administrator, skilled in social navigation and public engagement.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Inaya Voss|Chief Archivist Inaya Voss]] – Oversees daily archive management at [[Sunfire Tower|The Sunfire Tower]]; concerned with threats beneath the Tower.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Kanda/Boba/Theon Brel]] – Assistant Scribe rescued by Group 5; victim of temporal warping and abyssal influence in the sealed archives.  
-- [[Sunfire Tower|The Sunfire Tower]] – Their shining headquarters in [[Sunfire Heights]], [[Boba]], symbol of hope and renewal.  
+- [[Sunfire Tower|The Sunfire Tower]] – Their shining headquarters in [[Sunfire Heights]], [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], symbol of hope and renewal.  
 - [[Hall of the Shining Dawn]] – Newly founded center in [[Glimmershade]], [[Kanda]], designed to host cultural summits and relic exhibitions.  
-- [[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles/Mangagoy/Lightbearer Embassy]] – Outreach office in [[Ashgate Market]], [[Mangagoy]], promoting cultural exchange and hope-building.  
+- [[01 Campaign/01 World/08 Points of Interest/05 Government/Outcast Isles/Mangagoy Isles/Mangagoy/Lightbearer Embassy]] – Outreach office in [[Ashgate Market]], [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], promoting cultural exchange and hope-building.  
 - Symbol: A golden rising sun with open book wings, cradling a silver scroll at its heart.  
 - Uniforms: White and gold robes emblazoned with flame-wreathed quills; ceremonial heralds bear radiant staves.
 

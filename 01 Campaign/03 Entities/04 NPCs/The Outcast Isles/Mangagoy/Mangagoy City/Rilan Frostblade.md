@@ -9,7 +9,7 @@ language:
 location:
   - "[[Mangagoy Healing Sanctuary]]"
   - "[[Highhold Rise]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

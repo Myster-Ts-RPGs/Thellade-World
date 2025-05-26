@@ -31,7 +31,7 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Watcher's Hollow]]"
   - "[[Hollowfield Waystation]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
@@ -39,7 +39,7 @@ location:
   - "[[Stonebrace Docks]]"
   - "[[Hunter's Spur Outpost]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Eastwatch District]]"
   - "[[The Voidwatch Bastion]]"
 ---
@@ -207,7 +207,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 > - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Jambito/Garrick Stonefist|Huntmaster Garrick Stonefist]] is directing intelligence operations from [[The Voidwatch Bastion]] to track suspected planar breaches along the southern coast of Jambito.  
 > - [[Hunter's Spur Outpost]] in [[Stonebrace Docks]] has become a rally point for marine-based void anomaly patrols across Kanda’s waters.  
-> - The newly founded [[Hollowfield Waystation]] near [[Mangagoy]] aids rapid deployment into volcanic zones where Riftborn creatures are rumored to nest.  
+> - The newly founded [[Hollowfield Waystation]] near [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] aids rapid deployment into volcanic zones where Riftborn creatures are rumored to nest.  
 > - A warning flare was sent from the Hollowfield Waystation two weeks ago; scouting parties have not yet returned, and the Bastion readies reinforcement teams.  
 > - Rumors persist that remnants of the [[The Black Sepulcher]] are using planar disturbances to mask their summoning rites.
 
@@ -216,8 +216,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Notes
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Jambito/Jambito/Garrick Stonefist|Huntmaster Garrick Stonefist]] – Veteran of more than 30 Rift incursions; rumored to have once severed a rift’s anchor single-handedly.  
-- [[The Voidwatch Bastion]] – A fortified tower in [[Eastwatch District]] of [[Jambito]], hosting relic archives, training halls, and planar maps.  
+- [[The Voidwatch Bastion]] – A fortified tower in [[Eastwatch District]] of [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]], hosting relic archives, training halls, and planar maps.  
 - [[Hunter's Spur Outpost]] – Naval-ready field barracks located in [[Stonebrace Docks]], [[Kanda]], for sea-bound threat response (Generated).  
-- [[Hollowfield Waystation]] – Frontier deployment post at the edge of [[01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow|Watcher's Hollow]], [[Mangagoy]]; specializes in quick-encampment hunting raids.  
+- [[Hollowfield Waystation]] – Frontier deployment post at the edge of [[01 Campaign/01 World/07 Districts/Mwingu/Watcher's Hollow|Watcher's Hollow]], [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]; specializes in quick-encampment hunting raids.  
 - Symbol: A black gauntlet gripping a violet-forged lance, impaling a yawning rift.  
 - Uniforms: Void-silver embossed leathers, bearing glyph-woven pauldrons and midnight-blue hunting cloaks.

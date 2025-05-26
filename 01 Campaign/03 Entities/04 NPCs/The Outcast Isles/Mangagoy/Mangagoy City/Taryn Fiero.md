@@ -15,7 +15,7 @@ organization:
 location:
   - "[[The Citadel of Flame]]"
   - "[[Highhold Rise]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

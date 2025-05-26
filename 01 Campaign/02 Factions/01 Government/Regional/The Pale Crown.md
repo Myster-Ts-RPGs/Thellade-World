@@ -1,7 +1,8 @@
 ---
 tags:
   - "#Organization"
-  - "#TODO"
+  - Status/Blank
+  - Organization/Government
 hq: "[[Wolf-Hollow]]"
 organizationstatus:
   - ✅ Active
@@ -24,6 +25,12 @@ location:
   - "[[The Galevein Crest]]"
   - "[[The Glacient Crown]]"
   - "[[The Greyfang Wilds]]"
+parentcontinent:
+parentplanet:
+parentstarsystem:
+parentgalaxy:
+parentplane:
+parentregion:
 ---
 
 ```meta-bind-js-view 

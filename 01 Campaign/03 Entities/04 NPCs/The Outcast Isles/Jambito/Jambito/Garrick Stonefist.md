@@ -12,7 +12,7 @@ organization:
   - "[[The Voidscourge Hunters]]"
 location:
   - "[[The Voidwatch Bastion]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 ---
 

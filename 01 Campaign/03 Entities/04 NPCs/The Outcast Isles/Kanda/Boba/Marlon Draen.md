@@ -11,7 +11,7 @@ aliases:
 organization:
   - "[[The Crimson Shroud]]"
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 occupation:
   - Assassin

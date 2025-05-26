@@ -9,7 +9,7 @@ language:
 location:
   - "[[Broken Bell Safehose]]"
   - "[[Lowmire Gutter]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 aliases:
   - Verrik 'The Blade' Myrros

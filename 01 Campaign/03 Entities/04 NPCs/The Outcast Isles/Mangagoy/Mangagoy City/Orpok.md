@@ -23,7 +23,7 @@ organization:
 location:
   - "[[Smuggling Warehouse]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

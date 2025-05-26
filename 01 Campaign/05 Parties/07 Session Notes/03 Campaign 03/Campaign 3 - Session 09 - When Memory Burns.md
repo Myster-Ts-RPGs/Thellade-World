@@ -253,7 +253,7 @@ absent: []
 
 ### Travel & Rest
 - No overland travel occurred.
-- All events took place in the city of [[Mangagoy]] across multiple district zones.
+- All events took place in the city of [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] across multiple district zones.
 - Following the beacon breach, rest was interrupted and deferred.
 
 ### Loot, Rewards & Purchases

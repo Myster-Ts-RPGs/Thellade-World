@@ -20,7 +20,7 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Sunveil Hollow]]"
   - "[[The Weeping Shrine]]"
   - "[[Binders' Lane]]"
@@ -202,7 +202,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ## Current Events
 - [[Irlos Vale|Archdeacon Irlos 'The Forsaken' Vale]] has returned to the [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Hollow Saints/The Hollow Reliquary|Hollow Reliquary]] after a decade of seclusion, bearing a new revelation linked to Pre-Rising echoes.  
 - [[Thessa Morrin|Sister Thessa 'The Weeping Veil' Morrin]] has begun a pilgrimage across forbidden crypts, reenacting rituals meant to awaken divine resonance.  
-- A Hollow Saint cell in [[Mangagoy]] has established a reliquary beneath the Shattered Abbey, concealing relics recovered from sunken shrines.  
+- A Hollow Saint cell in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] has established a reliquary beneath the Shattered Abbey, concealing relics recovered from sunken shrines.  
 - The Daggerfall Hollow sect has resurfaced near the ruins of the Chapel of Falling Stars, prompting alerts from Deep Dark scouts.  
 - The [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Lumina Guardians|Lumina Guardians]] and [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Dawnbringers of Lunara|Dawnbringers of Lunara]] have issued internal memoranda calling for the quiet dismantling of Hollow Saint networks.
 

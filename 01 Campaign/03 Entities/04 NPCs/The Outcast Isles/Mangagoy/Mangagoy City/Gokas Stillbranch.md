@@ -8,7 +8,7 @@ language:
   - Common
 location:
   - "[[Mangagoy Healing Sanctuary]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

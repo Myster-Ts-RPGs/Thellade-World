@@ -11,7 +11,7 @@ art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[Vault of Muffled Truths]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 pronounced: OR-dur of SY-lent EK-ohz
 founded: 12 Nightveil 0068 PR
 foundedshort: 0068.07.12 PR
@@ -158,7 +158,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> The [[Order of Silent Echoes]] is an esoteric cult rooted in the Glowquarter of [[Mangagoy]], shrouded in riddles, moonlight, and reverse-echo prophecy. Believed to trace back to Pre-Rising echo-banishing rites, the Order communes with dormant echoes—whispers of ancient power or broken gods—and manipulates these remnants through ritual silence and sacred inversion. It is led by [[Telmira of the Echoes]], a veiled elven seer whose guidance is said to come in riddled phrases and reverse-intoned hymns.
+> The [[Order of Silent Echoes]] is an esoteric cult rooted in the Glowquarter of [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], shrouded in riddles, moonlight, and reverse-echo prophecy. Believed to trace back to Pre-Rising echo-banishing rites, the Order communes with dormant echoes—whispers of ancient power or broken gods—and manipulates these remnants through ritual silence and sacred inversion. It is led by [[Telmira of the Echoes]], a veiled elven seer whose guidance is said to come in riddled phrases and reverse-intoned hymns.
 
 ### Oaths
 > “Speak only when the echo fades. Act only when silence ends.”

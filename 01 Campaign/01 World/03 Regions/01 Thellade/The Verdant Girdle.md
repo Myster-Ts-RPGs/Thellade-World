@@ -1,24 +1,25 @@
 ---
 tags:
+  - "#Status/Blank"
   - "#Location"
-  - "#Region"
-  - "#TODO"
-art: 90 Assets/Images/Misc/PlaceholderImage.png
+  - "#Location/Region"
+art: 90 Assets/Images/Placeholders/PlaceholderArea.png
 location:
   - "[[Thellade]]"
 dominion:
   - "[[Kingdom of Serrulata]]"
   - "[[Kingdom of Arborea]]"
+parentcontinent:
+  - "[[Serrulata]]"
+parentplanet:
+  - "[[Thellade]]"
+parentstarsystem:
+  - "[[Solurean System]]"
+parentgalaxy:
+  - "[[Exyxian Veil]]"
+parentplane:
+  - "[[Material Plane]]"
 ---
-
-```meta-bind-js-view 
-{art} as art {banner} as banner
---- 
-if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && context.bound.banner === "on")  { 
-    const str = ` ![[${context.bound.art}|banner-fade]]` ;
-    return engine.markdown.create(str); 
-} else { return ""; }
-```
 
 > [!metadata|metadata]- Metadata 
 >> [!metadata|metadataoption]- System
@@ -34,16 +35,17 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
 > **Banner** | `INPUT[toggle(onValue(on), offValue(off)):banner]` |
 >
->> [!metadata|metadataoption]- Info
->> #### Info
+>
+>> [!metadata|metadataoption]- Location Information
+>> #### Location Information
 >>  |
 >> ---|---|
-> **Pronounced** |  `INPUT[textArea:pronounced]`
-> **Aliases** | `INPUT[list:aliases]` |
-> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
-> **Dominion** | `INPUT[inlineListSuggester(optionQuery(#Character OR #Organization AND !"z_Templates"), useLinks(partial)):dominion]` |
-> **Organizations** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"z_Templates"), useLinks(partial)):organization]` |
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#Plane OR #Planet AND !"z_Templates"), useLinks(partial)):location]`
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
 
 
 
@@ -55,8 +57,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > ---|---|
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
-> **Dominion** | `VIEW[{dominion}][link]` |
-> **Planet** | `VIEW[{location}][link]` |
+> **Planet** | `VIEW[{parentplane}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 

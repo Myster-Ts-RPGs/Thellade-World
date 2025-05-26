@@ -20,10 +20,10 @@ head:
 location:
   - "[[The Outcast Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Crucible Hollow]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Ashgate Market]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[Embercoil Forge]]"
@@ -171,7 +171,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> [[The Iron Syndicate]] is a covert coalition of rogue inventors, black-market engineers, and disgraced artificers operating in the shadows of [[Lambaro]]'s industrial districts. Ruthlessly pragmatic and fiercely protective of technological advantage, they undermine rivals like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Verdant Hand|The Verdant Hand]] through espionage, sabotage, and theft. The Syndicate traffics in forbidden schematics and Pre-Rising relics, seeking to dominate innovation through subversion, not cooperation.
+> [[The Iron Syndicate]] is a covert coalition of rogue inventors, black-market engineers, and disgraced artificers operating in the shadows of [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]'s industrial districts. Ruthlessly pragmatic and fiercely protective of technological advantage, they undermine rivals like the [[01 Campaign/02 Factions/03 Organization/03a Public Factions/The Verdant Hand|The Verdant Hand]] through espionage, sabotage, and theft. The Syndicate traffics in forbidden schematics and Pre-Rising relics, seeking to dominate innovation through subversion, not cooperation.
 
 ### Oaths
 > “From scrap, supremacy. From shadow, salvation.”
@@ -196,7 +196,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] has ordered a series of thefts targeting prototype weapon cores from a Gilded Hammer vault.  
-- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] was last seen near [[Lambaro]]’s industrial quarter during an interrupted tech demonstration.  
+- [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Ressa Meris|Ressa 'The Phantom Tinkerer' Meris]] was last seen near [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]’s industrial quarter during an interrupted tech demonstration.  
 - A new cache has been established at [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]], linking the Syndicate to relic smugglers in the [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]].  
 - Surveillance indicates Syndicate infiltrators may be operating under false identities at [[01 Campaign/02 Factions/03 Organization/03d Educational Institutions/Outcast Isles/Lambaro Education Hall (Faction)|Lambaro Education Hall]] and the [[Lambaro Institute of Innovation]].
 
@@ -225,9 +225,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Locations
 ### Primary Hideouts
-- [[Lambaro]] > [[Crucible Hollow]] > [[Embercoil Forge]] – Main engineering and design hub.
+- [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] > [[Crucible Hollow]] > [[Embercoil Forge]] – Main engineering and design hub.
 ### Secondary Hideouts
-- [[Mangagoy]] > [[Ashgate Market]] > [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
+- [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] > [[Ashgate Market]] > [[01 Campaign/01 World/08 Points of Interest/02 Shop/Mangagoy Isles/Mangagoy/Blackhook Salvage Yard]] – Smuggler collaboration site for recovered relics.  
 - [[Westport]] > [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Iron Syndicate/Smuggler's Dock|Smuggler's Dock]] – [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]] smuggling node, used for offloading stolen components and experimental parts.
 
 ## Notes
@@ -239,12 +239,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Key Plot Threads
 - Syndicate aims to reverse-engineer sealed Pre-Rising technology for resale to offshore buyers.  
 - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Halden Voss|Halden 'Smokewrench' Voss]] is suspected of acquiring an unstable planar battery from a ruined vault.  
-- A rogue automaton bearing Syndicate glyphs is rumored to contain a memory crystal with blackmail on [[Lambaro]]'s artisan nobles.  
+- A rogue automaton bearing Syndicate glyphs is rumored to contain a memory crystal with blackmail on [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]'s artisan nobles.  
 - Plans to sabotage the next innovation summit may implicate multiple high-profile inventors and disrupt regulated tech entirely.
 
 ### Artifacts and Evidence Found
 - Cracked automaton core etched with the Iron Syndicate’s glyph [[Campaign Group 2]].  
 - Blueprints containing flawed ignition sequences, traced to [[Halden Voss]]’s signature formula.  
 - Forged Gilded Hammer documents discovered in a Syndicate cache.  
-- Ledger referencing sales to unnamed buyers via [[Westport]] and [[Mangagoy]] ports.  
+- Ledger referencing sales to unnamed buyers via [[Westport]] and [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]] ports.  
 - Blackmail crystal rumored to contain recordings of illicit Pre-Rising relic use by city officials.

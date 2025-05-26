@@ -21,7 +21,7 @@ party6relation:
 occupation:
   - Doctor
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ---
 

@@ -107,8 +107,8 @@ The barrier sealing Thellade has begun to unravel—not by brute force, but by *
 Through these gaps, **time-based aberrations** have begun slipping into the material world. Among them:
 
 - **[[03 Ideas/Monsters/Memory Hound]]s** — Temporal predators that erase fragments of their victims’ existence. Variants of these were encountered:
-  - By [[Campaign Group 5]], beneath the Hall of Records in [[Boba]], where they attempted to obliterate a secret archive chamber.
-  - By [[Campaign Group 3]], in [[Mangagoy]], where they were *bound* into service by Glyphbearer Agent [[Virelya Skathiss]].
+  - By [[Campaign Group 5]], beneath the Hall of Records in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]], where they attempted to obliterate a secret archive chamber.
+  - By [[Campaign Group 3]], in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]], where they were *bound* into service by Glyphbearer Agent [[Virelya Skathiss]].
   
 - **[[The Claws of Time]]** — More intelligent entities drawn to planar instability. Capable of ripping through history and perception simultaneously.
 

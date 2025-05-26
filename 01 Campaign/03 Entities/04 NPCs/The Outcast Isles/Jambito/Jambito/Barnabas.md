@@ -9,7 +9,7 @@ language:
 organization:
   - "[[The Emberborn League]]"
 location:
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Crystalvaults]]"
 ---
 

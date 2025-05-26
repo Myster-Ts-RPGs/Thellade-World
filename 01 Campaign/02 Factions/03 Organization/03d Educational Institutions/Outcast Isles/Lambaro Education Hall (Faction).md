@@ -9,7 +9,7 @@ organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
 ---
 
 ```meta-bind-js-view 

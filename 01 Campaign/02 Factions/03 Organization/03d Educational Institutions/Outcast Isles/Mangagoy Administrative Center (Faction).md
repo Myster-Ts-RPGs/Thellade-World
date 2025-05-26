@@ -9,7 +9,7 @@ organizationscope:
   - Regional
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 ---
 
 ```meta-bind-js-view 

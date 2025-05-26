@@ -15,7 +15,7 @@ party3relation:
 location:
   - "[[Sanctum of the Dawnsplit Crown]]"
   - "[[Glowquarter]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 ---
 

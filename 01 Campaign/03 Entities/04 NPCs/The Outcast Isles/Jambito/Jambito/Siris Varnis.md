@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Vault of Echoes]]"
   - "[[Silverspire Terrace]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
 condition: Healthy
 aliases:
   - Siris 'The Faceless' Varnis

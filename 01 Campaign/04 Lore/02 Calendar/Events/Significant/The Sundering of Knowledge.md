@@ -11,7 +11,7 @@ startdateshort: 0001.03.01 PR
 enddateshort: 0001.03.02 PR
 monthofoccurrence: "[[03 - Sunreach]]"
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 yearofoccurrence:
   - "[[1]]"
 yearnumeric: 1
@@ -79,7 +79,7 @@ SORT file.name ASC
 
 ## Overview
 
-A series of massive volcanic quakes and magical detonations during the Rising destroyed all arcane institutions in [[Boba]]. Over 95% of the city's Pre-Rising records were burned. Libraries such as the [[Aurionium Archive]] and the [[House Calvetra Repository]] were lost. This event defined the city's historical amnesia and opened it to post-Rising factional manipulation.
+A series of massive volcanic quakes and magical detonations during the Rising destroyed all arcane institutions in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]. Over 95% of the city's Pre-Rising records were burned. Libraries such as the [[Aurionium Archive]] and the [[House Calvetra Repository]] were lost. This event defined the city's historical amnesia and opened it to post-Rising factional manipulation.
 
 ## Notes
 

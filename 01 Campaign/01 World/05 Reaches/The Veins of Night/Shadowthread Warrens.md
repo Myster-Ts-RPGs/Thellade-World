@@ -1,8 +1,8 @@
 ---
 tags:
   - "#Location"
-  - "#Reach"
-  - "#TODO"
+  - "#Location/Reach"
+  - "#Status/Blank"
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
   - "[[The Veins of Night]]"
@@ -17,6 +17,18 @@ organization:
   - "[[The Hollow Saints]]"
   - "[[The Veilbound Circle]]"
   - "[[The Rootcoil Smugglers]]"
+parentsubregion:
+  - "[[The Veins of Night]]"
+parentregion:
+  - "[[The Deep Dark]]"
+parentplanet:
+  - "[[Thellade]]"
+parentstarsystem:
+  - "[[Solurean System]]"
+parentgalaxy:
+  - "[[Exyxian Veil]]"
+parentplane:
+  - "[[Material Plane]]"
 ---
 
 ```meta-bind-js-view 
@@ -33,14 +45,23 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 >> #### System
 >>  |
 >> ---|---|
-> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+>> **Pronounced** |  `INPUT[textArea:pronounced]` |
+>> **Aliases** | `INPUT[list:aliases]` |
+>> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
 >
->> [!metadata|metadataoption]- Art
->> #### Art
+>> [!metadata|metadataoption]- Location Information
+>> #### Location Information
 >>  |
 >> ---|---|
-> **Art** | `INPUT[imageSuggester(optionQuery("")):art]` |
-> **Banner** | `INPUT[toggle(onValue(on), offValue(off)):banner]` |
+>> **Terrain** | `INPUT[Terrain][inlineListSuggester:terrain]` |
+>> **Parent Plane** | `INPUT[inlineListSuggester(optionQuery(#Location/Plane AND !"z_Templates"), useLinks(partial)):parentplane]` |
+>> **Parent Galaxy** | `INPUT[inlineListSuggester(optionQuery(#Location/Galaxy AND !"z_Templates"), useLinks(partial)):parentgalaxy]` |
+>> **Parent StarSystem** | `INPUT[inlineListSuggester(optionQuery(#Location/StarSystem AND !"z_Templates"), useLinks(partial)):parentstarsystem]` |
+>> **Parent Planet** | `INPUT[inlineListSuggester(optionQuery(#Location/Planet AND !"z_Templates"), useLinks(partial)):parentplanet]` |
+>> **Parent Continent** | `INPUT[inlineListSuggester(optionQuery(#Location/Continent AND !"z_Templates"), useLinks(partial)):parentcontinent]` |
+>> **Parent Region** | `INPUT[inlineListSuggester(optionQuery(#Location/Region AND !"z_Templates"), useLinks(partial)):parentregion]` |
+>> **Parent Subregion** | `INPUT[inlineListSuggester(optionQuery(#Location/Subregion AND !"z_Templates"), useLinks(partial)):parentsubregion]` |
 >
 >> [!metadata|metadataoption]- Info
 >> #### Info
@@ -62,7 +83,13 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > **Aliases** | `VIEW[{aliases}][text]` |
 > **Terrain** | `VIEW[{terrain}][text]` |
 > **Dominion** | `VIEW[{dominion}][link]` |
-> **Location** | `VIEW[{region}][link]` |
+> **Subregion** | `VIEW[{subregion}][link]` |
+> **Region** | `VIEW[{parentregion}][link]` |
+> **Continent** | `VIEW[{parentcontinent}][link]` |
+> **Planet** | `VIEW[{parentplanet}][link]` |
+> **Star System** | `VIEW[{parentstarsystem}][link]` |
+> **Galaxy** | `VIEW[{parentgalaxy}][link]` |
+> **Plane** | `VIEW[{parentplane}][link]` |
 
 # **`=this.file.name`** <span style="font-size: medium">"`VIEW[{pronounced}]`"</span>
 
@@ -89,26 +116,39 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > darkMode: false
 > ```
 
+
 > [!metadata|settlements]- Settlements
 > ```dataview
-> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, settlementtype AS Type, defence AS Defences, join(link(dominion), ", ") AS "Dominion"
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(settlementtype, ", ") AS Type, join(defence, ", ") AS Defences, join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "Settlement")
-> SORT nation ASC, file.name ASC
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Location/Settlement")
+> SORT file.name ASC
+> ```
 
 > [!metadata|location]- Locations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(poitype, ", ") AS Type, join(link(organization), ", ") AS "Organization(s)", join(link(dominion), ", ") AS "Dominion"
 > FROM "01 Campaign"
-> WHERE econtains(location, this.file.link) AND contains(tags, "POI")
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Location/POI")
 > SORT tags DESC, poitype ASC, file.name ASC
+> ```
 
 > [!metadata|organizations]- Organizations
 > ```dataview
 > TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(organizationtype, ", ") AS Type
 > FROM "01 Campaign"
-> WHERE contains(location, this.file.link) AND contains(tags, "Organization")
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Organization")
 > SORT organizationtype ASC, file.name ASC
+> ```
+
+> [!metadata|entities]- Entities
+> ```dataview
+> TABLE without id file.link AS "Name", join(aliases, ", ") AS Aliases, join(tags, ", ") AS Tags, join(link(parentlocation), ", ") AS "Location"
+> FROM "01 Campaign"
+> WHERE contains(parentreach, this.file.link) AND contains(tags, "Entity")
+> SORT file.name ASC
+> ```
+
 
 ## Overview 
 

@@ -44,11 +44,11 @@ location:
   - "[[Tallowgate]]"
   - "[[Brinehook Safehouse]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Crucible Hollow]]"
   - "[[Embercoil Trading Post]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Glowquarter]]"
   - "[[Crimson  Current Hall]]"
   - "[[Highhold Rise]]"
@@ -200,7 +200,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Overview
 ### Description
-> The Bleeding Tide is a ruthless smuggling and criminal syndicate that controls much of [[Mangagoy]]’s black market. Originally a pirate crew turned land-based operation, they specialize in smuggling weapons, illegal goods, and mysterious artifacts. Though they operate like a gang of pirates, their true strength lies in carefully hidden noble sponsorships, particularly through their deep ties to [[House Kelthorne]]. Their ships and ground operations thrive despite pressure from city watches and rival organizations. While not a cult themselves, the Bleeding Tide has unknowingly become entangled with the Cult of Orcus, smuggling artifacts and resources later used in dark rituals without their full knowledge.
+> The Bleeding Tide is a ruthless smuggling and criminal syndicate that controls much of [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]’s black market. Originally a pirate crew turned land-based operation, they specialize in smuggling weapons, illegal goods, and mysterious artifacts. Though they operate like a gang of pirates, their true strength lies in carefully hidden noble sponsorships, particularly through their deep ties to [[House Kelthorne]]. Their ships and ground operations thrive despite pressure from city watches and rival organizations. While not a cult themselves, the Bleeding Tide has unknowingly become entangled with the Cult of Orcus, smuggling artifacts and resources later used in dark rituals without their full knowledge.
 
 ### Oaths
 > "Blood follows coin. Secrets ride the tide."
@@ -233,7 +233,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - Confirmed deployment of pirate cells and proxy gangs across Kanda, Lambaro, and the Mwingu Isles.
 
 ## History
-> Formed on 04 Emberwake 16 PR, the Bleeding Tide emerged from a splintered pirate fleet desperate to retain power after the Rising’s aftermath. Abandoning open piracy, they refocused on smuggling, covert trade, and manipulating noble patrons to shield their operations. Their rise through [[Mangagoy]]’s underbelly was marked by the creation of hidden safehouses, bribery of minor officials, and ruthless elimination of competitors. [[Aldrek Venmire]]’s ambition and brutality defined their early dominance, while [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Lord Marik Kelthorne]] now leads them toward a subtler, more insidious future—one that risks further occult entanglements if their smuggling operations remain unchecked.
+> Formed on 04 Emberwake 16 PR, the Bleeding Tide emerged from a splintered pirate fleet desperate to retain power after the Rising’s aftermath. Abandoning open piracy, they refocused on smuggling, covert trade, and manipulating noble patrons to shield their operations. Their rise through [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]’s underbelly was marked by the creation of hidden safehouses, bribery of minor officials, and ruthless elimination of competitors. [[Aldrek Venmire]]’s ambition and brutality defined their early dominance, while [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Mangagoy City/Marik Kelthorne|Lord Marik Kelthorne]] now leads them toward a subtler, more insidious future—one that risks further occult entanglements if their smuggling operations remain unchecked.
 
 ## Notes
 - [[Aldrek Venmire]] – Former leader of the Bleeding Tide (deceased). Dead. Killed by [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 6|Campaign Group 6]] in [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Smuggling Warehouse|Smuggling Warehouse]]/[[01 Campaign/01 World/06 Settlements/The Outcast Isles/Mangagoy Isles/Mangagoy|Mangagoy]].
@@ -251,9 +251,9 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[Dagger's Rest Tavern]] – Smuggling front and coordination point in [[Seaside Cape]].
 - [[Kelthorne Estate]] – Hidden base of operations protected by House Kelthorne.
 - [[Sewer Hideout]] – Now-compromised Tide base in [[Gullstone Row]].
-- [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Crimson  Current Hall|Crimson  Current Hall]] – Faction headquarters in [[Mangagoy]]’s Glowquarter.
+- [[01 Campaign/01 World/08 Points of Interest/01b Secret Factions/The Bleeding Tide/Crimson  Current Hall|Crimson  Current Hall]] – Faction headquarters in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]’s Glowquarter.
 - [[Brinehook Safehouse]] – Bleeding Tide cell node in [[Kanda]].
-- [[Embercoil Trading Post]] – Tide-aligned weapon and artifact depot in [[Lambaro]].
+- [[Embercoil Trading Post]] – Tide-aligned weapon and artifact depot in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]].
 - [[Redwake Cache]] – Tide resource vault in [[Seaside Cape]].
 - Symbol: A blood-red wave crest entwined with black iron thorns, worn as rings or carved into hidden stones.
 - Uniforms: Black cloaks edged with crimson for mid-ranks; crimson signet rings for officers.

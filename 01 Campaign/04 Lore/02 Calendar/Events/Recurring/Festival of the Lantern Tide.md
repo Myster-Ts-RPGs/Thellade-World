@@ -13,7 +13,7 @@ yearofoccurrence:
   - "[[212]]"
 yearnumeric: 212
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 startdate: 01 Stardrift 200 PR
 startdateshort: 0200.08.01 PR
 ---

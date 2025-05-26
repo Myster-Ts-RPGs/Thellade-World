@@ -23,7 +23,7 @@ ownedlocation:
 location:
   - "[[The Rivet & Rune]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 pronounced: HOH-lin BARSH
 ancestry: Dwarf

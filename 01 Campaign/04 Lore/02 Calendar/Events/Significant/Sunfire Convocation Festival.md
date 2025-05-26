@@ -15,7 +15,7 @@ location:
   - "[[Thellade]]"
   - "[[The Outcast Isles]]"
   - "[[Kanda Isle]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 yearofoccurrence:
   - "[[212]]"
 yearnumeric: 212

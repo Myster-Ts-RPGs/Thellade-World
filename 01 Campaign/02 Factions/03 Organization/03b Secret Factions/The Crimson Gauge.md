@@ -28,9 +28,9 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]"
   - "[[Kanda]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Tallowgate]]"
   - "[[Crucible Hollow]]"
   - "[[Ashgate Market]]"
@@ -175,7 +175,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ### Overview
 ### Description
-> The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Gauge|Crimson Gauge]] is a clandestine weapons-smuggling syndicate specializing in firearms, explosives, and alchemical weaponry. Primarily based in [[Lambaro]], the organization thrives on destabilizing political structures by supplying mercenary companies, rebels, and corrupt nobles with advanced weaponry.
+> The [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Gauge|Crimson Gauge]] is a clandestine weapons-smuggling syndicate specializing in firearms, explosives, and alchemical weaponry. Primarily based in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]], the organization thrives on destabilizing political structures by supplying mercenary companies, rebels, and corrupt nobles with advanced weaponry.
 
 ### Oaths
 > "In fire, we find freedom. In chaos, we find profit."
@@ -199,7 +199,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 > - No unsanctioned use of Gauge experimental weaponry.
 
 ## Current Events
-- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Gauge|Crimson Gauge]] arms have been appearing in conflicts across [[Lambaro]] and [[Mangagoy]].
+- [[01 Campaign/02 Factions/03 Organization/03b Secret Factions/The Crimson Gauge|Crimson Gauge]] arms have been appearing in conflicts across [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].
 - Prototype weapons linked to [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Seren Valmor|Seren Valmor]] found at illegal fighting arenas.
 - Rumors suggest [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Lambaro/Lambaro City/Dornis Marrik|Dornis Marrik]] seeks Pre-Rising weapon schematics rumored hidden in the Outcast Isles.
 
@@ -237,10 +237,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 ### Key Plot Threads
 - [[Dornis Marrik]]'s hunt for mythic firearm schematics tied to Pre-Rising weapon vaults.
 - [[Seren Valmor]]'s rumored experiments to create chain-reaction detonators.
-- Political disruption efforts in [[Lambaro]] and [[Kanda]] funded by Crimson Gauge clients.
+- Political disruption efforts in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and [[Kanda]] funded by Crimson Gauge clients.
 
 ### Artifacts and Evidence Found
 - Black-market ledgers listing sales of explosive weaponry to mercenary guilds.
 - Seized prototype explosives marked with the Crimson Gauge insignia.
 - Smuggler manifests referencing 'The Rusted Gauge' and 'Powder Queen Specials'.
-- Broken crates of alchemical firebombs recovered near sabotage sites in [[Mangagoy]].
+- Broken crates of alchemical firebombs recovered near sabotage sites in [[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]].

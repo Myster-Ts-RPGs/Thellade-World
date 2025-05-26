@@ -29,7 +29,7 @@ location:
   - "[[Sunveil Hollow]]"
   - "[[The Umbral Vault]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Lambaro Isles]]"
-  - "[[Lambaro]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]"
   - "[[Glowmire Terrace]]"
   - "[[The Hollow Spire]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
@@ -40,7 +40,7 @@ location:
   - "[[Mwingu]]"
   - "[[The Black Aetherium]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Jambito Isles]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Silverspire Terrace]]"
   - "[[The Obsidian Hall]]"
 head:
@@ -233,7 +233,7 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 - [[01 Campaign/05 Parties/02 Party Dashboards/Campaign Group 5|Campaign Group 5]]  
   - [[Felyn]] is actively being recruited through encoded messages and indirect mentorship via [[Maelis Durn]]  
-  - Arcane constructs recovered in [[Boba]] traced to Accord dueling and crafting rituals
+  - Arcane constructs recovered in [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] traced to Accord dueling and crafting rituals
 
 ## Hierarchy
 - **Supreme Leader:** [[Lyrel Nightshade]] – 'Master of the Forbidden Path'; architect of Accord ideology and master of planar obscuration  
@@ -245,10 +245,10 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 - **Regional Contacts / Lieutenants:**  
   - [[Andric Vaylen]] – 'The Black Veil Councilor'; noble patron operating from [[Kanda]] – [[Sunveil Hollow]] – [[The Umbral Vault]]  
-  - [[Elyssara Vornis]] – 'The Silent Archivist'; relic keeper in [[Lambaro]] – [[Glowmire Terrace]] – [[The Hollow Spire]]  
+  - [[Elyssara Vornis]] – 'The Silent Archivist'; relic keeper in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] – [[Glowmire Terrace]] – [[The Hollow Spire]]  
   - [[Maelis Durn]] – 'The Hollow Hand'; alchemical researcher in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]] – [[The Silent Observatory]]  
   - [[01 Campaign/03 Entities/04 NPCs/The Outcast Isles/Mangagoy/Araniss Velis]] – 'The Drowned Scholar'; archivist of [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]] – [[The Sunken Archive]]  
-  - [[Tyren Zorath]] – 'The Forgotten'; lorebroker in [[Jambito]] – [[Silverspire Terrace]] – [[The Obsidian Hall]]  
+  - [[Tyren Zorath]] – 'The Forgotten'; lorebroker in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]] – [[Silverspire Terrace]] – [[The Obsidian Hall]]  
   - [[Varethis Thaldris]] – 'The Echo'; rift scholar in [[Mwingu]] – [[Scholar's Ring]] – [[The Black Aetherium]]  
   - [[Vaelris Korrin]] – 'The Stormbound'; artifact retriever in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]] – [[The Twilight Nexus]]
 
@@ -257,12 +257,12 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 - [[The Veil of Midnight]] – Central headquarters, located in the Demiplane of [[Neroshade]] – [[The Starlost Reach]]
 
 ### Secondary Hideouts
-- [[The Hollow Spire]] – Ruined alchemical forge repurposed as a lab in [[Lambaro]]  
+- [[The Hollow Spire]] – Ruined alchemical forge repurposed as a lab in [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]]  
 - [[The Black Aetherium]] – Rift experiment site in [[Mwingu]]  
 - [[The Umbral Vault]] – Forbidden knowledge archive in [[Kanda]] – [[Sunveil Hollow]]  
 - [[The Silent Observatory]] – Remote arcane observatory in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Kanda Isles]]  
 - [[The Sunken Archive]] – Submerged relic containment site in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]  
-- [[The Obsidian Hall]] – Noble-linked broker site in [[Jambito]]  
+- [[The Obsidian Hall]] – Noble-linked broker site in [[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]  
 - [[The Twilight Nexus]] – Free-floating arcane structure near a planar rift in [[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]
 
 ## Notes

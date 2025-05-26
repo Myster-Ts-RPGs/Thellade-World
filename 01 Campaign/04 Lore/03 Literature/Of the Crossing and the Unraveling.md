@@ -34,7 +34,7 @@ This record remains because I remain—and I remain only because [[Thellade]] wa
 
 I write of what came before the silence. Before the seals. Before the memory of memory was undone.
 
-We called it *war* at first—what we now name the *Time Wars*. But there was no enemy we could face. No fortress to breach, no army to defy. Only… collapse. Across the worlds of the [[Material Plane]], time itself began to fray. Trees bloomed before they grew. Rivers flowed in spirals. Magic rebelled against its own intent.
+We called it *war* at first—what we now name the *Time Wars*. But there was no enemy we could face. No fortress to breach, no army to defy. Only… collapse. Across the worlds of the [[01 Campaign/01 World/01 Planes/Material Plane]], time itself began to fray. Trees bloomed before they grew. Rivers flowed in spirals. Magic rebelled against its own intent.
 
 And then… it came.
 

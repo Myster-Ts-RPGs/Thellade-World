@@ -11,7 +11,7 @@ startdateshort: 0008.02.05
 enddateshort: 0008.02.05
 monthofoccurrence: "[[02 - Blossomveil]]"
 location:
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 yearofoccurrence:
   - "[[8]]"
 yearnumeric: 8

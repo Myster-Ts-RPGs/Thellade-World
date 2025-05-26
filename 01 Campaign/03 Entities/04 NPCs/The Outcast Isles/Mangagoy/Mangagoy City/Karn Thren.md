@@ -9,7 +9,7 @@ language:
 location:
   - "[[The Emberwell Den]]"
   - "[[The Ember Wharf]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
 condition: Healthy
 aliases:
   - The Bleeding Prophet

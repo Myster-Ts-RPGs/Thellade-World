@@ -9,7 +9,7 @@ organizationscope:
   - City
 art: 90 Assets/Images/Misc/PlaceholderImage.png
 location:
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 ---
 
 ```meta-bind-js-view 

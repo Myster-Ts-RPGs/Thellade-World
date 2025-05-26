@@ -16,10 +16,10 @@ location:
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mangagoy Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Middle Isles]]"
   - "[[01 Campaign/01 World/04 Subregions/01 Thellade/The Outcast Isles/Mwingu Isles]]"
-  - "[[Mangagoy]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/MangagoyNotes]]"
   - "[[Glowquarter]]"
   - "[[Shardspire Hall]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
   - "[[Sunfire Heights]]"
   - "[[Arcane Relay Annex]]"
   - "[[Seaside Cape]]"
@@ -28,7 +28,7 @@ location:
   - "[[Mwingu]]"
   - "[[Scholar's Ring]]"
   - "[[Mount Crystalspire Research Post]]"
-  - "[[Jambito]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/JambitoNotes]]"
   - "[[Deepwall Reach District]]"
   - "[[Rift Crystal Liaison Post]]"
 head:
@@ -213,8 +213,8 @@ if (context.bound.art !== "90 Assets/Images/Misc/PlaceholderImage.png" && contex
 
 ## Current Events
 > - [[Arlyn Thorne]] was encountered by Group 1 during an excavation beneath [[01 Campaign/01 World/08 Points of Interest/09 Landmarks/Mwingu Isles/Mount Crystalspire]] in [[Mwingu]]. Her reckless methods contrasted with the party’s caution, but cooperation led to discoveries about crystal instability and abyssal echoes.  
-> - Guild operatives maintain contact with [[The Emberborn League]] and [[The Wardens of the Deep Dark]] at active digs, including near [[Lambaro]] and [[Seaside Cape]].  
-> - [[Kiva Shadeveil]] reported unusual flux in leyline resonance, indicating a latent rift forming near the [[Boba]] coastline. An expedition is being assembled.  
+> - Guild operatives maintain contact with [[The Emberborn League]] and [[The Wardens of the Deep Dark]] at active digs, including near [[OneNote/Crossroads2025/Project 1 Archive/LambaroNotes]] and [[Seaside Cape]].  
+> - [[Kiva Shadeveil]] reported unusual flux in leyline resonance, indicating a latent rift forming near the [[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]] coastline. An expedition is being assembled.  
 > - Multiple crystal caravans have been targeted by [[The Bleeding Tide]] and cult agents of [[The Black Sepulcher (Cult of Orcus)]] — protection requests have been issued across Lambaro and Mangagoy.
 
 ## History

@@ -13,7 +13,7 @@ organization:
 location:
   - "[[The Barnacled Ledger]]"
   - "[[Brimstone Docks]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[The Barnacled Ledger]]"

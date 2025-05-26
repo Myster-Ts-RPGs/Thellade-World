@@ -13,7 +13,7 @@ organization:
 location:
   - "[[Verannis Estate]]"
   - "[[Gilded Strand]]"
-  - "[[Boba]]"
+  - "[[OneNote/Crossroads2025/Project 1 Archive/BobaNotes]]"
 condition: Healthy
 ownedlocation:
   - "[[Verannis Estate]]"
